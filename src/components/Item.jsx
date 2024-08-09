@@ -55,28 +55,52 @@ function Item({
   audioStart,
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
-
-  const renderContent = () => (
-    <>
-      <IconContainer number={number} dir={dir}>
-        <Icon src={icon} />
-      </IconContainer>
-      <Text
-        fontSize={{ base: "13px", md: "24px" }}
-        fontWeight={{ base: "700", md: "400px" }}
-        {...(dir === "ltr" ? { ml: 4 } : { mr: 4 })}
-        color={
-          index <= curIndex + 1
-            ? "#BC9761"
-            : mode === "dark"
-            ? "white"
-            : "black"
-        }
-      >
-        {title}
-      </Text>
-    </>
-  );
+  const renderContent = (dir) => {
+    if (dir === "ltr") {
+      return (
+        <>
+          <Text
+            fontSize={{ base: "13px", md: "24px" }}
+            fontWeight={{ base: "700", md: "400px" }}
+            {...(dir === "ltr" ? { ml: 4 } : { mr: 4 })}
+            color={
+              index <= curIndex + 1
+                ? "#BC9761"
+                : mode === "dark"
+                ? "white"
+                : "black"
+            }
+          >
+            {title}
+          </Text>
+          <IconContainer number={number} dir={dir}>
+            <Icon src={icon} />
+          </IconContainer>
+        </>
+      );
+    }
+    return (
+      <>
+        <IconContainer number={number} dir={dir}>
+          <Icon src={icon} />
+        </IconContainer>
+        <Text
+          fontSize={{ base: "13px", md: "24px" }}
+          fontWeight={{ base: "700", md: "400px" }}
+          {...(dir === "ltr" ? { ml: 4 } : { mr: 4 })}
+          color={
+            index <= curIndex + 1
+              ? "#BC9761"
+              : mode === "dark"
+              ? "white"
+              : "black"
+          }
+        >
+          {title}
+        </Text>
+      </>
+    );
+  };
 
   const handlePrevClick = () => {
     if (index > 2) setIndex((prevIndex) => prevIndex - 1);
@@ -99,18 +123,23 @@ function Item({
         bgColor={mode === "dark" ? "#2C3743" : "#F8F8F8"}
         {...(mode === "dark" && { border: "1px solid #3A444F" })}
         borderRadius="10px"
+        onClick={() => setIndex(index - 1)}
       >
         <Box display="flex" alignItems="center" justifyContent="center">
-          {dir === "ltr" ? renderContent() : renderContent()}
+          {renderContent(dir)}
         </Box>
-        <ChevronDownIcon boxSize="24px" fontWeight="400" {...mode === 'dark' && {color: 'white'}} />
+        <ChevronDownIcon
+          boxSize="24px"
+          fontWeight="400"
+          {...(mode === "dark" && { color: "white" })}
+        />
       </AccordionButton>
       <AccordionPanel>
         <Flex
           direction={{ base: "column", md: "row" }}
           align="stretch"
-          margin={10}
-          gap={12}
+          margin={{ base: 0, md: 10 }}
+          gap={8}
           alignItems="stretch"
           style={{ direction: dir }}
         >
@@ -140,7 +169,8 @@ function Item({
         <Box
           display="flex"
           justifyContent="space-between"
-          margin={10}
+          margin={{ base: 0, md: 10 }}
+          marginTop={{ base: 10, md: 10 }}
           style={{ direction: dir }}
         >
           <Button

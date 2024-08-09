@@ -35,7 +35,7 @@ const PrayerCard = ({
   audio,
 }) => {
   const [page, setPage] = useState(0);
-  const [fontSize, setFontSize] = useState("md");
+  const [fontSize, setFontSize] = useState(18); // Increased default font size
   const [isPaused, setIsPaused] = useState(true);
   const totalPages = prayerData?.length - 1;
   const audioRef = useRef(null);
@@ -86,7 +86,9 @@ const PrayerCard = ({
     }
   };
 
-  const handleFontSizeChange = (size) => setFontSize(size);
+  const handleFontSizeChange = (size) => {
+    setFontSize((prevSize) => Math.max(14, prevSize + size)); // Ensure font size doesn't go below 14
+  };
 
   const navigatePage = (direction) => {
     if (direction === "next" && page < totalPages) {
@@ -124,7 +126,7 @@ const PrayerCard = ({
       boxShadow="md"
       borderRadius="md"
       width="100%"
-      height="100%"
+      height={{ base: "400px", md: "258px" }}
       position="relative"
       backgroundColor={mode === "dark" ? "#2C3743" : "#f5f5f5"}
       display="flex"
@@ -145,6 +147,19 @@ const PrayerCard = ({
         color: mode === "dark" ? "white" : "#1F2A37",
       }}
       style={{ direction: dir }}
+      sx={{
+        /* Custom scrollbar for dark mode */
+        "&::-webkit-scrollbar": {
+          width: "8px",
+        },
+        "&::-webkit-scrollbar-thumb": {
+          backgroundColor: mode === "dark" ? "#555" : "#ccc", // Darker color for dark mode
+          borderRadius: "4px",
+        },
+        "&::-webkit-scrollbar-track": {
+          backgroundColor: mode === "dark" ? "#2C3743" : "#f5f5f5", // Background matches dark mode
+        },
+      }}
     >
       <audio ref={audioRef} src={audioSrc} hidden />
 
@@ -158,14 +173,14 @@ const PrayerCard = ({
         <Image
           src={getIconSrc("fontDec")}
           alt="Decrease font size"
-          onClick={() => handleFontSizeChange("md")}
+          onClick={() => handleFontSizeChange(-2)} // Decrease font size
           cursor="pointer"
           boxSize={{ base: "28px", md: "42px" }}
         />
         <Image
           src={getIconSrc("fontInc")}
           alt="Increase font size"
-          onClick={() => handleFontSizeChange("lg")}
+          onClick={() => handleFontSizeChange(2)} // Increase font size
           cursor="pointer"
           boxSize={{ base: "28px", md: "42px" }}
         />
@@ -179,12 +194,33 @@ const PrayerCard = ({
           />
         )}
       </Stack>
-      <Stack>
+      <Stack
+        justifyContent={"center"}
+        alignItems="center"
+        height={{ base: "150px", md: "120px" }}
+      >
         <Text
-          margin={4}
+          margin={{ base: 0, md: 4 }}
+          marginTop={4}
+          marginBottom={4}
           textAlign={dir === "ltr" ? "left" : "right"}
           color={mode === "dark" ? "white" : "#1F2A37"}
-          fontSize={fontSize}
+          fontSize={`${fontSize}px`} // Dynamic font size
+          lineHeight="1.8" // Adjusted line height
+          overflowY="auto" // Make text scrollable if it exceeds the height
+          sx={{
+            /* Custom scrollbar for text area */
+            "&::-webkit-scrollbar": {
+              width: "6px",
+            },
+            "&::-webkit-scrollbar-thumb": {
+              backgroundColor: mode === "dark" ? "#555" : "#ccc",
+              borderRadius: "3px",
+            },
+            "&::-webkit-scrollbar-track": {
+              backgroundColor: mode === "dark" ? "#2C3743" : "#f5f5f5",
+            },
+          }}
         >
           {prayerData && prayerData[page][lang]}
         </Text>

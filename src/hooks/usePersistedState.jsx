@@ -8,6 +8,7 @@ function usePersistedState(key, defaultValue) {
 
   useEffect(() => {
     localStorage.setItem(key, JSON.stringify(state));
+    console.log(key, state);
   }, [key, state]);
 
   return [state, setState];

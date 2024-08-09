@@ -19,7 +19,7 @@ function ManasekPage({ lang, dir, mode }) {
       useCount: true,
       cardCounterTitle: mainData[lang]["circuits"],
       cardPrayerTitle: mainData[lang]["supplications"],
-      counterName: "manasekCounter",
+      counterName: `manasekCounter_${lang}`,
       audio: "assets/tawaf",
       audioStart: 1,
     },
@@ -28,7 +28,6 @@ function ManasekPage({ lang, dir, mode }) {
       title: mainData[lang]["prayingTwoRakahs"],
       cardPrayerTitle: mainData[lang]["prayingTwoRakahsTitle"],
       prayerData: pray,
-      counterName: "manasekCounter",
     },
     {
       index: 4,
@@ -37,7 +36,7 @@ function ManasekPage({ lang, dir, mode }) {
       useCount: true,
       cardCounterTitle: mainData[lang]["circuits"],
       cardPrayerTitle: mainData[lang]["supplications"],
-      counterName: "manasek2Counter",
+      counterName: `manasek2Counter_${lang}`,
       audio: "assets/sai",
       audioStart: 81,
     },
@@ -46,7 +45,6 @@ function ManasekPage({ lang, dir, mode }) {
       title: mainData[lang]["shavingOrTrimming"],
       prayerData: shaving,
       cardPrayerTitle: mainData[lang]["shavingOrTrimmingTitle"],
-      counterName: "manasekCounter",
     },
   ];
 

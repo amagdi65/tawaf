@@ -1,5 +1,5 @@
 import { Box, IconButton, Stack, CircularProgress } from "@chakra-ui/react";
-import { AddIcon, MinusIcon, RepeatIcon } from "@chakra-ui/icons";
+import { AddIcon, MinusIcon } from "@chakra-ui/icons";
 
 const CounterCard = ({ count, setCount, dir, cardTitle, mode }) => {
   const increment = () => {
@@ -13,8 +13,6 @@ const CounterCard = ({ count, setCount, dir, cardTitle, mode }) => {
       setCount(count - 1);
     }
   };
-
-  const reset = () => setCount(0);
 
   const progress = (count / 7) * 100;
 
@@ -54,6 +52,7 @@ const CounterCard = ({ count, setCount, dir, cardTitle, mode }) => {
       boxShadow="md"
       borderRadius="md"
       width="100%"
+      height={{ base: "300px", md: "258px" }}
       position="relative"
       backgroundColor={mode === "dark" ? "#2C3743" : "#f5f5f5"}
       _before={{
@@ -70,39 +69,28 @@ const CounterCard = ({ count, setCount, dir, cardTitle, mode }) => {
         color: mode === "dark" ? "white" : "#1F2A37",
       }}
     >
-      <Stack>
-        <IconButton
-          position="absolute"
-          top={{ base: "20px", md: "48px" }}
-          {...(dir === "ltr" ? { right: "16px" } : { left: "16px" })}
-          icon={<RepeatIcon />}
-          aria-label="Reset"
-          onClick={reset}
-          size="lg"
-          {...(count === 0 ? { ...disabledIconButtonStyles, ...baseButtonStyles } : { ...iconButtonStylesTwo, ...baseButtonStyles })}
-        />
-      </Stack>
       <Stack
         direction="row"
         justifyContent="center"
         alignItems="center"
-        spacing={8}
-        mt="80px"
+        mt="16px"
         style={{ direction: dir }}
       >
         <IconButton
           icon={<AddIcon />}
           aria-label="Increment"
           onClick={increment}
-          {...(count === 7 ? { ...disabledIconButtonStyles, ...baseButtonStyles } : { ...iconButtonStyles, ...baseButtonStyles })}
+          {...(count === 7
+            ? { ...disabledIconButtonStyles, ...baseButtonStyles }
+            : { ...iconButtonStyles, ...baseButtonStyles })}
         />
         <Box position="relative" display="inline-flex" fontSize={100}>
           <CircularProgress
             value={progress}
             thickness="8px"
             color="#BC9761"
-            size="100%"
-            {...(mode === 'dark' && { trackColor: "#3D4652" })}
+            size="190px"
+            {...(mode === "dark" && { trackColor: "#3D4652" })}
           />
           <Box
             position="absolute"
@@ -124,7 +112,9 @@ const CounterCard = ({ count, setCount, dir, cardTitle, mode }) => {
           icon={<MinusIcon />}
           aria-label="Decrement"
           onClick={decrement}
-          {...(count === 0 ? { ...disabledIconButtonStyles, ...baseButtonStyles } : { ...iconButtonStylesTwo, ...baseButtonStyles })}
+          {...(count === 0
+            ? { ...disabledIconButtonStyles, ...baseButtonStyles }
+            : { ...iconButtonStylesTwo, ...baseButtonStyles })}
         />
       </Stack>
     </Box>
