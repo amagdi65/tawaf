@@ -20,7 +20,7 @@ function ManasekPage({ lang, dir, mode }) {
       cardCounterTitle: mainData[lang]["circuits"],
       cardPrayerTitle: mainData[lang]["supplications"],
       counterName: "manasekCounter",
-      audio: "../assets/tawaf",
+      audio: "assets/tawaf",
       audioStart: 1,
     },
     {
@@ -38,7 +38,7 @@ function ManasekPage({ lang, dir, mode }) {
       cardCounterTitle: mainData[lang]["circuits"],
       cardPrayerTitle: mainData[lang]["supplications"],
       counterName: "manasek2Counter",
-      audio: "../assets/sai",
+      audio: "assets/sai",
       audioStart: 81,
     },
     {

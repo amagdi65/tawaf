@@ -10,6 +10,21 @@ import playIconBlack from "../assets/playBlack.svg";
 import bigAinBlack from "../assets/font-incBlack.svg";
 import smallAinBlack from "../assets/font-decBlack.svg";
 
+// Import maps for each directory
+const saiAudioFiles = import.meta.glob("../assets/sai/*.wav");
+const tawafAudioFiles = import.meta.glob("../assets/tawaf/*.wav");
+
+// Function to select the correct map based on the `audio` prop
+const getAudioMap = (audioPath) => {
+  if (audioPath.includes("sai")) {
+    return saiAudioFiles;
+  } else if (audioPath.includes("tawaf")) {
+    return tawafAudioFiles;
+  } else {
+    return null; // Handle cases where the path doesn't match
+  }
+};
+
 const PrayerCard = ({
   prayerData,
   lang,
@@ -28,12 +43,23 @@ const PrayerCard = ({
 
   useEffect(() => {
     const loadAudio = async () => {
-      if (audio && audioStart) {
-        try {
-          const audioPath = await import(`${audio}/${page + audioStart}.wav`);
-          setAudioSrc(audioPath.default);
-        } catch (error) {
-          console.error("Error loading audio file:", error);
+      if (audio && audioStart !== undefined) {
+        const audioMap = getAudioMap(audio);
+        if (!audioMap) {
+          console.error("Invalid audio path:", audio);
+          return;
+        }
+
+        const audioFileKey = `../${audio}/${page + audioStart}.wav`;
+        if (audioMap[audioFileKey]) {
+          try {
+            const audioModule = await audioMap[audioFileKey]();
+            setAudioSrc(audioModule.default);
+          } catch (error) {
+            console.error("Error loading audio file:", error);
+          }
+        } else {
+          console.error("Audio file not found:", audioFileKey);
         }
       }
     };
@@ -41,7 +67,7 @@ const PrayerCard = ({
   }, [page, audio, audioStart]);
 
   useEffect(() => {
-    if (audioRef.current) {
+    if (audioRef.current && audioSrc) {
       audioRef.current.load();
     }
   }, [audioSrc]);

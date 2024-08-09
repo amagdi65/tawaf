@@ -1,44 +1,9 @@
 export const data = [
   {
-    ar: "الحلق والتقصير",
-    fr: "Le Rasage ou la Réduction des cheveux",
-    en: "Shaving or Cutting One’s Hair",
-    tr: "Saçı kazıtmak ve kısaltmak",
-    ur: "سر منڈوانا یا بال چھوٹے کرانا",
-  },
-  {
-    ar: "بعد تمام السعي، يتوجه الرجل إلى الأماكن المخصصة للحلاقة حول الحرم أو المجاورة لمقر السكن الخاص بكم، فيحلق أو يقصر شعره من جميع نواحي رأسه.",
-    fr: "Une fois le Sa’i terminé, l'homme se rend au salon de coiffure situés autour du Haram ou près de son lieu de résidence, afin de se raser ou de se raccourcir les cheveux de tous les cotés.",
-    en: "After completing Sa‘i, men make their way to the designated barbershops around the Haram or close to their residence where they can either completely shave their head or evenly trim their hair. ",
-    tr: "Erkekler, Sa'y'ı tamamladıktan sonra Mescid-i Haram çevresinde veya kaldıkları otelin yakınında bulunan berberlere giderek saçlarının tamamını kazıtmalı veya kafasının her tarafından kısaltmalıdır.",
-    ur: "سعی مکمل کرنے کے بعد آدمی حرم کے اطراف یااپنی رہائش گاہ کے گرد نواح میں موجود بال کاٹنے کی مخصوص جگہوں  میں  جائے، اور اپنے تمام بال منڈوائے یا پورے سر سے بال کو چھوٹا کروائے۔ ",
-  },
-  {
-    ar: "تجمع المرأة شعرها، وتقص من أطرافه قدر أُنملة الإصبع(1 - 2 سم).",
-    fr: "Quant à la femme, elle regroupe ses cheveux et en coupe, à partir des pointes, l'équilavent d'une phalange un à deux centimètres.",
-    en: "Women are to gather their hair and cut from the end an amount equal to a fingertip (approximately 1 - 2 centimeters).",
-    tr: "Kadınlar, saçlarını toplayıp parmak ucu kadar (1-2 cm) uçlarından keserler.",
-    ur: "عورت اپنے بالوں کو اکٹھا کرے، اور کناروں سے انگلی کی پور (1-2 سینٹی میٹر) کے برابر کاٹے۔ ",
-  },
-  {
-    ar: "وبذلك تكون العمرة قد تمت وخرج المعتمر من إحرامه.",
-    fr: "Cela marque la fin de la Omra et le pèlerin quitte alors l'état de sacralisation.",
-    en: "With this act, the ‘Umrah is completed and the one performing ‘Umrah exits the state of Ihram.",
-    tr: "Böylece umre tamamlanmış ve umreci ihramından çıkmış olur.",
-    ur: "اس طرح عمرہ مکمل ہو گیا اور عمرہ کرنے والا اپنے احرام سے باہر نکل گیا۔ ",
-  },
-  {
-    ar: "من الآداب التي ينبغي للمعتمر الالتزام بها أثناء العمرة تجنب إيذاء ضيوف الرحمن بالتدافع والدخول في أماكن الزحام.",
-    fr: "Il est important pour le pèlerin d'adopter un comportement exemplaire durant la Omra afin de ne pas porter préjudice aux invités du Miséricordieux, que ce soit en bousculant ou en se faufilant dans la foule. ",
-    en: "Among the manners of conduct that a person performing ‘Umrah should adhere to are avoiding harming the guests of Ar-Rahman by crowding and pushing as well as not entering areas of congestion.",
-    tr: "Umre esnasında umrecilerin uyması gereken ahlaki kurallar arasında Rahman'ın misafirlerine, itişerek ve kalabalık yerlere girerek zarar vermekten sakınmak gelmektedir.",
-    ur: "عمرہ کے دوران عمرہ کرنے والے کو جن آداب کی پابندی کرنی چاہیے ان میں سے ہے: دھکا مکی کرکے یابھیڑ والی جگہوں میں داخل ہوکر اللہ کے مہمانوں کو تکلیف دینے سے بچنا۔",
-  },
-  {
-    ar: "إرباك المعتمرين بمعاكسة اتجاه الطواف، والحرص على اتباع إرشادات المراقبين ورجال الأمن.",
-    fr: "Il veillera également à ne pas marcher à contre-sens durant le Tawaf et à respecter les consignes des agents de contrôle et de sécurité.",
-    en: "Likewise, they should also avoid disturbing other pilgrims by going against the direction of Tawaf and making sure to follow the instructions of the officials and security personnel.",
-    tr: "Aynı zamanda tavaf yönünün tersine hareket ederek umrecilere sıkıntı vermekten kaçınmak ayrıca gözetmenlerin ve güvenlik görevlilerinin talimatlarına uymak yer almaktadır.",
-    ur: " طواف کے مخالف سمت جاکر عمرہ کرنے والوں كو  پریشان نہ کرنا۔ نگراں اور سیکورٹی اہلکاروں کی تعلیمات کی پابندی کرنا۔ ",
-  },
+    ar: "الحلق والتقصير: بعد تمام السعي، يتوجه الرجل إلى الأماكن المخصصة للحلاقة حول الحرم أو المجاورة لمقر السكن الخاص بكم، فيحلق أو يقصر شعره من جميع نواحي رأسه. تجمع المرأة شعرها، وتقص من أطرافه قدر أُنملة الإصبع (1 - 2 سم). وبذلك تكون العمرة قد تمت وخرج المعتمر من إحرامه. من الآداب التي ينبغي للمعتمر الالتزام بها أثناء العمرة تجنب إيذاء ضيوف الرحمن بالتدافع والدخول في أماكن الزحام. إرباك المعتمرين بمعاكسة اتجاه الطواف، والحرص على اتباع إرشادات المراقبين ورجال الأمن.",
+    fr: "Le Rasage ou la Réduction des cheveux: Une fois le Sa’i terminé, l'homme se rend au salon de coiffure situés autour du Haram ou près de son lieu de résidence, afin de se raser ou de se raccourcir les cheveux de tous les cotés. Quant à la femme, elle regroupe ses cheveux et en coupe, à partir des pointes, l'équivalent d'une phalange un à deux centimètres. Cela marque la fin de la Omra et le pèlerin quitte alors l'état de sacralisation. Il est important pour le pèlerin d'adopter un comportement exemplaire durant la Omra afin de ne pas porter préjudice aux invités du Miséricordieux, que ce soit en bousculant ou en se faufilant dans la foule. Il veillera également à ne pas marcher à contre-sens durant le Tawaf et à respecter les consignes des agents de contrôle et de sécurité.",
+    en: "Shaving or Cutting One’s Hair: After completing Sa‘i, men make their way to the designated barbershops around the Haram or close to their residence where they can either completely shave their head or evenly trim their hair. Women are to gather their hair and cut from the end an amount equal to a fingertip (approximately 1 - 2 centimeters). With this act, the ‘Umrah is completed and the one performing ‘Umrah exits the state of Ihram. Among the manners of conduct that a person performing ‘Umrah should adhere to are avoiding harming the guests of Ar-Rahman by crowding and pushing as well as not entering areas of congestion. Likewise, they should also avoid disturbing other pilgrims by going against the direction of Tawaf and making sure to follow the instructions of the officials and security personnel.",
+    tr: "Saçı kazıtmak ve kısaltmak: Erkekler, Sa'y'ı tamamladıktan sonra Mescid-i Haram çevresinde veya kaldıkları otelin yakınında bulunan berberlere giderek saçlarının tamamını kazıtmalı veya kafasının her tarafından kısaltmalıdır. Kadınlar, saçlarını toplayıp parmak ucu kadar (1-2 cm) uçlarından keserler. Böylece umre tamamlanmış ve umreci ihramından çıkmış olur. Umre esnasında umrecilerin uyması gereken ahlaki kurallar arasında Rahman'ın misafirlerine, itişerek ve kalabalık yerlere girerek zarar vermekten sakınmak gelmektedir. Aynı zamanda tavaf yönünün tersine hareket ederek umrecilere sıkıntı vermekten kaçınmak ayrıca gözetmenlerin ve güvenlik görevlilerinin talimatlarına uymak yer almaktadır.",
+    ur: "سر منڈوانا یا بال چھوٹے کرانا: سعی مکمل کرنے کے بعد آدمی حرم کے اطراف یا اپنی رہائش گاہ کے گرد نواح میں موجود بال کاٹنے کی مخصوص جگہوں میں جائے، اور اپنے تمام بال منڈوائے یا پورے سر سے بال کو چھوٹا کروائے۔ عورت اپنے بالوں کو اکٹھا کرے، اور کناروں سے انگلی کی پور (1-2 سینٹی میٹر) کے برابر کاٹے۔ اس طرح عمرہ مکمل ہو گیا اور عمرہ کرنے والا اپنے احرام سے باہر نکل گیا۔ عمرہ کے دوران عمرہ کرنے والے کو جن آداب کی پابندی کرنی چاہیے ان میں سے ہے: دھکا مکی کرکے یا بھیڑ والی جگہوں میں داخل ہوکر اللہ کے مہمانوں کو تکلیف دینے سے بچنا۔ طواف کے مخالف سمت جاکر عمرہ کرنے والوں کو پریشان نہ کرنا۔ نگراں اور سیکورٹی اہلکاروں کی تعلیمات کی پابندی کرنا۔"
+  }
 ];
