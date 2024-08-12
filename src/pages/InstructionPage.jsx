@@ -15,26 +15,26 @@ function InstructionPage({ lang, dir, mode }) {
   const items = [
     {
       index: 2,
-      title: mainData[lang]["greetingPrayer"],
-      prayerData: tahya,
+      title: mainData[lang]["ihram"],
+      prayerData: ihram,
       number: 1,
     },
     {
       index: 3,
-      title: mainData[lang]["ihram"],
-      prayerData: ihram,
+      title: mainData[lang]["sunnah"],
+      prayerData: sonan,
       number: 2,
     },
     {
       index: 4,
-      title: mainData[lang]["sunnah"],
-      prayerData: sonan,
+      title: mainData[lang]["prohibitions"],
+      prayerData: mahzorat,
       number: 3,
     },
     {
       index: 5,
-      title: mainData[lang]["prohibitions"],
-      prayerData: mahzorat,
+      title: mainData[lang]["greetingPrayer"],
+      prayerData: tahya,
       number: 4,
     },
     {

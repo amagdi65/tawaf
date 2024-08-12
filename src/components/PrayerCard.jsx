@@ -51,8 +51,7 @@ const PrayerCard = ({
           console.error("Invalid audio path:", audio);
           return;
         }
-
-        const audioFileKey = `../${audio}/${page + audioStart}.wav`;
+        const audioFileKey = `../${audio}/${prayerData[page]["audioNumber"]}.wav`;
         if (audioMap[audioFileKey]) {
           try {
             const audioModule = await audioMap[audioFileKey]();

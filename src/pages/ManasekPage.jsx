@@ -3,6 +3,7 @@ import Item from "../components/Item";
 import Separator from "../components/Separator";
 import { data as seeks } from "../data/doaa/seeks";
 import { data as tawaf } from "../data/doaa/tawaf";
+import { shuffle } from "lodash";
 import { data as shaving } from "../data/doaa/shaving";
 import { data as pray } from "../data/doaa/pray";
 import { useState } from "react";
@@ -15,7 +16,7 @@ function ManasekPage({ lang, dir, mode }) {
     {
       index: 2,
       title: mainData[lang]["tawaf"],
-      prayerData: tawaf,
+      prayerData: shuffle(tawaf),
       useCount: true,
       cardCounterTitle: mainData[lang]["circuits"],
       cardPrayerTitle: mainData[lang]["supplications"],
@@ -33,7 +34,7 @@ function ManasekPage({ lang, dir, mode }) {
     {
       index: 4,
       title: mainData[lang]["sai"],
-      prayerData: seeks,
+      prayerData: shuffle(seeks),
       useCount: true,
       cardCounterTitle: mainData[lang]["circuits"],
       cardPrayerTitle: mainData[lang]["supplications"],
