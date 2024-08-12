@@ -53,6 +53,7 @@ function Item({
   curIndex,
   audio,
   audioStart,
+  autoPlay,
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
   const renderContent = (dir) => {
@@ -163,6 +164,7 @@ function Item({
               mode={mode}
               audio={audio}
               audioStart={audioStart}
+              autoPlay={autoPlay}
             />
           </Box>
         </Flex>

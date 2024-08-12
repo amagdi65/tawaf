@@ -22,6 +22,7 @@ function ManasekPage({ lang, dir, mode }) {
       counterName: `manasekCounter_${lang}`,
       audio: "assets/tawaf",
       audioStart: 1,
+      autoPlay: mainData[lang]["autoPlay"],
     },
     {
       index: 3,
@@ -39,6 +40,7 @@ function ManasekPage({ lang, dir, mode }) {
       counterName: `manasek2Counter_${lang}`,
       audio: "assets/sai",
       audioStart: 81,
+      autoPlay: mainData[lang]["autoPlay"],
     },
     {
       index: 5,
@@ -80,6 +82,7 @@ function ManasekPage({ lang, dir, mode }) {
               curIndex={index}
               audio={item.audio}
               audioStart={item.audioStart}
+              autoPlay={item.autoPlay}
             />
             {idx < items.length - 1 && <Separator dir={dir} />}
           </Box>

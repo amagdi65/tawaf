@@ -64,7 +64,7 @@ function Header({ setLang, dir, setDir, lang, mode, setMode }) {
         justifyContent="space-between"
         style={{ direction: dir }}
       >
-        <Heading fontSize={{ base: "medium", md: "x-large" }} color="white">
+        <Heading fontSize={{ base: "sm", md: "x-large" }} color="white">
           {mainData[lang].headerTitle}
         </Heading>
         <Stack direction="row" spacing="32px">

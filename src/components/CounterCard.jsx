@@ -52,7 +52,7 @@ const CounterCard = ({ count, setCount, dir, cardTitle, mode }) => {
       boxShadow="md"
       borderRadius="md"
       width="100%"
-      height={{ base: "300px", md: "258px" }}
+      height={{ base: "190px", md: "258px" }}
       position="relative"
       backgroundColor={mode === "dark" ? "#2C3743" : "#f5f5f5"}
       _before={{
@@ -89,7 +89,7 @@ const CounterCard = ({ count, setCount, dir, cardTitle, mode }) => {
             value={progress}
             thickness="8px"
             color="#BC9761"
-            size="190px"
+            size={{base: "150px",md:"190px"}}
             {...(mode === "dark" && { trackColor: "#3D4652" })}
           />
           <Box

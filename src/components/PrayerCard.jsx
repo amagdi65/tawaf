@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from "react";
-import { Box, IconButton, Text, Stack, Image } from "@chakra-ui/react";
+import { Box, IconButton, Text, Stack, Image, Switch } from "@chakra-ui/react";
 import { ArrowForwardIcon, ArrowBackIcon } from "@chakra-ui/icons";
 import pauseIcon from "../assets/pause.svg";
 import playIcon from "../assets/play.svg";
@@ -33,10 +33,12 @@ const PrayerCard = ({
   mode,
   audioStart,
   audio,
+  autoPlay,
 }) => {
   const [page, setPage] = useState(0);
-  const [fontSize, setFontSize] = useState(18); // Increased default font size
+  const [fontSize, setFontSize] = useState(18);
   const [isPaused, setIsPaused] = useState(true);
+  const [isAutoplay, setIsAutoplay] = useState(false);
   const totalPages = prayerData?.length - 1;
   const audioRef = useRef(null);
   const [audioSrc, setAudioSrc] = useState("");
@@ -60,17 +62,23 @@ const PrayerCard = ({
           }
         } else {
           console.error("Audio file not found:", audioFileKey);
+          if (isAutoplay && page < totalPages) {
+            setPage(page + 1);
+          }
         }
       }
     };
     loadAudio();
-  }, [page, audio, audioStart]);
+  }, [page, audio, audioStart, isAutoplay, totalPages]);
 
   useEffect(() => {
     if (audioRef.current && audioSrc) {
       audioRef.current.load();
+      if (!isPaused) {
+        audioRef.current.play();
+      }
     }
-  }, [audioSrc]);
+  }, [audioSrc, isPaused]);
 
   const togglePause = async () => {
     if (isPaused) {
@@ -87,7 +95,7 @@ const PrayerCard = ({
   };
 
   const handleFontSizeChange = (size) => {
-    setFontSize((prevSize) => Math.max(14, prevSize + size)); // Ensure font size doesn't go below 14
+    setFontSize((prevSize) => Math.max(14, prevSize + size));
   };
 
   const navigatePage = (direction) => {
@@ -97,6 +105,28 @@ const PrayerCard = ({
       setPage(page - 1);
     }
     setIsPaused(true);
+  };
+
+  // New function to handle autoplay
+  const handleAutoplay = () => {
+    if (isAutoplay) {
+      setIsAutoplay(false);
+      audioRef.current.pause();
+      setIsPaused(true);
+    } else {
+      setIsAutoplay(true);
+      setIsPaused(false);
+      audioRef.current.play();
+    }
+  };
+
+  const onAudioEnded = () => {
+    if (isAutoplay && page < totalPages) {
+      setPage((prevPage) => prevPage + 1);
+    } else {
+      setIsAutoplay(false);
+      setIsPaused(true);
+    }
   };
 
   const getIconSrc = (type) => {
@@ -153,15 +183,15 @@ const PrayerCard = ({
           width: "8px",
         },
         "&::-webkit-scrollbar-thumb": {
-          backgroundColor: mode === "dark" ? "#555" : "#ccc", // Darker color for dark mode
+          backgroundColor: mode === "dark" ? "#555" : "#ccc",
           borderRadius: "4px",
         },
         "&::-webkit-scrollbar-track": {
-          backgroundColor: mode === "dark" ? "#2C3743" : "#f5f5f5", // Background matches dark mode
+          backgroundColor: mode === "dark" ? "#2C3743" : "#f5f5f5",
         },
       }}
     >
-      <audio ref={audioRef} src={audioSrc} hidden />
+      <audio ref={audioRef} src={audioSrc} hidden onEnded={onAudioEnded} />
 
       <Stack
         direction="row-reverse"
@@ -169,18 +199,19 @@ const PrayerCard = ({
         mt={{ base: 0, md: 5 }}
         spacing={2}
         style={{ direction: dir }}
+        alignItems="center"
       >
         <Image
           src={getIconSrc("fontDec")}
           alt="Decrease font size"
-          onClick={() => handleFontSizeChange(-2)} // Decrease font size
+          onClick={() => handleFontSizeChange(-2)}
           cursor="pointer"
           boxSize={{ base: "28px", md: "42px" }}
         />
         <Image
           src={getIconSrc("fontInc")}
           alt="Increase font size"
-          onClick={() => handleFontSizeChange(2)} // Increase font size
+          onClick={() => handleFontSizeChange(2)}
           cursor="pointer"
           boxSize={{ base: "28px", md: "42px" }}
         />
@@ -192,6 +223,34 @@ const PrayerCard = ({
             cursor="pointer"
             boxSize={{ base: "28px", md: "42px" }}
           />
+        )}
+        {/* New Autoplay toggle */}
+        {autoPlay && (
+          <Stack direction="row" alignItems="center">
+            <Text
+              fontSize={{ base: "12px", md: "md" }}
+              fontWeight="bold"
+              color={mode === "dark" ? "white" : "#333D49"}
+              htmlFor="autoplay-switch"
+            >
+              {autoPlay}
+            </Text>
+            <Switch
+              id="autoplay-switch"
+              isChecked={isAutoplay}
+              onChange={handleAutoplay}
+              size="lg"
+              dir="rtl"
+              sx={{
+                "& .chakra-switch__track": {
+                  bg: mode === "dark" ? "#232C35" : "",
+                },
+                "& .chakra-switch__track[data-checked]": {
+                  bg: mode === "dark" ? "#BC9761" : "#BC9761",
+                },
+              }}
+            />
+          </Stack>
         )}
       </Stack>
       <Stack
@@ -205,11 +264,10 @@ const PrayerCard = ({
           marginBottom={4}
           textAlign={dir === "ltr" ? "left" : "right"}
           color={mode === "dark" ? "white" : "#1F2A37"}
-          fontSize={`${fontSize}px`} // Dynamic font size
-          lineHeight="1.8" // Adjusted line height
-          overflowY="auto" // Make text scrollable if it exceeds the height
+          fontSize={`${fontSize}px`}
+          lineHeight="1.8"
+          overflowY="auto"
           sx={{
-            /* Custom scrollbar for text area */
             "&::-webkit-scrollbar": {
               width: "6px",
             },
