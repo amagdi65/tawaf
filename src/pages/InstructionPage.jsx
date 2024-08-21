@@ -8,6 +8,7 @@ import { data as sonan } from "../data/adaab/sonan";
 import { data as mahzorat } from "../data/adaab/mahzorat";
 import { useState } from "react";
 import { mainData } from "../data/mainData";
+import StepperComp from "../components/StepperComp";
 
 function InstructionPage({ lang, dir, mode }) {
   const [index, setIndex] = useState(1);
@@ -47,6 +48,13 @@ function InstructionPage({ lang, dir, mode }) {
 
   return (
     <Box height="100%" overflowY="auto">
+      <StepperComp
+        steps={items.map((item) => ({
+          label: item.title,
+          dir: dir,
+          setIndex,
+        }))}
+      ></StepperComp>
       <Accordion
         allowToggle
         {...(index <= 5 && { index: [index] })}

@@ -1,17 +1,26 @@
-import { Outlet } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Box } from "@chakra-ui/react";
 import background from "../assets/overlay-dark.svg";
 
-function MainLayout({ setLang, dir, setDir, lang, mode, setMode }) {
+function MainLayout({
+  setLang,
+  dir,
+  setDir,
+  lang,
+  mode,
+  setMode,
+  setCurrentPage,
+  children,
+  currentPage,
+}) {
   return (
     <Box
       display="flex"
       flexDirection="column"
       height="100%"
       overflowY="auto"
-      bg={mode === "dark" ? `url(${background})` : "initial"} 
+      bg={mode === "dark" ? `url(${background})` : "initial"}
       backgroundRepeat={mode === "dark" ? "no-repeat" : undefined}
       backgroundSize={mode === "dark" ? "cover" : undefined}
       backgroundPosition={mode === "dark" ? "center" : undefined}
@@ -23,9 +32,11 @@ function MainLayout({ setLang, dir, setDir, lang, mode, setMode }) {
         setDir={setDir}
         mode={mode}
         setMode={setMode}
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
       />
       <Box flex="1">
-        <Outlet />
+        {children}
         <Footer mode={mode} />
       </Box>
     </Box>

@@ -255,7 +255,7 @@ const PrayerCard = ({
       <Stack
         justifyContent={"center"}
         alignItems="center"
-        height={{ base: "150px", md: "120px" }}
+        height={{ base: "200px", md: "110px" }}
       >
         <Text
           margin={{ base: 0, md: 4 }}

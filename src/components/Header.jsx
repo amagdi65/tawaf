@@ -9,23 +9,20 @@ import {
   MenuItem,
   Menu,
 } from "@chakra-ui/react";
-import { useNavigate, useLocation } from "react-router-dom";
 import headerImg from "../assets/overlay-dark.svg";
 import translateImage from "../assets/language.svg";
 import colorMode from "../assets/color-mode.svg";
 import { mainData } from "../data/mainData";
 import { getbgColor, getBorder, getColor } from "../helper";
 
-function Header({ setLang, dir, setDir, lang, mode, setMode }) {
-  const navigate = useNavigate();
-  const location = useLocation();
+function Header({ setLang, dir, setDir, lang, mode, setMode, setCurrentPage , currentPage }) {
 
   const toggleMode = () => {
     setMode((prevMode) => (prevMode === "dark" ? "white" : "dark"));
   };
 
   const getButtonProps = (path) => {
-    const isActive = location.pathname === path;
+    const isActive = currentPage === path;
     return {
       bgColor: getbgColor(mode),
       borderBottom: isActive ? "none" : getBorder(mode),
@@ -149,7 +146,7 @@ function Header({ setLang, dir, setDir, lang, mode, setMode }) {
         })}
       >
         <Button
-          {...getButtonProps("/")}
+          {...getButtonProps("ManasekPage")}
           width={{ base: "50%", md: "196px" }}
           height={{ base: "70px" }}
           borderRadius="0"
@@ -164,12 +161,12 @@ function Header({ setLang, dir, setDir, lang, mode, setMode }) {
                 borderLeft: "none",
                 borderRight: getBorder(mode),
               })}
-          onClick={() => navigate("/")}
+          onClick={() => setCurrentPage("ManasekPage")}
         >
           {mainData[lang].manasekTitle}
         </Button>
         <Button
-          {...getButtonProps("/instructions")}
+          {...getButtonProps("InstructionPage")}
           width={{ base: "50%", md: "196px" }}
           height={{ base: "70px" }}
           borderRadius="0"
@@ -184,7 +181,7 @@ function Header({ setLang, dir, setDir, lang, mode, setMode }) {
                 borderRight: "none",
                 borderLeft: getBorder(mode),
               })}
-          onClick={() => navigate("/instructions")}
+          onClick={() => setCurrentPage("InstructionPage")}
         >
           {mainData[lang].adabTitle}
         </Button>

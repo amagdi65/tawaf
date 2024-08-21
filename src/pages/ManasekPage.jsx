@@ -8,6 +8,7 @@ import { data as shaving } from "../data/doaa/shaving";
 import { data as pray } from "../data/doaa/pray";
 import { useState } from "react";
 import { mainData } from "../data/mainData";
+import StepperComp from "../components/StepperComp";
 
 function ManasekPage({ lang, dir, mode }) {
   const [index, setIndex] = useState(1);
@@ -53,6 +54,9 @@ function ManasekPage({ lang, dir, mode }) {
 
   return (
     <Box height="100%" overflowY="auto">
+      <StepperComp
+        steps={items.map((item) => ({ label: item.title, dir: dir, setIndex }))}
+      ></StepperComp>
       <Accordion
         allowToggle
         {...(index <= 4 && { index: [index] })}
@@ -63,6 +67,7 @@ function ManasekPage({ lang, dir, mode }) {
         mode={mode}
       >
         <Item hidden="none" />
+
         {items.map((item, idx) => (
           <Box key={item.index}>
             <Item
