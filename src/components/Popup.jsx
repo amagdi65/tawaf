@@ -64,7 +64,7 @@ const Popup = () => {
                 color="gray.700"
                 textAlign="center"
               >
-                مساعدك في رحلة العمرة مع ٢٠٠ دعاء نصي و مسموع في مرحلة الطواف
+                مساعدك في رحلة العمرة مع 180 دعاء نصي و مسموع في مرحلة الطواف
                 والسعي.
               </Text>
               <Divider borderColor="#BC9761" />
@@ -74,7 +74,7 @@ const Popup = () => {
                 textAlign="center"
               >
                 {` Assisting you at the Tawaf and Sa'i stage of your 'Umrah with
-                200 supplications in textual and audio format.`}
+                180 supplications in textual and audio format.`}
               </Text>
               <Divider borderColor="#BC9761" />
               <Text
@@ -82,7 +82,7 @@ const Popup = () => {
                 color="gray.700"
                 textAlign="center"
               >
-                Durant le voyage de la Omra, une assistance virtuelle de 200
+                Durant le voyage de la Omra, une assistance virtuelle de 180
                 invocations écrites et audios vous accompagne tout au long du
                 Tawaf et du Sa’i.
               </Text>
@@ -92,7 +92,7 @@ const Popup = () => {
                 color="gray.700"
                 textAlign="center"
               >
-                Tavâf ve Sa’y esnasında yazılı ve işitsel 200 dua ile umre
+                Tavâf ve Sa’y esnasında yazılı ve işitsel 180 dua ile umre
                 yolculuğunda sizin yardımcınız olmaktadır.
               </Text>
               <Divider borderColor="#BC9761" />
@@ -102,7 +102,7 @@ const Popup = () => {
                 textAlign="center"
               >
                 سفر عمرہ میں آپ کا معاون، طواف و سعی کے دوران ٹیکسٹ اور آڈیو کی
-                شکل میں ۲۰۰ دعاؤں کے ساتھ
+                شکل میں 180 دعاؤں کے ساتھ
               </Text>
             </VStack>
             <Box mt={8}>
