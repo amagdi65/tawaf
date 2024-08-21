@@ -67,7 +67,7 @@ const Popup = () => {
                 مساعدك في رحلة العمرة مع 180 دعاء نصي و مسموع في مرحلة الطواف
                 والسعي.
               </Text>
-              <Divider borderColor="#BC9761" />
+              <Divider borderWidth="2px" borderColor="#BC9761" />
               <Text
                 fontSize={{ base: "md", md: "lg" }}
                 color="gray.700"
@@ -76,7 +76,7 @@ const Popup = () => {
                 {` Assisting you at the Tawaf and Sa'i stage of your 'Umrah with
                 180 supplications in textual and audio format.`}
               </Text>
-              <Divider borderColor="#BC9761" />
+              <Divider borderWidth="2px" borderColor="#BC9761" />
               <Text
                 fontSize={{ base: "md", md: "lg" }}
                 color="gray.700"
@@ -86,7 +86,7 @@ const Popup = () => {
                 invocations écrites et audios vous accompagne tout au long du
                 Tawaf et du Sa’i.
               </Text>
-              <Divider borderColor="#BC9761" />
+              <Divider borderWidth="2px" borderColor="#BC9761" />
               <Text
                 fontSize={{ base: "md", md: "lg" }}
                 color="gray.700"
@@ -95,7 +95,7 @@ const Popup = () => {
                 Tavâf ve Sa’y esnasında yazılı ve işitsel 180 dua ile umre
                 yolculuğunda sizin yardımcınız olmaktadır.
               </Text>
-              <Divider borderColor="#BC9761" />
+              <Divider borderWidth="2px" borderColor="#BC9761" />
               <Text
                 fontSize={{ base: "md", md: "lg" }}
                 color="gray.700"
