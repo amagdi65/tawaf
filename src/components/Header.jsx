@@ -15,7 +15,7 @@ import colorMode from "../assets/color-mode.svg";
 import { mainData } from "../data/mainData";
 import { getbgColor, getBorder, getColor } from "../helper";
 
-function Header({ setLang, dir, setDir, lang, mode, setMode, setCurrentPage , currentPage }) {
+function Header({ setLang, dir, setDir, lang, mode, setMode, setCurrentPage, currentPage }) {
 
   const toggleMode = () => {
     setMode((prevMode) => (prevMode === "dark" ? "white" : "dark"));
@@ -36,6 +36,39 @@ function Header({ setLang, dir, setDir, lang, mode, setMode, setCurrentPage , cu
       },
     };
   };
+
+  const languages = [
+    {
+      code: "ar",
+      name: "عربي",
+      dir: "rtl",
+      flagUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/20px-Flag_of_Saudi_Arabia.svg.png",
+    },
+    {
+      code: "en",
+      name: "English",
+      dir: "ltr",
+      flagUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/20px-Flag_of_the_United_States.svg.png",
+    },
+    {
+      code: "ur",
+      name: "اردو",
+      dir: "rtl",
+      flagUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/20px-Flag_of_Pakistan.svg.png",
+    },
+    {
+      code: "tr",
+      name: "Türkçe",
+      dir: "ltr",
+      flagUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/20px-Flag_of_Turkey.svg.png",
+    },
+    {
+      code: "fr",
+      name: "Français",
+      dir: "ltr",
+      flagUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/20px-Flag_of_France.svg.png",
+    },
+  ];
 
   return (
     <Box
@@ -70,7 +103,7 @@ function Header({ setLang, dir, setDir, lang, mode, setMode, setCurrentPage , cu
             padding={4}
             borderRadius={10}
             onClick={toggleMode}
-            cursor="pointer" // Added cursor pointer to indicate clickability
+            cursor="pointer"
           >
             <Image
               src={colorMode}
@@ -93,46 +126,26 @@ function Header({ setLang, dir, setDir, lang, mode, setMode, setCurrentPage , cu
               </Box>
             </MenuButton>
             <MenuList>
-              <MenuItem
-                onClick={() => {
-                  setLang("ar");
-                  setDir("rtl");
-                }}
-              >
-                عربي
-              </MenuItem>
-              <MenuItem
-                onClick={() => {
-                  setLang("en");
-                  setDir("ltr");
-                }}
-              >
-                English
-              </MenuItem>
-              <MenuItem
-                onClick={() => {
-                  setLang("ur");
-                  setDir("rtl");
-                }}
-              >
-                اردو
-              </MenuItem>
-              <MenuItem
-                onClick={() => {
-                  setLang("tr");
-                  setDir("ltr");
-                }}
-              >
-                Türkçe
-              </MenuItem>
-              <MenuItem
-                onClick={() => {
-                  setLang("fr");
-                  setDir("ltr");
-                }}
-              >
-                Français
-              </MenuItem>
+              {languages.map(({ code, name, dir, flagUrl }) => (
+                <MenuItem
+                  key={code}
+                  onClick={() => {
+                    setLang(code);
+                    setDir(dir);
+                  }}
+                >
+                  <Box display="flex" alignItems="center">
+                    <Image
+                      src={flagUrl}
+                      alt={`${name} Flag`}
+                      boxSize="20px"
+                      marginRight="8px"
+                      ml={3}
+                    />
+                    {name}
+                  </Box>
+                </MenuItem>
+              ))}
             </MenuList>
           </Menu>
         </Stack>

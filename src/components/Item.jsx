@@ -13,7 +13,6 @@ import CounterCard from "./CounterCard";
 import PrayerCard from "./PrayerCard";
 import usePersistedState from "../hooks/usePersistedState";
 import icon from "../assets/2.svg";
-
 const Icon = styled.img`
   width: 48px;
   height: 48px;
@@ -54,6 +53,9 @@ function Item({
   audio,
   audioStart,
   autoPlay,
+  modalTitle,
+  closeTitle,
+  modalBody,
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
   const renderContent = (dir) => {
@@ -129,6 +131,7 @@ function Item({
         <Box display="flex" alignItems="center" justifyContent="center">
           {renderContent(dir)}
         </Box>
+
         <ChevronDownIcon
           boxSize="24px"
           fontWeight="400"
@@ -165,6 +168,9 @@ function Item({
               audio={audio}
               audioStart={audioStart}
               autoPlay={autoPlay}
+              modalTitle={modalTitle}
+              closeTitle={closeTitle}
+              modalBody={modalBody}
             />
           </Box>
         </Flex>

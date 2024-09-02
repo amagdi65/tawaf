@@ -19,6 +19,8 @@ export const mainData = {
     next: "التالي",
     previous: "السابق",
     autoPlay: "تشغيل تلقائي",
+    location: "الموقع",
+    closeTitle: "أغلاق"
   },
   en: {
     headerTitle: "Tawaf and Umrah Service",
@@ -40,6 +42,8 @@ export const mainData = {
     next: "Next",
     previous: "Previous",
     autoPlay: "Autoplay",
+    location: "Location",
+    closeTitle: "Close"
   },
   fr: {
     headerTitle: "Service de Tawaf et Omra",
@@ -61,6 +65,8 @@ export const mainData = {
     next: "Suivant",
     previous: "Précédent",
     autoPlay: "Lecture automatique",
+    location: "Emplacement",
+    closeTitle: "Fermer"
   },
   tr: {
     headerTitle: "Tavaf ve Umre Hizmeti",
@@ -81,7 +87,9 @@ export const mainData = {
     supplications: "Dualar",
     next: "Sonraki",
     previous: "Önceki",
-    autoPlay: "Otomatik oynatma"
+    autoPlay: "Otomatik oynatma",
+    location: "Konum",
+    closeTitle: "Kapat"
   },
   ur: {
     headerTitle: "طواف اور عمرہ کی خدمت",
@@ -103,5 +111,7 @@ export const mainData = {
     next: "اگلا",
     previous: "پچھلا",
     autoPlay: "خودکار پلے",
+    location: "مقام",
+    closeTitle: "بند کریں"
   },
 };

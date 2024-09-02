@@ -13,6 +13,7 @@ const StepperComp = ({ steps }) => {
         justify="center"
         position="relative"
         style={{ direction: steps[0].dir }}
+        zIndex={0}
       >
         {steps.map((step, index) => (
           <React.Fragment key={index}>
@@ -22,6 +23,7 @@ const StepperComp = ({ steps }) => {
               onClick={() => {
                 steps[0].setIndex(index + 1);
               }}
+              icon={step.icon}
             />
             {index < steps.length - 1 && <Line />}
           </React.Fragment>
@@ -31,7 +33,7 @@ const StepperComp = ({ steps }) => {
   );
 };
 
-const StepCircle = ({ stepNumber, label, onClick }) => (
+const StepCircle = ({ stepNumber, label, onClick, icon }) => (
   <Box
     position="relative"
     display="flex"
@@ -42,8 +44,8 @@ const StepCircle = ({ stepNumber, label, onClick }) => (
     cursor="pointer"
   >
     <Box
-      width={{ base: "30px", md: "40px" }}
-      height={{ base: "30px", md: "40px" }}
+      width={{ base: "50px", md: "60px" }}
+      height={{ base: "50px", md: "60px" }}
       borderRadius="50%"
       bg="#BC9761"
       color="white"
@@ -53,11 +55,11 @@ const StepCircle = ({ stepNumber, label, onClick }) => (
       fontSize={{ base: "14px", md: "18px" }}
       zIndex="1"
     >
-      {stepNumber}
+      {icon?  <img src={icon} /> : stepNumber}
     </Box>
     <Text
       position="absolute"
-      top={{ base: "40px", md: "50px" }} // Positioning the text directly below the circle
+      top={{ base: "50px", md: "60px" }} // Positioning the text directly below the circle
       fontSize={{ base: "10px", md: "14px" }} // Small font size for the text
       color="#BC9761"
       textAlign="center"
@@ -72,8 +74,8 @@ const StepCircle = ({ stepNumber, label, onClick }) => (
 
 const Line = () => (
   <Box
-    width={{ base: "60px", md: "180px" }} // Increased line width
-    height="2px"
+    width={{ base: "45px", md: "180px" }} // Increased line width
+    height="3px"
     bg="#BC9761"
     position="relative"
     top="0"

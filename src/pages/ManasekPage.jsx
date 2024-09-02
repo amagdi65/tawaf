@@ -9,6 +9,15 @@ import { data as pray } from "../data/doaa/pray";
 import { useState } from "react";
 import { mainData } from "../data/mainData";
 import StepperComp from "../components/StepperComp";
+import Halq from "../assets/halq icon.svg";
+import Saay from "../assets/saay icon.svg";
+import Tawaf from "../assets/tawaf icon.svg";
+import Makam from "../assets/makam icon.svg";
+
+import halq from '../assets/halq.svg';
+import sai from '../assets/saay.svg';
+import tawa from '../assets/tawaf.svg';
+import makam from '../assets/makam.svg';
 
 function ManasekPage({ lang, dir, mode }) {
   const [index, setIndex] = useState(1);
@@ -25,12 +34,20 @@ function ManasekPage({ lang, dir, mode }) {
       audio: "assets/tawaf",
       audioStart: 1,
       autoPlay: mainData[lang]["autoPlay"],
+      icon: Tawaf,
+      modalTitle: mainData[lang]["location"],
+      closeTitle: mainData[lang]["closeTitle"],
+      modalBody: tawa,
     },
     {
       index: 3,
       title: mainData[lang]["prayingTwoRakahs"],
       cardPrayerTitle: mainData[lang]["prayingTwoRakahsTitle"],
       prayerData: pray,
+      icon: Makam,
+      modalTitle: mainData[lang]["location"],
+      closeTitle: mainData[lang]["closeTitle"],
+      modalBody: makam,
     },
     {
       index: 4,
@@ -43,19 +60,32 @@ function ManasekPage({ lang, dir, mode }) {
       audio: "assets/sai",
       audioStart: 81,
       autoPlay: mainData[lang]["autoPlay"],
+      icon: Saay,
+      modalTitle: mainData[lang]["location"],
+      closeTitle: mainData[lang]["closeTitle"],
+      modalBody: sai,
     },
     {
       index: 5,
       title: mainData[lang]["shavingOrTrimming"],
       prayerData: shaving,
       cardPrayerTitle: mainData[lang]["shavingOrTrimmingTitle"],
+      icon: Halq,
+      modalTitle: mainData[lang]["location"],
+      closeTitle:mainData[lang]["closeTitle"],
+      modalBody: halq,
     },
   ];
 
   return (
     <Box height="100%" overflowY="auto">
       <StepperComp
-        steps={items.map((item) => ({ label: item.title, dir: dir, setIndex }))}
+        steps={items.map((item) => ({
+          label: item.title,
+          dir: dir,
+          setIndex,
+          icon: item.icon,
+        }))}
       ></StepperComp>
       <Accordion
         allowToggle
@@ -89,6 +119,9 @@ function ManasekPage({ lang, dir, mode }) {
               audio={item.audio}
               audioStart={item.audioStart}
               autoPlay={item.autoPlay}
+              modalBody={item.modalBody}
+              modalTitle={item.modalTitle}
+              closeTitle={item.closeTitle}
             />
             {idx < items.length - 1 && <Separator dir={dir} />}
           </Box>

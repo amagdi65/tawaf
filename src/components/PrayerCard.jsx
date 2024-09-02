@@ -1,14 +1,25 @@
 import { useRef, useState, useEffect } from "react";
-import { Box, IconButton, Text, Stack, Image, Switch } from "@chakra-ui/react";
+import {
+  Box,
+  IconButton,
+  Text,
+  Stack,
+  Image,
+  Switch,
+  useDisclosure,
+} from "@chakra-ui/react";
 import { ArrowForwardIcon, ArrowBackIcon } from "@chakra-ui/icons";
 import pauseIcon from "../assets/pause.svg";
-import playIcon from "../assets/play.svg";
+import playIcon from "../assets/headphones.svg";
 import bigAin from "../assets/font-inc.svg";
 import smallAin from "../assets/font-dec.svg";
 import pauseIconBlack from "../assets/pauseBlack.svg";
-import playIconBlack from "../assets/playBlack.svg";
+import playIconBlack from "../assets/headphones-black.svg";
 import bigAinBlack from "../assets/font-incBlack.svg";
 import smallAinBlack from "../assets/font-decBlack.svg";
+import location from "../assets/location-dot-solid.svg";
+import locationBlack from "../assets/location-black.svg";
+import SimpleModal from "./Modal";
 
 // Import maps for each directory
 const saiAudioFiles = import.meta.glob("../assets/sai/*.wav");
@@ -34,6 +45,9 @@ const PrayerCard = ({
   audioStart,
   audio,
   autoPlay,
+  modalTitle,
+  closeTitle,
+  modalBody,
 }) => {
   const [page, setPage] = useState(0);
   const [fontSize, setFontSize] = useState(18);
@@ -42,6 +56,7 @@ const PrayerCard = ({
   const totalPages = prayerData?.length - 1;
   const audioRef = useRef(null);
   const [audioSrc, setAudioSrc] = useState("");
+  const { isOpen, onOpen, onClose } = useDisclosure();
 
   useEffect(() => {
     const loadAudio = async () => {
@@ -214,6 +229,23 @@ const PrayerCard = ({
           cursor="pointer"
           boxSize={{ base: "28px", md: "42px" }}
         />
+        {modalBody && (
+          <Image
+            src={mode === "dark" ? locationBlack : location}
+            alt="Decrease font size"
+            onClick={onOpen}
+            cursor="pointer"
+            boxSize={{ base: "28px", md: "42px" }}
+          />
+        )}
+        <SimpleModal
+          onClose={onClose}
+          isOpen={isOpen}
+          mode={mode}
+          modalBody={modalBody}
+          modalTitle={modalTitle}
+          closeTitle={closeTitle}
+        ></SimpleModal>
         {audio && (
           <Image
             src={getIconSrc("playPause")}
@@ -223,6 +255,7 @@ const PrayerCard = ({
             boxSize={{ base: "28px", md: "42px" }}
           />
         )}
+
         {/* New Autoplay toggle */}
         {autoPlay && (
           <Stack direction="row" alignItems="center">
