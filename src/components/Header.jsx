@@ -68,7 +68,19 @@ function Header({ setLang, dir, setDir, lang, mode, setMode, setCurrentPage, cur
       dir: "ltr",
       flagUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/20px-Flag_of_France.svg.png",
     },
-  ];
+    {
+      code: "in",
+      name: "Bahasa Indonesia",
+      dir: "ltr",
+      flagUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/20px-Flag_of_Indonesia.svg.png",
+    },
+    {
+      code: "mal",
+      name: "Bahasa Melayu",
+      dir: "ltr",
+      flagUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/20px-Flag_of_Malaysia.svg.png",
+    },
+  ];  
 
   return (
     <Box

@@ -6,6 +6,8 @@ export const data = [
     tr: "“Rabbimiz! Günahlarımızı ve işimizdeki aşırılığımızı bağışla; ayaklarımızı  (hak yolda) sabit tut ve kâfir milletlere karşı bize yardım et.”",
     fr: "Seigneur ! Pardonne-nous nos péchés ainsi que nos excès dans nos comportements, affermis nos pas et donne-nous la victoire sur les gens mécréants. ",
     audioNumber: 1,
+    in: "Ya Tuhan kami, ampunilah dosa-dosa kami \r\ndan tindakan-tindakan kami yang berlebihan (dalam) urusan kami) \r\ndan tetapkanlah pendirian kami, \r\ndan tolonglah kami terhadap orang-orang kafir.",
+    mal: "Malay",
   },
   {
     ar: "رَبِّ إِنِّي ظَلَمۡتُ نَفۡسِي فَٱغۡفِرۡ لِي",
@@ -14,6 +16,8 @@ export const data = [
     tr: "“Rabbim! Ben nefsime zulmettim; beni bağışla.”",
     fr: "Seigneur ! Je me suis fait du tort à moi-même; pardonne-moi !",
     audioNumber: 2,
+    in: "Ya Tuhanku, sesungguhnya aku telah menzalimi diriku sendiri, \r\nmaka ampunilah aku.",
+    mal: "\r\nWahai Tuhan kami, ampunilah dosa-dosa kami dan tindakan-tindakan kami yang berlebih-lebihan dalam urusan kami, dan tetapkanlah pendirian kami, dan tolonglah kami terhadap kaum yang kafir.",
   },
   {
     ar: "رَبَّنَا ٱغۡفِرۡ لَنَا وَلِإِخۡوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلۡإِيمَٰنِ وَلَا تَجۡعَلۡ فِي قُلُوبِنَا غِلّٗا لِّلَّذِينَ ءَامَنُواْ رَبَّنَآ إِنَّكَ رَءُوفٞ رَّحِيمٌ",
@@ -22,6 +26,8 @@ export const data = [
     tr: "“Rabbimiz! Bizi ve bizden önce îman etmiş olan kardeşlerimizi bağışla, îman edenlere karşı kalblerimizde bir hasetlik bırakma. Rabbimiz! Şüphe yoktur ki Sen, çok şefkatli ve çok merhametlisin.”",
     fr: "Seigneur, pardonne-nous, ainsi qu’à nos frères qui nous ont précédés dans la foi; et ne mets dans nos cœurs aucune rancœur pour ceux qui ont cru. Seigneur, Tu es Compatissant et Très Miséricordieux.",
     audioNumber: 3,
+    in: "Ya Tuhan kami, ampunilah kami dan saudara-saudara kami yang telah beriman lebih dahulu dari kami, dan janganlah Engkau tanamkan kedengkian dalam hati kami terhadap orang-orang yang beriman. Ya Tuhan kami, Sungguh, Engkau Maha Penyantun, Maha Penyayang.",
+    mal: "\r\nWahai Tuhanku, sesungguhnya aku telah menzalimi diriku sendiri, maka ampunilah aku.",
   },
   {
     ar: "رَّبِّ أَدۡخِلۡنِي مُدۡخَلَ صِدۡقٖ وَأَخۡرِجۡنِي مُخۡرَجَ صِدۡقٖ وَٱجۡعَل لِّي مِن لَّدُنكَ سُلۡطَٰنٗا نَّصِيرٗا",
@@ -30,6 +36,8 @@ export const data = [
     tr: "“Rabbim! Gireceğim yere dürüstlükle girmemi sağla; çıkacağım yerden de dürüstlükle çıkmamı sağla. Bana; katından yardımcı bir kuvvet ver.”",
     fr: "Ô mon Seigneur ! Fais que j’entre par une entrée de vérité et que je sorte par une sortie de vérité; et accorde-moi de Ta part, un pouvoir bénéficiant de Ton secours.",
     audioNumber: 4,
+    in: "Ya Tuhanku, masukkan aku ke tempat masuk yang benar dan keluarkan (pula) aku ke tempat keluar yang benar dan berikanlah kepadaku dari sisi-Mu kekuasaan yang dapat menolong(ku). ",
+    mal: "\r\nWahai Tuhan kami, ampunilah kami dan saudara-saudara kami yang telah beriman lebih dahulu daripada kami, dan janganlah Engkau jadikan hasad dengki di dalam hati kami terhadap orang-orang yang beriman. Wahai Tuhan kami, sesungguhnya Engkau Maha Penyantun, lagi Maha Penyayang",
   },
   {
     ar: "رَّبِّ أَعُوذُ بِكَ مِنۡ هَمَزَٰتِ ٱلشَّيَٰطِين وَأَعُوذُ بِكَ رَبِّ أَن يَحۡضُرُونِ",
@@ -38,6 +46,8 @@ export const data = [
     tr: "“Rabbim! Şeytanların vesveselerinden sana sığınırım. Rabbim! Onların yanımda bulunmalarından da Sana sığınırım.”",
     fr: "Seigneur ! Je me réfugie en Toi contre les incitations des diables. et je cherche Ta protection, Seigneur, contre leur présence auprès de moi",
     audioNumber: 5,
+    in: "Tuhanku, aku berlindung kepada Engkau dari bisikan-bisikan syaitan. \r\nDan aku berlindung (pula) kepada Engkau ya Tuhanku, dari kedatangan mereka kepadaku.",
+    mal: "Wahai Tuhanku, masukkanlah aku ke tempat masuk yang benar dan keluarkanlah pula aku ke tempat keluar yang benar, dan berikanlah kepadaku dari sisiMu kekuasaan yang dapat menolongku.",
   },
   {
     ar: "اللهم أعني على شكرك، وذكرك، وحسن عبادتك",
@@ -46,6 +56,8 @@ export const data = [
     tr: "“Allah’ım! Seni zikretmek, sana şükretmek ve sana daha güzel ibadetler yapmak için bize yardım et.”",
     fr: "Ô Allah, aide-moi à Te rendre grâce, à T’évoquer, et à T'adorer de la meilleure manière.",
     audioNumber: 6,
+    in: "Ya Allah, bantulah aku untuk bersyukur kepada-Mu dan berzikir mengingat-Mu serta beribadah kepada-Mu dengan baik.",
+    mal: "Wahai Tuhanku, aku berlindung denganMu daripada hasutan para syaitan, dan aku berlindung (pula) kepada Engkau -ya Tuhanku- agar mereka tidak mendekati aku. ",
   },
   {
     ar: "اللهم إنك عفو تحب العفو فاعف عني",
@@ -54,6 +66,8 @@ export const data = [
     tr: "“Allah’ım! Sen affedicisin, ikram sahibisin, affetmeyi seversin, beni de affeyle.”",
     fr: "Ô Allah, Tu es Le Pardonneur et Tu aimes pardonner, accorde-moi donc Ton pardon.",
     audioNumber: 7,
+    in: "Ya Allah, sesungguhnya Engkau Maha Pemaaf, Engkau mencintai kemaafan, maka maafkanlah diriku.",
+    mal: "Ya Allah, bantulah aku untuk bersyukur, berzikir dan beribadat sebaiknya kepadaMu.",
   },
   {
     ar: "اللهم انفعني بما علمتني، وعلمني ما ينفعني، وزدني علما",
@@ -62,6 +76,8 @@ export const data = [
     tr: "“Allah’ım! Bana öğrettiklerini bana faydalı kıl, faydası olanı idrak etmemi nasib et ve ilmimi artır.”",
     fr: "Ô Allah, permets-moi de tirer profit de ce que Tu m'as enseigné, enseigne-moi ce qui me sera utile, et augmente mes connaissances.",
     audioNumber: 8,
+    in: "Ya Allah, jadikanlah bermanfaat bagiku apa yang Engkau ajarkan kepadaku, ajarkanlah aku  ilmu yang bermanfaat bagiku, dan tambahkanlah kepadaku ilmu pengetahuan.  ",
+    mal: "Ya Allah, sesungguhnya Engkau Maha Pemaaf dan suka kepada kemaafan, maka maafkanlah aku.",
   },
   {
     ar: "اللهمَّ إنِّي أعُوذُ بِكَ مِنْ جَهْدِ الْبَلَاءِ، وَدَرَكِ الشَّقَاءِ، وَسُوءِ الْقَضَاءِ، وَشَمَاتَةِ الْأَعْدَاءِ",
@@ -70,6 +86,8 @@ export const data = [
     tr: "“Allah’ım! Belânın meşakkatinden, helaka götüren sebepten, kazanın kötüsünden ve düşmanların sevinmesinden Sana sığınırım.”",
     fr: "Ô Allah, je cherche refuge auprès de Toi contre le harassement des épreuves, le grand malheur, le mauvais destin, et les moqueries de l'ennemi.",
     audioNumber: 9,
+    in: "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari susahnya bencana, hinanya kesengsaraan, keburukan takdir, dan kegembiraan para musuh.\r\n\r\n",
+    mal: "Ya Allah, berikanlah manfaat kepadaku dengan ilmu yang telah Engkau ajarkan kepadaku, ajarilah aku ilmu yang bermanfaat untukku, dan tambahkanlah ilmu bagiku.",
   },
   {
     ar: "اللَّهُمَّ زِدْنَا وَلَا تَنْقُصْنَا، وَأَكْرِمْنَا وَلَا تُهِنَّا، وَأَعْطِنَا وَلَا تَحْرِمْنَا، وَآثِرْنَا وَلَا تُؤْثِرْ عَلَيْنَا، وَأرْضِنَا وَارْضَ عَنَّا",
@@ -78,6 +96,8 @@ export const data = [
     tr: "“Allah’ım! Biz Müslümanların sayısını artır, eksiltme. Bizi şerefli kıl, alçaltma. Bize bahşet, mahrum etme. Bizi iyiliklerde gözet, yerimize başkalarını tercih etme. Bizi memnun kıl ve bizden razı ol.”",
     fr: "Ô‎‎ Allah, augmente-nous et ne nous diminue pas. Honore nous et ne nous humilie pas.  Donne-nous et ne nous prives pas.  Privilégie-nous et ne privilégie personne à notre détriment, accorde-nous la satisfaction et sois satisfait de nous.",
     audioNumber: 10,
+    in: "Ya Allah, tambahkanlah rezeki kepada kami, jangan Engkau kurangi. Muliakanlah kami dan jangan Engkau hinakan kami. Anugerahkanlah kepada kami dan jangan Engkau halangi dari kami. Utamakanlah kami dan jangan Engkau abaikan kami. Ridailah kami dan ridailah dari kami.",
+    mal: "Ya Allah, sesungguhnya aku berlindung denganMu daripada bala yang menyusahkan, ditimpa kecelakaan, takdir yang buruk dan ditertawakan oleh musuh-musuhku.",
   },
   {
     ar: "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
@@ -86,6 +106,8 @@ export const data = [
     tr: "“Allah’ım! Beni haram kıldıklarının yerine helalinle yetindir ve lütfunla beni Senden başkasına muhtaç etme.”",
     fr: "Ô Allah, place dans ce que Tu as rendu licite de quoi me passer de l’illicite et dispense-moi, par Ta grâce, du recours à un autre que Toi.",
     audioNumber: 11,
+    in: "Ya Allah, cukupkanlah aku dengan yang halal dan jauhkanlah aku dari yang haram. Cukupkanlah aku dengan karunia-Mu dari bergantung kepada selain-Mu.\r\n\r\n",
+    mal: "Ya Allah, tambahkanlah kurniaaMu kepada kami, dan jangan Engkau menguranginya daripada kami. Muliakanlah kami, dan jangan Engkau hinakan kami. Berikanlah rezeki kepada kami, dan jangan Engkau menyekat ",
   },
   {
     ar: "اللهم إن كان رزقي في السماء فأنزله، وإن كان في الأرض فأخرجه، وإن كان بعيداً فقربه وإن كان قريباً فيسره، وإن كان قليلاً فكثره، وإن كان كثيراً فبارك لي فيه",
@@ -94,6 +116,8 @@ export const data = [
     tr: "“Allah’ım! Rızkım gökteyse indir, yerdeyse ortaya çıkart, uzaktaysa yakınlaştır, yakınsa kolaylaştır, azsa artır ve çoksa bunu bana bereketli eyle.”",
     fr: "Ô Allah, si ma subsistance est dans le ciel, fais-la descendre ; si elle est sur terre, fais-la surgir ; si elle est éloignée, rapproche-la ; si elle est proche, facilite-la ; si elle est peu abondante, augmente-la ; et si elle est abondante, bénis-la pour moi.",
     audioNumber: 12,
+    in: "Ya Allah, jika rezekiku di langit, maka turunkanlah. Jika di dalam bumi, maka keluarkanlah. Jika masih jauh, maka dekatkanlah. Jika ia dekat, maka mudahkanlah. Jika ia sedikit, maka banyakkanlah. Jika ia banyak, maka berkahilah bagiku. ",
+    mal: "Ya Allah, cukupkanlah aku dengan rezekiMu yang halal daripada menuntut apa yang diharamkan olehMu. Limpahkanlah anugerahmu kepadaku sehingga aku tidak berhajat lagi kepada selain|Mu. ",
   },
   {
     ar: "اللهم اجعلنا ممن تفاءل بخيرك فأكرمته، وتوّكل عليك فكفيته، ولجأ إليك فأعطيته، واستغاث بك فأغثته وتولنا بفضلك ورحمتك يا أرحم الراحمين",
@@ -102,6 +126,8 @@ export const data = [
     tr: "Allah’ım! Bizi; bahşettiğin hayırlara iyimser bakıp ona ikramda bulunduğun, Sana tevekkül edip ona kâfi geldiğin, Sana yönelip ona bahşettiğin, Senden yardım dileyip ona yetiştiğin kimselerden eyle. Ey merhametlilerin en merhametlisi! Lütfun ve merhametinle işimizi Sana havale ediyoruz",
     fr: "Ô Allah, compte-nous parmi ceux qui espèrent Ton bien et à qui Tu accordes Ta générosité, ceux qui placent leur confiance en Toi et que Tu suffis, ceux qui te sollicite et que Tu combles, ceux qui implorent Ton secours et à qui Tu viens en aide, et couvre-nous de Ta protection et de Ta miséricorde, Ô Toi qui es le plus Miséricordieux des miséricordieux.",
     audioNumber: 13,
+    in: "Ya Allah, jadikanlah kami termasuk orang yang bersikap optimis meraih kebaikan-Mu lalu Engkau memuliakannya, bertawakkal kepada-Mu lalu Engkau mencukupkannya, bergantung kepada-Mu lalu Engkau anugerahkan kepadanya, memohon pertolongan kepada-Mu lalu Engkau menolongnya, dan lindungilah kami dengan karunia-Mu dan rahmat-Mu, wahai Yang Maha Paling Penyayang.   ",
+    mal: "Ya Allah, sekiranya rezekiku di langit, maka turunkanlah ia. Sekiranya rezekiku di bumi, maka keluarkanlah ia. Sekiranya rezekiku itu jauh, maka dekatkanlah ia. Sekiranya rezekiku itu dekat, maka mudahkanlah ia. Sekiranya rezekiku itu sedikit, maka banyakkanlah ia. Sekiranya rezekiku itu banyak, maka jadikanlah keberkatan bagiku padanya.",
   },
   {
     ar: "رَّبِّ زِدۡنِي عِلۡمٗا",
@@ -110,6 +136,8 @@ export const data = [
     tr: "Rabbim, ilmimi artır",
     fr: "Mon Seigneur! Accroît mon savoir",
     audioNumber: 14,
+    in: "Ya Tuhanku, tambahkanlah kepadaku ilmu pengetahuan.\r\n\r\n",
+    mal: "Ya Allah, jadikanlah kami termasuk dalam golongan yang sentiasa bersangka baik dengan kebaikanMu, lalu Engkau muliakan mereka, golongan yang bertawakkal kepadaMu, lalu Engkau cukupkan hajat mereka, dan golongan yang meminta pertolongan kepadaMu, lalu Engkau menolong mereka. Wahai Tuhan Yang Maha Penyayang, peliharalah kami dengan kurniaanMu dan rahmatMu.  ",
   },
   {
     ar: "رَبَّنَا إِنَّكَ مَن تُدْخِلِ النَّارَ فَقَدْ أَخْزَيْتَهُ وَمَا لِلظَّالِمِينَ مِنْ أَنصَارٍ  رَّبَّنَا إِنَّنَا سَمِعْنَا مُنَادِيًا يُنَادِي لِلْإِيمَانِ أَنْ آمِنُوا بِرَبِّكُمْ فَآمَنَّا رَبَّنَا فَاغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّئَاتِنَا وَتَوَفَّنَا مَعَ الْأَبْرَارِ  رَبَّنَا وَآتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ الْقِيَامَةِ إِنَّكَ لَا تُخْلِفُ الْمِيعَادَ",
@@ -118,6 +146,8 @@ export const data = [
     tr: "Rabbimiz! Sen, kimi ateşe sokarsan onu zelil etmiş olursun. Zâlimlerin hiç yardımcıları yoktur. Rabbimiz! Biz, Rabbinize îman edin diye çağıran bir davetçiyi işittik ve hemen iman ettik. Rabbimiz! Sen de bizim günahlarımızı bağışla, kusurlarımızı ört ve canımızı salihlerle birlikte al. Rabbimiz! Peygamberlerinle bize vadettiklerini bize ver ve kıyamet günü bizi zelil etme. Şüphesiz Sen, vadinden dönmezsin",
     fr: 'Seigneur! Quiconque Tu fais entrer dans le Feu, Tu le couvres vraiment d’ignominie. Et pour les injustes, il n’y aura pas de secoureurs Seigneur! Nous avons entendu l’appel de celui qui a appelé ainsi à la foi: "Croyez en votre Seigneur !" Et dès lors nous avons cru. Seigneur ! Pardonne-nous nos péchés, efface de nous nos méfaits, et place nous, à notre mort, avec les gens de bien.Seigneur! Donne-nous ce que Tu nous as promis par Tes Messagers. Et ne nous couvre pas d’ignominie au Jour de la Résurrection. Car Toi, Tu ne manques pas à Ta promesse',
     audioNumber: 15,
+    in: "Ya Tuhan kami, sesungguhnya orang yang Engkau masukkan ke dalam neraka, maka sungguh, Engkau telah menghinakannya, dan tidak ada seorang penolong pun bagi orang yang zalim. Ya Tuhan kami, sesungguhnya kami mendengar orang yang menyeru kepada iman, (yaitu), “Berimanlah kamu kepada Tuhanmu,” maka kami pun beriman. Ya Tuhan kami, ampunilah dosa-dosa kami dan hapuskanlah kesalahan-kesalahan kami, dan matikanlah kami beserta orang-orang yang berbakti. Ya Tuhan kami, berilah kami apa yang telah Engkau janjikan kepada kami melalui rasul-rasul-Mu. Dan janganlah Engkau hinakan kami pada hari Kiamat. Sungguh, Engkau tidak pernah mengingkari janji.",
+    mal: "Ya Tuhanku, tambahkanlah ilmu pengetahuan bagiku",
   },
   {
     ar: "رَبِّ لَا تَذَرۡنِي فَرۡدٗا وَأَنتَ خَيۡرُ ٱلۡوَٰرِثِينَ",
@@ -126,6 +156,8 @@ export const data = [
     tr: "Rabbim! Beni nesilsiz bırakma. Sen vârislerin en hayırlısısın",
     fr: "Seigneur ! Ne me laisse pas seul alors que Tu es le meilleur des héritiers ",
     audioNumber: 16,
+    in: "Ya Tuhanku, janganlah Engkau membiarkan aku hidup seorang diri dan Engkaulah Waris Yang Paling Baik.\r\n\r\n",
+    mal: 'Ya Tuhan kami, sesungguhnya barang siapa yang Engkau masukkan ke dalam neraka, maka sesungguhnya Engkau telah meghinakannya, dan tidak ada bagi orang-orang yang zalim seorang penolong pun. Ya Tuhan kami, sesungguhnya kami mendengar orang yang menyeru kepada iman, katanya: "Berimanlah kamu kepada Tuhanmu," maka kami pun beriman. Ya Tuhan kami, ampunilah dosa-dosa kami dan hapuskanlah kesalahan-kesalahan kami, dan matikanlah kami bersama orang-orang yang berbakti. Ya Tuhan kami, berikanlah kepada kami apa yang telah Engkau janjikan kepada kami melalui rasul-rasulMu. Dan janganlah Engkau hinakan kami pada hari kiamat. Sesungguhnya, Engkau tidak pernah mengingkari janji.',
   },
   {
     ar: "رَبَّنَا لَا تَجۡعَلۡنَا فِتۡنَةٗ لِّلَّذِينَ كَفَرُواْ وَٱغۡفِرۡ لَنَا رَبَّنَآۖ إِنَّكَ أَنتَ ٱلۡعَزِيزُ ٱلۡحَكِيمُ",
@@ -134,6 +166,8 @@ export const data = [
     tr: "Rabbimiz! Bizi, inkâr edenlerle imtihan etme ve bizi bağışla. Rabbimiz!  Şüphesiz ki, dâima gâlib ve hikmet sahibi olan Sensin",
     fr: "Seigneur, ne fais pas de nous [un sujet] de tentation pour ceux qui ont mécru ; et pardonne-nous, Seigneur, car c’est Toi le Puissant, le Sage",
     audioNumber: 17,
+    in: "Ya Tuhan kami, janganlah Engkau jadikan kami (sasaran) fitnah bagi orang-orang kafir. Dan ampunilah kami ya Tuhan kami. Sesungguhnya Engkaulah Yang Maha Perkasa lagi Maha Bijaksana.\r\n\r\n",
+    mal: "Wahai Tuhanku, janganlah Engkau biarkan daku hidup seorang diri (tanpa meninggalkan zuriat), dan Engkaulah jua sebaik-baik yang mewarisi.",
   },
   {
     ar: "رَبَّنَآ أَتۡمِمۡ لَنَا نُورَنَا وَٱغۡفِرۡ لَنَآۖ إِنَّكَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ",
@@ -142,6 +176,8 @@ export const data = [
     tr: "Rabbimiz! Nurumuzu tamamla ve bizi bağışla. Şüphesiz ki, Sen her şeye kâdirsin",
     fr: "Seigneur, parfais-nous notre lumière et pardonne-nous. Car Tu es Omnipotent.",
     audioNumber: 18,
+    in: "Ya Rabb kami, sempurnakanlah bagi kami cahaya kami dan ampunilah kami; sesungguhnya Engkau Maha Kuasa atas segala sesuatu.\r\n\r\n",
+    mal: "Ya Tuhan kami, janganlah Engkau jadikan kami (sasaran) fitnah bagi orang-orang kafir. Dan ampunilah kami, ya Tuhan kami. Sesungguhnya Engkau adalah Yang Mahaperkasa, lagi Mahabijaksana.",
   },
   {
     ar: "رَبَّنَا تَقَبَّلۡ مِنَّآۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلۡعَلِيمُ",
@@ -150,6 +186,8 @@ export const data = [
     tr: "Rabbimiz! Bizden kabul buyur. Şüphesiz ki, hakkıyla işiten ve hakkıyla bilen ancak Sensin",
     fr: "Ô notre Seigneur! Accepte ceci de notre part! Car c’est Toi l’Audient, l’Omniscient",
     audioNumber: 19,
+    in: "Ya Tuhan kami, terimalah daripada kami (amalan kami). Sesungguhnya Engkau Maha Mendengar lagi Maha Mengetahui.\r\n\r\n",
+    mal: "Ya Tuhan kami, sempurnakanlah untuk kami cahaya kami dan ampunilah kami, sesungguhnya Engkau Maha Berkuasa ke atas segala sesuatu.",
   },
   {
     ar: "اللهم إني أعوذ بك من غلبة الدين وغلبة العدو وشماتة الأعداء",
@@ -158,6 +196,8 @@ export const data = [
     tr: "Allah’ım! Borca batıp gitmekten, düşmanımın bana galebe çalmasından ve düşmanların sevinmesinden Sana sığınırım",
     fr: "Ô Allah, je cherche refuge auprès de Toi contre l'accablement due aux dettes, la domination de l'ennemi et ses moqueries.",
     audioNumber: 20,
+    in: "Ya Allah, aku berlindung kepada-Mu dari lilitan utang dan penguasaan musuh serta kegembiraan para musuh.",
+    mal: "Ya Tuhan kami terimalah daripada kami (amalan kami), sesungguhnya Engkaulah Yang Maha Mendengar, lagi Maha Mengetahui.",
   },
   {
     ar: "اللهم أصلح لي ديني الذي هو عِصْمَةُ أمري و اصلح لي دنياي التي فيها معاشي ، و أصلح لي آخرتي التي إليها مَعَادِي و اجعل الحياة زيادة لي من كل خير و اجعل الموت راحة لي من كل شر )",
@@ -166,6 +206,8 @@ export const data = [
     tr: "Allah’ım! Her işimizin kaynağı olan dinimizi, hayatımızın bulunduğu dünyamızı ve dönüşümüz olan ahiretimizi ıslah et. Hayatımızı her hayrı fazlasıyla bulabileceğimiz, vefatımızı ise her türlü şerden bir kurtuluş eyle",
     fr: "Ô Allah, améliore ma pratique religieuse, qui est une protection pour moi en toute situation ; améliore ma vie d’ici-bas, dans laquelle se trouve ma subsistance ; et améliore ma vie dans l’au-delà, vers laquelle se fera mon retour ; fais que la vie d’ici-bas soit, pour moi une opportunité de multiplier les actes de bonté ; et fais que la mort soit, pour moi, un repos contre tout mal. ",
     audioNumber: 21,
+    in: "Ya Allah, perbaikilah agamaku yang merupakan penjaga urusanku, perbaiki duniaku yang merupakan tempat hidupku, dan perbaiki akhiratku yang menjadi tempat kembaliku. Jadikanlah kelangsungan hidup sebagai penambah segala kebaikan bagiku dan jadikanlah kematian sebagai pemutus dari segala keburukan bagiku.",
+    mal: "Ya Allah, sesungguhnya aku berlindung denganMu daripada bebanan hutang, penguasaan musuh dan ditertawakan oleh pihak lawan.",
   },
   {
     ar: "اللهمَّ إنِّي أعوذُ بك من منكراتِ الأخلاقِ والأعمالِ والأهواءِ",
@@ -174,6 +216,8 @@ export const data = [
     tr: "Allah’ım! Kötü ahlak, amel ve arzulardan Sana sığınırım",
     fr: "Ô Allah, je cherche refuge auprès de Toi contre les mauvais caractères, les actes blâmables et les mauvaises passions.",
     audioNumber: 22,
+    in: "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari kemungkaran akhlak, amal dan hawa nafsu.",
+    mal: "Ya Allah, perbaikilah bagiku agamaku yang menjadi perlindung urusanku, perbaikilah bagiku duniaku yang di dalamnya ada sumber hidupku, dan perbaikilah bagiku akhiratku yang merupakan satu-satunya tempat kembaliku. Jadikanlah kehidupan ini tempat untuk aku menambah bekalan daripada setiap kebaikan, dan jadikanlah kematian itu tempat untuk aku berehat sepenuhnya daripada setiap kejahatan. ",
   },
   {
     ar: "اللهم إنك عفو تحب العفو فاعف عني",
@@ -182,6 +226,8 @@ export const data = [
     tr: "Allah’ım! Sen affedicisin, ikram sahibisin, affetmeyi seversin, beni de affeyle",
     fr: "Ô Allah, Tu es Le Pardonneur et Tu aimes pardonner, alors accorde-moi Ton pardon.",
     audioNumber: 23,
+    in: "Ya Allah, sesungguhnya Engkau Maha Pemaaf, Engkau mencintai kemaafan, maka maafkanlah diriku.",
+    mal: "Ya Allah, sesungguhnya aku berlindung denganMu daripada segala akhlak yang buruk serta amal yang mungkar dan hawa nafsu.",
   },
   {
     ar: "رب أعني ولا تعن علي، وانصرني ولا تنصر علي، وامكر لي ولا تمكر علي، واهدني ويسر الهدى لي، وانصرني على من بغى علي، رب اجعلني لك شكارا، لك ذكارا، لك رهابا، لك مطواعا، إليك مخبتا أواها منيبا، رب تقبل توبتي واغسل حوبتي، وأجب دعوتي، وثبت حجتي، واهد قلبي، وسدد لساني، واسلل سخيمة قلبي",
@@ -190,6 +236,8 @@ export const data = [
     tr: "Rabbim bana yardım et, aleyhimde düşmanıma yardım etme. Yardımını benden esirgeme ve aleyhime düşmanımı destekleme. Olayları benim hayrıma gerçekleştir. Bana zararı olacak şekilde gerçekleştirme. Beni hidayete erdir ve hidayeti bana kolaylaştır. Bana saldırana karşı yardımını esirgeme. Rabbim! Beni; sadece Senin için boyun eğen ve azabından çok korkan, Sana yönelip yakaran, çok zikreden, çok şükreden ve çokça itaat eden bir kişi eyle. Rabbim! Tövbemi kabul eyle, günah ve hatalarımı temizle, duâmı kabul eyle. Delilimi isabetli eyle, dilimi doğru sözlü kıl. Kalbime hidayet ver, ondan kin ve hasedi çıkar",
     fr: "Seigneur, soutiens-moi et ne soutiens personne contre moi ; accorde-moi la victoire et n’accorde à personne la victoire contre moi ; ruse en ma faveur et ne ruse en faveur de personne contre moi ; guide-moi et facilite-moi la guidée et soutien-moi face à ceux qui m’opprime. Seigneur, permets-moi de Te rendre grâce, de T’évoquer, de Te craindre, de me soumettre complètement à Toi, d’être humble devant Toi, d’être enclin à l’imploration et toujours repentant. Seigneur, accepte mon repentir, lave-moi de mes péchés, exauce mon invocation, renforce mes arguments, guide mon cœur, accorde la justesse à ma langue et chasse la haine de mon cœur. ",
     audioNumber: 24,
+    in: "Wahai Rabbku, bantulah aku dan jangan Engkau bantu (musuhku) untuk mengalahkanku, dan tolonglah aku dan jangan Engkau tolong musuhku untuk menguasaiku, buatlah tipu daya untuk keberhasilanku dan jangan Engkau membuat tipu daya untuk mencelakai diriku. Berilah aku petunjuk, mudahkanlah petunjuk untukku, dan tolonglah aku melawan orang yang melampui batas terhadapku. Wahai Rabbku, jadikanlah aku orang yang senantiasa bersyukur kepada-Mu, senantiasa ingat kepada-Mu, senantiasa takut serta taat kepada-Mu, bertaubat kepada-Mu, dan senantiasa kembali kepada-Mu. Wahai Rabbku, terimalah taubatku, cucilah dosaku, kabulkan doaku, teguhkan hujjahku, tunjukilah hatiku, luruskan lidahku, dan hilangkanlah kedengkian hatiku.",
+    mal: "Ya Allah, sesungguhnya Engkau Maha Pemaaf dan suka kepada kemaafan, maka maafkanlah aku.",
   },
   {
     ar: "اللهُمَّ اجعل لنا يارب من كل ضيق مخرجًا ومن كل هم فرجًا",
@@ -198,6 +246,8 @@ export const data = [
     tr: "Allah’ım! Ey Rabbim! Bize her sıkıntıdan bir çıkış ve her dertten bir kurtuluş nasib et",
     fr: "Ô Allah, accorde-nous une issue à chaque difficulté et un soulagement à chaque tristesse.",
     audioNumber: 25,
+    in: "Ya Allah, jadikanlah bagi kami setiap kesulitan ada jalan keluar dan setiap kesusahan ada pertolongan. ",
+    mal: "Ya Tuhanku, bantulah aku. Jangan Engkau bantu musuhku ke atasku. Berilah kemenangan untukku. Jangan Engkau memenangkan musuhku ke atasku. Engkau selamatkanlah aku daripada tipu daya musuhku. Jangan Engkau biarkan musuhku terlepas daripada tipu dayaku. Berilah hidayah kepadaku. Mudahkanlah hidayah untukku. Tolonglah aku ke atas orang yang menzalimiku. Ya Tuhanku, jadikan aku orang yang banyak bersyukur kepadaMu, orang yang banyak mengingatimu, orang yang benar-benar takut kepadamu, orang yang banyak melakukan amalan taat kepadaMu, orang yang tunduk kepadaMu, orang yang selalu meminta serta banyak menangis, dan orang bertaubat balik semula kepadaMu. Tuhanku terimalah taubatku. Basuhlah dosaku. Tunaikan doaku. Tetapkan hujahku. Pimpinlah hatiku. Luruskan lidahku. Cabutlah perasaan dendam yang ada di dalam dadaku.",
   },
   {
     ar: "رَّبِّ ٱغۡفِرۡ وَٱرۡحَمۡ وَأَنتَ خَيۡرُ ٱلرَّٰحِمِينَ",
@@ -206,6 +256,8 @@ export const data = [
     tr: "Rabbim! Bağışla ve merhamet et. Sen, merhamet edenlerin en hayırlısısın",
     fr: "Seigneur ! Pardonne et fais miséricorde ! C’est Toi le Meilleur des miséricordieux.",
     audioNumber: 26,
+    in: "Ya Tuhanku, berilah ampun dan berilah rahmat, dan Engkau adalah Pemberi rahmat Yang Paling baik.\r\n\r\n",
+    mal: "Ya Allah, wahai Tuhan, jadikanlah bagi kami jalan keluar daripada setiap kesempitan, dan pelepasan daripada setiap kerisauan.   ",
   },
   {
     ar: "رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغۡفِرۡ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ",
@@ -214,6 +266,8 @@ export const data = [
     tr: "Rabbimiz, şüphesiz biz îman ettik; öyleyse bizim günâhlarımızı bağışla ve bizi cehennem azabından koru",
     fr: "Ô notre Seigneur ! Nous avons foi; pardonne-nous donc nos péchés, et protège-nous du châtiment du Feu",
     audioNumber: 27,
+    in: "Ya Tuhan kami, sesungguhnya kami telah beriman, maka ampunilah segala dosa kami dan peliharalah kami dari siksa neraka.\r\n",
+    mal: "Wahai Tuhanku, berikanlah keampunan dan kurniakanlah rahmat, dan Engkaulah jualah sebaik-baik pemberi rahmat",
   },
   {
     ar: "رَبَّنَا لَا تُزِغۡ قُلُوبَنَا بَعۡدَ إِذۡ هَدَيۡتَنَا وَهَبۡ لَنَا مِن لَّدُنكَ رَحۡمَةًۚ إِنَّكَ أَنتَ ٱلۡوَهَّابُ",
@@ -222,6 +276,8 @@ export const data = [
     tr: "Rabbimiz! Bizi doğru yola ilettikten sonra kalplerimizi (bu yoldan) saptırma ve bize kendi katından bir rahmet bağışla; şüphesiz ancak Sen çokca lutfta bulunursun",
     fr: "Seigneur ! Ne laisse pas dévier nos cœurs après que Tu nous aies guidés; et accorde-nous Ta miséricorde. C’est Toi, certes, le Grand Donateur",
     audioNumber: 28,
+    in: "Ya Tuhan kami, janganlah Engkau jadikan hati kami condong kepada kesesatan sesudah Engkau beri petunjuk kepada kami, dan karuniakanlah kepada kami rahmat dari sisi Engkau; karena sesungguhnya Engkau-lah Maha Pemberi (karunia)”\r\n",
+    mal: "Ya Tuhan kami, kami benar-benar beriman, maka ampunilah dosa-dosa kami dan lindungilah kami daripada azab api neraka.",
   },
   {
     ar: "رَبَّنَا وَسِعۡتَ كُلَّ شَيۡءٖ رَّحۡمَةٗ وَعِلۡمٗا فَٱغۡفِرۡ لِلَّذِينَ تَابُواْ وَٱتَّبَعُواْ سَبِيلَكَ وَقِهِمۡ عَذَابَ ٱلۡجَحِيمِ ٧ رَبَّنَا وَأَدۡخِلۡهُمۡ جَنَّٰتِ عَدۡنٍ ٱلَّتِي وَعَدتَّهُمۡ وَمَن صَلَحَ مِنۡ ءَابَآئِهِمۡ وَأَزۡوَٰجِهِمۡ وَذُرِّيَّٰتِهِمۡۚ إِنَّكَ أَنتَ ٱلۡعَزِيزُ ٱلۡحَكِيمُ ٨  وَقِهِمُ السَّيِّئَاتِ وَمَن تَقِ السَّيِّئَاتِ يَوۡمَئِذٖ فَقَدۡ رَحِمۡتَهُۥۚ وَذَٰلِكَ هُوَ ٱلۡفَوۡزُ ٱلۡعَظِيمُ",
@@ -230,6 +286,8 @@ export const data = [
     tr: "Ey Rabbimiz! Senin rahmet ve ilmin her şeyi kuşatmıştır. O halde tövbe edenleri ve Senin yoluna uyanları bağışla. Onları cehennem azabından koru! Rabbimiz! Onları da, onların atalarından, zevcelerinden, nesillerinden iyi olanları da kendilerine vâdettiğin Adn cennetlerine koy. Şüphesiz azîz ve hakîm olan Sensin! Onları kötülüklerden koru. Sen o gün kimi kötülüklerden korursan, ona rahmet etmiş olursun. İşte bu büyük kurtuluştur",
     fr: 'Seigneur ! Tu étends sur toute chose Ta miséricorde et Ta science. Pardonne donc à ceux qui se repentent et suivent Ton chemin et protège-les du châtiment de l’Enfer et les admettre, Seigneur, dans les jardins d’Eden que Tu leur as promis, avec ceux de leurs ancêtres, de leurs épouses et de leurs descendants qui auront été vertueux. C’est Toi, en vérité, le Tout-Puissant, l’infiniment Sage. Et préserve-les [du châtiment] des mauvaises actions. Quiconque Tu préserves [du châtiment] des mauvaises actions ce jour-là, Tu lui feras miséricorde." Et c’est là l’énorme succès.',
     audioNumber: 29,
+    in: "Ya Tuhan kami, rahmat dan ilmu yang ada pada-Mu meliputi segala sesuatu, maka berilah ampunan kepada orang-orang yang bertobat dan mengikuti jalan (agama)-Mu dan peliharalah mereka dari azab neraka yang menyala-nyala. Ya Tuhan kami, masukkanlah mereka ke dalam surga ‘Adn yang telah Engkau janjikan kepada mereka, dan orang yang saleh di antara nenek moyang mereka, istri-istri, dan keturunan mereka. Sungguh, Engkaulah Yang Mahaperkasa, Mahabijaksana. Dan peliharalah mereka dari (bencana) kejahatan. Dan orang-orang yang Engkau pelihara dari (bencana) kejahatan pada hari itu, maka sungguh, Engkau telah menganugerahkan rahmat kepadanya dan demikian itulah kemenangan yang agung.\r\n",
+    mal: "Ya Tuhan kami, janganlah Engkau pesongkan hati kami kepada kesesatan setelah Engkau berikan hidayah petunjuk kepada kami, dan karuniakanlah kepada kami rahmat dari sisiMu, sesungguhnya Engkau Maha Pemberi.",
   },
   {
     ar: "اللهم اغفر لي واهدني وارزقني وعافني، أعوذ بالله من ضيق المقام يوم القيامة",
@@ -238,6 +296,8 @@ export const data = [
     tr: "Allah’ım! Beni bağışla, hidayete erdir, rızık bahşet ve bana afiyet ver. Kıyamet günü yerimin dar olmasından Allah’a sığınırım",
     fr: "Ô Allah, pardonne-moi, guide-moi, accorde-moi la subsistance et préserve-moi. Je cherche refuge auprès d'Allah contre l'angoisse du jour du Jugement.",
     audioNumber: 30,
+    in: "Ya Allah, ampunilah aku, tunjukilah hamba, anugerahkanlah rezeki kepadaku dan selamatkanlah hamba. Aku berlindung kepada Allah dari kedudukan yang sempit di hari kiamat. ",
+    mal: "Ya Tuhan kami, rahmat dan ilmu yang ada padaMu meliputi segala sesuatu, maka berikanlah keampunan kepada orang-orang yang bertaubat dan mengikuti jalan agamaMu, dan peliharalah mereka daripada azab api neraka. Ya Tuhan kami, masukkanlah mereka ke dalam Syurga 'Adn yang telah Engkau janjikan kepada mereka, dan orang-orang yang soleh daripada nenek moyang mereka, isteri-isteri mereka, dan keturunan mereka. Sesungguhnya, Engkaulah Yang Maha Perkasa, lagi Maha Bijaksana,",
   },
   {
     ar: "اللهم إنك عفو تحب العفو فاعف عني",
@@ -246,6 +306,8 @@ export const data = [
     tr: "Allah’ım! Sen affedicisin, affetmeyi seversin, beni de affeyle",
     fr: "Ô Allah, Tu es Le Pardonneur et Tu aimes pardonner, alors accorde-moi Ton pardon.",
     audioNumber: 31,
+    in: "Ya Allah, sesungguhnya Engkau Maha Pemaaf, mencintai kemaafan, maka maafkanlah diriku.",
+    mal: "Ya Allah, ampunilah aku, dan berikan hidayah, rezeki serta afiat kepadaku. Aku berlindung dengan Allah daripada kesempitan tempat berdiri di padang mahsyar pada hari kiamat.",
   },
   {
     ar: "اللهم احفظني بالإسلام قائما واحفظني بالإسلام قاعدا واحفظني بالإسلام راقدا ولا تشمت بي عدوا ولا حاسدا اللهم إني أسألك من كل خير خزائنه بيدك وأعوذ بك من كل شر خزائنه بيدك",
@@ -254,6 +316,8 @@ export const data = [
     tr: "Allah’ım! Ayakta, oturur ve uyku halinde beni İslam ile koru. Beni ne düşmanımın ne de hasetçi birinin diline düşürme! Allah’ım! Hazineleri Senin elinde olan bütün hayırları Senden dilerim. Hazineleri senin elinde olan bütün şerlerden de Sana sığınırım",
     fr: "Ô Allah, protège-moi par l'Islam lorsque je suis debout, assis ou allongé, et ne permets ni aux ennemis ni aux envieux de se réjouir de mes malheurs",
     audioNumber: 32,
+    in: "Ya Allah, jagalah aku dengan Islam ketika berdiri, duduk, dan tidur. Janganlah gembirakan musuh atau orang yang dengki di atas penderitaanku. Ya Allah, aku meminta kepada-Mu segala kebaikan yang perbendaharaannya berada di tangan-Mu. Aku berlindung kepada-Mu dari segala keburukan yang perbendaharaannya berada di tangan-Mu.",
+    mal: "Ya Allah, sesungguhnya Engkau Maha Pemaaf dan suka kepada kemaafan, maka maafkanlah aku.",
   },
   {
     ar: "يا حي يا قيوم برحمتك أستغيث",
@@ -262,6 +326,8 @@ export const data = [
     tr: "Ey Hayy! Ey Kayyum! Merhametinle kurtuluşa ermeyi niyaz ediyorum",
     fr: "Ô Toi, le Vivant, Ô Celui qui subsiste par Lui-même, par Ta miséricorde je cherche secours.",
     audioNumber: 33,
+    in: "Wahai Yang Maha Hidup dan Maha Mengatur segala urusan makhluk, dengan rahmat-Mu hamba memohon pertolongan. ",
+    mal: "Ya Allah, peliharalah aku dengan Islam ketika aku sedang berdiri. Peliharalah aku dengan Islam ketika aku sedang duduk. Peliharalah aku dengan Islam ketika aku sedang berbaring. Jangan biarkan musuh dan orang yang hasad mentertawakan aku. Ya Allah, sesungguhnya aku memohon kepadaMu daripada setiap kebaikan yang segala khazanahnya ada di tanganMu. Aku berlindung kepadaMu daripada setiap keburukan yang segala khazanahnya ada di tanganMu.  ",
   },
   {
     ar: "اللَّهُمَّ إِنِّي أَسْأَلُكَ فِعْلَ الْخَيْرَاتِ، وَتَرْكَ الْمُنْكَرَاتِ، وَحُبَّ الْمَسَاكِينِ، وَأَنْ تَغْفِرَ لِي، وَتَرْحَمَنِي، وَإِذَا أَرَدْتَ فِتْنَةَ قَوْمٍ فَتَوَفَّنِي غَيْرَ مَفْتُونٍ، وَأَسْأَلُكَ حُبَّكَ، وَحُبَّ مَنْ يُحِبُّكَ، وَحُبَّ عَمَلٍ يُقَرِّبُنِي إِلَى حُبِّكَ",
@@ -270,6 +336,8 @@ export const data = [
     tr: "Allah’ım! Senden iyilikler yapmayı, kötülüklerden el çekmeyi, yoksulları sevmeyi, beni bağışlamanı ve bana merhamet etmeni dilerim. Bir topluma bir fitne göndereceksen beni o fitneye düşürmeden vefat ettir. Bana; Seni sevmeyi, Seni sevenleri sevmeyi ve Senin sevgine yaklaştıran her ameli sevmeyi nasib eyle",
     fr: "Ô Allah, nous t'implorons de nous permettre d’accomplir de bonnes œuvres, de délaisser les interdits et d’aimer les nécessiteux, Nous t'implorons de nous pardonner et de nous faire miséricorde. Aussi, si Tu décides d'éprouver Tes serviteurs alors, rappelle-nous à Toi indemne. Je Te demande Ton amour, l'amour de ceux qui T'aiment, et l'amour des œuvres qui me rapprochent de Ton amour",
     audioNumber: 34,
+    in: "Ya Allah, aku memohon kepada-Mu perbuatan baik, meninggalkan kemungkaran, mencintai orang miskin, dan ampunan-Mu serta rahmat-Mu. Jika Engkau ingin menguji suatu kaum, maka wafatkanlah aku dalam keadaan selamat dari ujian. \r\nAku memohon kepada-Mu agar dapat mencintai-Mu, mencintai orang-orang yang mencintai-Mu, dan mencintai amal yang dapat mendekatkan diriku kepada kecintaan-Mu.",
+    mal: "Wahai Tuhan Yang Maha Hidup. Wahai Tuhan Yang Maha Berdiri Sendiri. Hanya dengan rahmatMu aku memohon pertolongan.",
   },
   {
     ar: "اللَّهُمَّ اجْعَلْنَا مِن الصَّابِرِينَ وَ اجْعَلْنَا مِن الصَّادِقِينَ",
@@ -278,6 +346,8 @@ export const data = [
     tr: "Allah’ım! Bizi sabredenlerden ve doğru söz söyleyenlerden eyle",
     fr: "Ô Allah, compte parmi les êtres patients et véridiques.",
     audioNumber: 35,
+    in: "Ya Allah, jadikanlah kami dari golongan hamba yang bersabar dan jadikanlah kami dari golongan orang yang benar. ",
+    mal: "Ya Allah, sesungguhnya aku memohon kepadaMu taufik untuk melakukan setiap kebaikan serta meninggalkan segala kemungkaran, dan kecintaan kepada golongan miskin. Kupohon juga supaya Engkau mengampuniku dan merahmatiku. Jika Engkau hendak menimpakan kesesatan atau azab terhadap suatu kaum, maka cabutlah nyawaku dalam keadaan tidak diuji (dengan hal yang sama). Kupinta daripadaMu kecintaaan kepadaMu, kecintaan kepada orang yang mencintaiMu, dan kecintaan kepada amalan yang membawaku untuk mendekati kecintaan kepadaMu.  ",
   },
   {
     ar: "اللهم اجعلنا من عبادك المحسنين المتقين القانتين العاكفين الراكعين الساجدين المستغفرين الصائمين",
@@ -286,6 +356,8 @@ export const data = [
     tr: "Allah’ım! Bizleri iyilik işleyen, Senden sakınan, ibadet, rüku ve secde eden, bağışlanma dileyen ve oruç tutan kullarından eyle",
     fr: "Ô Allah, compte-nous parmi Tes serviteurs bienfaisants, pieux et obéissants, ceux qui pratiquent la retraite pieuse, s’inclinent, se prosternent, se repentent et jeûnent constamment.",
     audioNumber: 36,
+    in: "Ya Allah, jadikanlah kami dari golongan hamba-hamba-Mu yang berbuat kebaikan, bertakwa, taat beribadah, ruku', sujud, beristighfar, dan berpuasa. ",
+    mal: "Ya Allah, jadikanlah kami daripada golongan yang sabar, dan jadikanlah kami daripada golongan yang benar.",
   },
   {
     ar: "اللهم اجعلنا من الذاكرين الشاكرين الحامدين المستغفرين التائبين الصادقين ",
@@ -294,6 +366,8 @@ export const data = [
     tr: "Allah’ım! Bizleri Seni çokca hatırlayan, şükreden, Seni öven, bağışlanma dileyen, tövbe eden ve doğru söz söyleyenlerden eyle",
     fr: "Ô Allah, compte-nous parmi ceux qui T'évoquent souvent, qui sont reconnaissants, qui Te louent, qui demandent pardon, qui se repentent et qui sont sincères.",
     audioNumber: 37,
+    in: "Ya Allah, jadikanlah kami orang yang berzikir, bersyukur, menyanjungkan pujian, beristighfar, dan bertaubat serta benar.  ",
+    mal: "Ya Allah, jadikanlah kami daripada hamba-hambaMu yang berbuat kebaikan, bertakwa, berdiri menunaikan solat, beriktikaf, rukuk, sujud, beristighfar dan berpuasa.",
   },
   {
     ar: "رَبَّنَا هَبۡ لَنَا مِنۡ أَزۡوَٰجِنَا وَذُرِّيَّٰتِنَا قُرَّةَ أَعۡيُنٖ وَٱجۡعَلۡنَا لِلۡمُتَّقِينَ إِمَامًا",
@@ -302,6 +376,8 @@ export const data = [
     tr: "Ey Rabbimiz! Eşlerimizi ve çocuklarımızı bize göz aydınlığı kıl ve bizi Allah'a karşı gelmekten sakınanlara önder eyle",
     fr: "Notre Seigneur! Donne-nous, en nos épouses et nos descendants, la joie des yeux, et fais de nous un guide pour les pieux !",
     audioNumber: 38,
+    in: "Ya Tuhan kami, anugrahkanlah kepada kami isteri-isteri kami dan keturunan kami sebagai penyenang hati (kami), dan jadikanlah kami imam bagi orang-orang yang bertakwa”\r\n\r\n",
+    mal: "Ya Allah, jadikanlah kami daripada golongan yang berzikir, bersyukur, bertahmid, beristighfar, bertaubat dan bersikap benar.",
   },
   {
     ar: "رَبَّنَآ ءَامَنَّا فَٱغۡفِرۡ لَنَا وَٱرۡحَمۡنَا وَأَنتَ خَيۡرُ ٱلرَّٰحِمِينَ",
@@ -310,6 +386,8 @@ export const data = [
     tr: "Ey Rabbimiz! Biz inandık, bizi bağışla, bize merhamet et. Sen merhamet edenlerin en hayırlısısın",
     fr: "Notre Seigneur ! Nous croyons ! Pardonne-nous donc et fais-nous miséricorde, car Tu es le meilleur des Miséricordieux",
     audioNumber: 39,
+    in: "Ya Tuhan kami, kami telah beriman, maka ampunilah kami dan berilah kami rahmat dan Engkau adalah Pemberi rahmat Yang Paling Baik\r\n\r\n",
+    mal: "Ya Tuhan kami, anugerahkanlah kepada kami daripada pasangan kami dan keturunan kami perkara yang menyenangkan hati kami, dan jadikanlah kami pemimpin bagi orang-orang yang bertakwa",
   },
   {
     ar: "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلۡتَ وَٱتَّبَعۡنَا ٱلرَّسُولَ فَٱكۡتُبۡنَا مَعَ ٱلشَّٰهِدِينَ",
@@ -318,6 +396,8 @@ export const data = [
     tr: "Rabbimiz! Senin indirdiğine iman ettik ve Peygamber’e uyduk. Bizi hakikate şahitlik edenlerle beraber yaz",
     fr: "Seigneur! Nous avons cru à ce que Tu as fait descendre et suivi le Messager. Inscris-nous donc parmi ceux qui témoignent",
     audioNumber: 40,
+    in: "Ya Tuhan kami, kami telah beriman kepada apa yang Engkau turunkan dan kami telah mengikuti Rasul, karena itu tetapkanlah kami bersama golongan orang yang memberikan kesaksian.",
+    mal: "Wahai Tuhan kami, kami telah beriman, maka ampunilah kami dan berikanlah rahmat kepada kami, dan Engkaulah jualah sebaik-baik pemberi rahmat.",
   },
   {
     ar: "رَّبِّ أَنزِلۡنِي مُنزَلٗا مُّبَارَكٗا وَأَنتَ خَيۡرُ ٱلۡمُنزِلِينَ",
@@ -326,6 +406,8 @@ export const data = [
     tr: "Ey Rabbim! Beni bereketli bir yere kondur. Sen, konuk edenlerin en hayırlısısın",
     fr: "Seigneur, fais-moi débarquer d’un débarquement béni. Tu es Celui qui procure le meilleur débarquement",
     audioNumber: 41,
+    in: "Ya Tuhanku, tempatkanlah aku pada tempat yang diberkahi, dan Engkau adalah sebaik-baik pemberi tempat\r\n",
+    mal: "Ya Tuhan kami, kami telah beriman dengan apa yang telah diturunkan olehMu, dan kami telah mengikuti Rasul, karena itu tetapkanlah kami bersama golongan yang memberikan kesaksian yang benar.",
   },
   {
     ar: "اللَّهمَّ إنِّي أعوذُ بِكَ منَ البُخلِ ، وأعوذُ بِكَ منَ الجُبنِ وأعوذُ بِكَ أن أَرَدَّ إلى أرذلِ العمرِ ، وأعوذُ بِكَ مِن فتنةِ الدُّنيا ، وأعوذُ بِكَ مِن عذابِ القبرِ",
@@ -334,6 +416,8 @@ export const data = [
     tr: "Allah’ım! Cimrilikten, korkaklıktan, en aciz yaş olan ihtiyarlıktan, dünya fitnesinden ve kabir azabından Sana sığınıyorum",
     fr: "Ô Allah, je cherche refuge auprès de Toi contre l'avarice, je cherche refuge auprès de Toi contre la lâcheté, je cherche refuge auprès de Toi contre la sénilité, je cherche refuge auprès de Toi contre les tentations de ce monde, je cherche refuge auprès de Toi contre le châtiment de la tombe.",
     audioNumber: 42,
+    in: "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari sifat bakhil, aku berlindung kepada-Mu dari rasa takut, aku berlindung kepada-Mu dari disampaikan kepada umur yang paling hina (pikun), aku berlidung kepada-Mu dari cobaan dunia, dan aku berlindung kepada-Mu dari azab kubur.\r\n",
+    mal: "Ya Tuhanku, tempatkanlah aku pada tempat yang diberkati, dan Engkau adalah sebaik-baik pemberi tempat",
   },
   {
     ar: "اللهم متعني بسمعي وبصري واجعلهما الوارث مني، وانصرني على من يظلمني، وخذ منه بثأري",
@@ -342,6 +426,8 @@ export const data = [
     tr: "Allahım! Kulağım ve gözüm ile beni faydalandır. O ikisini sıhhatli eyle. Bana zulmedene karşı bana yardım et ve ondan intikamımı al.”",
     fr: "Ô Allah, permets-moi de jouir de mon ouïe, de ma vue et de ma force tant que Tu me gardes en vie, fais qu’ils soient un héritage pour ma progéniture, soutiens-moi contre celui qui m’opprime, et prends ma revanche sur lui.",
     audioNumber: 43,
+    in: "Ya Allah, berilah aku manfaat dari pendengaranku dan penglihatanku, jadikanlah keduanya sebagai waris dariku, tolonglah aku atas orang-orang yang menzalimiku dan timpakanlah balasan kepadanya.\r\n\r\n\r\n",
+    mal: "Ya Allah, sesungguhnya aku berlindung denganMu daripada sifat bakhil. Aku berlindung denganMu daripada sifat pengecut. Aku berlindung denganMu daripada diputarbalikkan usiaku dalam keadaan tua renta. Aku berlindung denganMu daripada ujian dunia. Aku berlindung denganMu daripada azab kubur.",
   },
   {
     ar: "اللهم إنك عفو تحب العفو فاعف عني",
@@ -350,6 +436,8 @@ export const data = [
     tr: "Allah’ım! Sen affedicisin, affetmeyi seversin, beni de affeyle",
     fr: "Ô Allah, Tu es Le Pardonneur et Tu aimes pardonner, accorde-moi donc Ton pardon",
     audioNumber: 44,
+    in: "Ya Allah, sesungguhnya Engkau Maha Pemaaf, mencintai kemaafan, maka maafkanlah diriku.",
+    mal: "Ya Allah, kurniakanlah kenikmatan kepadaku pada pendengaranku dan penglihatanku. Jadikanlah dua nikmat ini berkekalan buatku. Bantulah aku untuk melawan orang yang menzalimiku. Ambillah hak aku yang telah dizalimi daripadanya. \r\n",
   },
   {
     ar: "اللهم إني أسألك من فضلك ورحمتك فإنه لا يملكها إلا أنت",
@@ -358,6 +446,8 @@ export const data = [
     tr: "Allah’ım! Senin lütfunu ve merhametini diliyorum. Bunların sahibi ancak Sensin",
     fr: "Ô Allah, je Te demande de Tes faveurs et Ta miséricorde, car nul autre que Toi ne les possède.",
     audioNumber: 45,
+    in: "Ya Allah, sesungguhnya aku memohon kepada-Mu karunia-Mu dan rahmat-Mu, tidak ada yang memilikinya kecuali Engkau.",
+    mal: "Ya Allah, sesungguhnya Engkau Maha Pemaaf dan suka kepada kemaafan, maka maafkanlah aku.",
   },
   {
     ar: "اللَّهُمَّ إنِّي أعُوذُ بكَ مِنَ الكَسَلِ والهَرَمِ، والمَغْرَمِ والمَأْثَمِ، اللَّهُمَّ إنِّي أعُوذُ بكَ مِن عَذابِ النَّارِ وفِتْنَةِ النَّارِ، وفِتْنَةِ القَبْرِ وعَذابِ القَبْرِ، وشَرِّ فِتْنَةِ الغِنَى، وشَرِّ فِتْنَةِ الفَقْرِ، ومِنْ شَرِّ فِتْنَةِ المَسِيحِ الدَّجَّالِ، اللَّهُمَّ اغْسِلْ خَطايايَ بماءِ الثَّلْجِ والبَرَدِ، ونَقِّ قَلْبِي مِنَ الخَطايا كما يُنَقَّى الثَّوْبُ الأبْيَضُ مِنَ الدَّنَسِ، وباعِدْ بَيْنِي وبيْنَ خَطايايَ كما باعَدْتَ بيْنَ المَشْرِقِ والمَغْرِبِ.",
@@ -366,6 +456,8 @@ export const data = [
     tr: "Allah’ım! Tembellikten, yaşlılıkta elden ayaktan kesilmekten, günah işlemekten ve borçlanmaktan Sana sığınırım. Allah’ım! Cehennem fitnesinden ve azabından, kabir fitnesinden ve azabından, zenginlik ve fakirlik fitnesinin şerrinden Sana sığınırım. Allah’ım! Mesih Deccal’in fitnesinin şerrinden Sana sığınırım. Allah’ım! Kalbimi su, kar ve dolu ile yıka. Beyaz elbiseyi kirden temizlediğin gibi kalbimi hatalardan temizle. Doğu ile batının arasını ayırdığın gibi benimle hatalarımın arasını ayır",
     fr: "Ô Allah, je cherche refuge auprès de Toi contre la paresse et la sénilité, contre l’endettement et le péché, contre le châtiment de l’enfer, et l'épreuve de l’enfer, contre l’épreuve de la tombe et le châtiment de la tombe, contre le mal de la tentation de la richesse, contre le mal de la tentation de la pauvreté, et contre la séduction de l'Antéchrist. Ô Allah, lave-moi de mes péchés avec de la neige et de la grêle, purifie mon cœur des péchés comme on purifie le vêtement blanc des souillures, et éloigne-moi de mes péchés comme Tu as éloigné le levant du couchant.",
     audioNumber: 46,
+    in: "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari sifat malas, tua (pikun), utang dan dosa. Aku berlindung kepada-Mu dari azab neraka, fitnah neraka, fitnah kubur, azab kubur, keburukan fitnah kekayaan, keburukan fitnah kefakiran, dan dari fitnah al-Masih ad-Dajjal. \r\nYa Allah, sucikanlah dosa-dosaku dengan salju dan embun. Bersihkanlah hatiku dari dosa-dosa sebagaimana Engkau bersihkan pakaian putih dari kotoran. Jauhkanlah antaraku dan dosa-dosaku sebagaimana Engkau jauhkan antara timur dan barat.",
+    mal: "Ya Allah, sesungguhnya aku memohon kepadaMu bahagian daripada kurnianMu dan rahmatMu, kerana sesungguhnya tiada yang memilikinya melainkan Engkau.",
   },
   {
     ar: "اللهم إني أعوذ بالله من عينٍ تصيب القلب فتُحزنه، والرزق فتُنقصه، والبال فتتعبه، والنجاح فتُفشله",
@@ -374,6 +466,8 @@ export const data = [
     tr: "Allah’ım! Kalbe isabet edip üzen, rızka isabet edip azaltan, akla isabet edip yoran ve başarıya isabet edip zayi eden kem gözden Sana sığınıyoruz",
     fr: "Ô Allah, je cherche refuge auprès de Toi contre le mauvais œil qui afflige le cœur de tristesse, diminue la subsistance, fatigue l'esprit, et compromet le succès.",
     audioNumber: 47,
+    in: "Ya Allah, aku berlindung kepada-Mu dari pandangan mata ('ain) yang mempengaruhi hati sehingga menjadikannya galau, yang membuat rezeki berkurang dan yang menganggu kenyamanan pikiran serta yang menggagalkan keberhasilan.  ",
+    mal: "Ya Allah, sesungguhnya aku berlindung denganMu daripada sifat malas, menjadi tua renta, dibelenggu oleh hutang dan dosa. Ya Allah, sesungguhnya aku berlindung denganMu daripada azab api neraka, fitnah api neraka, fitnah kubur, azab kubur, keburukan fitnah kekayaan, keburukan fitnah kefakiran, dan keburukan fitnah al-Masih Dajjal. Ya Allah, basuhlah dosa-dosaku dengan air salji dan air hujan batu. Sucikanlah hatiku daripada dosa-dosa sebagaimana disucikan kain yang putih daripada najis. Jarakkanlah di antaraku dan dosa-dosaku sejauhnya sebagaimana Engkau jarakkan di antara timur dan barat.",
   },
   {
     ar: "اللهم رَّبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَلِمَن دَخَلَ بَيْتِيَ مُؤْمِنًا وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا",
@@ -382,6 +476,8 @@ export const data = [
     tr: "Rabbim! Beni, ana-babamı, mü'min olarak evime girenleri, mü'min erkekleri ve kadınları bağışla. Zalimlerin de ancak helâkını artır",
     fr: "Ô Allah, pardonne-moi, ainsi qu’à mes parents, à quiconque franchira le seuil de ma demeure le cœur rempli de foi, et à l’ensemble des croyants et des croyantes. Et ne rajoute aux injustes que perdition.",
     audioNumber: 48,
+    in: "Ya Tuhanku, ampunilah aku, ibu bapakku, orang yang masuk ke rumahku dengan beriman dan semua orang yang beriman laki-laki dan perempuan. Dan janganlah Engkau tambahkan bagi orang-orang yang zalim itu selain kebinasaan.",
+    mal: "Ya Allah, sesungguhnya aku berlindung dengan Allah daripada penyakit ain yang menimpa hati, lalu menimbulkan kesedihan padanya, yang menimpa rezeki, lalu mengurangkannya, menimpa diri, lalu meletihkannya, dan menimpa kejayaan, lalu menggagalkannya.",
   },
   {
     ar: "اللهم علّق قلبي بالصلاة والقرآن وأرزقني الثبات حتى ألقاك",
@@ -390,6 +486,8 @@ export const data = [
     tr: "Allah’ım! Kalbimi namaz ve Kur’an üzere bağlı tut. Senin huzuruna varana dek dinin üzere sabit kalmayı nasib et",
     fr: "Ô Allah, permet à mon cœur de se passionner pour la prière et le Coran, et accorde-moi la constance jusqu'à ce que je Te rencontre.",
     audioNumber: 49,
+    in: "Ya Allah, jadikanlah hatiku bergantung pada shalat, al-Qur'an, dan berilah saya keteguhan sampai akhir hayatku. ",
+    mal: "Ya Allah. Ya Tuhanku, ampunilah aku, ibu bapaku, dan sesiapa sahaja yang memasuki rumahku dalam keadaan beriman dan semua orang yang beriman dalam kalangan lelaki dan perempuan. Dan janganlah Engkau tambahkan bagi orang-orang yang zalim itu kecuali kehancuran.",
   },
   {
     ar: "رَبَّنَآ ءَاتِنَا فِي ٱلدُّنۡيَا حَسَنَةٗ وَفِي ٱلۡأٓخِرَةِ حَسَنَةٗ وَقِنَا عَذَابَ ٱلنَّارِ",
@@ -398,6 +496,8 @@ export const data = [
     tr: "Rabbimiz! Bize bu dünyada iyilik ver, ahirette de iyilik ver ve bizi cehennem azabından koru",
     fr: "Seigneur ! Accorde-nous belle part ici-bas, et belle part aussi dans l’au-delà; et protège-nous du châtiment du Feu",
     audioNumber: 50,
+    in: "Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat dan peliharalah kami dari siksa neraka\r\n\r\n\r\n",
+    mal: "Ya Allah, jadikanlah hatiku berpaut dengan solat dan al-Quran. Rezekikanlah kepadaku keteguhan sehingga aku kembali menemuiMu.",
   },
   {
     ar: "رَبِّ ٱجۡعَلۡنِي مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِيۚ رَبَّنَا وَتَقَبَّلۡ دُعَآءِ",
@@ -406,6 +506,8 @@ export const data = [
     tr: "Rabbim! Beni ve soyumdan gelecekleri namazı devamlı kılanlardan eyle. Rabbimiz! Duamı kabul et",
     fr: "Ô mon Seigneur ! Fais que j’accomplisse assidûment la prière (As-Salât) ainsi qu’une partie de ma descendance ! Ô notre Seigneur ! Exauce ma prière",
     audioNumber: 51,
+    in: "Ya Tuhanku, jadikanlah aku dan anak cucuku orang-orang yang tetap mendirikan shalat, ya Tuhan kami, perkenankanlah doaku.\r\n\r\n\r\n",
+    mal: "Wahai Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan peliharalah kami dari azab api neraka.",
   },
   {
     ar: "رَبِّ أَوۡزِعۡنِيٓ أَنۡ أَشۡكُرَ نِعۡمَتَكَ ٱلَّتِيٓ أَنۡعَمۡتَ عَلَيَّ وَعَلَىٰ وَٰلِدَيَّ وَأَنۡ أَعۡمَلَ صَٰلِحٗا تَرۡضَىٰهُ وَأَصۡلِحۡ لِي فِي ذُرِّيَّتِيٓۖ إِنِّي تُبۡتُ إِلَيۡكَ وَإِنِّي مِنَ ٱلۡمُسۡلِمِينَ",
@@ -414,6 +516,8 @@ export const data = [
     tr: "Rabbim! Bana ve ana-babama lutfettiğin nimete şükretmeye, razı olacağın işleri yapmaya beni muvaffak kıl. Benden gelecek nesli hayırlı eyle. Muhakkak ben Sana tövbe ettim ve şüphesiz ben Sana teslim olanlardanım",
     fr: "Ô Seigneur ! Inspire-moi pour que je rende grâce au bienfait dont Tu m’as comblé ainsi qu’à mes père et mère, et pour que je fasse une bonne œuvre que Tu agrées. Et fais, pour moi, que ma postérité soit de moralité saine, Je me repens à Toi et je suis du nombre des Soumis",
     audioNumber: 52,
+    in: "Ya Tuhanku, tunjukilah aku untuk mensyukuri nikmat-Mu yang telah Engkau berikan kepadaku dan kepada ibu bapakku dan supaya aku dapat berbuat amal yang saleh yang Engkau ridhai; berilah kebaikan kepadaku dengan (memberi kebaikan) kepada anak cucuku. Sesungguhnya aku bertaubat kepada Engkau dan sesungguhnya aku termasuk orang-orang yang berserah diri.\r\n\r\n",
+    mal: "Ya Tuhanku, jadikanlah aku dan daripada zuriat keturunanku orang yang tetap melaksanakan solat. Ya Tuhan kami, perkenankanlah doaku.",
   },
   {
     ar: "رَبِّ ٱشۡرَحۡ لِي صَدۡرِي وَيَسِّرۡ لِيٓ أَمۡرِي",
@@ -422,6 +526,8 @@ export const data = [
     tr: "Rabbim! Göğsümü genişlet ve işimi kolaylaştır",
     fr: "Seigneur ! Ouvre-moi ma poitrine, et facilite ma mission",
     audioNumber: 53,
+    in: "Ya Tuhanku, lapangkanlah dadaku dan mudahkanlah urusanku.",
+    mal: "Wahai Tuhanku, ilhamkanlah kepadaku supaya tetap mensyukuri nikmatmu yang engkau kurniakan kepadaku dan kepada ibu bapaku, dan supaya aku tetap mengerjakan amal soleh yang Engkau redai, dan berilah aku kebaikan yang akan mengalir sampai kepada zuriat keturunanku. Sesungguhnya aku bertaubat kepadamu, dan sesungguhnya aku termasuk daripada golongan muslimin.",
   },
   {
     ar: "رَّبِّ ٱغۡفِرۡ لِي وَلِوَٰلِدَيَّ وَلِمَن دَخَلَ بَيۡتِيَ مُؤۡمِنٗا وَلِلۡمُؤۡمِنِينَ وَٱلۡمُؤۡمِنَٰتِۖ وَلَا تَزِدِ ٱلظَّٰلِمِينَ إِلَّا تَبَارَۢا",
@@ -430,6 +536,8 @@ export const data = [
     tr: "Rabbim! Beni, ana-babamı, iman etmiş olarak evime girenleri, iman eden erkekleri ve kadınları bağışla. Zalimlerin de ancak helâkını artır",
     fr: "Seigneur! Pardonne-moi, et à mes père et mère et à celui qui entre dans ma demeure croyant, ainsi qu’aux croyants et croyantes; et ne fait croître les injustes qu’en perdition",
     audioNumber: 54,
+    in: "Ya Tuhanku, ampunilah aku, ibu bapakku, orang yang masuk ke rumahku dengan beriman dan semua orang yang beriman laki-laki dan perempuan. Dan janganlah Engkau tambahkan bagi orang-orang yang zalim itu selain kebinasaan.\r\n\r\n",
+    mal: "Ya Tuhanku, lapangkanlah dadaku, dan mudahkanlah untukku urusanku.",
   },
   {
     ar: "اللَّهمَّ إنِّي ظلَمتُ نَفسي ظلمًا كثيرًا ولا يغفرُ الذُّنوبَ إلَّا أنتَ فاغفِر لي مغفرةً من عندِكَ وارحَمني إنَّكَ أنتَ الغفورُ الرَّحيمُ",
@@ -438,6 +546,8 @@ export const data = [
     tr: "Allah'ım! Ben kendime çok zulmettim, günahları Senden başka kimse bağışlayamaz. Beni katından bir mağfiret ile bağışla ve bana merhamet et. Şüphesiz Sen çok bağışlayan ve çok merhamet edensin",
     fr: "Ô Allah ! J’ai été très injuste envers moi-même, et nul autre que Toi ne pardonne les péchés, accorde moi donc Ton pardon et fais moi miséricorde, car Tu es certes Le Pardonneur, Le Très Miséricordieux.",
     audioNumber: 55,
+    in: "Ya Allah, sesungguhnya aku telah menzalimi diriku sendiri dengan kezaliman yang besar. Tiada yang dapat mengampuni dosa kecuali Engkau. Ampunilah aku dengan ampunan dari-Mu. Kasihanilah aku. Sesungguhnya Engkau Maha Pengampun lagi Maha Penyayang.\r\n\r\n",
+    mal: "Ya Tuhanku, ampunilah aku, ibu bapaku, dan siapa pun yang memasuki rumahku dengan beriman dan semua orang yang beriman dalam kalangan lelaki dan perempuan. Dan janganlah Engkau tambahkan bagi orang-orang yang zalim itu kecuali kehancuran.",
   },
   {
     ar: "اللهم اقسم لنا من خشيتك ما يحول بيننا وبين معاصيك، ومن طاعتك ما تبلغنا به جنتك، ومن اليقين ما تهون به علينا مصائب الدنيا، ومتعنا بأسماعنا، وأبصارنا، وقوتنا ما أحييتنا، واجعله الوارث منا، واجعل ثأرنا على من ظلمنا، وانصرنا على من عادانا، ولا تجعل مصيبتنا في ديننا، ولا تجعل الدنيا أكبر همنا، ولا مبلغ علمنا، ولا تسلط علينا من لا يرحمنا",
@@ -446,6 +556,8 @@ export const data = [
     tr: "Allah'ım! Bize, Sana duyulan korkudan öyle bir pay ayır ki, bu Sana karşı işlenecek günahlarla bizim aramızda bir engel olsun. Bize itaatinden öyle bir pay ver ki, o bizi cennete ulaştırsın. Kesin inancından öyle bir pay lütfet ki, dünyevi musibetlere tahammül kolaylaşsın. Allah'ım! Sağ olduğumuz müddetçe kulaklarımızdan, gözlerimizden ve kuvvetimizden istifade etmemizi nasip eyle. Bunları bizden sonra gelecek olan neslimize de nasip eyle. Bize zulmedenlerden intikamımızı alanlardan eyle. Bize düşmanlık edenlere karşı bizi muzaffer kıl. Bizi dinimizle imtihan etme. Dünyayı ne asıl gayemiz, ne de ilmimizin son hedefi eyle. Bize merhamet etmeyeni üzerimize musallat eyleme",
     fr: "Ô Allah, attribue-nous la crainte qui nous empêche de Te désobéir, l’obéissance qui nous conduira à Ton paradis, et la certitude qui allègera pour nous les épreuves de ce monde. Ô Allah, permets-moi de jouir de mon ouïe, de ma vue et de ma force tant que Tu me gardes en vie, fais qu’ils soient un héritage pour ma progéniture, veuille que nos représailles ne touchent que ceux qui nous oppressent, soutiens-nous contre ceux qui nous oppriment, et prends notre revanche sur eux. Aide-nous contre nos ennemis, fais que nous ne soyons pas éprouvés dans notre religion, que les affaires mondaines ne soient pas notre plus grande préoccupation ni l'objectif ultime de notre savoir, et ne donne pas le pouvoir sur nous à celui qui ne nous fait pas miséricorde.",
     audioNumber: 56,
+    in: "Ya Allah, anugerahkanlah untuk kami rasa takut kepada-Mu yang dapat menghalangi antara kami dan berbuat maksiat kepada-Mu, ketaatan kepada-Mu yang akan menyampaikan kami ke surga-Mu, dan keyakinan yang akan menyebabkan ringannya bagi kami segala musibah dunia ini. Ya Allah, anugerahkanlah kenikmatan kepada kami melalui pendengaran kami, pengelihatan kami dan kekuatan kami selama kami masih hidup, serta jadikanlah ia warisan dari kami. Jadikanlah balasan kami atas orang-orang yang menganiaya kami, tolonglah kami terhadap orang yang memusuhi kami, janganlah Engkau jadikan musibah kami dalam urusan agama kami, janganlah Engkau jadikan dunia ini sebagai cita-cita terbesar kami dan puncak dari ilmu kami. Jangan Engkau jadikan orang-orang yang tidak menyayangi kami berkuasa atas kami.",
+    mal: "Ya Allah, sesungguhnya aku telah begitu banyak menzalimi diriku, sedangkan tiada yang dapat mengampuni dosa-dosa melainkan Engkau. Maka ampunilah aku dengan keampunan dari sisiMu, dan rahmatilah aku. Sesungguhnya Engkau adalah Yang Maha Pengampun, lagi Maha Penyayang. ",
   },
   {
     ar: "اللهم اهدني وسددني ، اللهم إني أسألك الهدى والسداد",
@@ -454,6 +566,8 @@ export const data = [
     tr: "Allah'ım! Beni hidayete erdir ve beni dosdoğru kıl. Allah'ım! Senden hidayeti ve doğruluğu diliyorum",
     fr: "Ô Allah, guide-moi et accorde-moi la justesse, ô Allah, Je te demande la guidée et la justesse.",
     audioNumber: 57,
+    in: "Ya Allah, tunjukilah dan bimbinglah aku. Ya Allah, aku memohon kepada-Mu petunjuk dan bimbingan. ",
+    mal: "Ya Allah, anugerahkanlah kepada kami sebahagian perasaan takut kepadaMu yang\r\nmenghalang kami daripada bermaksiat kepadaMu, sebahagian ketaatan kepadaMu yang\r\nmembawa kami ke syurgaMu, dan sebahagian keyakinan yang meringankan bagi kami\r\nsegala musibah di dunia. Berilah kenikmatan kepada kami pada pendengaran kami,\r\npenglihatan kami, serta kekuatan kami, selama mana kami diberikan peluang olehMu untuk\r\nterus hidup. Jadikanlah nikmat-nikmat tersebut berkekalan buat kami. Berilah balasan ke\r\natas mereka yang menzalimi kami. Bantulah kami untuk melawan mereka yang memusuhi\r\nkami. Janganlah Engkau jadikan musibah menimpa kami pada agama kami. Janganlah\r\nEngkau jadikan dunia sebagai hasrat terbesar dan tumpuan paling utama kami. Janganlah\r\nEngkau jadikan orang yang tidak belas kasihan kepada kami menguasai kami.",
   },
   {
     ar: "اللَّهُمَّ إِنَّكَ عُفُوٌّ كَرِيمٌ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي",
@@ -462,6 +576,8 @@ export const data = [
     tr: "Allah’ım! Sen affedicisin, ikram sahibisin, affetmeyi seversin, beni de affeyle",
     fr: "Ô Allah, Tu es Le Pardonneur et Le Généreux, Tu aimes pardonner, pardonne-moi donc.",
     audioNumber: 58,
+    in: "Ya Allah, sesungguhnya Engkau Maha Pemaaf, Engkau mencintai kemaafan, maka maafkanlah diriku.",
+    mal: "Ya Allah, berilah aku hidayah, dan bimbinglah aku ke jalan yang benar. Ya Allah sesungguhnya aku memohon kepadaMu hidayah dan kebenaran. ",
   },
   {
     ar: "اللهم أعطنا خير ما تعطي السائلين، واجمع لنا صلاح الدنيا والدين، واغفر لنا ولوالدينا ولجميع المسلمين، اللهم أذهب عنّا الحزن، وأزل عنّا الهم، واطرد من نفوسنا القلق، واجعل لنا من كل هم فرجًا، ومن كل ضيق مخرجًا، ومن كل بلاء عافية برحمتك يا أرحم الراحمين",
@@ -470,6 +586,8 @@ export const data = [
     tr: "Allah'ım! Dileyenlere vereceğin şeylerin en hayırlısını bizlere ver. Dünya ve din hayırlarını bizim için birleştir. Bizi, ana-babamızı ve bütün müslümanları bağışla. Ey merhametlilerin en merhametlisi olan Allah'ım! Üzüntüyü üzerimizden kaldır ve kederlerimizi gider. İçimizdeki kaygıları al. Rahmetinle bize her dertten bir ferahlık, her sıkıntıdan bir çıkış ve her musibetten bir afiyet ver",
     fr: "Ô Allah, donne-nous le meilleur de ce que Tu octroies à ceux qui T’implorent, accorde-nous une bonne condition de vie et la droiture, pardonne-nous, ainsi qu’à nos parents et à l’ensemble des musulmans. Ô Allah, soulage notre chagrin, dissipe nos soucis et bannis, de nos cœurs, l'inquiétude.  Ô Allah, accorde-nous une issue à chaque difficulté et un soulagement à chaque tristesse, et une guérison pour chaque maladie, par Ta miséricorde, ô Toi qui es Le Plus Miséricordieux des Miséricordieux.",
     audioNumber: 59,
+    in: "Ya Allah, anugerahkanlah kepadaku kebaikan yang Engkau berikan kepada orang-orang yang memohonnya. Himpunlah bagiku kebaikan dunia dan agama. Ampunkanlah hamba dan kedua orang tua hamba serta seluruh kaum muslimin. Ya Allah, hilangkanlah kegalauan dan kesedihan serta kekhawatiran dari jiwa kami.  Ya Allah, jadikanlah bagi kami kemudahan dari segala kesusahan, jalan keluar dari segala kesempitan, dan keselamatan dari segala bencana dengan rahmat-Mu, wahai Yang Maha Paling Penyayang. ",
+    mal: "Ya Allah, sesungguhnya Engkau Maha Pemaaf, lagi Maha Pemurah, dan suka kepada kemaafan, maka maafkanlah aku.",
   },
   {
     ar: "اللَّهُمَّ رحمتَك أرجو فلا تَكِلْني إلى نفسي طَرْفةَ عَينٍ وأصلِحْ لي شأني كُلَّه، لا إلهَ إلَّا أنت",
@@ -478,6 +596,8 @@ export const data = [
     tr: "Allah’ım! Senin rahmetini umuyorum. Beni göz açıp kapayıncaya kadar da olsa nefsimle başbaşa bırakma. Tüm işlerimi düzelt. Senden başka ilâh yoktur",
     fr: "Ô Allah, c'est à Ta miséricorde que j’aspire, ne m’abandonne pas à mon sort ne fut-ce que le temps d’un clin d'œil, et améliore ma situation en tout point de vue, il n'y a de véritable divinité que Toi.",
     audioNumber: 60,
+    in: "Ya Allah, rahmat-Mu yang kumohon, janganlah Engkau biarkan aku bergantung kepada diriku sendiri meskipun sekelip mata, dan perbaikilah urusanku semuanya. Tiada tuhan yang berhak disembah selain Engkau.",
+    mal: "Ya Allah, berilah kami sebaik-baik anugerah yang Engkau berikan kepada orang-orang yang berdoa memohon (kepadaMu). Himpunkanlah bagi kami kebaikan dunia dan agama. Ampunilah kami, ibu bapa kami dan seluruh umat Islam. Ya Allah, padamkanlah kesedihan daripada kami, hilangkanlah kerisauan daripada kami, dan buanglah kegelisahan daripada diri kami. Jadikanlah bagi kami pelepasan daripada segala kerisauan, jalan keluar daripada segala kesempitan, dan keselamatan daripada segala bala, dengan berkat rahmatMu, wahai Tuhan Yang Maha Penyayang. ",
   },
   {
     ar: "رَبَّنَا لَا تَجۡعَلۡنَا مَعَ ٱلۡقَوۡمِ ٱلظَّٰلِمِينَ",
@@ -486,6 +606,8 @@ export const data = [
     tr: "Rabbimiz! Bizi zalimler topluluğuyla beraber kılma",
     fr: "Ô Seigneur, ne nous compte pas parmi les injustes.",
     audioNumber: 61,
+    in: "Ya Tuhan kami, janganlah Engkau tempatkan kami bersama-sama orang-orang yang zalim.\r\n\r\n\r\n",
+    mal: "Ya Allah, hanya rahmatMu aku harapkan, maka jangan Engkau serahkan daku kepada diriku sendiri walau sekelip mata, dan perbaikilah untukku segala urusanku. Tiada tuhan yang layak disembah melainkan Engkau. ",
   },
   {
     ar: "رَبَّنَا لَا تُؤَاخِذۡنَآ إِن نَّسِينَآ أَوۡ أَخۡطَأۡنَاۚ رَبَّنَا وَلَا تَحۡمِلۡ عَلَيۡنَآ إِصۡرٗا كَمَا حَمَلۡتَهُۥ عَلَى ٱلَّذِينَ مِن قَبۡلِنَاۚ رَبَّنَا وَلَا تُحَمِّلۡنَا مَا لَا طَاقَةَ لَنَا بِهِۦۖ وَٱعۡفُ عَنَّا وَٱغۡفِرۡ لَنَا وَٱرۡحَمۡنَآۚ أَنتَ مَوۡلَىٰنَا فَٱنصُرۡنَا عَلَى ٱلۡقَوۡمِ ٱلۡكَٰفِرِينَ",
@@ -494,6 +616,8 @@ export const data = [
     tr: "Rabbimiz! Unutur ya da yanılırsak bizi sorumlu tutma! Rabbimiz! Bize, bizden öncekilere yüklediğin gibi ağır yük yükleme. Rabbimiz! Bize gücümüzün yetmediği şeyleri yükleme! Bizi affet, bizi bağışla ve bize merhamet et! Sen bizim Mevlâmızsın. Kâfirler topluluğuna karşı bize yardım et",
     fr: "Ô Seigneur ! Ne nous châtie pas s’il nous arrive d’oublier ou de commettre une erreur. Seigneur ! Ne nous charge pas d’un fardeau lourd comme Tu as chargé ceux qui vécurent avant nous. Seigneur ! Ne nous impose pas ce que nous ne pouvons supporter, efface nos fautes, pardonne-nous et fais nous miséricorde. Tu es Notre Maître, accorde-nous donc la victoire sur les peuples infidèles",
     audioNumber: 62,
+    in: "Ya Tuhan kami, janganlah Engkau hukum kami jika kami lupa atau kami melakukan kesalahan. Ya Tuhan kami, janganlah Engkau bebani kami dengan beban yang berat sebagaimana Engkau bebankan kepada orang-orang sebelum kami. Ya Tuhan kami, janganlah Engkau pikulkan kepada kami apa yang tidak sanggup kami memikulnya. Maafkanlah kami, ampunilah kami, dan rahmatilah kami. Engkaulah pelindung kami, maka tolonglah kami menghadapi orang-orang kafir.\r\n",
+    mal: "Ya Tuhan kami, jangan jadikan kami bersama dengan kaum yang zalim.",
   },
   {
     ar: "رَبَّنَا ظَلَمۡنَآ أَنفُسَنَا وَإِن لَّمۡ تَغۡفِرۡ لَنَا وَتَرۡحَمۡنَا لَنَكُونَنَّ مِنَ ٱلۡخَٰسِرِينَ",
@@ -502,6 +626,8 @@ export const data = [
     tr: "Rabbimiz! Biz kendimize zulüm ettik. Eğer bizi bağışlamaz ve bize acımazsan mutlaka ziyan edenlerden oluruz",
     fr: "Ô notre Seigneur ! Nous avons fait du tort à nous-mêmes. Et si Tu ne nous pardonnes pas et ne nous fais pas miséricorde, nous serons très certainement du nombre des perdants",
     audioNumber: 63,
+    in: "Ya Tuhan kami, kami telah menganiaya diri kami sendiri, dan jika Engkau tidak mengampuni kami dan memberi rahmat kepada kami, niscaya pastilah kami termasuk orang-orang yang merugi.\r\n\r\n",
+    mal: "Ya Tuhan kami, janganlah Engkau hukum kami jika kami lupa atau kami melakukan kesalahan. Ya Tuhan kami, janganlah Engkau bebani kami dengan beban yang berat sebagaimana Engkau bebankan kepada orang-orang sebelum kami. Ya Tuhan kami, janganlah Engkau pikulkan kepada kami apa yang tidak sanggup kami memikulnya. Maafkanlah kami, ampunilah kami, dan rahmatilah kami. Engkaulah pelindung kami, maka tolonglah kami menghadapi orang-orang kafir.",
   },
   {
     ar: "رَبِّ هَبۡ لِي مِن لَّدُنكَ ذُرِّيَّةٗ طَيِّبَةًۖ إِنَّكَ سَمِيعُ ٱلدُّعَآءِ",
@@ -510,6 +636,8 @@ export const data = [
     tr: "Rabbim! Bana katından temiz bir nesil bahşet. Şüphesiz Sen duayı hakkıyla işitensin",
     fr: "Ô mon Seigneur! Donne-moi, venant de Toi, une excellente descendance. Car Tu es Celui qui entend bien la prière",
     audioNumber: 64,
+    in: "Ya Tuhanku, berilah aku dari sisi Engkau seorang anak yang baik. Sesungguhnya Engkau Maha Pendengar doa.\r\n",
+    mal: "Ya Tuhan kami, kami telah menzalimi diri kami sendiri. Jika Engkau tidak mengampuni kami dan memberi rahmat kepada kami, nescaya kami termasuk dalam kalangan orang-orang yang rugi.",
   },
   {
     ar: "اللهم لك الحمد كله، اللهم لا قابض لما بسطت ولا مقرب لما باعدت ولا مباعد لما قربت ولا معطي لما منعت ولا مانع لما أعطيت اللهم ابسط علينا من بركاتك ورحمتك وفضلك ورزقك اللهم إني أسألك النعيم المقيم الذي لا يحول ولا يزول اللهم إني أسألك النعيم يوم العيلة والأمن يوم الحرب اللهم عائذ بك من سوء ما أعطيتنا وشر ما منعت منا اللهم حبب إلينا الإيمان وزينه في قلوبنا وكره إلينا الكفر والفسوق والعصيان واجعلنا من الراشدين اللهم توفنا مسلمين وأحينا مسلمين وألحقنا بالصالحين غير خزايا ولا مفتونين اللهم قاتل الكفرة الذين يصدون عن سبيلك ويكذبون رسلك واجعل عليهم رجزك وعذابك اللهم قاتل الكفرة الذين أوتوا الكتاب إله الحق",
@@ -518,6 +646,8 @@ export const data = [
     tr: "Allah'ım! Bütün hamdler Sanadır. Allah'ım! Senin yaydığını tutacak, uzaklaştırdığını yakınlaştıracak ve yakınlaştırdığını da uzaklaştıracak yoktur. Senin men ettiğini verecek, verdiğine de mani olacak yoktur. Allah'ım! Bereketini, rahmetini, faziletini ve rızkını üzerimize genişlet. Allah'ım! Senden değişmeyen ve sona ermeyen kalıcı nimetini isterim. Allah’ım! Zorluk anında nimeti savaş anında ise emniyeti Senden diliyoruz. Allah'ım! Bize verdiklerinin kötülüğünden ve alıkoyduklarının şerrinden Sana sığınrım. Allah'ım! İmanı bize sevdir, onu kalplerimizde süsle, küfrü, günahı ve isyanı ise bize çirkin göster. Bizi hak yolda olanlardan eyle. Allah'ım! Müslümanlar olarak canımızı al ve Müslümanlar olarak yaşat. Fitneye ve utanç verici bir duruma düşmeden bizleri salihlere kat. Allah'ım! Sana giden yolu kapatan ve peygamberini yalanlayan kafirleri helak eyle, onlara azabını ve cezanı indir. Allah’ım! Kendilerine hak ilahın kitabı verilip onu inkar eden kafirleri hezimete uğrat",
     fr: "Ô Allah, toutes les louanges T'appartiennent. Ô Allah, nul ne peut retenir ce que Tu étends, ni rapprocher ce que Tu éloignes, ni éloigner ce que Tu rapproches, ni accorder ce que Tu refuses, ni refuser ce que Tu donnes. Ô Allah, répands sur nous Tes bénédictions, Ta miséricorde, Ta générosité, et Tes bienfaits. Ô Allah, je Te demande le bonheur éternel qui ne change ni ne disparaît. Ô Allah, je Te demande la félicité le jour où nous serons dépourvus de tout et la sécurité en temps de guerre. Ô Allah, je cherche refuge auprès de Toi contre le mal de ce que Tu nous as accordé et le mal de ce que Tu as empêché. Ô Allah, fait naître dans chez nous l’amour de la foi et embelli la dans nos cœurs, fais naître chez nous l’aversion pour la mécréance, le péché et la désobéissance et compte-nous parmi les bien-guidés. Ô Allah, fais-nous mourir en tant que musulmans, et fais-nous vivre en tant que musulmans, et accorde-nous la compagnie des vertueux sans être humilié ni éprouvé. Ô Allah, combats les infidèles qui obstruent Ton chemin et traitent d’imposteur Tes messagers, fais-leur subir Ton châtiment et Ton supplice. Ô Allah, combats les infidèles qui ont reçu le Livre, ô Seigneur de la vérité.",
     audioNumber: 65,
+    in: "Ya Allah, bagi-Mu segala pujian. Ya Allah, tidak ada yang bisa mengenggam apa yang Engkau bentangkan, tidak ada yang bisa mendekatkan apa yang Engkau jauhkan, tidak ada yang bisa menjauhkan apa yang Engkau dekatkan, tidak ada yang bisa memberi terhadap apa yang Engkau halangi, dan tidak ada yang bisa menghalangi terhadap apa yang Engkau beri. Ya Allah, luaskanlah bagi kami keberkahan-Mu, rahmat-Mu, karunia-Mu, dan anugerah-Mu. Ya Allah, saya memohon kepada-Mu kenikmatan kekal yang tidak berubah dan tidak pula hilang. Ya Allah, saya memohon kepada-Mu anugerah di saat kefakiran dan keamanan di saat peperangan. Ya Allah, saya berlindung kepada-Mu dari keburukan apa saja yang telah Engkau berikan, dan dari keburukan apa saja yang telah Engkau halangi. Ya Allah, jadikanlah kami mencintai keimanan dan jadikanlah ia menghiasi hati kami. Jadikanlah kami benci terhadap kekufuran dan kefasikan serta kemaksiatan. Jadikan kami di antara orang-orang yang mengikuti jalan yang lurus. Ya Allah, wafatkanlah kami dalam keadaan Islam, hidupkanlah kami dalam keadaan Islam, dan sertakanlah kami bersama orang-orang shaleh tanpa dihinakan dan tanpa ditimpakan ujian. Ya Allah, perangilah orang-orang kafir yang merintangi jalan-Mu dan mendustakan para Rasul-Mu. Timpakanlah siksa-Mu dan adzab-Mu kepada mereka. Ya Allah, perangilah orang-orang kafir yang telah diberi kitab, ya Allah Tuhan kebenaran.",
+    mal: "Wahai Tuhanku, kurniakanlah kepadaku dari sisiMu zuriat keturunan yang baik, sesungguhnya Engkau sentiasa Maha Mendengar doa permohonan.",
   },
   {
     ar: "اللَّهمَّ أحسِن عاقبتَنا في الأمورِ كُلِّها وأجِرنا مِنَ خزيِ الدُّنيا وعذابِ الآخرةِ ",
@@ -526,6 +656,8 @@ export const data = [
     tr: "Allah'ım! Tüm işlerde sonumuzu hayırlı eyle! Dünyanın rezaletinden ve ahiretin azabından bizleri koru",
     fr: "Ô Allah, accorde-nous une issue favorable dans toutes nos affaires, et protège-nous de l’humiliation de ce bas-monde et du châtiment de l’au-delà.",
     audioNumber: 66,
+    in: "Ya Allah, perbaikilah semua kesudahan urusan kami dan jauhkan kami dari kehinaan dunia dan azab di akhirat.",
+    mal: "Ya Allah, segala pujian hanyalah bagiMu. Ya Allah, tiada yang dapat sempitkan apa yang telah Engkau lapangkan, tiada yang dapat dekatkan apa yang telah Engkau jauhkan, tiada yang dapat jauhkan apa yang telah Engkau dekatkan, tiada yang dapat berikan apa yang telah Engkau sekat, dan tiada yang dapat menyekat apa yang telah Engkau berikan. Ya Allah, limpahkanlah seluasnya ke atas kami daripada keberkatanMu, rahmatMu, kurniaaMu dan rezekiMu. Ya Allah, sesungguhnya aku memohon kepadaMu nikmat berkekalan yang tidak berubah dan hilang. Ya Allah, sesungguhnya aku memohon kepadaMu kenikmatan pada masa kesempitan, dan keamanan pada masa peperangan. Ya Allah, aku berlindung denganMu daripada keburukan apa yang telah Engkau berikan kepada kami, dan kejahatan apa yang telah Engkau sekat daripada kami. Ya Allah, jadikan kami cinta kepada keimanan, dan jadikan iman itu indah di dalam hati kami, serta jadikanlah kami benci kepada kekafiran, kefasikan dan kederhakaan, dan jadikan kami termasuk dalam golongan yang mengikuti jalan yang lurus. Ya Allah, wafatkan kami sebagai muslimin, hidupkan kami sebagai muslimin, dan masukkan kami bersama golongan solehin, tanpa ditimpa kehinaan dan diuji (dengan bermacam-macam fitnah). Ya Allah, perangilah golongan kafir yang menghalangi (manusia) dari jalanMu, dan mendustakan para rasulMu. Jadikan balasanMu dan azabMu menimpa mereka. Ya Allah, wahai Tuhan yang hak, perangilah golongan kafir yang telah diberikan kitab.        ",
   },
   {
     ar: "اللهم إنك عفو تحب العفو فاعف عني",
@@ -534,6 +666,8 @@ export const data = [
     tr: "Allahım! Sen affedicisin, affetmeyi seversin. Beni de affeyle!",
     fr: "Ô Allah, Tu es Le Pardonneur et Tu aimes pardonner, accorde-moi donc Ton pardon",
     audioNumber: 67,
+    in: "Ya Allah, sesungguhnya Engkau Maha Pemaaf, Engkau mencintai kemaafan, maka maafkanlah diriku.",
+    mal: "Ya Allah, jadikanlah bagi kami kesudahan yang baik dalam segala urusan, dan peliharalah kami daripada kehinaan di dunia dan azab di akhirat.",
   },
   {
     ar: "اللهمَّ إنِّي أعوذُ بك من منكراتِ الأخلاقِ و الأعمالِ و الأهواءِ",
@@ -542,6 +676,8 @@ export const data = [
     tr: "Allah'ım! Kötü ahlak, amel ve arzulardan Sana sığınırım",
     fr: "Ô Allah, je cherche refuge auprès de Toi contre les mauvais caractères, les actes blâmables et les mauvaises passions.",
     audioNumber: 68,
+    in: "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari keburukan akhlak, amal dan hawa nafsu.",
+    mal: "Ya Allah, sesungguhnya Engkau Maha Pemaaf dan suka kepada kemaafan, maka maafkanlah aku.",
   },
   {
     ar: "اللهمَّ إنَّي أعوذُ بك من زوالِ نعمَتِك ، و تَحَوُّلِ عافيَتِك ، و فجْأةِ نقمتِك ، و جميعِ سَخَطِك",
@@ -550,6 +686,8 @@ export const data = [
     tr: "Allah'ım! Nimetinin zevalinden, afiyetinin değişmesinden, intikamının aninden gelmesinden ve bütün öfkenden Sana sığınırım",
     fr: "Ô Allah, je cherche refuge auprès de Toi contre la disparition de Tes bienfaits, la privation de Ta protection, la survenue soudaine de Ta punition, et tous Tes mécontentements.",
     audioNumber: 69,
+    in: "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari hilangnya anugerah-Mu,  berubahnya kesehatan yang telah Engkau anugerahkan, dari siksa-Mu yang datang secara tiba-tiba, dan dari segala kemurkaan-Mu.",
+    mal: "Ya Allah, sesungguhnya aku berlindung denganMu daripada segala akhlak yang buruk serta amal yang mungkar dan hawa nafsu.",
   },
   {
     ar: "اللهمَّ إنِّي أعوذُ بك من قلْبٍ لا يخشعُ ، و من دعاءٍ لا يُسْمَعُ ، و من نفْسٍ لا تشبعُ ، و من علْمٍ لا ينفعُ و أعوذُ بك من هؤلاءِ الأرْبَعِ",
@@ -558,6 +696,8 @@ export const data = [
     tr: "Allah'ım! İtaat etmeyen kalpten, kabul olmayan duadan, doymayan nefisten ve faydasız ilimden Sana sığınırım. Bu dört şeyden Sana sığınırım",
     fr: "Ô Allah, je cherche refuge auprès de Toi contre un cœur qui n’est pas humble, une invocation qui n’est pas exaucée, une âme qui n’est jamais satisfaite, et une connaissance qui n’est pas profitable, et je Te demande protection contre ces quatre choses.",
     audioNumber: 70,
+    in: "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari hati yang tidak khusyuk, doa yang tidak didengarkan, jiwa yang tidak pernah merasa puas, dan ilmu yang tidak bermanfaat, Aku berlindung kepada-Mu dari empat hal tersebut.",
+    mal: "Ya Allah, sesungguhnya aku berlindung denganMu daripada kehilangan nikmatMu, berubahnya afiat yang diberi olehMu, balasanMu yang datang secara mengejut dan segala kemurkaanMu. ",
   },
   {
     ar: "اللهم إني أسألك الجنة وما قرب إليها من قولٍ أو عمل",
@@ -566,6 +706,8 @@ export const data = [
     tr: "Allah'ım! Senden Cenneti ve ona yaklaştıran söz ve amelleri diliyorum",
     fr: "Ô Allah, je Te demande le Paradis ainsi que les actions et les actes qui m’y rapprochent.",
     audioNumber: 71,
+    in: "Ya Allah, aku memohon kepada-Mu surga dan segala perkataan dan perbuatan yang mendekatkan kepadanya. ",
+    mal: "Ya Allah, sesungguhnya aku berlindung denganMu daripada hati yang tidak khusyuk, doa yang tidak terkabul, diri yang tidak bersikap qanaah dan ilmu yang tidak bermanfaat. Aku berlindung kepadaMu daripada empat perkara ini. ",
   },
   {
     ar: "اللهم بعزّتك وجلالك، احفظنا من شتات الأمر، ومسّ الضر، وضيق الصدر، وعذاب القبر، وحلول الفقر، وتقلُّب الدهر، والعسر بعد اليسر، والعقوق بعد البر، وامنن علينا بدوام العافية والستر",
@@ -574,6 +716,8 @@ export const data = [
     tr: "Allah’ım! İzzetin ve celâlinle bizi işlerin dağılmasından, zararın dokunmasından, göğsün sıkıntısından, kabir azabından, fakirliğin gelmesinden, zamanın değişmesinden, kolaylıktan sonra zorluktan ve doğru yoldan sonra isyandan koru. Bizlere afiyeti ve günahları açığa vurmamayı üzerimize daim eyleyerek lütufta bulun",
     fr: "Ô Allah, par Ta puissance et Ta majesté, protège-nous de tout ce qui dissipe nos affaires, d’être touché par un mal, de l’étroitesse de la poitrine, des supplices de la tombe, de la pauvreté, des vicissitudes du temps, de la difficulté après l’aisance, de la désobéissance après l’obéissance, et accorde-nous une bonne santé et une protection.",
     audioNumber: 72,
+    in: "Ya Allah, dengan kemuliaan-Mu dan keagungan-Mu, lindungilah kami dari kekacauan dalam urusan, ditimpa bencana, kesempitan dada, siksa kubur, kefakiran, berubah kondisi menjadi buruk, kesulitan setelah kemudahan, dan durhaka setelah berbakti. Anugerahkanlah kepada kami kesehatan yang langgeng dan aib yang ditutupi..  ",
+    mal: "Ya Allah, aku memohon syurga kepadaMu, serta segala perkara yang mendekatkan (diriku) untuk sampai ke sana dari segi perkataan dan perbuatan.",
   },
   {
     ar: "رَبَّنَا ٱغۡفِرۡ لِي وَلِوَٰلِدَيَّ وَلِلۡمُؤۡمِنِينَ يَوۡمَ يَقُومُ ٱلۡحِسَابُ",
@@ -582,6 +726,8 @@ export const data = [
     tr: "Rabbimiz! Hesap görülecek günde, beni, ana-babamı ve inananları bağışla",
     fr: "Notre Seigneur ! Pardonne-moi, ainsi qu’à mes pères et mère et aux croyants, le Jour de la Reddition des Comptes",
     audioNumber: 73,
+    in: "Ya Tuhan kami, beri ampunlah aku dan kedua ibu bapaku dan sekalian orang-orang mukmin pada hari terjadinya hisab (hari kiamat).\r\n\r\n",
+    mal: "Ya Allah, dengan keperkasaanMu dan keagunganMu maka peliharalah kami daripada bercelarunya urusan, ditimpa mudarat, sempitnya dada, azab kubur, dilanda kemisikinan, perubahan zaman, mendapat kesulitan selepas kesenangan, derhaka setelah melakukan kebajikan. Kurniakanlah kepada kami afiat yang berpanjangan dan ditutup aib.",
   },
   {
     ar: "رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحۡمَةٗ وَهَيِّئۡ لَنَا مِنۡ أَمۡرِنَا رَشَدٗا",
@@ -590,6 +736,8 @@ export const data = [
     tr: "Rabbimiz! Bize katından rahmet gönder ve bize içinde bulunduğumuz durumdan bir çıkış yolu göster!",
     fr: "Ô notre Seigneur ! Donne-nous de Ta part une miséricorde ! Et assure-nous la droiture dans tout ce qui nous concerne.",
     audioNumber: 74,
+    in: "Wahai Tuhan kami, berikanlah rahmat kepada kami dari sisi-Mu dan sempurnakanlah bagi kami petunjuk yang lurus dalam urusan kami (ini).\r\n\r\n",
+    mal: "Ya Tuhan kami, ampunilah aku, kedua ibu bapakku dan sekalian kaum mukminin pada hari berlakunya hisab (perhintungan amal).",
   },
   {
     ar: "رَبَّنَا ٱصۡرِفۡ عَنَّا عَذَابَ جَهَنَّمَۖ إِنَّ عَذَابَهَا كَانَ غَرَامًا إِنَّهَا سَآءَتۡ مُسۡتَقَرّٗا وَمُقَامٗا",
@@ -598,6 +746,8 @@ export const data = [
     tr: "Rabbimiz! Bizden cehennem azabını uzaklaştır, gerçekten onun azabı sürekli bir helâktir! Şüphesiz, orası ne kötü bir durak ve ne kötü bir konaktır",
     fr: "Notre Seigneur! Écarte de nous le châtiment de l’Enfer !” Certes, son châtiment est permanent",
     audioNumber: 75,
+    in: "Ya Tuhan kami, jauhkan azab jahannam dari kami, sesungguhnya azabnya itu adalah kebinasaan yang kekal. Sesungguhnya jahannam itu seburuk-buruk tempat menetap dan tempat kediaman.\r\n\r\n",
+    mal: "Wahai Tuhan kami, kurniakanlah rahmat kepada kami dari sisiMu, dan berikanlah kepada kami petunjuk yang lurus dalam urusan kami.",
   },
   {
     ar: "رَبَّنَآ أَفۡرِغۡ عَلَيۡنَا صَبۡرٗا وَتَوَفَّنَا مُسۡلِمِينَ",
@@ -606,6 +756,8 @@ export const data = [
     tr: "Rabbimiz! Üzerimize sabır yağdır ve canımızı müslüman olarak al",
     fr: "Ô notre Seigneur ! Déverse sur nous l’endurance et fais nous mourir entièrement soumis",
     audioNumber: 76,
+    in: "Ya Tuhan kami, limpahkanlah kesabaran kepada kami dan matikanlah kami dalam keadaan muslim (berserah diri kepada-Mu).",
+    mal: "Ya Tuhan kami, jauhkanlah azab neraka Jahanam dari kami, karena sesungguhnya azabnya itu adalah kebinasaan yang kekal. Sesungguhnya neraka Jahanam itu seburuk-buruk tempat menetap dan tempat kediaman.",
   },
   {
     ar: "رَبِّ هَبۡ لِي حُكۡمٗا وَأَلۡحِقۡنِي بِٱلصَّٰلِحِينَ وَٱجۡعَل لِّي لِسَانَ صِدۡقٖ فِي ٱلۡأٓخِرِينَ وَٱجۡعَلۡنِي مِن وَرَثَةِ جَنَّةِ ٱلنَّعِيمِ",
@@ -614,6 +766,8 @@ export const data = [
     tr: "Rabbim! Bana bir hikmet bahşet ve beni salih kimseler arasına kat. Sonradan gelecekler arasında, beni doğrulukla anılanlardan kıl. Beni Naîm cennetinin varislerinden eyle",
     fr: "Seigneur ! Accorde-moi sagesse (et savoir) et fais-moi rejoindre les gens de bien fais que j’aie une mention honorable sur les langues de la postérité Et fais de moi l’un des héritiers du Jardin des délices.",
     audioNumber: 77,
+    in: "Ya Tuhanku, berikanlah kepadaku ilmu dan masukkanlah aku ke dalam golongan orang-orang yang saleh, dan jadikanlah aku buah tutur yang baik bagi orang-orang (yang datang) kemudian, dan jadikanlah aku termasuk orang yang mewarisi surga yang penuh kenikmatan.",
+    mal: "Ya Tuhan kami, limpahkanlah kesabaran kepada kami, dan matikanlah kami dalam keadaan muslim (berserah diri sepenuhnya kepadaMu)",
   },
   {
     ar: "اللهم إنك عفو تحب العفو فاعف عني",
@@ -622,6 +776,8 @@ export const data = [
     tr: "Allahım! Sen affedicisin, affetmeyi seversin. Beni de affeyle!",
     fr: "Ô Allah, Tu es Le Pardonneur et Tu aimes pardonner, accorde-moi donc Ton pardon",
     audioNumber: 78,
+    in: "Ya Allah, sesungguhnya Engkau Maha Pemaaf, Engkau mencintai kemaafan, maka maafkanlah aku.",
+    mal: "Wahai Tuhanku, berikanlah kepadaku ilmu pengetahuan agama dan masukkanlah aku ke dalam golongan yang soleh, dan jadikanlah aku buah tutur yang baik dalam kalangan orang-orang yang datang kemudian, dan jadikanlah aku termasuk orang yang mewarisi syurga yang penuh dengan kenikmatan.",
   },
   {
     ar: "اللهم إني أسألك فعل الخيرات وترك المنكرات وحب المساكين وإذا أردت بعبادك فتنة فاقبضني إليك غير مفتون",
@@ -630,6 +786,8 @@ export const data = [
     tr: "Allahım! Senden hayırlar işlemeyi, kötülükleri terk etmeyi, yoksulları sevmeyi ve bir topluluk için fitne murad ettiğinde, o fitneye düşmeden canımı almanı niyaz ederim",
     fr: "Ô Allah, je T'implore de me permettre d’accomplir de bonnes œuvres, de délaisser les interdits et d’aimer les nécessiteux. Aussi, si Tu décides d'éprouver Tes serviteurs alors rappelle-nous à Toi indemne.",
     audioNumber: 79,
+    in: "Ya Allah, aku memohon kepada-Mu perbuatan baik, meninggalkan kemungkaran, mencintai orang miskin, dan ampunan-Mu serta rahmat-Mu. Jika Engkau ingin menguji suatu kaum, maka wafatkanlah aku dalam keadaan selamat dari ujian. ",
+    mal: "Ya Allah, sesungguhnya Engkau Maha Pemaaf dan suka kepada kemaafan, maka maafkanlah aku.",
   },
   {
     ar: "اللَّهُمَّ رحمتَك أرجو فلا تَكِلْني إلى نفسي طَرْفةَ عَينٍ وأصلِحْ لي شأني كُلَّه، لا إلهَ إلَّا أنت",
@@ -638,6 +796,8 @@ export const data = [
     tr: "Allah’ım! Senin rahmetini umuyorum. Beni göz açıp kapayıncaya kadar da olsa nefsimle başbaşa bırakma. Tüm işlerimi düzelt. Senden başka ilâh yoktur",
     fr: "Ô Allah, c'est à Ta miséricorde que j’aspire, ne m’abandonne pas à mon sort ne fut-ce que le temps d’un clin d'œil, et améliore ma situation en tout point de vue, il n'y a de véritable divinité que Toi.",
     audioNumber: 80,
+    in: "Ya Allah, rahmat-Mu yang kmohon, janganlah Engkau biarkan aku bergantung kepada diriku sendiri meskipun sekelip mata, dan perbaikilah urusanku semuanya, tiada tuhan yang berhak disembah selain Engkau.\r\n.",
+    mal: "Ya Allah, sesungguhnya aku memohon kepadaMu taufik untuk melakukan setiap kebaikan, serta meninggalkan segala kemungkaran, dan kecintaan kepada golongan miskin. Jika Engkau hendak menimpakan kesesatan atau azab terhadap hamba-hambaMu, maka cabutlah nyawaku untuk kembali kepadaMu tanpa diuji (dengan hal itu).    ",
   },
   {
     ar: "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْبَرَصِ، وَالْجُنُونِ، وَالْجُذَامِ، وَمِنْ سَيِّئِ الأَسْقَامِ",
@@ -646,6 +806,8 @@ export const data = [
     tr: "Allah'ım! Alaca hastalığından, delilikten, cüzzamdan ve kötü hastalıklardan Sana sığınırım",
     fr: "Ô Allah ! Je me réfugie auprès de toi contre la dépigmentation, la folie, la lèpre et les mauvaises maladies.",
     audioNumber: 81,
+    in: "Ya Allah, sungguh aku berlindung kepada-Mu dari penyakit belang, gila, kusta, dan dari segala keburukan segala macam penyakit.",
+    mal: "Ya Allah, hanya rahmatMu aku harapkan, maka jangan Engkau serahkan daku kepada diriku sendiri walau sekelip mata, dan perbaikilah untukku segala urusanku. Tiada tuhan yang layak disembah melainkan Engkau. Ya Allah, sesungguhnya aku berlindung denganMu daripada penyakit sopak, gila, kusta dan penyakit-penyakit yang buruk. ",
   },
   {
     ar: "اللَّهمَّ إنِّي أسألُكَ الهُدى والتُّقى والعَفافَ والغِنى ",
@@ -654,6 +816,8 @@ export const data = [
     tr: "Allah'ım! Senden hidâyet, takvâ, iffet ve gönül zenginliği isterim",
     fr: "Ô Allah, je Te demande la guidée et la piété, la chasteté et le contentement.",
     audioNumber: 82,
+    in: "Ya Allah, aku memohon kepada-Mu petunjuk, ketakwaan, kehormatan diri, dan kekayaan.\r\n",
+    mal: "Ya Allah, sesungguhnya aku memohon kepadaMu pimpinan hidayah, ketakwaan, kesucian dan kekayaan.  ",
   },
   {
     ar: "يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ",
@@ -662,5 +826,7 @@ export const data = [
     tr: "Ey kalpleri döndüren Allah'ım! Kalbimi dinin üzere sabit kıl",
     fr: "Ô Toi qui bouleverses les cœurs, affermis mon cœur sur Ta religion.",
     audioNumber: 83,
+    in: "Wahai Allah yang membolak-balikkan hati, teguhkanlah hatiku mengikuti agama-Mu.",
+    mal: "Wahai Tuhan yang berkuasa membolak-balikkan hati-hati manusia, jadikanlah hatiku tetap di atas agamaMu",
   },
 ];
