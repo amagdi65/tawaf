@@ -10,6 +10,12 @@ import { useState } from "react";
 import { mainData } from "../data/mainData";
 import StepperComp from "../components/StepperComp";
 
+import Ihram from '../assets/ihram icon.svg';
+import Mahzor from '../assets/mahzorat icon.svg';
+import Sonan from '../assets/sonan icon.svg';
+import tahiat from '../assets/tahit masged icon.svg';
+import Zam from '../assets/zamzan icon.svg';
+
 function InstructionPage({ lang, dir, mode }) {
   const [index, setIndex] = useState(1);
 
@@ -19,30 +25,35 @@ function InstructionPage({ lang, dir, mode }) {
       title: mainData[lang]["ihram"],
       prayerData: ihram,
       number: 1,
+      icon: Mahzor
     },
     {
       index: 3,
       title: mainData[lang]["sunnah"],
       prayerData: sonan,
       number: 2,
+      icon: Ihram
     },
     {
       index: 4,
       title: mainData[lang]["prohibitions"],
       prayerData: mahzorat,
       number: 3,
+      icon: Sonan
     },
     {
       index: 5,
       title: mainData[lang]["greetingPrayer"],
       prayerData: tahya,
       number: 4,
+      icon: tahiat
     },
     {
       index: 6,
       title: mainData[lang]["zamzam"],
       prayerData: zamzam,
       number: 5,
+      icon: Zam
     },
   ];
 
@@ -53,6 +64,7 @@ function InstructionPage({ lang, dir, mode }) {
           label: item.title,
           dir: dir,
           setIndex,
+          icon: item.icon,
         }))}
       ></StepperComp>
       <Accordion
