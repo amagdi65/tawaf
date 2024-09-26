@@ -13,7 +13,7 @@ import Halq from "../assets/halq icon.svg";
 import Saay from "../assets/saay icon.svg";
 import Tawaf from "../assets/tawaf icon.svg";
 import Makam from "../assets/makam icon.svg";
-
+import { addresses } from "../data/addressesData";
 import halq from '../assets/halq.svg';
 import sai from '../assets/saay.svg';
 import tawa from '../assets/tawaf.svg';
@@ -38,6 +38,7 @@ function ManasekPage({ lang, dir, mode }) {
       modalTitle: mainData[lang]["location"],
       closeTitle: mainData[lang]["closeTitle"],
       modalBody: tawa,
+      addresses: addresses.tawaf
     },
     {
       index: 3,
@@ -48,6 +49,8 @@ function ManasekPage({ lang, dir, mode }) {
       modalTitle: mainData[lang]["location"],
       closeTitle: mainData[lang]["closeTitle"],
       modalBody: makam,
+      addresses: addresses.pray
+
     },
     {
       index: 4,
@@ -64,6 +67,8 @@ function ManasekPage({ lang, dir, mode }) {
       modalTitle: mainData[lang]["location"],
       closeTitle: mainData[lang]["closeTitle"],
       modalBody: sai,
+      addresses: addresses.sai
+
     },
     {
       index: 5,
@@ -74,6 +79,8 @@ function ManasekPage({ lang, dir, mode }) {
       modalTitle: mainData[lang]["location"],
       closeTitle:mainData[lang]["closeTitle"],
       modalBody: halq,
+      addresses: addresses.halq
+
     },
   ];
 
@@ -122,6 +129,7 @@ function ManasekPage({ lang, dir, mode }) {
               modalBody={item.modalBody}
               modalTitle={item.modalTitle}
               closeTitle={item.closeTitle}
+              addresses={item.addresses}
             />
             {idx < items.length - 1 && <Separator dir={dir} />}
           </Box>

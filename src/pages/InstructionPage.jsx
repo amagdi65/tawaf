@@ -25,21 +25,24 @@ function InstructionPage({ lang, dir, mode }) {
       title: mainData[lang]["ihram"],
       prayerData: ihram,
       number: 1,
-      icon: Mahzor
+      icon: Ihram
+
     },
     {
       index: 3,
       title: mainData[lang]["sunnah"],
       prayerData: sonan,
       number: 2,
-      icon: Ihram
+      icon: Sonan
+
     },
     {
       index: 4,
       title: mainData[lang]["prohibitions"],
       prayerData: mahzorat,
       number: 3,
-      icon: Sonan
+      icon: Mahzor
+
     },
     {
       index: 5,

@@ -48,6 +48,7 @@ const PrayerCard = ({
   modalTitle,
   closeTitle,
   modalBody,
+  addresses
 }) => {
   const [page, setPage] = useState(0);
   const [fontSize, setFontSize] = useState(18);
@@ -245,6 +246,9 @@ const PrayerCard = ({
           modalBody={modalBody}
           modalTitle={modalTitle}
           closeTitle={closeTitle}
+          addresses={addresses}
+          lang={lang}
+          dir={dir}
         ></SimpleModal>
         {audio && (
           <Image

@@ -56,6 +56,7 @@ function Item({
   modalTitle,
   closeTitle,
   modalBody,
+  addresses
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
   const renderContent = (dir) => {
@@ -171,6 +172,7 @@ function Item({
               modalTitle={modalTitle}
               closeTitle={closeTitle}
               modalBody={modalBody}
+              addresses={addresses}
             />
           </Box>
         </Flex>
