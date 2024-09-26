@@ -668,8 +668,8 @@ export const addresses = {
   halq: [
     {
       name: {
-        ar: "لاضافة المواقع المخصصة بالحلق والتقصير",
-        en: "In Addition: Designated Areas for Shaving and Trimming",
+        ar: "المواقع المخصصة بالحلق والتقصير",
+        en: "Designated Areas for Shaving and Trimming",
         fr: "Ajouter l'adresse d'un salon de coiffure",
         tr: "Saç Kazıtma ve Kısaltma Yerleri",
         ur: "بال کاٹنے منڈوانے کے لیے مخصوص جگہیں",
