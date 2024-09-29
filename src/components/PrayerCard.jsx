@@ -7,7 +7,6 @@ import {
   Image,
   Switch,
   useDisclosure,
-  Tooltip,
 } from "@chakra-ui/react";
 import { ArrowForwardIcon, ArrowBackIcon } from "@chakra-ui/icons";
 import pauseIcon from "../assets/pause.svg";
@@ -49,7 +48,7 @@ const PrayerCard = ({
   modalTitle,
   closeTitle,
   modalBody,
-  addresses
+  addresses,
 }) => {
   const [page, setPage] = useState(0);
   const [fontSize, setFontSize] = useState(18);
@@ -263,21 +262,21 @@ const PrayerCard = ({
         {/* New Autoplay toggle */}
         {autoPlay && (
           <Stack direction="row" alignItems="center">
-            <Text
+            {/* <Text
               fontSize={{ base: "12px", md: "md" }}
               fontWeight="bold"
               color={mode === "dark" ? "white" : "#333D49"}
               htmlFor="autoplay-switch"
             >
-              {/* {autoPlay} */}
-            </Text>
-            <Tooltip label={autoPlay} placement='top' defaultIsOpen>
+              {autoPlay}
+            </Text> */}
             <Switch
               id="autoplay-switch"
               isChecked={isAutoplay}
               onChange={handleAutoplay}
               size="lg"
               dir="rtl"
+              position='relative'
               sx={{
                 "& .chakra-switch__track": {
                   bg: mode === "dark" ? "#232C35" : "",
@@ -286,9 +285,17 @@ const PrayerCard = ({
                   bg: mode === "dark" ? "#BC9761" : "#BC9761",
                 },
               }}
+              _before={{
+                content: `'${autoPlay}'`,
+                position: 'absolute',
+                top: -5,
+                right: '-66%',
+                width: '300px',
+                display: 'inline-block',
+                color: mode === "dark" ? "white" : "#333D49",
+                fontSize: '13px'
+              }}
             />
-            </Tooltip>
-            
           </Stack>
         )}
       </Stack>
