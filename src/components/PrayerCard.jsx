@@ -7,6 +7,7 @@ import {
   Image,
   Switch,
   useDisclosure,
+  Tooltip,
 } from "@chakra-ui/react";
 import { ArrowForwardIcon, ArrowBackIcon } from "@chakra-ui/icons";
 import pauseIcon from "../assets/pause.svg";
@@ -122,7 +123,6 @@ const PrayerCard = ({
     setIsPaused(true);
   };
 
-  // New function to handle autoplay
   const handleAutoplay = () => {
     if (isAutoplay) {
       setIsAutoplay(false);
@@ -269,8 +269,9 @@ const PrayerCard = ({
               color={mode === "dark" ? "white" : "#333D49"}
               htmlFor="autoplay-switch"
             >
-              {autoPlay}
+              {/* {autoPlay} */}
             </Text>
+            <Tooltip label={autoPlay} placement='top' defaultIsOpen>
             <Switch
               id="autoplay-switch"
               isChecked={isAutoplay}
@@ -286,6 +287,8 @@ const PrayerCard = ({
                 },
               }}
             />
+            </Tooltip>
+            
           </Stack>
         )}
       </Stack>
