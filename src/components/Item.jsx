@@ -56,7 +56,8 @@ function Item({
   modalTitle,
   closeTitle,
   modalBody,
-  addresses
+  addresses,
+  disableNext,
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
   const renderContent = (dir) => {
@@ -193,7 +194,7 @@ function Item({
           >
             {prevButton}
           </Button>
-          <Button
+          {!disableNext && <Button
             size="lg"
             color={mode === "dark" ? "white" : "#BC9761"}
             border={mode === "dark" ? "1px solid #aaa" : "1px solid #BC9761"}
@@ -205,7 +206,7 @@ function Item({
             mb={{ base: 4, md: 0 }}
           >
             {nextButton}
-          </Button>
+          </Button>}
         </Box>
       </AccordionPanel>
     </AccordionItem>

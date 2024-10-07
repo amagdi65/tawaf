@@ -79,8 +79,8 @@ function ManasekPage({ lang, dir, mode }) {
       modalTitle: mainData[lang]["location"],
       closeTitle:mainData[lang]["closeTitle"],
       modalBody: halq,
-      addresses: addresses.halq
-
+      addresses: addresses.halq,
+      disableNext: true
     },
   ];
 
@@ -130,6 +130,7 @@ function ManasekPage({ lang, dir, mode }) {
               modalTitle={item.modalTitle}
               closeTitle={item.closeTitle}
               addresses={item.addresses}
+              disableNext={item.disableNext}
             />
             {idx < items.length - 1 && <Separator dir={dir} />}
           </Box>

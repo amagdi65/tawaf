@@ -146,10 +146,18 @@ function SimpleModal({
           <Image
             src={modalBody}
             alt={modalTitle}
-            maxH={{ base: "200px", md: "300px" }}
+            fit="contain"
+            maxH="300px"
             w="100%"
-            objectFit="cover"
-            borderRadius="md"
+            bg="gray.100"
+            fallback={
+              <Box p={4} bg="gray.100" textAlign="center">
+                Unable to load image
+              </Box>
+            }
+            loading="lazy"
+            transition="opacity 0.2s"
+            _hover={{ opacity: 0.9 }}
           />
 
           {/* Addresses List Section */}

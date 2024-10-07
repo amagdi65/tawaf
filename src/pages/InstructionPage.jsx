@@ -56,7 +56,9 @@ function InstructionPage({ lang, dir, mode }) {
       title: mainData[lang]["zamzam"],
       prayerData: zamzam,
       number: 5,
-      icon: Zam
+      icon: Zam,
+      disableNext: true
+
     },
   ];
 
@@ -94,6 +96,7 @@ function InstructionPage({ lang, dir, mode }) {
               nextButton={mainData[lang]["next"]}
               mode={mode}
               curIndex={index}
+              disableNext={item.disableNext}
             />
             {idx < items.length - 1 && <Separator dir={dir} />}
           </Box>

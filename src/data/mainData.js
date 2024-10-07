@@ -20,7 +20,7 @@ export const mainData = {
     previous: "السابق",
     autoPlay: "تشغيل تلقائي",
     location: "الموقع",
-    closeTitle: "أغلاق",
+    closeTitle: "إغلاق",
   },
   en: {
     headerTitle: "Tawaf and Umrah Service",
