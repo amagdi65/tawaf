@@ -16,7 +16,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState("ManasekPage");
 
   useEffect(() => {
-      axios.post('https://www.wmn.gov.sa/tawafback/index.php',{
+      axios.post('/index.php',{
         language: lang,
         uuid
       })
