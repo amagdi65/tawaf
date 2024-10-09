@@ -1,7 +1,9 @@
-import { useState, Suspense, lazy } from "react";
+import { useState, Suspense, lazy, useEffect } from "react";
 import MainLayout from "./layout/MainLayout";
 import usePersistedState from "./hooks/usePersistedState";
 import Popup from "./components/Popup";
+import axios from "axios";
+import { v4 as uuidv4 } from 'uuid';
 
 const ManasekPage = lazy(() => import("./pages/ManasekPage"));
 const InstructionPage = lazy(() => import("./pages/InstructionPage"));
@@ -10,9 +12,16 @@ function App() {
   const [lang, setLang] = usePersistedState("lang", "ar");
   const [dir, setDir] = usePersistedState("dir", "rtl");
   const [mode, setMode] = usePersistedState("mode", "light");
-
+  const [uuid,] = usePersistedState('uuid',uuidv4())
   const [currentPage, setCurrentPage] = useState("ManasekPage");
 
+  useEffect(() => {
+      axios.post('https://www.wmn.gov.sa/tawafback/index.php',{
+        language: lang,
+        uuid
+      })
+    
+  }, [lang]);
   const renderPage = () => {
     switch (currentPage) {
       case "ManasekPage":

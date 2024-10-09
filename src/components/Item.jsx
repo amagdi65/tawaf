@@ -58,6 +58,7 @@ function Item({
   modalBody,
   addresses,
   disableNext,
+  type,
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
   const renderContent = (dir) => {
@@ -157,6 +158,8 @@ function Item({
                 dir={dir}
                 cardTitle={cardCounterTitle}
                 mode={mode}
+                type={type}
+                lang={lang}
               />
             </Box>
           )}
@@ -194,19 +197,21 @@ function Item({
           >
             {prevButton}
           </Button>
-          {!disableNext && <Button
-            size="lg"
-            color={mode === "dark" ? "white" : "#BC9761"}
-            border={mode === "dark" ? "1px solid #aaa" : "1px solid #BC9761"}
-            bgColor={mode === "dark" ? "#1F2A37" : "white"}
-            _hover={buttonHoverStyle}
-            _active={buttonHoverStyle}
-            isActive={(count === 7 || !useCount) && "active"}
-            onClick={handleNextClick}
-            mb={{ base: 4, md: 0 }}
-          >
-            {nextButton}
-          </Button>}
+          {!disableNext && (
+            <Button
+              size="lg"
+              color={mode === "dark" ? "white" : "#BC9761"}
+              border={mode === "dark" ? "1px solid #aaa" : "1px solid #BC9761"}
+              bgColor={mode === "dark" ? "#1F2A37" : "white"}
+              _hover={buttonHoverStyle}
+              _active={buttonHoverStyle}
+              isActive={(count === 7 || !useCount) && "active"}
+              onClick={handleNextClick}
+              mb={{ base: 4, md: 0 }}
+            >
+              {nextButton}
+            </Button>
+          )}
         </Box>
       </AccordionPanel>
     </AccordionItem>

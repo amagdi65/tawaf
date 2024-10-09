@@ -38,7 +38,8 @@ function ManasekPage({ lang, dir, mode }) {
       modalTitle: mainData[lang]["location"],
       closeTitle: mainData[lang]["closeTitle"],
       modalBody: tawa,
-      addresses: addresses.tawaf
+      addresses: addresses.tawaf,
+      type: 1
     },
     {
       index: 3,
@@ -67,7 +68,9 @@ function ManasekPage({ lang, dir, mode }) {
       modalTitle: mainData[lang]["location"],
       closeTitle: mainData[lang]["closeTitle"],
       modalBody: sai,
-      addresses: addresses.sai
+      addresses: addresses.sai,
+      type: 2
+
 
     },
     {
@@ -131,6 +134,7 @@ function ManasekPage({ lang, dir, mode }) {
               closeTitle={item.closeTitle}
               addresses={item.addresses}
               disableNext={item.disableNext}
+              type={item.type}
             />
             {idx < items.length - 1 && <Separator dir={dir} />}
           </Box>

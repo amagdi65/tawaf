@@ -1,10 +1,23 @@
 import { Box, IconButton, Stack, CircularProgress } from "@chakra-ui/react";
 import { AddIcon, MinusIcon } from "@chakra-ui/icons";
+import axios from "axios";
 
-const CounterCard = ({ count, setCount, dir, cardTitle, mode }) => {
+const CounterCard = ({ count, setCount, dir, cardTitle, mode, type, lang }) => {
+  function sendData(type, count, lang) {
+    axios.post(
+      "https://eserv.wmn.gov.sa/haram-api/public/api/vss/TawafCountLog",
+      {
+        uuid: JSON.parse(localStorage.uuid),
+        tawaf_type: type,
+        round_no: count + 1,
+        language: lang,
+      }
+    );
+  }
   const increment = () => {
     if (count < 7) {
       setCount(count + 1);
+      sendData(type, count, lang);
     }
   };
 
@@ -89,7 +102,7 @@ const CounterCard = ({ count, setCount, dir, cardTitle, mode }) => {
             value={progress}
             thickness="8px"
             color="#BC9761"
-            size={{base: "150px",md:"190px"}}
+            size={{ base: "150px", md: "190px" }}
             {...(mode === "dark" && { trackColor: "#3D4652" })}
           />
           <Box
