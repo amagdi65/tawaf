@@ -420,7 +420,7 @@ export const data = [
     mal: "Ya Tuhanku, tempatkanlah aku pada tempat yang diberkati, dan Engkau adalah sebaik-baik pemberi tempat",
   },
   {
-    ar: "اللهم متعني بسمعي وبصري واجعلهما الوارث مني، وانصرني على من يظلمني، وخذ منه بثأري",
+    ar: "اللهم متعني بسمعي وبصري واجعلهما الوارث مني، وانصرني على من ظلمني، وخذ منه بثأري",
     en: "O Allah, allow me to enjoy the pleasure of my ability to hear and see and keep them intact until my demise. Grant me victory over those who wrong me, and enable me to regain my rights from them.",
     ur: "اے اللہ! تو مجھے میرى سماعت اور بصارت سے بہرہ ور کر، انہیں میرا وارث بنا، جنہوں نے مجھ پر ظلم کیا ہے ان  پر میرى مدد کر اور ان سے میرا انتقام لے۔",
     tr: "Allahım! Kulağım ve gözüm ile beni faydalandır. O ikisini sıhhatli eyle. Bana zulmedene karşı bana yardım et ve ondan intikamımı al.”",

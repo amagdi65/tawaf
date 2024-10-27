@@ -13,6 +13,8 @@ import CounterCard from "./CounterCard";
 import PrayerCard from "./PrayerCard";
 import usePersistedState from "../hooks/usePersistedState";
 import icon from "../assets/2.svg";
+import { useState } from "react";
+import Location from "./Location";
 const Icon = styled.img`
   width: 48px;
   height: 48px;
@@ -61,6 +63,12 @@ function Item({
   type,
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
+
+  const [page, setPage] = useState(0);
+  const [fontSize, setFontSize] = useState(18);
+  const [isPaused, setIsPaused] = useState(true);
+  const totalPages = prayerData?.length - 1;
+
   const renderContent = (dir) => {
     if (dir === "ltr") {
       return (
@@ -134,12 +142,22 @@ function Item({
         <Box display="flex" alignItems="center" justifyContent="center">
           {renderContent(dir)}
         </Box>
-
-        <ChevronDownIcon
-          boxSize="24px"
-          fontWeight="400"
-          {...(mode === "dark" && { color: "white" })}
-        />
+        <Box display="flex" flexDir={dir === "ltr" ? "row-reverse" : "row"}>
+          <Location
+            modalTitle={modalTitle}
+            closeTitle={closeTitle}
+            modalBody={modalBody}
+            addresses={addresses}
+            lang={lang}
+            mode={mode}
+            dir={dir}
+          />
+          <ChevronDownIcon
+            boxSize="24px"
+            fontWeight="400"
+            {...(mode === "dark" && { color: "white" })}
+          />
+        </Box>
       </AccordionButton>
       <AccordionPanel>
         <Flex
@@ -163,6 +181,7 @@ function Item({
               />
             </Box>
           )}
+
           <Box flex={2}>
             <PrayerCard
               prayerData={prayerData}
@@ -170,13 +189,20 @@ function Item({
               dir={dir}
               cardTitle={cardPrayerTitle}
               mode={mode}
-              audio={audio}
-              audioStart={audioStart}
+              page={page}
+              setPage={setPage}
+              fontSize={fontSize}
+              setIsPaused={setIsPaused}
+              totalPages={totalPages}
               autoPlay={autoPlay}
               modalTitle={modalTitle}
               closeTitle={closeTitle}
               modalBody={modalBody}
               addresses={addresses}
+              setFontSize={setFontSize}
+              isPaused={isPaused}
+              audioStart={audioStart}
+              audio={audio}
             />
           </Box>
         </Flex>

@@ -19,7 +19,7 @@ export const mainData = {
     next: "التالي",
     previous: "السابق",
     autoPlay: "تشغيل تلقائي",
-    location: "الموقع",
+    location: "المواقع",
     closeTitle: "إغلاق",
   },
   en: {
@@ -42,7 +42,7 @@ export const mainData = {
     next: "Next",
     previous: "Previous",
     autoPlay: "Autoplay",
-    location: "Location",
+    location: "Locations",
     closeTitle: "Close",
   },
   fr: {

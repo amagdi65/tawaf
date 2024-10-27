@@ -687,5 +687,27 @@ export const addresses = {
       latitude: 21.4261944,
       longitude: 39.8295833,
     },
+    {
+      name: {
+        ar: "المواقع المخصصة بالحلق والتقصير",
+        en: "Designated Areas for Shaving and Trimming",
+        fr: "Ajouter l'adresse d'un salon de coiffure",
+        tr: "Saç Kazıtma ve Kısaltma Yerleri",
+        ur: "بال کاٹنے منڈوانے کے لیے مخصوص جگہیں",
+        mal: "Tempat-Tempat Khas Untuk Bercukur Dan Memendekkan Rambut",
+        in: "Lokasi tambahan khusus untuk pangkas rambut",
+      },
+      location: {
+        ar: "يتم الوصول إلى صالونات الحلاقة الخاصة بالرجال من خلال النزول أسفل وقف الملك عبد العزيز -رحمه الله",
+        en: "You can access men’s barbershops by going down the basement of King ‘Abdul-‘Aziz Endowment (may Allah have mercy upon him)",
+        fr: "Accédez aux salons de coiffure pour homme en descendants au sous-sol du Waqf Roi Abdulaziz - qu’Allah lui fasse miséricorde. (Tour de l’horloge)",
+        tr: "Erkek berber salonlarına -Allah rahmet eylesin- Kral Abdulaziz Vakfı’nın altından geçerek ulaşabilirsiniz",
+        ur: "شاہ عبدالعزیز رحمہ اللہ وقف کے نیچے اتر کر مردوں کے    بال کاٹنے کے سیلون تک پہنچا جا سکتا ہے",
+        mal: "Anda boleh mengakses ke kedai potong rambut khas buat lelaki dengan menuju ke bahagian bawah bangunan Waqaf Malik Abdul Aziz rahimahullah",
+        in: "Menuju pangkas rambut khusus pria melalui jalan turun ke bawah Tower Wakaf Raja Abdul Aziz -rahimahullah"
+      },
+      latitude: 21.41996,
+      longitude: 39.826148,
+    },
   ],
 };

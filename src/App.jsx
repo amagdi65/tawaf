@@ -59,7 +59,7 @@ function App() {
       >
         {renderPage()}
       </MainLayout>
-      <Popup />
+      <Popup setLang={setLang}  lang={lang} setDir={setDir}/>
     </>
   );
 }
