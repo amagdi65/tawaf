@@ -229,7 +229,7 @@ function Item({
           >
             {prevButton}
           </Button>
-          {!disableNext && (
+          {(!disableNext || showFinalMessage )&& (
             <Button
               size="lg"
               color={mode === "dark" ? "white" : "#BC9761"}

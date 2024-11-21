@@ -70,7 +70,7 @@ export const items =
         addresses: addresses[el.id],
         type: el.id === 1 ? 1 : 2,
         disableNext: stepsData[1].length === el.id,
-        showFinalMessage: el.id === 3
+        showFinalMessage: el.id === 4
       };
     });
 

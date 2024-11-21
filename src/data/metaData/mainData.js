@@ -22,6 +22,7 @@ export const mainData = {
     location: "المواقع",
     closeTitle: "إغلاق",
     finalMessage: "مبارك لكم إتمام العمرة، نسأل الله أن يتقبل منكم",
+    endUmrah: "الانتهاء"
   },
   en: {
     headerTitle: "Digital Mutawwif Service",
@@ -45,7 +46,8 @@ export const mainData = {
     autoPlay: "Autoplay",
     location: "Locations",
     closeTitle: "Close",
-    finalMessage: "May Allah bless your completion of ‘Umrah. We ask Allah to accept it from you."
+    finalMessage: "May Allah bless your completion of ‘Umrah. We ask Allah to accept it from you.",
+    endUmrah: "Completion"
   },
   fr: {
     headerTitle: "Service de Mutawwif Numérique",
@@ -69,7 +71,8 @@ export const mainData = {
     autoPlay: "Lecture automatique",
     location: "Emplacement",
     closeTitle: "Fermer",
-    finalMessage: "Félicitations, vous avez accompli votre Omra ! Nous implorons Allah d’accepter vos adorations"
+    finalMessage: "Félicitations, vous avez accompli votre Omra ! Nous implorons Allah d’accepter vos adorations",
+    endUmrah: "Terminer"
   },
   tr: {
     headerTitle: "Dijital Mutawwif Hizmeti",
@@ -94,6 +97,7 @@ export const mainData = {
     location: "Konum",
     closeTitle: "Kapat",
     finalMessage: "Umreniz mübarek olsun. Allah’ın yaptığınız ameli sizden kabul etsini niyaz ederiz.",
+    endUmrah: "Bitiriş"
   },
   ur: {
     headerTitle: "ڈیجیٹل مطوف سروس",
@@ -117,7 +121,8 @@ export const mainData = {
     autoPlay: "خودکار پلے",
     location: "مقام",
     closeTitle: "بند کریں",
-    finalMessage: "عمرہ کی ادائیگی  آپ کو مبارک ہو، ہم اللہ سے دعا کرتے ہیں کہ وہ آپ کا عمرہ قبول فرمائے۔"
+    finalMessage: "عمرہ کی ادائیگی  آپ کو مبارک ہو، ہم اللہ سے دعا کرتے ہیں کہ وہ آپ کا عمرہ قبول فرمائے۔",
+    endUmrah: "اختتام"
   },
   in: {
     headerTitle: "Layanan Mutawwif Digital",
@@ -141,7 +146,8 @@ export const mainData = {
     autoPlay: "Putar Otomatis",
     location: "Lokasi",
     closeTitle: "Tutup",
-    finalMessage: "Selamat atas selesainya umrah anda, kami memohon kepada Allah agar menerima amal ibadah anda"
+    finalMessage: "Selamat atas selesainya umrah anda, kami memohon kepada Allah agar menerima amal ibadah anda",
+    endUmrah: "Selesai"
   },
   mal: {
     headerTitle: "Perkhidmatan Mutawwif Digital",
@@ -165,6 +171,7 @@ export const mainData = {
     autoPlay: "Mainkan Automatik",
     location: "Lokasi",
     closeTitle: "Tutup",
-    finalMessage:"Tahniah dan mubarak kerana anda telah berjaya menyelesaikan ibadat umrah. Kami doakan semoga ibadat anda diterima oleh Allah Ta'ala"
+    finalMessage:"Tahniah dan mubarak kerana anda telah berjaya menyelesaikan ibadat umrah. Kami doakan semoga ibadat anda diterima oleh Allah Ta'ala",
+    endUmrah: "Selesai"
   },
 };

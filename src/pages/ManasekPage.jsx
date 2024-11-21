@@ -57,7 +57,7 @@ function ManasekPage({ lang, dir, mode }) {
               lang={lang}
               dir={dir}
               prevButton={mainData[lang]["previous"]}
-              nextButton={mainData[lang]["next"]}
+              nextButton={item.showFinalMessage ? mainData[lang]["endUmrah"] :mainData[lang]["next"] }
               mode={mode}
               curIndex={index}
               audio={item.audio}
