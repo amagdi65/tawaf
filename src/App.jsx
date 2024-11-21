@@ -4,6 +4,7 @@ import usePersistedState from "./hooks/usePersistedState";
 import Popup from "./components/Popup";
 import axios from "axios";
 import { v4 as uuidv4 } from 'uuid';
+import Congrats from "./components/Congrats";
 
 const ManasekPage = lazy(() => import("./pages/ManasekPage"));
 const InstructionPage = lazy(() => import("./pages/InstructionPage"));
@@ -58,7 +59,9 @@ function App() {
         currentPage={currentPage}
       >
         {renderPage()}
+        <Congrats />
       </MainLayout>
+
       <Popup setLang={setLang}  lang={lang} setDir={setDir}/>
     </>
   );

@@ -12,9 +12,9 @@ import styled from "@emotion/styled";
 import CounterCard from "./CounterCard";
 import PrayerCard from "./PrayerCard";
 import usePersistedState from "../hooks/usePersistedState";
-import icon from "../assets/2.svg";
 import { useState } from "react";
 import Location from "./Location";
+import Congrats from "./Congrats";
 const Icon = styled.img`
   width: 48px;
   height: 48px;
@@ -23,7 +23,7 @@ const Icon = styled.img`
 const IconContainer = styled.div`
   position: relative;
   &::before {
-    content: "${(props) => props.number}";
+    content: "${(props) => props.number ? props.number : ''}";
     position: absolute;
     left: 38%;
     top: 20%;
@@ -47,13 +47,11 @@ function Item({
   lang,
   dir,
   cardCounterTitle,
-  cardPrayerTitle,
   prevButton,
   nextButton,
   mode,
   curIndex,
   audio,
-  audioStart,
   autoPlay,
   modalTitle,
   closeTitle,
@@ -61,12 +59,16 @@ function Item({
   addresses,
   disableNext,
   type,
+  icon,
+  cardPrayerTitle,
+  showFinalMessage,
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
 
   const [page, setPage] = useState(0);
   const [fontSize, setFontSize] = useState(18);
   const [isPaused, setIsPaused] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const totalPages = prayerData?.length - 1;
 
   const renderContent = (dir) => {
@@ -121,7 +123,10 @@ function Item({
   };
 
   const handleNextClick = () => {
-    if ((count === 7 || !useCount) && setIndex(index)) setIndex(index);
+    if ((count === 7 || !useCount) && setIndex) setIndex(index);
+    if(showFinalMessage) {
+      setIsOpen(true);
+    }
   };
 
   return (
@@ -131,6 +136,7 @@ function Item({
       style={{ display: hidden }}
       backgroundColor={mode === "dark" ? "#28323F" : ""}
     >
+
       <AccordionButton
         justifyContent="space-between"
         style={{ direction: dir }}
@@ -160,6 +166,7 @@ function Item({
         </Box>
       </AccordionButton>
       <AccordionPanel>
+
         <Flex
           direction={{ base: "column", md: "row" }}
           align="stretch"
@@ -168,7 +175,7 @@ function Item({
           alignItems="stretch"
           style={{ direction: dir }}
         >
-          {useCount && (
+          {useCount === 1 && (
             <Box flex={1}>
               <CounterCard
                 count={count}
@@ -187,7 +194,6 @@ function Item({
               prayerData={prayerData}
               lang={lang}
               dir={dir}
-              cardTitle={cardPrayerTitle}
               mode={mode}
               page={page}
               setPage={setPage}
@@ -201,8 +207,8 @@ function Item({
               addresses={addresses}
               setFontSize={setFontSize}
               isPaused={isPaused}
-              audioStart={audioStart}
               audio={audio}
+              cardPrayerTitle={cardPrayerTitle}
             />
           </Box>
         </Flex>
@@ -237,8 +243,10 @@ function Item({
             >
               {nextButton}
             </Button>
+
           )}
         </Box>
+      {isOpen && <Congrats isOpen={isOpen} setIsOpen={setIsOpen} lang={lang} dir={dir} mode={mode} />}
       </AccordionPanel>
     </AccordionItem>
   );

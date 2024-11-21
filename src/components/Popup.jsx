@@ -8,174 +8,193 @@ import {
   ModalBody,
   Text,
   VStack,
-  Divider,
   Box,
   Image,
+  Button,
+  Grid,
+  HStack,
 } from "@chakra-ui/react";
 
-const Popup = ({ setLang, lang,setDir}) => {
+const textContent = {
+  ar: {
+    header: "مساعدك في رحلة العمرة",
+    description:
+      "مساعدك في رحلة العمرة مع 180 دعاء نصي و مسموع في مرحلة الطواف والسعي.",
+    confirmLabel: "ابدأ العمرة",
+  },
+  en: {
+    header: "Your Assistant for the Umrah Journey",
+    description:
+      "Assisting you at the Tawaf and Sa'i stage of your 'Umrah with 180 supplications in textual and audio format.",
+    confirmLabel: "Begin your ‘Umrah",
+  },
+  fr: {
+    header: "Votre Assistant pour le Voyage de la Omra",
+    description:
+      "Durant le voyage de la Omra, une assistance virtuelle de 180 invocations écrites et audios vous accompagne tout au long du Tawaf et du Sa’i.",
+    confirmLabel: "Commencez la Omra",
+  },
+  tr: {
+    header: "Umre Yolculuğunuzda Yardımcınız",
+    description:
+      "Tavâf ve Sa’y esnasında yazılı ve işitsel 180 dua ile umre yolculuğunda sizin yardımcınız olmaktadır.",
+    confirmLabel: "Umreye Başla",
+  },
+  ur: {
+    header: "سفر عمرہ میں آپ کا معاون",
+    description:
+      "سفر عمرہ میں آپ کا معاون، طواف و سعی کے دوران ٹیکسٹ اور آڈیو کی شکل میں 180 دعاؤں کے ساتھ",
+    confirmLabel: "عمرہ شروع کریں",
+  },
+  in: {
+    header: "Bahasa Indonesia Assistant",
+    description:
+      "Assisting you during Umrah with 180 written and audio prayers.",
+    confirmLabel: "Silakan memulai ibadah umrah",
+  },
+  mal: {
+    header: "Bahasa Melayu Assistant",
+    description:
+      "Assisting you during Umrah with 180 written and audio prayers.",
+    confirmLabel: "Sila mulakan ibadat umrah anda",
+  },
+};
+
+const languages = [
+  {
+    code: "ar",
+    name: "عربي",
+    dir: "rtl",
+    flagUrl: "https://flagcdn.com/w40/sa.png",
+  },
+  {
+    code: "en",
+    name: "English",
+    dir: "ltr",
+    flagUrl: "https://flagcdn.com/w40/us.png",
+  },
+  {
+    code: "ur",
+    name: "اردو",
+    dir: "rtl",
+    flagUrl: "https://flagcdn.com/w40/pk.png",
+  },
+  {
+    code: "tr",
+    name: "Türkçe",
+    dir: "ltr",
+    flagUrl: "https://flagcdn.com/w40/tr.png",
+  },
+  {
+    code: "fr",
+    name: "Français",
+    dir: "ltr",
+    flagUrl: "https://flagcdn.com/w40/fr.png",
+  },
+  {
+    code: "in",
+    name: "Indonesia",
+    dir: "ltr",
+    flagUrl: "https://flagcdn.com/w40/id.png",
+  },
+  {
+    code: "mal",
+    name: "Malaysia",
+    dir: "ltr",
+    flagUrl: "https://flagcdn.com/w40/my.png",
+  },
+];
+
+const Popup = ({ setLang, lang, setDir }) => {
   const [isOpen, setIsOpen] = useState(true);
 
-  const textContent = {
-    ar: {
-      header: "مساعدك في رحلة العمرة",
-      description:
-        "مساعدك في رحلة العمرة مع 180 دعاء نصي و مسموع في مرحلة الطواف والسعي.",
-      confirmLabel: "تأكيد الاختيار",
-    },
-    en: {
-      header: "Your Assistant for the Umrah Journey",
-      description:
-        "Assisting you at the Tawaf and Sa'i stage of your 'Umrah with 180 supplications in textual and audio format.",
-      confirmLabel: "Confirm Selection",
-    },
-    fr: {
-      header: "Votre Assistant pour le Voyage de la Omra",
-      description:
-        "Durant le voyage de la Omra, une assistance virtuelle de 180 invocations écrites et audios vous accompagne tout au long du Tawaf et du Sa’i.",
-      confirmLabel: "Confirmer la sélection",
-    },
-    tr: {
-      header: "Umre Yolculuğunuzda Yardımcınız",
-      description:
-        "Tavâf ve Sa’y esnasında yazılı ve işitsel 180 dua ile umre yolculuğunda sizin yardımcınız olmaktadır.",
-      confirmLabel: "Seçimi Onayla",
-    },
-    ur: {
-      header: "سفر عمرہ میں آپ کا معاون",
-      description:
-        "سفر عمرہ میں آپ کا معاون، طواف و سعی کے دوران ٹیکسٹ اور آڈیو کی شکل میں 180 دعاؤں کے ساتھ",
-      confirmLabel: "انتخاب کی تصدیق کریں",
-    },
-    in: {
-      header: "Bahasa Indonesia Assistant",
-      description:
-        "Assisting you during Umrah with 180 written and audio prayers.",
-      confirmLabel: "Konfirmasi Pilihan",
-    },
-    mal: {
-      header: "Bahasa Melayu Assistant",
-      description:
-        "Assisting you during Umrah with 180 written and audio prayers.",
-      confirmLabel: "Sahkan Pemilihan",
-    },
-  };
-
-  const languages = [
-    {
-      code: "ar",
-      name: "عربي",
-      dir: "rtl",
-      flagUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/20px-Flag_of_Saudi_Arabia.svg.png",
-    },
-    {
-      code: "en",
-      name: "English",
-      dir: "ltr",
-      flagUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/20px-Flag_of_the_United_States.svg.png",
-    },
-    {
-      code: "ur",
-      name: "اردو",
-      dir: "rtl",
-      flagUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/20px-Flag_of_Pakistan.svg.png",
-    },
-    {
-      code: "tr",
-      name: "Türkçe",
-      dir: "ltr",
-      flagUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/20px-Flag_of_Turkey.svg.png",
-    },
-    {
-      code: "fr",
-      name: "Français",
-      dir: "ltr",
-      flagUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/20px-Flag_of_France.svg.png",
-    },
-    {
-      code: "in",
-      name: "Bahasa Indonesia",
-      dir: "ltr",
-      flagUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/20px-Flag_of_Indonesia.svg.png",
-    },
-    {
-      code: "mal",
-      name: "Bahasa Melayu",
-      dir: "ltr",
-      flagUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/20px-Flag_of_Malaysia.svg.png",
-    },
-  ];
-
- 
-  const handleLanguageSelect = (languageCode,dir) => {
+  const handleLanguageSelect = (languageCode, dir) => {
     setLang(languageCode);
-    setDir(dir)
+    setDir(dir);
     setIsOpen(false);
   };
 
-
   return (
-    <Modal
-      isOpen={isOpen}
-      onClose={() => setIsOpen(false)}
-      isCentered
-      size="2xl"
-    >
+    <Modal isOpen={isOpen} onClose={() => setIsOpen(false)} isCentered>
       <ModalOverlay bg="rgba(0, 0, 0, 0.7)" />
       <ModalContent
         borderRadius="lg"
         boxShadow="2xl"
-        p={{ base: 6, md: 8 }}
-        maxW={{ base: "90%", md: "80%", lg: "60%" }}
-        bg="#f9fafb"
+        bg="white"
+        maxW="sm"
+        p={4}
       >
         <ModalHeader
-          textAlign="center"
-          fontSize={{ base: "xl", md: "3xl" }}
+          fontSize="xl"
           fontWeight="bold"
-          color="#2c3e50"
-          mb={4}
+          textAlign="center"
+          color="black"
         >
           {textContent[lang].header}
         </ModalHeader>
         <ModalCloseButton />
         <ModalBody>
-          <VStack spacing={4} align="stretch">
-            {languages.map((language) => (
-              <Box
-                key={language.code}
-                onClick={() => handleLanguageSelect(language.code,language.dir)}
-                borderWidth={2}
-                borderColor={lang === language.code ? "#BC9761" : "gray.300"}
-                borderRadius="md"
-                p={4}
-                textAlign="center"
-                cursor="pointer"
-                _hover={{ borderColor: "#BC9761" }} // Change border color on hover
-              >
-                <Image
-                  src={language.flagUrl}
-                  alt={language.name}
-                  boxSize="20px"
-                  mb={2}
-                />
-                <Text fontWeight="bold" color={lang === language.code ? "#BC9761" : "gray.700"}>
-                  {language.name}
-                </Text>
-                <Text fontSize={{ base: "sm", md: "md" }} color="gray.500">
-                  {textContent[language.code].description}
-                </Text>
-              </Box>
-            ))}
-            <Divider borderWidth="2px" borderColor="#BC9761" />
-        
+          <VStack spacing={4}>
+            <Grid
+              templateColumns="repeat(3, 1fr)"
+              gap={3}
+              justifyContent="center"
+              alignItems="center"
+            >
+              {languages.map((language) => (
+                <Box
+                  key={language.code}
+                  onClick={() =>
+                    handleLanguageSelect(language.code, language.dir)
+                  }
+                  borderWidth="1px"
+                  borderColor={lang === language.code ? "#BC9761" : "gray.300"}
+                  borderRadius="lg"
+                  bgColor='#eee'
+                  p={2}
+                  cursor="pointer"
+                  textAlign="center"
+                  _hover={{ borderColor: "#BC9761" }}
+                  h="60px"
+                  w="110px"
+                  display="flex"
+                  flexDirection="column"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  <HStack spacing={2}>
+                    <Image
+                      src={language.flagUrl}
+                      alt={language.name}
+                      boxSize="24px"
+                    />
+                    <Text fontSize="sm" fontWeight="bold" color="gray.700">
+                      {language.name}
+                    </Text>
+                  </HStack>
+                </Box>
+              ))}
+            </Grid>
+            <Text
+              fontSize="sm"
+              textAlign="center"
+              color="gray.600"
+              px={4}
+              lineHeight="1.5"
+            >
+              {textContent[lang].description}
+            </Text>
+            <Button
+              colorScheme="yellow"
+              bg="#BC9761"
+              color="white"
+              width="100%"
+              size="lg"
+              onClick={() => setIsOpen(false)}
+              _hover={{ bg: "#A67F3E" }}
+            >
+              {textContent[lang].confirmLabel}
+            </Button>
           </VStack>
         </ModalBody>
       </ModalContent>

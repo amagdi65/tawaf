@@ -12,7 +12,7 @@ import {
 import headerImg from "../assets/overlay-dark.svg";
 import translateImage from "../assets/language.svg";
 import colorMode from "../assets/color-mode.svg";
-import { mainData } from "../data/mainData";
+import { mainData } from "../data/metaData/mainData";
 import { getbgColor, getBorder, getColor } from "../helper";
 
 function Header({ setLang, dir, setDir, lang, mode, setMode, setCurrentPage, currentPage }) {

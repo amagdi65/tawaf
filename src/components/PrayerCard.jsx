@@ -6,7 +6,6 @@ const PrayerCard = ({
   prayerData,
   lang,
   dir,
-  cardTitle,
   mode,
   page,
   setPage,
@@ -20,8 +19,8 @@ const PrayerCard = ({
   addresses,
   setFontSize,
   isPaused,
-  audioStart,
   audio,
+  cardPrayerTitle
 }) => {
   const navigatePage = (direction) => {
     if (direction === "next" && page < totalPages) {
@@ -50,7 +49,7 @@ const PrayerCard = ({
       flexDirection="column"
       justifyContent="space-between"
       _before={{
-        content: `"${cardTitle}"`,
+        content: `"${prayerData && prayerData[page]["subtitle"][lang] || cardPrayerTitle}"`,
         bgColor: mode === "dark" ? "#232C35" : "#EBEBEB",
         position: "absolute",
         top: { base: "20px", md: "48px" },
@@ -87,7 +86,6 @@ const PrayerCard = ({
           setFontSize={setFontSize}
           page={page}
           isPaused={isPaused}
-          audioStart={audioStart}
           audio={audio}
           setIsPaused={setIsPaused}
           totalPages={totalPages}

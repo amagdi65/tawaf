@@ -1,6 +1,7 @@
 import { Box, Text, Flex } from "@chakra-ui/react";
 import React from "react";
-const StepperComp = ({ steps }) => {
+import checked from '../assets/check .svg'
+const StepperComp = ({ steps , mode}) => {
   return (
     <Flex
       direction="column"
@@ -12,22 +13,23 @@ const StepperComp = ({ steps }) => {
         align="center"
         justify="center"
         position="relative"
-        style={{ direction: steps[0].dir }}
+        style={{ direction: steps.length && steps[0].dir }}
         zIndex={0}
       >
-        {steps.map((step, index) => (
-          <React.Fragment key={index}>
-            <StepCircle
-              stepNumber={index + 1}
-              label={step.label}
-              onClick={() => {
-                steps[0].setIndex(index + 1);
-              }}
-              icon={step.icon}
-            />
-            {index < steps.length - 1 && <Line />}
-          </React.Fragment>
-        ))}
+        {steps.length &&
+          steps.map((step, index) => (
+            <React.Fragment key={index}>
+              <StepCircle
+                stepNumber={index + 1}
+                label={step.label}
+                onClick={() => {
+                  steps[0].setIndex(index + 1);
+                }}
+                icon={steps[0].index >= index + 2   ? checked : step.icon }
+              />
+              {index < steps.length - 1 && <Line dim={steps[0].index >= index + 2} mode={mode}/>}
+            </React.Fragment>
+          ))}
       </Flex>
     </Flex>
   );
@@ -55,28 +57,28 @@ const StepCircle = ({ stepNumber, label, onClick, icon }) => (
       fontSize={{ base: "14px", md: "18px" }}
       zIndex="1"
     >
-      {icon?  <img src={icon} /> : stepNumber}
+      {icon ? <img src={icon} /> : stepNumber}
     </Box>
     <Text
       position="absolute"
-      top={{ base: "50px", md: "60px" }} // Positioning the text directly below the circle
-      fontSize={{ base: "10px", md: "14px" }} // Small font size for the text
+      top={{ base: "50px", md: "60px" }}
+      fontSize={{ base: "10px", md: "14px" }}
       color="#BC9761"
       textAlign="center"
       width="300%"
       left="50%"
-      transform="translateX(-50%)" // Center the text below the circle
+      transform="translateX(-50%)"
     >
       {label}
     </Text>
   </Box>
 );
 
-const Line = () => (
+const Line = ({dim,mode}) => (
   <Box
-    width={{ base: "45px", md: "180px" }} // Increased line width
+    width={{ base: "45px", md: "180px" }}
     height="3px"
-    bg="#BC9761"
+    bg={dim ? "#BC9761" : mode === 'dark' ? "#3A444F":"#ddd"}
     position="relative"
     top="0"
     flexShrink={0}

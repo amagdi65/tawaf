@@ -10,8 +10,8 @@ import smallAinBlack from "../assets/font-decBlack.svg";
 
 import { useRef, useState, useEffect } from "react";
 
-const saiAudioFiles = import.meta.glob("../assets/sai/*.wav");
-const tawafAudioFiles = import.meta.glob("../assets/tawaf/*.wav");
+const saiAudioFiles = import.meta.glob("../assets/3/*.wav");
+const tawafAudioFiles = import.meta.glob("../assets/1/*.wav");
 
 function PrayerIcons({
   mode,
@@ -19,7 +19,6 @@ function PrayerIcons({
   autoPlay,
   setFontSize,
   page,
-  audioStart,
   audio,
   isPaused,
   setIsPaused,
@@ -32,9 +31,9 @@ function PrayerIcons({
   const [isAutoplay, setIsAutoplay] = useState(false);
 
   const getAudioMap = (audioPath) => {
-    if (audioPath.includes("sai")) {
+    if (audioPath.includes("3")) {
       return saiAudioFiles;
-    } else if (audioPath.includes("tawaf")) {
+    } else if (audioPath.includes("1")) {
       return tawafAudioFiles;
     } else {
       return null; 
@@ -98,13 +97,13 @@ function PrayerIcons({
 
   useEffect(() => {
     const loadAudio = async () => {
-      if (audio && audioStart !== undefined) {
+      if (audio !== undefined) {
         const audioMap = getAudioMap(audio);
         if (!audioMap) {
           console.error("Invalid audio path:", audio);
           return;
         }
-        const audioFileKey = `../${audio}/${prayerData[page]["audioNumber"]}.wav`;
+        const audioFileKey = `../${audio}/${prayerData[page]["audioNumber"]}`;
         if (audioMap[audioFileKey]) {
           try {
             const audioModule = await audioMap[audioFileKey]();
@@ -121,7 +120,7 @@ function PrayerIcons({
       }
     };
     loadAudio();
-  }, [page, audio, audioStart, isAutoplay, totalPages, prayerData, setPage]);
+  }, [page, audio, isAutoplay, totalPages, prayerData, setPage]);
 
   useEffect(() => {
     if (audioRef.current && audioSrc) {
