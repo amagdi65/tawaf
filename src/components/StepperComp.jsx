@@ -1,6 +1,11 @@
 import { Box, Text, Flex } from "@chakra-ui/react";
 import React from "react";
 import checked from '../assets/check .svg'
+
+const stepperIcons = import.meta.glob("../assets/stepperIcons/*.svg", {
+  eager: true, 
+  import: "default",
+});
 const StepperComp = ({ steps , mode}) => {
   return (
     <Flex
@@ -25,7 +30,7 @@ const StepperComp = ({ steps , mode}) => {
                 onClick={() => {
                   steps[0].setIndex(index + 1);
                 }}
-                icon={steps[0].index >= index + 2   ? checked : step.icon }
+                icon={steps[0].index >= index + 2   ? stepperIcons[checked] : stepperIcons[step.icon] }
               />
               {index < steps.length - 1 && <Line dim={steps[0].index >= index + 2} mode={mode}/>}
             </React.Fragment>

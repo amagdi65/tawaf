@@ -12,7 +12,6 @@ import { useRef, useState, useEffect } from "react";
 
 const saiAudioFiles = import.meta.glob("../assets/3/*.wav");
 const tawafAudioFiles = import.meta.glob("../assets/1/*.wav");
-
 function PrayerIcons({
   mode,
   dir,

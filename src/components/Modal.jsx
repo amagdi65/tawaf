@@ -16,8 +16,13 @@ import {
   IconButton,
 } from "@chakra-ui/react";
 import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
-// import MaccaMap from '../assets/macca haram illustration.svg';
-// AddressCard Component
+
+const LocationIcons = import.meta.glob("../assets/locations/*.svg", {
+  eager: true, 
+  import: "default",
+});
+
+
 const AddressCard = memo(function AddressCard({
   address,
   addressNumber,
@@ -144,7 +149,7 @@ function SimpleModal({
 
         <ModalBody overflowY="auto" maxH={{ base: "100vh", md: "70vh" }}>
           <Image
-            src={modalBody}
+            src={LocationIcons[modalBody]}
             alt={modalTitle}
             fit="contain"
             maxH="300px"

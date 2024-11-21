@@ -42,8 +42,8 @@ export const items =
   (page) =>
   async (
     { lang },
-    iconPrefix = "/src/assets/stepperIcons/",
-    locationPrefix = "/src/assets/locations/"
+    iconPrefix = "../assets/stepperIcons/",
+    locationPrefix = "../assets/locations/"
   ) => {
     const dataModules = await loadDataModules(GLOB_PATHS.files, "file");
     const iconModule = await loadDataModules(GLOB_PATHS.icons, "icon", ".svg");

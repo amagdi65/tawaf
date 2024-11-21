@@ -4,7 +4,7 @@ import Item from "../components/Item";
 
 import { useEffect, useState } from "react";
 import { mainData } from "../data/metaData/mainData";
-// import StepperComp from "../components/StepperComp";
+
 
 import { items } from "../data/metaData/items";
 
@@ -13,7 +13,10 @@ function InstructionPage({ lang, dir, mode }) {
 
 
   const [data,setData] = useState([]);
- 
+  const stepperIcons = import.meta.glob("../assets/stepperIcons/*.svg", {
+    eager: true, 
+    import: "default",
+  });
   useEffect(()=>{
     items('instructionsPage')({lang}).then((res)=>{
       setData(res);
@@ -21,17 +24,6 @@ function InstructionPage({ lang, dir, mode }) {
   },[lang])
   return (
     <Box height="100%" overflowY="auto">
-      {/* <StepperComp
-        steps={
-          data &&
-          data.map((item) => ({
-            label: item.title,
-            dir: dir,
-            setIndex,
-            icon: item.icon,
-          }))
-        }
-      ></StepperComp> */}
       <Accordion
         allowToggle
         {...(index <= data.length && { index: [index] })}
@@ -58,7 +50,7 @@ function InstructionPage({ lang, dir, mode }) {
                 mode={mode}
                 curIndex={index}
                 disableNext={item.disableNext}
-                icon={item.icon}
+                icon={stepperIcons[item.icon]}
               />
               {idx < data.length - 1 && <Separator dir={dir} />}
             </Box>

@@ -2,6 +2,8 @@ import location from "../assets/location-dot-solid.svg";
 import locationBlack from "../assets/location-black.svg";
 import SimpleModal from "./Modal";
 import { Image, Text, useDisclosure } from "@chakra-ui/react";
+
+
 function Location({
   modalTitle,
   closeTitle,
