@@ -17,13 +17,13 @@ export const stepsData = {
     },
     {
       "name": {
-        "ar": "الفراغ من الطواف والصلاة ركعتين خلف المقام",
-        "en": "Completing the Tawaf and the Prayer",
-        "fr": "L'achèvement du Tawaf et la prière de deux unités derrière Maqam Ibrahim",
-        "ur": "طواف سے فراغت اور مقام ابراہيم کے پيچھے دو رکعت نماز",
-        "in": "Setelah selesai tawaf dan shalat dua rakaat di belakang maqam Ibrahim",
-        "mal": "Menunaikan Solat Dua Rakaat di Belakang Maqam Ibrahim Setelah Melaksanakan Tawaf",
-        "tr": "Tavaf?n Bitirili?i ve Makam-? ?brahim Arkas?nda ?ki Rekat Namaz K?l?nmas?"
+        "ar": "الصلاة ركعتين خلف المقام",
+        "en": "Prayer behind the Maqam",
+        "fr": "- ?La prière dernière la station d’Ibrahim",
+        "ur": "مقام ابراہيم کے پيچھے نماز",
+        "in": "Shalat di belakang Maqam Ibrahim",
+        "mal": "Solat di belakang Maqam",
+        "tr": "Makam-? ?brahim Arkas?nda Namaz"
       },
       "id": 2,
       "step_no": 2,
@@ -32,13 +32,13 @@ export const stepsData = {
     },
     {
       "name": {
-        "ar": "السعي بين الصفا والمروة",
-        "en": "Performing as-Sa'i between as-Safa and al-Marwah",
-        "fr": "Parcours entre les monts Safa et Marwa",
-        "ur": "صفا اور مروہ کے درميان سعي",
-        "in": "Sai antara Safa dan Marwah",
-        "mal": "Tatacara Sa'i Antara Safa dan Marwah",
-        "tr": "Safa ve Merve Tepeleri Aras?nda Sa'y Etmek"
+        "ar": "السعي",
+        "en": "as-Sa’i",
+        "fr": "- Le sa’i",
+        "ur": "سعي",
+        "in": "Sai",
+        "mal": "Sa’i",
+        "tr": "Sa'y"
       },
       "id": 3,
       "step_no": 3,
