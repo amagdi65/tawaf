@@ -9,17 +9,21 @@ import {
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 const congrats = {
-  ar: "src/assets/congrats.svg",
-  en: "src/assets/popup haramin 2English.svg",
-  fr: "src/assets/popup haramin 2French.svg",
-  tr: "src/assets/popup haramin 2Turkish.svg",
-  in: "src/assets/popup haramin 2Indoonicya.svg",
-  mal:"src/assets/popup haramin 2 Malawi.svg",
-  ur: "src/assets/popup haramin 2Urdu.svg",
+  ar: "../assets/congrats.svg",
+  en: "../assets/popup haramin 2English.svg",
+  fr: "../assets/popup haramin 2French.svg",
+  tr: "../assets/popup haramin 2Turkish.svg",
+  in: "../assets/popup haramin 2Indoonicya.svg",
+  mal:"../assets/popup haramin 2 Malawi.svg",
+  ur: "../assets/popup haramin 2Urdu.svg",
 };
+
+const congratsSvg = import.meta.glob("../assets/*.svg", {
+  eager: true, 
+  import: "default",
+});
 const Congrats = ({ isOpen, setIsOpen, lang }) => {
   const closeModal = () => setIsOpen(false);
-  console.log(lang);
   return (
     <Box textAlign="center">
       <Modal isOpen={isOpen} onClose={closeModal} isCentered>
@@ -37,7 +41,7 @@ const Congrats = ({ isOpen, setIsOpen, lang }) => {
         >
           <ModalBody>
             <Stack spacing={6} align="center" textAlign="center">
-              <Image src={lang && congrats[lang]} alt="congrats" />
+              <Image src={lang && congratsSvg[congrats[lang]]} alt="congrats" />
             </Stack>
           </ModalBody>
         </ModalContent>

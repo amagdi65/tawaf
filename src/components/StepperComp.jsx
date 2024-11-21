@@ -30,7 +30,7 @@ const StepperComp = ({ steps , mode}) => {
                 onClick={() => {
                   steps[0].setIndex(index + 1);
                 }}
-                icon={steps[0].index >= index + 2   ? stepperIcons[checked] : stepperIcons[step.icon] }
+                icon={steps[0].index >= index + 2   ? checked : stepperIcons[step.icon] }
               />
               {index < steps.length - 1 && <Line dim={steps[0].index >= index + 2} mode={mode}/>}
             </React.Fragment>
