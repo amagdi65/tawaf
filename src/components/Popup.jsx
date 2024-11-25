@@ -101,7 +101,7 @@ const languages = [
   },
 ];
 
-const Popup = ({ setLang, lang, setDir }) => {
+const Popup = ({ setLang, lang, setDir , dir: pageDir}) => {
   const [isOpen, setIsOpen] = useState(true);
 
   const handleLanguageSelect = (languageCode, dir) => {
@@ -176,6 +176,7 @@ const Popup = ({ setLang, lang, setDir }) => {
               color="gray.600"
               px={4}
               lineHeight="1.5"
+              style={{direction: pageDir}}
             >
               {textContent[lang].description}
             </Text>

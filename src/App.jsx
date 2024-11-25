@@ -62,7 +62,7 @@ function App() {
         <Congrats />
       </MainLayout>
 
-      <Popup setLang={setLang}  lang={lang} setDir={setDir}/>
+      <Popup setLang={setLang} dir={dir} lang={lang} setDir={setDir}/>
     </>
   );
 }
