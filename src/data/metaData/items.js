@@ -59,7 +59,6 @@ export const items =
         prayerData: shuffle(dataModules[el.id - 1][`file_${el.id}`]),
         useCount: el.have_counter,
         cardCounterTitle: el.have_counter ? mainData[lang]["circuits"] : "",
-        cardPrayerTitle: "test",
         counterName: el.have_counter ? `${el.id}_${lang}` : "",
         audio: el.id === 1 || el.id === 3 ? `assets/${el.id}` : "",
         autoPlay: el.id === 1 || el.id === 3 ? mainData[lang]["autoPlay"] : "",

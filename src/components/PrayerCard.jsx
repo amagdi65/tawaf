@@ -35,7 +35,7 @@ const PrayerCard = ({
     boxSize: 8,
     color: "#BC9761",
   };
-
+  
   return (
     <Box
       padding="20px"
@@ -49,7 +49,7 @@ const PrayerCard = ({
       flexDirection="column"
       justifyContent="space-between"
       _before={{
-        content: `"${prayerData && prayerData[page]["subtitle"][lang] || cardPrayerTitle}"`,
+        content: `"${(prayerData && prayerData[page]["subtitle"][lang]) || cardPrayerTitle}"`,
         bgColor: mode === "dark" ? "#232C35" : "#EBEBEB",
         position: "absolute",
         top: { base: "20px", md: "48px" },

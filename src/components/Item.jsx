@@ -23,7 +23,7 @@ const Icon = styled.img`
 const IconContainer = styled.div`
   position: relative;
   &::before {
-    content: "${(props) => props.number ? props.number : ''}";
+    content: "${(props) => (props.number ? props.number : "")}";
     position: absolute;
     left: 38%;
     top: 20%;
@@ -62,7 +62,7 @@ function Item({
   icon,
   cardPrayerTitle,
   showFinalMessage,
-  disablePrev
+  disablePrev,
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
 
@@ -125,7 +125,7 @@ function Item({
 
   const handleNextClick = () => {
     if ((count === 7 || !useCount) && setIndex) setIndex(index);
-    if(showFinalMessage) {
+    if (showFinalMessage) {
       setIsOpen(true);
     }
   };
@@ -137,7 +137,6 @@ function Item({
       style={{ display: hidden }}
       backgroundColor={mode === "dark" ? "#28323F" : ""}
     >
-
       <AccordionButton
         justifyContent="space-between"
         style={{ direction: dir }}
@@ -167,7 +166,6 @@ function Item({
         </Box>
       </AccordionButton>
       <AccordionPanel>
-
         <Flex
           direction={{ base: "column", md: "row" }}
           align="stretch"
@@ -218,21 +216,29 @@ function Item({
           justifyContent="space-between"
           margin={{ base: 0, md: 10 }}
           marginTop={{ base: 10, md: 10 }}
-          style={{ direction: dir }}
+          flexDir={
+            disablePrev
+              ? dir === "ltr"
+                ? "row"
+                : "row-reverse"
+              : dir === "ltr"
+              ? "row-reverse"
+              : "row"
+          }
         >
-          {!disablePrev && (<Button
-            size="lg"
-            color={mode === "dark" ? "white" : "#BC9761"}
-            border={mode === "dark" ? "1px solid #aaa" : "1px solid #BC9761"}
-            bgColor={mode === "dark" ? "#1F2A37" : "white"}
-            _hover={buttonHoverStyle}
-            onClick={handlePrevClick}
-          justifyContent="flex-end"
-
-          >
-            {prevButton}
-          </Button>)}
-          {(!disableNext || showFinalMessage )&& (
+          {!disablePrev && (
+            <Button
+              size="lg"
+              color={mode === "dark" ? "white" : "#BC9761"}
+              border={mode === "dark" ? "1px solid #aaa" : "1px solid #BC9761"}
+              bgColor={mode === "dark" ? "#1F2A37" : "white"}
+              _hover={buttonHoverStyle}
+              onClick={handlePrevClick}
+            >
+              {prevButton}
+            </Button>
+          )}
+          {(!disableNext || showFinalMessage) && (
             <Button
               size="lg"
               color={mode === "dark" ? "white" : "#BC9761"}
@@ -246,10 +252,17 @@ function Item({
             >
               {nextButton}
             </Button>
-
           )}
         </Box>
-      {isOpen && <Congrats isOpen={isOpen} setIsOpen={setIsOpen} lang={lang} dir={dir} mode={mode} />}
+        {isOpen && (
+          <Congrats
+            isOpen={isOpen}
+            setIsOpen={setIsOpen}
+            lang={lang}
+            dir={dir}
+            mode={mode}
+          />
+        )}
       </AccordionPanel>
     </AccordionItem>
   );

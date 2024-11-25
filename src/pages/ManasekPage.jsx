@@ -43,7 +43,7 @@ function ManasekPage({ lang, dir, mode }) {
                 prayerData={item.prayerData}
                 useCount={item.useCount}
                 cardCounterTitle={item.cardCounterTitle}
-                cardPrayerTitle={item.prayerData}
+                cardPrayerTitle={item.title}
                 counterName={item.counterName}
                 lang={lang}
                 dir={dir}
