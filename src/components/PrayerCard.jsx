@@ -99,6 +99,7 @@ const PrayerCard = ({
         justifyContent={"center"}
         alignItems="center"
         height={{ base: "300px", md: "290px" }}
+
       >
         <Text
           margin={{ base: 0, md: 4 }}
@@ -120,6 +121,9 @@ const PrayerCard = ({
             "&::-webkit-scrollbar-track": {
               backgroundColor: mode === "dark" ? "#2C3743" : "#f5f5f5",
             },
+          }}
+          style={{
+            direction: dir
           }}
         >
           {prayerData && prayerData[page][lang]}
