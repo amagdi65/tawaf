@@ -70,6 +70,7 @@ export const items =
         addresses: addresses[el.id],
         type: el.id === 1 ? 1 : 2,
         disableNext: stepsData[1].length === el.id,
+        disablePrev: el.id === 1,
         showFinalMessage: el.id === 4
       };
     });
@@ -80,7 +81,8 @@ export const items =
         title: el.name[lang],
         prayerData: dataModules[el.id - 1][`file_${el.id}`],
         icon: iconPrefix + iconModule[el.id - 1]["fileName"],
-        disableNext: stepsData[2].length === (el.id - stepsData[1].length) 
+        disableNext: stepsData[2].length === (el.id - stepsData[1].length) ,
+        disablePrev: el.id - stepsData[1].length === 1,
       }
     })
     const data = {

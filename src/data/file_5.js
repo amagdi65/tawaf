@@ -6,7 +6,7 @@ export const data = [
     "ur": "مسلمان اس ميقات سے احرام باندھے گا جس سے وہ گذرے گا، يا جس ميقات کے برابر سے گذرے گا جب کہ وہ جہاز، ٹرين يا کشتي ميں ہو? اور جو شخص ميقات کے اندر ہو تو وہ وہيں سے احرام باندھے گا جہاں سے وہ عمرہ کي نيت کرے گا? چنانچہ مرد سلا ہوا کپڑا اتار کر احرام کا کپڑا پہنے گا، اور عورت دستانے اور نقاب نہيں لگائے گي? پھر وہ دل سے عمرہ ميں داخل ہونے کي نيت کرے گا اور اپني زبان سے عمرہ کا تلبيہ يہ کہتے ہوئے پکارے گا: (لبيک اللہم عمر?) يعني اے اللہ ميں عمرہ کے لئے حاضر ہوں? اور احرام کي ممنوعہ چيزوں سے دور رہے گا? ",
     "fr": "Le musulman entre en état de sacralisation dès qu'il atteint le point de sacralisation \"Al Miqate\" ou qu'il arrive à sa hauteur, lorsqu'il voyage en avion, en train ou par bateau. Quant à celui qui se trouve en deçà des points de sacralisations, il se sacralisera à partir de l'endroit où il decide de commencer sa Omra. Ensuite, l'homme retire ses vêtements (Al-Makhit : vêtement qui épouse un membre du corps) pour revêtir les habits de l’Ihram. Quant à la femme, elle se contentera d’éviter le port du niqab et des gants. Puis, le pèlerin émet l'intention d’entrer en état de sacralisation, et l'exprime à haute voix en disant : \"Labbayka Allahumma Omra\" (Je réponds, ô, Allah, à Ton appel, me voici pour accomplir une Omra). Dès lors, il s'abstient de tout acte invalidant l'état de sacralisation.",
     "mal": "Seorang Muslim perlu berihram dari miqat yang dilaluinya atau sejajar dengannya, sama ada dia berada di dalam pesawat, kereta api atau di atas kapal. Bagi mereka yang berada di dalam kawasan miqat pula, mereka perlu berihram dari tempat mereka berhasrat untuk menunaikan umrah.\n\nSeorang lelaki perlu menanggalkan segala pakaian yang berjahit dan memakai pakaian ihram. Wanita pula tidak dibenarkan untuk memakai purdah dan sarung tangan. \n\nKemudian, hendaklah dia berniat umrah dalam hati dan mengucapkannya dengan lisan: \"Labbaika Allahumma Umratan\" (Ya Allah, aku datang memenuhi panggilanMu dengan menunaikan umrah). Selain itu, seseorang perlu menghindari segala pantang larang ihram",
-    "tr": "Bir müslüman Mîkât noktas?ndan uçak, tren ve gemi ile geçiyorsa s?n?rdan ?nce ihrama girer. Mîkât'?n içinde ikamet edenler ise umreye niyetlendi?i yerden ihrama girer. Erkekler diki?li elbiseyi ç?kar?r ve ihram elbisesini giyerler. Kad?nlar ise peçe ve eldiven giymekten kaç?n?rlar. Ard?ndan kalbiyle umreye girmeye niyet eder ve diliyle Telbiye getirerek ??yle der: (Lebbeyke Allahumme Umreten) [Allah'?m umreye niyet ettim] Bundan sonra ihram yasaklar?ndan kaç?n?r.",
+    "tr": "Bir müslüman Mîkât noktasından uçak, tren ve gemi ile geçiyorsa sınırdan önce ihrama girer. Mîkât'ın içinde ikamet edenler ise umreye niyetlendiği yerden ihrama girer. Erkekler dikişli elbiseyi çıkarır ve ihram elbisesini giyerler. Kadınlar ise peçe ve eldiven giymekten kaçınırlar. Ardından kalbiyle umreye girmeye niyet eder ve diliyle Telbiye getirerek şöyle der: (Lebbeyke Allahumme Umreten) [Allah'ım umreye niyet ettim] Bundan sonra ihram yasaklarından kaçınır.",
     "in": "Seorang muslim berihram dari miqat yang dia lalui atau yang segaris sejajar dengannya apabila dia mengendarai pesawat, kereta atau kapal laut. Adapun orang yang berada di wilayah setelah miqat, maka berihram di mana dia hendak memulai niat umrahnya. Kaum laki-laki hendaklah menanggalkan semua pakaian berjahit dan mengenakan kain ihramnya. Sedangkan perempuan hendaklah menanggalkan cadar dan sarung tangan, kemudian dia berniat untuk masuk kepada ibadah umrahnya dengan hatinya sembari lisannya mengucapkan, \"Labbaika Allahumma Umrah\" yang artinya, \"Ya Allah, aku memenuhi panggilanMu untuk umrah\". Setelah itu, dia harus menghindari semua larangan-larangan ihram.\n",
     "subtitle": {
       "ar": "صفة الاحرام",
@@ -14,7 +14,7 @@ export const data = [
       "ur": "احرام کا طريقہ",
       "fr": "Description de l'entrée en état de sacralisation",
       "mal": "Tatacara Ihram",
-      "tr": "?hrama Giri?",
+      "tr": "İhrama Giriş",
       "in": "Tata Cara Umrah"
     }
   },
@@ -25,7 +25,7 @@ export const data = [
     "ur": "پھر کثرت سے تلبيہ پڑھے گا اور کہے گا: \"لبيك اللهم لبيك، لبيك لا شريك لك لبيك، إن الحمد والنعمة لك والملك، لا شريك لك\"  يعني: \"ميں حاضر ہوں، اے اللہ!ميں حاضر ہوں? پھرحاضر ہوں، تيرا کوئي شريک نہيں? ميں حاضر ہوں? تيرے ہي ليے تعريف ہے? تو ہي جملہ نعمتوں اور بادشاہت کا مالک ہے? تيرا کوئي شريک نہيں? ‘‘ ",
     "fr": "Il convient ensuite de multiplier la talbiya en disant : \"Labbayka Allahumma Labbayka, Labbayka la charika laka Labbayka, innal-hamda wan-ni'mata laka wal-mulk, la charika lak\" (Me voici, ô, Allah, me voici. Tu n'as aucun associé. A Toi appartiennent la louange, la faveur et la royauté. Tu n'as aucun associé).",
     "mal": "Kemudian dia digalakkan untuk memperbanyakkan talbiah: \"Labbaika Allahuma Labbaik, Labbaika La Syarika Laka Labbaik, Innal Hamda wan Nikmata Laka wal Mulk, La Syarika Laka.\"",
-    "tr": "Sonra çokça telbiye getirerek ??yle der: \"Lebbeyk Allahumme lebbeyk, lebbeyke lâ ?erîke leke lebbeyk, innelhamde ve'n-ni'mete leke ve'l-mulk, lâ ?erîke lek [Buyur Allah’?m! Emrine amadeyim buyur! Senin hiçbir orta??n yoktur. Emrine amadeyim buyur! ?üphesiz hamd Sana mahsustur. Nimet de mülk de Senindir. Senin hiçbir orta??n yoktur]",
+    "tr": "Sonra çokça telbiye getirerek şöyle der: \"Lebbeyk Allahumme lebbeyk, lebbeyke lâ şerîke leke lebbeyk, innelhamde ve'n-ni'mete leke ve'l-mulk, lâ şerîke lek [Buyur Allah’ım! Emrine amadeyim buyur! Senin hiçbir ortağın yoktur. Emrine amadeyim buyur! Şüphesiz hamd Sana mahsustur. Nimet de mülk de Senindir. Senin hiçbir ortağın yoktur]",
     "in": "Kemudian hendaklah dia memperbanyak mengucapkan talbiyah, yaitu: Labbaik Allahumma Labbaik, Labbaik Laa Syariika Laka Labbaik, Innal Hamda wan Ni'mata Laka wal Mulka, Laa Syariika Lak.\n",
     "subtitle": {
       "ar": "صفة الاحرام",
@@ -33,7 +33,7 @@ export const data = [
       "ur": "احرام کا طريقہ",
       "fr": "Description de l'entrée en état de sacralisation",
       "mal": "Tatacara Ihram",
-      "tr": "?hrama Giri?",
+      "tr": "İhrama Giriş",
       "in": "Tata Cara Umrah"
     }
   },
@@ -44,7 +44,7 @@ export const data = [
     "ur": "  اگر آپ  کا ارادہ احرام باندھنے کا ہے تو آپ کے ليے مستحب ہے کہ اپني مونچھ، ناخن ، زير ناف اور بغل کے بال کا جائزہ ليں ، اس ميں سے جسے کاٹنے کى ضرورت ہو، اسے کاٹ ليں تاکہ احرام کي حالت ميں  اسے کاٹنے کى ضرورت نہ پڑے،کيونکہ  يہ احرام کے ممنوعات ميں سے ہيں?",
     "fr": "Il vous ai conseillé, avant d'entrer en état de sacralisation, de vérifier la longueur de votre moustache, de vos ongles, de votre pubis et de vos aisselles. Coupez ce qui est nécessaire, afin que vous n'ayez pas à le faire durant votre état de sacralisation, car cela fait partie des interdits de l'Ihram.",
     "mal": "Sebelum berniat ihram, anda disunatkan untuk memeriksa misai, kuku, bulu kemaluan serta bulu ketiak anda serta memotong apa yang patut agar anda tidak perlu melakukannya ketika anda berada dalam keadaan ihram. Perkara-perkara ini termasuk dalam pantang larang ihram.",
-    "tr": "?hrama girece?iniz vakit; ihraml? iken haram olan bu eylemleri yapmaya ihtiyaç duymaman?z için, ?ayet gerektiyse b?y???n?z? ve t?rna??n?z? kesmeniz, etek ve koltuk alt?n? alman?z sünnettir. ",
+    "tr": "İhrama gireceğiniz vakit; ihramlı iken haram olan bu eylemleri yapmaya ihtiyaç duymamanız için, şayet gerektiyse bıyığınızı ve tırnağınızı kesmeniz, etek ve koltuk altını almanız sünnettir.\u000b",
     "in": "Disunnahkan bagi anda yang hendak berihram untuk mencukur kumis, memotong kuku, membersihkan bulu kemaluan dan ketiak. Anda dapat membersihkan secukupnya agar anda tidak perlu lagi membersihkannya saat berada dalam ihram. Sebab hal itu adalah merupakan bagian dari larangan ihram.\n",
     "subtitle": {
       "ar": "مستحبات الإحرام",
@@ -52,7 +52,7 @@ export const data = [
       "ur": "احرام کے مستحبات ",
       "fr": "Il est recommandé pour ihram",
       "mal": "Perkara-perkara yang disunatkan semasa berniat ihram",
-      "tr": "Umreye Ba?lamadan ?nceki Sünnetler",
+      "tr": "Umreye Başlamadan Önceki Sünnetler",
       "in": "Sunnah-sunnah Ihram"
     }
   },
@@ -61,7 +61,7 @@ export const data = [
     "audioNumber": null,
     "en": "Performing ghusl before entering into the state of Ihram is a recommended Sunnah that applies to women as well as men, even if they are menstruating or in postnatal bleeding. The evidence for this is the narration reported by at-Tirmidhi in which the Prophet (may Allah's salah and salam be upon him) removed his tailored clothing and performed ghusl before entering into the state of Ihram. He also instructed 'A'ishah (may Allah be pleased with her) to perform ghusl and enter into the state of Ihram for Hajj when she began menstruating after entering into Ihram for 'Umrah. Furthermore, when Asma bint 'Umays (may Allah be pleased with her) gave birth at Dhul-Hulayfah, the Prophet (may Allah’s salah and salam be upon him) instructed her to perform ghusl, put a cloth over the place of the postnatal bleeding and enter into the state of Ihram. This was reported by Muslim.",
     "ur": " مستحب ہے کہ  احرام سے قبل غسل کريں ? احرام کے وقت غسل کرنا مرد وخواتين يہاں تک کہ حيض ونفاس والي عورتوں کےليے بھي سنت ہے ?جيسا کہ حديث ميں ہے کہ اللہ کے نبي صلي اللہ عليہ وسلم نے احرام  کے وقت سلا ہوا کپڑا اتارديا اور غسل کيا ? اسے ترمذي نےروايت کيا ہے ? اور جب عائشہ رضي اللہ عنہا کو عمرہ کى حالت ميں حيض آگيا تو آپ صلي اللہ عليہ وسلم نے انہيں حکم ديا کہ وہ غسل کريں اور حج کي نيت کريں،  اور جب  اسماء بنت عميس نے  ذو الحليفہ ميں بچہ جنم ديا تو انہيں حکم ديا کہ وہ غسل کريں اور شرم گاہ پر کپڑا باندھ ليں اوراحرام باندھيں ? اسے مسلم نےروايت کيا ہے ?",
-    "tr": "?hrama girmeden ?nce gusül abdesti alman?z sünnettir. ?hrama girerken gusül abdesti almak hem erkeklere hem de kad?nlara sünnettir. Hatta hay?zl? ve lohusa kad?n için dahi sünnettir. ?mam Tirmizi’nin rivayet etti?i hadiste ??yle geçer: \"Peygamberimiz (s.a.v) ihrama girmeden ?nce elbiselerini ç?kart?p gusül abdesti ald?.\" ?mam Müslim’nin rivayet etti?i hadiste ise Ai?e (r.a) ihraml? iken hay?z oldu?unda Peygamber (s.a.v) ona gusül al?p hacca niyet etmesini emretmi?tir. Ayr?ca Esma bint Umeys, Zül-Huleyfe’de do?um yapt???nda Rasulullah (s.a.v) ona y?kanmas?n? ve bezle korunup ihrama girmesini emretmi?tir.",
+    "tr": "İhrama girmeden önce gusül abdesti almanız sünnettir. İhrama girerken gusül abdesti almak hem erkeklere hem de kadınlara sünnettir. Hatta hayızlı ve lohusa kadın için dahi sünnettir. İmam Tirmizi’nin rivayet ettiği hadiste şöyle geçer: \"Peygamberimiz (s.a.v) ihrama girmeden önce elbiselerini çıkartıp gusül abdesti aldı.\" İmam Müslim’nin rivayet ettiği hadiste ise Aişe (r.a) ihramlı iken hayız olduğunda Peygamber (s.a.v) ona gusül alıp hacca niyet etmesini emretmiştir. Ayrıca Esma bint Umeys, Zül-Huleyfe’de doğum yaptığında Rasulullah (s.a.v) ona yıkanmasını ve bezle korunup ihrama girmesini emretmiştir.",
     "fr": "Il est également recommandé de prendre un bain avant la sacralisation. Le bain au moment de l'Ihram est une sunna pour les hommes et les femmes, y compris pour les femmes en période de menstruations ou de lochies. \nCeci est basé sur un hadith rapporté par At-Tirmidhi selon lequel le Prophète -paix et bénédiction sur lui- retira ses vêtements cousus et prit un bain lors de l'Ihram. Le Prophète -paix et bénédiction sur lui- a également ordonné à Aïcha -qu'Allah l'agrée-, alors en période de menstrues après être entrée en état de sacralisation pour la Omra, de prendre un bain et d’entrer en état de sacralisation pour le Hajj. Il a de même ordonné à Asma bint Umays, après avoir accouché à Dhûl-Hulayfa, de prendre un bain, d'utiliser un tissu comme protection puis d’entrer en état de sacralisation, comme le rapporte Mouslim.",
     "mal": "\nAnda disunatkan untuk mandi sebelum berniat ihram. Hukum mandi ketika hendak berniat ihram adalah sunat bagi lelaki dan wanita, termasuk wanita yang sedang haid atau nifas. Ini berdasarkan sebuah hadis yang menyatakan bahawa Nabi Muhammad Sallallahu 'Alaihi wa Sallam telah menanggalkan segala pakaian yang berjahit (sebelum baginda berniat ihram) dan baginda mandi (sebelum berihram). (Riwayat at-Tirmizi) Selain itu, Rasulullah Sallallahu 'Alaihi wa Sallam  telah memerintahkan Aisyah radhiyallahu 'anhu yang sedang haid    -setelah beliau berniat umrah- untuk mandi sebelum berniat haji, baginda juga telah memerintahkan Asma' binti Umais radhiyallahu 'anhu yang baru sahaja melahirkan seorang bayi untuk mandi dan meletakkan sehelai kain (pada kemaluannya), kemudian berniat ihram. (Riwayat Muslim)",
     "in": "Disunnahkan bagi anda yang hendak berihram untuk mandi. Mandi untuk ihram adalah sunnah bagi laki-laki dan perempuan, bahkan bagi wanita yang haid dan nifas. Demikian itu sebagaimana diriwayatkan bahwa Nabi saw saat ihram menanggalkan semua pakaian yang berjahit dan mandi. (HR. Tirmizi)\nNabi saw memerintahkan kepada Aisyah saat dia haid, dan dia telah berihram untuk umrah agar mandi dan berihram untuk haji. Beliau juga memerintahkan kepada Asma' binti Umais saat dia melahirkan di Dzul Hulaifah agar mandi dan mengenakan pakaian yang rapi lalu berihram. (HR. Muslim)",
@@ -69,7 +69,7 @@ export const data = [
       "ar": "مستحبات الإحرام",
       "en": "\"Recommended actions before\n entering into the state of Ihram.\"",
       "ur": "احرام کے مستحبات ",
-      "tr": "Umreye Ba?lamadan ?nceki Sünnetler",
+      "tr": "Umreye Başlamadan Önceki Sünnetler",
       "fr": "Il est recommandé pour ihram",
       "mal": "Perkara-perkara yang disunatkan semasa berniat ihram",
       "in": "Sunnah-sunnah Ihram"
@@ -79,7 +79,7 @@ export const data = [
     "ar": "يستحب لك أن تتطيب قبل إحرامك في رأسك وبدنك ولا تطيب ثياب الإحرام؛ لما ثبت في الصحيحين، عن عائشة رضي الله عنها قالت: «كنت أطيب رسول الله  لإحرامه قبل أن يحرم، ولحله قبل أن يطوف بالبيت»كما  رواه البخاري ومسلم",
     "audioNumber": null,
     "en": "Before you enter into the state of Ihram, it is recommended for you to apply perfume to your head and body. However, do not apply any perfume to your Ihram clothing. The evidence for this was narrated by 'A'ishah (may Allah be pleased with her) who said, \"I used to apply perfume to Allah's Messenger before he entered into the state of Ihram and performed tawaf around the Ka'bah.\" This was reported by al-Bukhari and Muslim.",
-    "tr": "?hramdan ?nce ba??n?za ve bedeninize güzel koku sürmeniz sünnettir. ?hram elbisesine ise koku sürmeniz caiz de?ildir. ?mam Buhari ve ?mam Müslim’in rivayet etti?i hadiste belirtildi?i gibi Ai?e (r.a) ??yle dermi?tir: ”Rasulullah (s.a.v)’e ihram?n? giymeden ?nce koku sürdüm. Ayn? ?ekilde ihramdan ç?kt?ktan sonra veda tavaf?n? yapmadan ?nce de ona koku sürdüm.\"",
+    "tr": "İhramdan önce başınıza ve bedeninize güzel koku sürmeniz sünnettir. İhram elbisesine ise koku sürmeniz caiz değildir. İmam Buhari ve İmam Müslim’in rivayet ettiği hadiste belirtildiği gibi Aişe (r.a) şöyle dermiştir: ”Rasulullah (s.a.v)’e ihramını giymeden önce koku sürdüm. Aynı şekilde ihramdan çıktıktan sonra veda tavafını yapmadan önce de ona koku sürdüm.\"",
     "ur": " آپ  کےليے مستحب ہے کہ احرام سے قبل اپنے سر اور بدن ميں خوشبو لگائيں ، احرام کے کپڑوں ميں خوشبو نہ لگائيں ? صحيحين ميں ثابت ہے کہ عا‏‏ئشہ رضي اللہ عنہانے فرمايا: ميں رسول اللہ ? کو احرام باندھنےسے پہلےور طواف زيارت سے پہلے احرام کھولتے وقت خوشبو لگاتي تھي? جيسا کہ بخاري اور مسلم نے روايت کيا ہے?",
     "fr": "Il est également recommandé de se parfumer la tête et le corps avant d’entrer en état de sacralisation et non les vêtements de l’ihram. Cette pratique est fondée sur des hadiths rapportés dans les deux authentiques par Aisha, -qu’Allah l’agrée- qui disait : “Je parfumais le Prophète avant qu'il n’entre en état de sacralisation et avant qu'il ne fasse le Tawaf”. Rapporté par Boukhari et Mouslim.",
     "mal": "Anda disunatkan untuk memakai minyak wangi pada badan dan kepala anda sebelum anda berniat ihram, namun anda tidak dibenarkan untuk memakai minyak wangi pada pakaian ihram. Ini berdasarkan sebuah hadis yang diriwayatkan oleh Bukhari dan Muslim daripada Aisyah radhiyallahu 'anhu, beliau berkata: \"Saya telah memakaikan  minyak wangi kepada Rasulullah Sallallahu 'Alaihi wa Sallam sebelum baginda berniat ihram, dan juga sebelum baginda melaksanakan tawaf di Kaabah setelah baginda bertahallul.\" (Hadis riwayat Bukhari dan Muslim).",
@@ -87,7 +87,7 @@ export const data = [
     "subtitle": {
       "ar": "مستحبات الإحرام",
       "en": "\"Recommended actions before\n entering into the state of Ihram.\"",
-      "tr": "Umreye Ba?lamadan ?nceki Sünnetler",
+      "tr": "Umreye Başlamadan Önceki Sünnetler",
       "ur": "احرام کے مستحبات ",
       "fr": "Il est recommandé pour ihram",
       "mal": "Perkara-perkara yang disunatkan semasa berniat ihram",
@@ -98,7 +98,7 @@ export const data = [
     "ar": "\"يستحب للذكر أن يلبس  إزارا ورداء أبيضين نظيفين، ويلبس نعلين، ولا يلبس الخفين.\n والإزار: ما يستر أسفل البدن، ويُشدُّ على الحَقْوَيْنِ، والرداء: ما يستر أعلى البدن ويوضع على المنكبين.\"",
     "audioNumber": null,
     "en": "It is also recommended for men to wear a clean white izar and rida, along with sandals. They cannot wear socks. An izar is a piece of clothing that is wrapped around the wasit to cover the lower body, and a rida is a piece of clothing that covers the upper body and is placed on the shoulders. ",
-    "tr": "Erke?in beyaz ve temiz ihram elbisesi ?zâr ve Ridâ giymesi sünnettir. Ayakkab? giyemez bunun yerine terlik giyer. \n?zâr: Bedenin alt taraf?n? ?rten ve bele ba?lanan ?rtüdür. \nRidâ: Omuza konulan ve bedenin üst taraf?n? ?rten ?rtüdür. ",
+    "tr": "Erkeğin beyaz ve temiz ihram elbisesi İzâr ve Ridâ giymesi sünnettir. Ayakkabı giyemez bunun yerine terlik giyer. \r\nİzâr: Bedenin alt tarafını örten ve bele bağlanan örtüdür. \r\nRidâ: Omuza konulan ve bedenin üst tarafını örten örtüdür. ",
     "ur": "مرد کےليے مستحب ہے کہ وہ صاف سفيد ازار اور چادر پہنے ، جوتے پہنے اور موزے نہ پہنے?\nازار وہ  کپڑا ہے جو بدن کے نچلے حصے کو ڈھانپے اورکمر پر باندھا جائے اورچادر وہ لباس ہے جو بدن کے اوپري حصے کو ڈھانپے اور شانوں پر رکھي جائے?",
     "fr": "Il est recommandé pour l'homme de porter un Izar et un Rida propres, ainsi que des sandales, et de ne pas porter de chaussettes. L'Izar désigne l'étoffe qui couvre la partie inférieure du corps et qui est attaché au niveau de la taille. Quant au Rida, il désigne l'étoffe qui couvre la partie supérieure du corps et qui est placé sur les épaules.",
     "mal": "\nDisunatkan bagi lelaki untuk memakai 'izar' (kain bahagian bawah) dan 'rida' (kain bahagian atas) yang berwarna putih yang bersih. Dia juga hendaklah memakai selipar dan tidak dibenarkan untuk memakai 'khuf' (sejenis stokin yang diperbuat daripada kulit).\n\"\n'Izar' adalah sehelai kain yang menutup bahagian bawah tubuh badan yang diikat pada pinggang. Manakala 'Rida' pula adalah sehelai kain yang menutup badan bahagian atas dan diletakkan di atas bahu.\"",
@@ -106,7 +106,7 @@ export const data = [
     "subtitle": {
       "ar": "مستحبات الإحرام",
       "en": "\"Recommended actions before\n entering into the state of Ihram.\"",
-      "tr": "Umreye Ba?lamadan ?nceki Sünnetler",
+      "tr": "Umreye Başlamadan Önceki Sünnetler",
       "ur": "احرام کے مستحبات ",
       "fr": "Il est recommandé pour ihram",
       "mal": "Perkara-perkara yang disunatkan semasa berniat ihram",
@@ -117,7 +117,7 @@ export const data = [
     "ar": "\"وأما المرأة فيجوز لها أن تحرم فيما شاءت من أسود أو أخضر أو غيرهما.\nمع الحذر من التشبه بالرجال في لباسهم، لكن ليس لها أن تلبس النقاب والقفازين حال إحرامها.\"",
     "audioNumber": null,
     "en": "Women, however, are permitted to enter into the state of Ihram in any colour they wish, such as black, green, and so on. Nonetheless, they must be careful not to imitate men in their clothing. They also cannot wear the niqab or gloves whilst in the state of Ihram.",
-    "tr": "Kad?nlar?n ise siyah, ye?il veya di?er renklerde olan elbiselerle ihrama girmeleri mümkündür. Ancak giyimlerinde erkeklere benzememeye dikkat etmeleri, ihraml? iken peçe ve eldiven giymekten sak?nmalar? gerekir.",
+    "tr": "Kadınların ise siyah, yeşil veya diğer renklerde olan elbiselerle ihrama girmeleri mümkündür. Ancak giyimlerinde erkeklere benzememeye dikkat etmeleri, ihramlı iken peçe ve eldiven giymekten sakınmaları gerekir.",
     "ur": "جہاں تک خاتون کا تعلق ہے تو اس کے ليے جائز ہے کہ وہ کالے يا ہرے يا ان کےعلاوہ جس رنگ کے کپڑے ميں چاہے عمرے کي نيت کرے،ہاں مردوں کےلباس کي مشابہت سے بچے، البتہ اسے حالت احرام ميں نقاب اور دستانے نہيں پہننے ہيں?",
     "fr": " Quant aux femmes, elles peuvent entrer en état d'Ihram avec des vêtements de n'importe quelle couleur, en évitant de ressembler aux hommes dans leur tenues. Cependant, elles ne doivent pas porter de niqab ou de gants pendant l'Ihram.",
     "mal": "\nBagi kaum wanita pula, dia boleh memakai apa sahaja pakaian yang mereka mahu, sama ada berwarna hitam, hijau atau warna-warna lain. Namun mereka harus berhati-hati agar tidak menyerupai pakaian lelaki. Wanita juga tidak dibenarkan untuk memakai purdah dan sarung tangan ketika berada keadaan berihram.",
@@ -125,7 +125,7 @@ export const data = [
     "subtitle": {
       "ar": "مستحبات الإحرام",
       "en": "\"Recommended actions before\n entering into the state of Ihram.\"",
-      "tr": "Umreye Ba?lamadan ?nceki Sünnetler",
+      "tr": "Umreye Başlamadan Önceki Sünnetler",
       "ur": "احرام کے مستحبات ",
       "fr": "Il est recommandé pour ihram",
       "mal": "Perkara-perkara yang disunatkan semasa berniat ihram",
@@ -136,7 +136,7 @@ export const data = [
     "ar": "أخي المعتمر تعّلم هدي النبي -?- في أداء العمرة حتى تؤديها بطريقة صحيحة؛ لأن الله لا يقبل العمل إذا خالف هدي النبي -?، قال -?- : \" خذوا عِّني مناِسَككْم\" (رواه النسائي).",
     "audioNumber": null,
     "en": "Dear ‘Umrah pilgrim, you must learn how the Prophet (may Allah’s salah and salam be upon him) performed ‘Umrah and replicate it in order to ensure your ‘Umrah is valid. This is because Allah does not accept any deed that is contrary to the Prophet’s (may Allah’s salah and salam be upon him) guidance. As a result of this, he (may Allah’s salah and salam be upon him) said \"learn your rituals from me\". Reported by Muslim.",
-    "tr": " Umreci karde?im! Umreyi do?ru bir ?ekilde yapman için Peygamberimiz (s.a.v)’in umre hakk?ndaki sünnetini ??renmen gerekir. Zira Allah’u Teala, Peygamber (s.a.v)’in sünnetine ters olan ameli kabul etmez. ?mam Nesâî’nin rivayet etti?i hadiste Peygamberimiz (s.a.v) ??yle buyurur: “Hac ibadetlerinizi benden al?n?z.” ",
+    "tr": " Umreci kardeşim! Umreyi doğru bir şekilde yapman için Peygamberimiz (s.a.v)’in umre hakkındaki sünnetini öğrenmen gerekir. Zira Allah’u Teala, Peygamber (s.a.v)’in sünnetine ters olan ameli kabul etmez. İmam Nesâî’nin rivayet ettiği hadiste Peygamberimiz (s.a.v) şöyle buyurur: “Hac ibadetlerinizi benden alınız.”\u000b",
     "ur": "عمرہ کرنے والے  بھائي  عمرہ کي ادائے گي ميں نبي صلي اللہ عليہ وسلم کا طريقہ سيکھيں تاکہ صحيح طريقے سے اسے ادا کرسکيں، اس ليے کہ اللہ تعالي کسي ايسے عمل کو قبول نہيں کرتا جو نبي صلي اللہ عليہ وسلم کے طريقے کے خلاف ہو? اسي ليے آپ صلي اللہ عليہ وسلم نےفرمايا: تم لوگ مجھ سے  حج کے احکام سيکھ لو? اسے نسائي نے روايت کيا ہے ?",
     "fr": "Chers pèlerins, il vous incombe d’étudier la maniére dont le Prophète -paix et bénédiction sur lui- accomplissait la Omra afin de l'accomplir correctement, car Allah rejette un acte s’il s’oppose à la guidée du Prophète -paix et bénédiction sur lui-. C’est pour cela qu’Il a dit -paix et bénédiction sur lui- : “Prenez de moi vos rites”. Rapporté par An-Nasai.",
     "mal": "\nSaudaraku jemaah umrah, \nPelajarilah tatacara Rasulullah Sallallahu 'Alaihi wa Sallam mengerjakan umrah agar anda dapat melaksanakannya dengan cara yang betul. Ini kerana Allah Ta'ala tidak akan menerima sebarang amalan yang bertentangan dengan petunjuk Rasulullah Sallallahu 'Alaihi wa Sallam. Baginda telah bersabda: \"Ambillah daripadaku tatacara manasik kalian.\" (Riwayat an-Nasa’i)",
@@ -144,7 +144,7 @@ export const data = [
     "subtitle": {
       "ar": "محظورات الإحرام",
       "en": "Ihram Prohibitions",
-      "tr": "?hram Yasaklar?",
+      "tr": "İhram Yasakları",
       "ur": "ممنوعات احرام ",
       "fr": "Les interdits de l’Ihram ",
       "mal": "Pantang larang ihram",
@@ -155,7 +155,7 @@ export const data = [
     "ar": "اجتنب محظورات الإحرام \nحال إحرامك : وهي تسعة محظورات يحرم على المحرم فعلها :",
     "audioNumber": null,
     "en": "Whilst you are in the state of al-Ihram, avoid the \nfollowing nine prohibitions of Ihram:",
-    "tr": "?hraml? iken yap?lmas? haram olan dokuz ihram yasa??ndan kaç?n?n?z:",
+    "tr": "İhramlı iken yapılması haram olan dokuz ihram yasağından kaçınınız:",
     "ur": "احرام کي حالت ميں احرام کي ممنوعات سے بچو: اور يہ نو ممنوعات ہيں جن کا کرنا احرام کي حالت ميں حرام ہے?",
     "fr": "Evitez de commettre les interdictions liées à l’état de sacralisation qui sont aux nombres de neuf \n\n\n\n",
     "mal": "\nHindarilah segala pantang larang ihram semasa anda berada dalam keadaan berihram. Terdapat sembilan larangan yang tidak boleh dilakukan oleh seseorang yang sedang berihram:",
@@ -163,7 +163,7 @@ export const data = [
     "subtitle": {
       "ar": "محظورات الإحرام",
       "en": "Ihram Prohibitions",
-      "tr": "?hram Yasaklar?",
+      "tr": "İhram Yasakları",
       "ur": "ممنوعات احرام ",
       "fr": "Les interdits de l’Ihram ",
       "mal": "Pantang larang ihram",
@@ -174,7 +174,7 @@ export const data = [
     "ar": "1- إزالة الشعر",
     "audioNumber": null,
     "en": "1- Removing any hair",
-    "tr": "1-K?l koparmak. ",
+    "tr": "1-Kıl koparmak. ",
     "ur": "1- بال کاٹنا  يا زائل کرنا",
     "fr": "1- Se raser les poils ",
     "mal": "1-Mencabut bulu",
@@ -182,7 +182,7 @@ export const data = [
     "subtitle": {
       "ar": "محظورات الإحرام",
       "en": "Whilst you are in the state of al-Ihram, avoid the \nfollowing nine prohibitions of Ihram:",
-      "tr": "?hraml? iken yap?lmas? haram olan dokuz ihram yasa??ndan kaç?n?n?z:",
+      "tr": "İhramlı iken yapılması haram olan dokuz ihram yasağından kaçınınız:",
       "ur": "ممنوعات احرام ",
       "fr": "Evitez de commettre les interdictions liées à l’état de sacralisation qui sont aux nombres de neuf : ",
       "mal": "Hindarilah segala pantang larang ihram semasa anda berada dalam keadaan berihram. Terdapat sembilan larangan yang tidak boleh dilakukan oleh seseorang yang sedang berihram:",
@@ -193,7 +193,7 @@ export const data = [
     "ar": "2- قص الأظافر",
     "audioNumber": null,
     "en": "2-Cutting the nails",
-    "tr": "2-T?rnak kesmek.",
+    "tr": "2-Tırnak kesmek.",
     "ur": "2- ناخن تراشنا",
     "fr": "2-Se couper les onglets  ",
     "mal": "2-Memotong kuku",
@@ -201,7 +201,7 @@ export const data = [
     "subtitle": {
       "ar": "محظورات الإحرام",
       "en": "Whilst you are in the state of al-Ihram, avoid the \nfollowing nine prohibitions of Ihram:",
-      "tr": "?hraml? iken yap?lmas? haram olan dokuz ihram yasa??ndan kaç?n?n?z:",
+      "tr": "İhramlı iken yapılması haram olan dokuz ihram yasağından kaçınınız:",
       "ur": "ممنوعات احرام ",
       "fr": "Evitez de commettre les interdictions liées à l’état de sacralisation qui sont aux nombres de neuf : ",
       "mal": "Hindarilah segala pantang larang ihram semasa anda berada dalam keadaan berihram. Terdapat sembilan larangan yang tidak boleh dilakukan oleh seseorang yang sedang berihram:",
@@ -215,7 +215,7 @@ export const data = [
     "ur": "3- احرام کي نيت کے بعد بدن يا احرام کے کپڑوں پر خوشبو لگانا",
     "fr": "3-Utiliser du parfum sur le corps ou les vêtements de l’Ihram un fois entré en état de sacralisation.",
     "mal": "3-Memakai minyak wangi pada badan atau pakaian ihram setelah seseorang berniat ihram ",
-    "tr": "3-?hramdan sonra bedene veya ihram elbisesine koku sürmek. ",
+    "tr": "3-İhramdan sonra bedene veya ihram elbisesine koku sürmek. ",
     "in": "3- Menggunakan wewangian setelah berihram pada badan atau pada pakaian ihram.\n",
     "subtitle": {
       "ar": "محظورات الإحرام",
@@ -223,7 +223,7 @@ export const data = [
       "ur": "ممنوعات احرام ",
       "fr": "Evitez de commettre les interdictions liées à l’état de sacralisation qui sont aux nombres de neuf : ",
       "mal": "Hindarilah segala pantang larang ihram semasa anda berada dalam keadaan berihram. Terdapat sembilan larangan yang tidak boleh dilakukan oleh seseorang yang sedang berihram:",
-      "tr": "?hraml? iken yap?lmas? haram olan dokuz ihram yasa??ndan kaç?n?n?z:",
+      "tr": "İhramlı iken yapılması haram olan dokuz ihram yasağından kaçınınız:",
       "in": "Hindarilah hal-hal yang dilarang saat anda berada dalam ihram. Larangan-larangan tersebut ada sembilan, tidak boleh dilakukan saat dalam ihram:"
     }
   },
@@ -234,7 +234,7 @@ export const data = [
     "ur": "4- \"مرد کے ليے سلا ہوا کپڑا پہننا اور يہ  وہ لباس ہے جو جسم کے ساخت پر سلا گيا ہو جيسے قميص يا  بدن کے کسي عضو کے بقدر سلا گيا ہو يا بدن کے بعض حصے کے ليے سلا گيا ہو جيسے بنيان، پاجامے اور موزے?  اور اس ميں ہر وہ چيز شامل ہے جو ٹخنوں کے ساتھ پورے پير کو ڈھانپے جسے آج کل  بوٹ کہا جاتا ہے ، اورجرابيں بھي جنہيں  موزے کہا جاتا ہے? اور عورت کے ليے نقاب، برقع اور دستانے پہننا ممنوع ہے ?\"",
     "fr": "4-Porter des vêtements cousus (pour les hommes) : c'est-à-dire tout vêtement confectionné de maniére à épouser la forme du corps, tels que le Qamis ou les vêtements cousus en fonction de la taille des membres ou d'une partie des membres tels que le tee-shirt, les pantalons et les chaussons. Ainsi que tout ce qui couvre l’ensemble des pieds, y compris les chevilles, et que l’on appelle de nos jours : chaussures. Et les bas-de-chausses que l'on appelle de nos jours : chaussettes. En revanche, pour la femme, seul le revêtement du niqab ou de la burqa (voile qui couvre l’ensemble du visage) et gants est interdit.",
     "mal": "4- Memakai pakaian berjahit: Lelaki dilarang memakai pakaian yang dijahit mengikut bentuk badan seperti baju, atau pakaian yang dipotong dan dijahit mengikut bentuk anggota badan atau sebahagiannya seperti baju dalam dan seluar. Begitu juga semua yang menutup keseluruhan kaki termasuk tumit, seperti kasut dan stokin (yang dikenali dengan 'asy-syurrab'). Bagi wanita pula, mereka hanya dilarang memakai niqab, purdah dan sarung tangan.",
-    "tr": "4- Erkekler için diki?li elbise giymek. Bunlar; g?mlek gibi vücudun ?ekline g?re yahut atlet, pantolon ve mest gibi azân?n tamam?n?n yada bir k?sm?n?n ?ekline g?re dikilmi? ve dokunmu? giysilerdir. Buna ayakkab? ve çorap gibi topuklarla birlikte bütün aya?? saran giyecekler de dahildir. Kad?n için sadece peçe ve eldiven giymesi yasakt?r. ",
+    "tr": "4- Erkekler için dikişli elbise giymek. Bunlar; gömlek gibi vücudun şekline göre yahut atlet, pantolon ve mest gibi azânın tamamının yada bir kısmının şekline göre dikilmiş ve dokunmuş giysilerdir. Buna ayakkabı ve çorap gibi topuklarla birlikte bütün ayağı saran giyecekler de dahildir. Kadın için sadece peçe ve eldiven giymesi yasaktır. ",
     "in": "4- Mengenakan pakaian berjahit bagi laki-laki, yaitu pakaian yang dibuat seukuran tubuh seperti gamis atau pakaian terpisah dan berjahit seukuran bagian tubuh, seperti baju kaos, celana dan Khuf (jenis sepatu kulit yang menutup sampai atas mata kaki). Demikian juga dengan segala sesuatu yang menutup seluruh kaki hingga kedua mata kaki, seperti kaos kaki dan sejenisnya. Kaum perempuan dilarang mengenakan niqab atau cadar dan sarung tangan.  \n",
     "subtitle": {
       "ar": "محظورات الإحرام",
@@ -242,7 +242,7 @@ export const data = [
       "ur": "ممنوعات احرام ",
       "fr": "Evitez de commettre les interdictions liées à l’état de sacralisation qui sont aux nombres de neuf : ",
       "mal": "Hindarilah segala pantang larang ihram semasa anda berada dalam keadaan berihram. Terdapat sembilan larangan yang tidak boleh dilakukan oleh seseorang yang sedang berihram:",
-      "tr": "?hraml? iken yap?lmas? haram olan dokuz ihram yasa??ndan kaç?n?n?z:",
+      "tr": "İhramlı iken yapılması haram olan dokuz ihram yasağından kaçınınız:",
       "in": "Hindarilah hal-hal yang dilarang saat anda berada dalam ihram. Larangan-larangan tersebut ada sembilan, tidak boleh dilakukan saat dalam ihram:"
     }
   },
@@ -253,7 +253,7 @@ export const data = [
     "ur": " 5- مرد کا  چپکنے والے کپڑے سے سرکو ڈھانپنا جيسے ٹوپي، رومال اور پگڑي وغيرہ?",
     "fr": "5-Se couvrir la tête (pour les hommes) avec un chapeau, un foulard, un turban ou autre.",
     "mal": "5-Menutup kepala bagi lelaki yang berihram dengan sesuatu yang melekat (di kepala) seperti memakai kopiah, serban dan yang seumpama dengannya.",
-    "tr": " 5- Erke?in ba??n? takke ve sar?k gibi ba?a temas eden bir ba?l?kla kapatmas?",
+    "tr": " 5- Erkeğin başını takke ve sarık gibi başa temas eden bir başlıkla kapatması",
     "in": "5-\"Menutup kepala bagi jamaah laki-laki dengan sesuatu yang melekat, seperti topi, surban dan lain sebagainya.\n\"",
     "subtitle": {
       "ar": "محظورات الإحرام",
@@ -261,7 +261,7 @@ export const data = [
       "ur": "ممنوعات احرام ",
       "fr": "Evitez de commettre les interdictions liées à l’état de sacralisation qui sont aux nombres de neuf : ",
       "mal": "Hindarilah segala pantang larang ihram semasa anda berada dalam keadaan berihram. Terdapat sembilan larangan yang tidak boleh dilakukan oleh seseorang yang sedang berihram:",
-      "tr": "?hraml? iken yap?lmas? haram olan dokuz ihram yasa??ndan kaç?n?n?z:",
+      "tr": "İhramlı iken yapılması haram olan dokuz ihram yasağından kaçınınız:",
       "in": "Hindarilah hal-hal yang dilarang saat anda berada dalam ihram. Larangan-larangan tersebut ada sembilan, tidak boleh dilakukan saat dalam ihram:"
     }
   },
@@ -269,7 +269,7 @@ export const data = [
     "ar": "6- قتل الصيد البري أو المعاونة في ذلك أو تنفيره من مكانه",
     "audioNumber": null,
     "en": "6- Hunting. This includes directly killing an animal, participating in its hunting, as well as chasing it away. ",
-    "tr": "6-  Kara üzerinde bulunan av hayvanlar?n? avlamak, avlanmas?na yard?m etmek ya da bulundu?u yerden ürkütmek.",
+    "tr": "6-  Kara üzerinde bulunan av hayvanlarını avlamak, avlanmasına yardım etmek ya da bulunduğu yerden ürkütmek.",
     "ur": " 6- خشکي کے شکار کو مارنا يا اس پر کسي کي مدد کرنا يا اسے اس کي جگہ سے بھگانا?",
     "fr": "6-Tuer le gibier, aider à le chasser ou l'expulser de sa zone.",
     "mal": "6-Membunuh binatang buruan atau membantu seseorang untuk membunuhnya atau membuatkan binatang tersebut lari.",
@@ -277,7 +277,7 @@ export const data = [
     "subtitle": {
       "ar": "محظورات الإحرام",
       "en": "Whilst you are in the state of al-Ihram, avoid the \nfollowing nine prohibitions of Ihram:",
-      "tr": "?hraml? iken yap?lmas? haram olan dokuz ihram yasa??ndan kaç?n?n?z:",
+      "tr": "İhramlı iken yapılması haram olan dokuz ihram yasağından kaçınınız:",
       "ur": "ممنوعات احرام ",
       "fr": "Evitez de commettre les interdictions liées à l’état de sacralisation qui sont aux nombres de neuf : ",
       "mal": "Hindarilah segala pantang larang ihram semasa anda berada dalam keadaan berihram. Terdapat sembilan larangan yang tidak boleh dilakukan oleh seseorang yang sedang berihram:",
@@ -288,7 +288,7 @@ export const data = [
     "ar": "7- الجماع: وهو أعظم المحظورات فإذا وقع في العمرة قبل الطواف يفسدها",
     "audioNumber": null,
     "en": "7- Sexual intercourse. This is the gravest prohibition as it invalidates the ‘Umrah if it preceeds tawaf. ",
-    "tr": "7-  Cinsel ili?kiye girmek; bu yasaklar?n en büyü?üdür. Umreye niyet ettikten sonra tavaftan ?nce vuku bulursa umreyi bozar. ",
+    "tr": "7-  Cinsel ilişkiye girmek; bu yasakların en büyüğüdür. Umreye niyet ettikten sonra tavaftan önce vuku bulursa umreyi bozar. ",
     "ur": "7-جماع: يہ سب سے بڑي ممانعت ہے اور اگر عمرہ ميں طواف سے پہلے کرلے تو عمرہ فاسد ہوجائے گا?",
     "fr": "7-Avoir des relations intimes, ce qui constitue la plus grande des interdictions. Si cela se produit durant la Omra, avant le tawaf, cela l'invalide.",
     "mal": "7-Berjimak, ia merupakan sebesar-besar larangan ihram. Jika ia berlaku sebelum seseorang selesai menyempurnakan ibadah umrah, maka umrahnya itu akan terbatal. ",
@@ -296,7 +296,7 @@ export const data = [
     "subtitle": {
       "ar": "محظورات الإحرام",
       "en": "Whilst you are in the state of al-Ihram, avoid the \nfollowing nine prohibitions of Ihram:",
-      "tr": "?hraml? iken yap?lmas? haram olan dokuz ihram yasa??ndan kaç?n?n?z:",
+      "tr": "İhramlı iken yapılması haram olan dokuz ihram yasağından kaçınınız:",
       "ur": "ممنوعات احرام ",
       "fr": "Evitez de commettre les interdictions liées à l’état de sacralisation qui sont aux nombres de neuf : ",
       "mal": "Hindarilah segala pantang larang ihram semasa anda berada dalam keadaan berihram. Terdapat sembilan larangan yang tidak boleh dilakukan oleh seseorang yang sedang berihram:",
@@ -308,7 +308,7 @@ export const data = [
     "audioNumber": null,
     "en": "8-Marriage. One cannot get married or officiate the marriage of another whilst in the state of Ihram. Similarly, one cannot make a marriage proposal or accept a marriage proposal on behalf of their daughter or sister etc. ",
     "ur": "8-عقد نکاح? احرام والا نکاح نہيں کرےگا اورنہ ولايت يا وکالت کے ذريعہ کسي کي شادي کرائے گا اور نہ شادي کا پيغام دے گا اور نہ کوئي دوسرا اسے اس کي بيٹي يا بہن يا کسي اور کے ليے پيغام نکاح دے گا?",
-    "tr": "8- Nikah k?ymak: ?hramda olan ki?i evlenemez ve ba?kas?n? da ister kendisi ister vekâleten evlendiremez. S?z kesemedi?i gibi ba?kas? da; k?z?, k?z karde?i ve sorumlu olduklar?n? kendisinden talep edemez.  ",
+    "tr": "8- Nikah kıymak: İhramda olan kişi evlenemez ve başkasını da ister kendisi ister vekâleten evlendiremez. Söz kesemediği gibi başkası da; kızı, kız kardeşi ve sorumlu olduklarını kendisinden talep edemez. \u000b",
     "fr": "8-Contracter un mariage. Le pèlerin ne peut se marier ni marier quelqu’un d’autre en tant que tuteur ou mandataire; il ne demande la main de personne, ni ne permet de demander celle de sa fille, de sa sœur, ou autre.",
     "mal": "8-Akad nikah. Seseorang yang sedang berihram dilarang untuk bernikah dan menikahkan orang lain dengan menjadi wali kepadanya. Dia juga tidak dibenarkan untuk bertunang dan tidak boleh menerima sebarang pinangan daripada orang lain untuk anak perempuannya, saudara perempuan dan lain-lain.",
     "in": "8-\"Akad nikah. Seorang yang sedang berada dalam ihram tidak boleh melakukan akad nikah dan tidak pula menikahkan orang lain sebagai wali, tidak juga melamar dan tidak boleh menerima lamaran atas putrinya atau saudarinya atau yang lainnya.\n\"",
@@ -316,7 +316,7 @@ export const data = [
       "ar": "محظورات الإحرام",
       "en": "Whilst you are in the state of al-Ihram, avoid the \nfollowing nine prohibitions of Ihram:",
       "ur": "ممنوعات احرام ",
-      "tr": "?hraml? iken yap?lmas? haram olan dokuz ihram yasa??ndan kaç?n?n?z:",
+      "tr": "İhramlı iken yapılması haram olan dokuz ihram yasağından kaçınınız:",
       "fr": "Evitez de commettre les interdictions liées à l’état de sacralisation qui sont aux nombres de neuf : ",
       "mal": "Hindarilah segala pantang larang ihram semasa anda berada dalam keadaan berihram. Terdapat sembilan larangan yang tidak boleh dilakukan oleh seseorang yang sedang berihram:",
       "in": "Hindarilah hal-hal yang dilarang saat anda berada dalam ihram. Larangan-larangan tersebut ada sembilan, tidak boleh dilakukan saat dalam ihram:"
@@ -327,7 +327,7 @@ export const data = [
     "audioNumber": null,
     "en": "9- Forms of intimacy other than sexual intercourse.",
     "ur": "9- عورتوں سے بوس وکنار کرنا",
-    "tr": "9- E? ile cima ?ncesi yap?lan ?ehvetli eylemlerde bulunmak.",
+    "tr": "9- Eş ile cima öncesi yapılan şehvetli eylemlerde bulunmak.",
     "fr": "9-Avoir des préliminaires.",
     "mal": "9-Melakukan mukadimah jimak",
     "in": "9-\"Melakukan rayuan dan cumbuan terhadap istri.\n\"",
@@ -335,7 +335,7 @@ export const data = [
       "ar": "محظورات الإحرام",
       "en": "Whilst you are in the state of al-Ihram, avoid the \nfollowing nine prohibitions of Ihram:",
       "ur": "ممنوعات احرام ",
-      "tr": "?hraml? iken yap?lmas? haram olan dokuz ihram yasa??ndan kaç?n?n?z:",
+      "tr": "İhramlı iken yapılması haram olan dokuz ihram yasağından kaçınınız:",
       "fr": "Evitez de commettre les interdictions liées à l’état de sacralisation qui sont aux nombres de neuf : ",
       "mal": "Hindarilah segala pantang larang ihram semasa anda berada dalam keadaan berihram. Terdapat sembilan larangan yang tidak boleh dilakukan oleh seseorang yang sedang berihram:",
       "in": "Hindarilah hal-hal yang dilarang saat anda berada dalam ihram. Larangan-larangan tersebut ada sembilan, tidak boleh dilakukan saat dalam ihram:"

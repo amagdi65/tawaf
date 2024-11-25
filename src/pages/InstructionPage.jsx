@@ -50,6 +50,7 @@ function InstructionPage({ lang, dir, mode }) {
                 mode={mode}
                 curIndex={index}
                 disableNext={item.disableNext}
+                disablePrev={item.disablePrev}
                 icon={stepperIcons[item.icon]}
               />
               {idx < data.length - 1 && <Separator dir={dir} />}

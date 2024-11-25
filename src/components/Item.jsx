@@ -62,6 +62,7 @@ function Item({
   icon,
   cardPrayerTitle,
   showFinalMessage,
+  disablePrev
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
 
@@ -219,16 +220,18 @@ function Item({
           marginTop={{ base: 10, md: 10 }}
           style={{ direction: dir }}
         >
-          <Button
+          {!disablePrev && (<Button
             size="lg"
             color={mode === "dark" ? "white" : "#BC9761"}
             border={mode === "dark" ? "1px solid #aaa" : "1px solid #BC9761"}
             bgColor={mode === "dark" ? "#1F2A37" : "white"}
             _hover={buttonHoverStyle}
             onClick={handlePrevClick}
+          justifyContent="flex-end"
+
           >
             {prevButton}
-          </Button>
+          </Button>)}
           {(!disableNext || showFinalMessage )&& (
             <Button
               size="lg"

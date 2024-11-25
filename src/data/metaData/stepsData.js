@@ -19,11 +19,11 @@ export const stepsData = {
       "name": {
         "ar": "الصلاة ركعتين خلف المقام",
         "en": "Prayer behind the Maqam",
-        "fr": "- ?La prière dernière la station d’Ibrahim",
+        "fr": "La prière derrière la station d'Ibrahim",
         "ur": "مقام ابراہيم کے پيچھے نماز",
         "in": "Shalat di belakang Maqam Ibrahim",
         "mal": "Solat di belakang Maqam",
-        "tr": "Makam-? ?brahim Arkas?nda Namaz"
+        "tr": "Makam-ı İbrahim Arkasında Namaz"
       },
       "id": 2,
       "step_no": 2,
@@ -53,7 +53,7 @@ export const stepsData = {
         "en": "Exiting the state of Ihram",
         "fr": "Quitter l’état d’ihram (Sacralisation)",
         "mal": "Bertahallul daripada Ihram",
-        "tr": "?hramdan ç?kma durumuna Tehallul denir."
+        "tr": "İhramdan çıkma durumuna Tehallul denir"
       },
       "id": 4,
       "step_no": 4,
@@ -67,7 +67,7 @@ export const stepsData = {
         "ar": "صفة الاحرام",
         "ur": "احرام کا طريقہ",
         "in": "Tata Cara Umrah",
-        "tr": "?hrama Giri?",
+        "tr": "İhrama Giriş",
         "mal": "Tatacara Ihram",
         "en": "A description of the state of Ihram",
         "fr": "Description de l'entrée en état de sacralisation"
@@ -97,9 +97,9 @@ export const stepsData = {
         "ar": "دخول الحرم والبدء بالطواف",
         "ur": "مسجد حرام ميں داخل ہونا اور طواف شروع کرنا",
         "in": "Masuk Masjidil Haram dan memulai dengan melakukan tawaf",
-        "tr": "Mescid-i Haram'a Giri? ve Tavafa Ba?lang?ç",
+        "tr": "Mescid-i Haram'a Giriş ve Tavafa Başlangıç",
         "mal": "Memasuki Masjidil Haram dan Memulakan Perlaksanaan Tawaf",
-        "en": "Entering the Grand Mosque and commencingTawaf",
+        "en": "Entering the Grand Mosque and commencing Tawaf",
         "fr": "L'entrée à la Mosquée Sacrée et le début du Tawaf"
       },
       "id": 7,
@@ -112,7 +112,7 @@ export const stepsData = {
         "ar": "صفة الطواف",
         "ur": "طواف کا طريقہ",
         "in": "Tata Cara Tawaf",
-        "tr": "Tavaf?n Yap?l???",
+        "tr": "Tavafın Yapılışı",
         "mal": "Tatacara Tawaf",
         "en": "Description of at-Tawaf",
         "fr": "Description du Tawaf"
@@ -128,7 +128,7 @@ export const stepsData = {
         "fr": "L'achèvement du Tawaf et la prière de deux unités derrière Maqam Ibrahim",
         "ur": "طواف سے فراغت اور مقام ابراہيم کے پيچھے دو رکعت نماز",
         "in": "Setelah selesai tawaf dan shalat dua rakaat di belakang maqam Ibrahim",
-        "tr": "Tavaf?n Bitirili?i ve Makam-? ?brahim Arkas?nda ?ki Rekat Namaz K?l?nmas?",
+        "tr": "Tavafın Bitirilişi ve Makam-ı İbrahim Arkasında İki Rekat Namaz Kılınması",
         "mal": "Menunaikan Solat Dua Rakaat di Belakang Maqam Ibrahim Setelah Melaksanakan Tawaf",
         "en": "Completing the Tawaf and the Prayer"
       },
@@ -157,7 +157,7 @@ export const stepsData = {
         "ar": "التحلل من الاحرام",
         "ur": "احرام سے حلال ہونا",
         "in": "Tahallul Dari Ihram",
-        "tr": "?hramdan ç?kma durumuna Tehallul denir.",
+        "tr": "İhramdan çıkma durumuna Tehallul denir",
         "mal": "Bertahallul daripada Ihram",
         "en": "Exiting the state of Ihram",
         "fr": "Quitter l’état d’ihram (Sacralisation)"

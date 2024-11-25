@@ -1,93 +1,57 @@
-import { Box, Text, Flex } from "@chakra-ui/react";
-import React from "react";
-import checked from '../assets/check .svg'
+import { Box, Image } from "@chakra-ui/react";
+import icon1En from "../assets/stepper/icon_1_en.svg";
+import icon1Ar from "../assets/stepper/icon_1_ar.svg";
+import icon2En from "../assets/stepper/icon_2_en.svg";
+import icon2Ar from "../assets/stepper/icon_2_ar.svg";
+import icon3En from "../assets/stepper/icon_3_en.svg";
+import icon3Ar from "../assets/stepper/icon_3_ar.svg";
+import icon4En from "../assets/stepper/icon_4_en.svg";
+import icon4Ar from "../assets/stepper/icon_4_ar.svg";
+import icon5En from "../assets/stepper/icon_5_en.svg";
+import icon5Ar from "../assets/stepper/icon_5_ar.svg";
 
-const stepperIcons = import.meta.glob("../assets/stepperIcons/*.svg", {
-  eager: true, 
-  import: "default",
-});
-const StepperComp = ({ steps , mode}) => {
+const stepperIconsMapper = [
+  {
+    ltr: icon1En,
+    rtl: icon1Ar,
+  },
+  {
+    ltr: icon2En,
+    rtl: icon2Ar,
+  },
+  {
+    ltr: icon3En,
+    rtl: icon3Ar,
+  },
+  {
+    ltr: icon4En,
+    rtl: icon4Ar,
+  },
+  {
+    ltr: icon5En,
+    rtl: icon5Ar,
+  },
+];
+
+const StepperComp = ({ index, dir }) => {
   return (
-    <Flex
-      direction="column"
-      align="center"
-      justify="center"
-      mt={{ base: "120px", md: "80px" }}
+    <Box
+      h="170px"
+      display="flex"
+      justifyContent="flex-end"
+      alignItems="center"
+      flexDir="column"
+      p={4}
     >
-      <Flex
-        align="center"
-        justify="center"
-        position="relative"
-        style={{ direction: steps.length && steps[0].dir }}
-        zIndex={0}
-      >
-        {steps.length &&
-          steps.map((step, index) => (
-            <React.Fragment key={index}>
-              <StepCircle
-                stepNumber={index + 1}
-                label={step.label}
-                onClick={() => {
-                  steps[0].setIndex(index + 1);
-                }}
-                icon={steps[0].index >= index + 2   ? checked : stepperIcons[step.icon] }
-              />
-              {index < steps.length - 1 && <Line dim={steps[0].index >= index + 2} mode={mode}/>}
-            </React.Fragment>
-          ))}
-      </Flex>
-    </Flex>
+      <Image
+        src={stepperIconsMapper[index -1][dir]}
+        alt="Step Icon"
+        maxW="100%"
+        maxH="100%"
+        objectFit="contain"
+      />
+    </Box>
   );
 };
-
-const StepCircle = ({ stepNumber, label, onClick, icon }) => (
-  <Box
-    position="relative"
-    display="flex"
-    alignItems="center"
-    justifyContent="center"
-    mx="0"
-    onClick={onClick}
-    cursor="pointer"
-  >
-    <Box
-      width={{ base: "50px", md: "60px" }}
-      height={{ base: "50px", md: "60px" }}
-      borderRadius="50%"
-      bg="#BC9761"
-      color="white"
-      display="flex"
-      alignItems="center"
-      justifyContent="center"
-      fontSize={{ base: "14px", md: "18px" }}
-      zIndex="1"
-    >
-      {icon ? <img src={icon} /> : stepNumber}
-    </Box>
-    <Text
-      position="absolute"
-      top={{ base: "50px", md: "60px" }}
-      fontSize={{ base: "10px", md: "14px" }}
-      color="#BC9761"
-      textAlign="center"
-      width="300%"
-      left="50%"
-      transform="translateX(-50%)"
-    >
-      {label}
-    </Text>
-  </Box>
-);
-
-const Line = ({dim,mode}) => (
-  <Box
-    width={{ base: "45px", md: "180px" }}
-    height="3px"
-    bg={dim ? "#BC9761" : mode === 'dark' ? "#3A444F":"#ddd"}
-    position="relative"
-    top="0"
-    flexShrink={0}
-  />
-);
 
 export default StepperComp;

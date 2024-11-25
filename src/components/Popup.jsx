@@ -19,43 +19,39 @@ const textContent = {
   ar: {
     header: "مساعدك في رحلة العمرة",
     description:
-      "مساعدك في رحلة العمرة مع 180 دعاء نصي و مسموع في مرحلة الطواف والسعي.",
+      "مساعدك في رحلة العمرة مع اكثر من 170 دعاء نصي و مسموع في مرحلة الطواف والسعي.",
     confirmLabel: "ابدأ العمرة",
   },
   en: {
     header: "Your Assistant for the Umrah Journey",
     description:
-      "Assisting you at the Tawaf and Sa'i stage of your 'Umrah with 180 supplications in textual and audio format.",
+      "Assisting you at the Tawaf and Sa'i stage of your 'Umrah with more than 170 supplications in textual and audio format",
     confirmLabel: "Begin your ‘Umrah",
   },
   fr: {
     header: "Votre Assistant pour le Voyage de la Omra",
-    description:
-      "Durant le voyage de la Omra, une assistance virtuelle de 180 invocations écrites et audios vous accompagne tout au long du Tawaf et du Sa’i.",
+    description: `Durant le voyage de la Omra, une assistance virtuelle de plus de 170 invocations écrites et audios vous accompagne tout au long du Tawaf et du Sa’i.`,
     confirmLabel: "Commencez la Omra",
   },
   tr: {
     header: "Umre Yolculuğunuzda Yardımcınız",
-    description:
-      "Tavâf ve Sa’y esnasında yazılı ve işitsel 180 dua ile umre yolculuğunda sizin yardımcınız olmaktadır.",
+    description: `Tavâf ve Sa’y esnasında yazılı ve işitsel 170'ten fazla dua ile umre yolculuğunda sizin yardımcınız olmaktadır.`,
     confirmLabel: "Umreye Başla",
   },
   ur: {
     header: "سفر عمرہ میں آپ کا معاون",
     description:
-      "سفر عمرہ میں آپ کا معاون، طواف و سعی کے دوران ٹیکسٹ اور آڈیو کی شکل میں 180 دعاؤں کے ساتھ",
+      "سفر عمرہ میں آپ کا معاون، طواف و سعی کے دوران ٹیکسٹ اور آڈیو کی شکل میں 170 سے زیادہ دعاؤں کے ساتھ",
     confirmLabel: "عمرہ شروع کریں",
   },
   in: {
     header: "Bahasa Indonesia Assistant",
-    description:
-      "Assisting you during Umrah with 180 written and audio prayers.",
+    description: `Selama perjalanan Umrah, bantuan virtual dengan lebih dari 170 doa tertulis dan audio menemani Anda sepanjang Tawaf dan Sa’i.`,
     confirmLabel: "Silakan memulai ibadah umrah",
   },
   mal: {
     header: "Bahasa Melayu Assistant",
-    description:
-      "Assisting you during Umrah with 180 written and audio prayers.",
+    description: `Sepanjang perjalanan Umrah, bantuan maya dengan lebih dari 170 doa bertulis dan audio menemani anda sepanjang Tawaf dan Sa’i.`,
     confirmLabel: "Sila mulakan ibadat umrah anda",
   },
 };
@@ -111,7 +107,6 @@ const Popup = ({ setLang, lang, setDir }) => {
   const handleLanguageSelect = (languageCode, dir) => {
     setLang(languageCode);
     setDir(dir);
-    setIsOpen(false);
   };
 
   return (
@@ -150,7 +145,7 @@ const Popup = ({ setLang, lang, setDir }) => {
                   borderWidth="1px"
                   borderColor={lang === language.code ? "#BC9761" : "gray.300"}
                   borderRadius="lg"
-                  bgColor='#eee'
+                  bgColor="#eee"
                   p={2}
                   cursor="pointer"
                   textAlign="center"
