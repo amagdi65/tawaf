@@ -23,7 +23,10 @@ const congratsSvg = import.meta.glob("../assets/*.svg", {
   import: "default",
 });
 const Congrats = ({ isOpen, setIsOpen, lang }) => {
-  const closeModal = () => setIsOpen(false);
+  const closeModal = () => {
+    setIsOpen(false)
+    window.location.reload()
+  };
   return (
     <Box textAlign="center">
       <Modal isOpen={isOpen} onClose={closeModal} isCentered>

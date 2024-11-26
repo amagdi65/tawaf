@@ -19,7 +19,7 @@ export const data = [
     }
   },
   {
-    "ar": "بعد الانتهاء من السعي توجه للأماكن المخصصة للحلق أو التقصير خارج المسجد الحرام أو اجعل الحلق في مقر  إقامتك؛ لأن الحلق أو التقصير داخل المسجد الحرام أوفي ساحاته يتسبب في اتساخ المسجد الحرام، وإيذاء القاصدين",
+    "ar": "بعد الانتهاء من السعي توجه للأماكن المخصصة للحلق أو التقصير خارج المسجد الحرام أو اجعل الحلق في مقر  إقامتك؛ لأن الحلق أو التقصير داخل المسجد الحرام أوفي ساحاته يتسبب في اتساخ المسجد الحرام، وإيذاء القاصدين.",
     "audioNumber": null,
     "en": "Once you have completed your sa’i you should proceed to the designated areas outside the Grand Mosque or at your residency to shave off or trim your hair outside the mosque. This is because shaving off or cutting one's hair within the confines of the Grand Mosque and its courtyard will make the Grand Mosque dirty and harm its worshippers.",
     "ur": "سعی سے فراغت کے بعد  مسجد حرام کے بال مونڈوانے یا کٹوانے کے لیے  باہر اس کے لیے مخصوص جگہ پر جائیں ،یا اپنی رہائش گاہ پر مونڈوائیں یا کٹوائیں ، کیوں کہ اللہ کے مسجد حرام یا اس کے صحنوں میں بال کٹوانے یا مونڈوانے سے مسجد کو  گندگی لاحق ہوسکتی ہے  یا زائرین کو تکلیف پہنچ سکتی ہے۔",
@@ -28,7 +28,7 @@ export const data = [
     "in": "Setelah selesai dari sai, handaklah anda menuju tempat yang sudah dikhususkan untuk mencukur atau memangkas rambut anda di luar Masjidil Haram atau anda bisa juga melakukannya di hotel anda. Sebab mencukur atau memangkas rambut di area Masjidil Haram dapat mengotori Masjid dan mengganggu jamaah lain.",
     "mal": "Setelah selesai melaksanakan sa'i, anda hendaklah menuju ke kedai gunting rambut yang terletak di luar Masjidil Haram atau anda boleh memotong rambut di tempat penginapan anda. Hal ini kerana mencukur atau memendekkan rambut di dalam Masjidilharam atau di halamannya akan mengotorkan ruangan Masjidil Haram dan mendatangkan kemudaratan kepada para pengunjung. ",
     "subtitle": {
-      "ar": "التحلل من الاحرام ",
+      "ar": "التحلل من الاحرام",
       "en": "Exiting the state of Ihram    ",
       "ur": "احرام سے حلال ہونا",
       "tr": "İhramdan çıkma durumuna Tehallul denir",

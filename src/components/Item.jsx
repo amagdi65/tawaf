@@ -127,7 +127,22 @@ function Item({
     if ((count === 7 || !useCount) && setIndex) setIndex(index);
     if (showFinalMessage) {
       setIsOpen(true);
+
+      const keysToKeep = ['uuid', 'mode', 'lang','dir'];
+
+      const preservedData = {};
+      keysToKeep.forEach((key) => {
+        preservedData[key] = localStorage.getItem(key);
+      });
+
+      localStorage.clear();
+
+      Object.keys(preservedData).forEach((key) => {
+        localStorage.setItem(key, preservedData[key]);
+      });
+  
     }
+    
   };
 
   return (
@@ -143,7 +158,7 @@ function Item({
         bgColor={mode === "dark" ? "#2C3743" : "#F8F8F8"}
         {...(mode === "dark" && { border: "1px solid #3A444F" })}
         borderRadius="10px"
-        onClick={() => setIndex(index - 1)}
+        // onClick={() => setIndex(index - 1)}
       >
         <Box display="flex" alignItems="center" justifyContent="center">
           {renderContent(dir)}

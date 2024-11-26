@@ -25,7 +25,7 @@ const textContent = {
   en: {
     header: "Your Assistant for the Umrah Journey",
     description:
-      "Assisting you at the Tawaf and Sa'i stage of your 'Umrah with more than 170 supplications in textual and audio format",
+      "Assisting you at the Tawaf and Sa'i stage of your 'Umrah with more than 170 supplications in textual and audio format . ",
     confirmLabel: "Begin your ‘Umrah",
   },
   fr: {
@@ -41,7 +41,7 @@ const textContent = {
   ur: {
     header: "سفر عمرہ میں آپ کا معاون",
     description:
-      "سفر عمرہ میں آپ کا معاون، طواف و سعی کے دوران ٹیکسٹ اور آڈیو کی شکل میں 170 سے زیادہ دعاؤں کے ساتھ",
+      " سفر عمرہ میں آپ کا معاون، طواف و سعی کے دوران ٹیکسٹ اور آڈیو کی شکل میں 170 سے زیادہ دعاؤں کے ساتھ .",
     confirmLabel: "عمرہ شروع کریں",
   },
   in: {
