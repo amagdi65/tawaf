@@ -63,6 +63,7 @@ function Item({
   cardPrayerTitle,
   showFinalMessage,
   disablePrev,
+  pageName,
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
 
@@ -128,7 +129,7 @@ function Item({
     if (showFinalMessage) {
       setIsOpen(true);
 
-      const keysToKeep = ['uuid', 'mode', 'lang','dir'];
+      const keysToKeep = ["uuid", "mode", "lang", "dir"];
 
       const preservedData = {};
       keysToKeep.forEach((key) => {
@@ -140,9 +141,7 @@ function Item({
       Object.keys(preservedData).forEach((key) => {
         localStorage.setItem(key, preservedData[key]);
       });
-  
     }
-    
   };
 
   return (
@@ -158,7 +157,9 @@ function Item({
         bgColor={mode === "dark" ? "#2C3743" : "#F8F8F8"}
         {...(mode === "dark" && { border: "1px solid #3A444F" })}
         borderRadius="10px"
-        // onClick={() => setIndex(index - 1)}
+        onClick={() => {
+          if (pageName === "instructions") setIndex(index - 1);
+        }}
       >
         <Box display="flex" alignItems="center" justifyContent="center">
           {renderContent(dir)}
