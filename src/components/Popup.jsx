@@ -46,12 +46,12 @@ const textContent = {
   },
   in: {
     header: "Bahasa Indonesia Assistant",
-    description: `Selama perjalanan Umrah, bantuan virtual dengan lebih dari 170 doa tertulis dan audio menemani Anda sepanjang Tawaf dan Sa’i.`,
+    description: `Membantu anda dalam perjalanan umrah dengan himpunan lebih dari 170 doa, baik teks maupun audio saat melakukan tawaf dan sai.`,
     confirmLabel: "Silakan memulai ibadah umrah",
   },
   mal: {
     header: "Bahasa Melayu Assistant",
-    description: `Sepanjang perjalanan Umrah, bantuan maya dengan lebih dari 170 doa bertulis dan audio menemani anda sepanjang Tawaf dan Sa’i.`,
+    description: `Panduan Perjalanan Umrah Anda semasa tawaf dan sa'i yang dilengkapi dengan lebih 170 jenis doa berbentuk teks dan audio.`,
     confirmLabel: "Sila mulakan ibadat umrah anda",
   },
 };

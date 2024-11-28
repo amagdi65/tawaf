@@ -86,7 +86,7 @@ export const data = [
     "in": "Disunnahkan bagi anda untuk menggunakan wewangian sebelum berihram di bagian kepala dan badan, tetapi jangan gunakan wewangian pada kain ihram anda. Demikian itu, sebagaimana yang diriwayatkan di dalam ash-Shahihain dari Aisyah radhiyallahu 'anha berkata, \"Aku memakaikan wewangian kepada Rasulullah saw untuk ihramnya sebelum beliau berniat ihram. Aku juga memberikan wewangian pada tubuh beliau saat tidak ihram sebelum beliau tawaf di Baitullah.\" (HR. Bukhari dan Muslim)\n",
     "subtitle": {
       "ar": "مستحبات الإحرام",
-      "en": "\"Recommended actions before\n entering into the state of Ihram.\"",
+      "en": "Recommended actions before  entering into the state of Ihram.",
       "tr": "Umreye Başlamadan Önceki Sünnetler",
       "ur": "احرام کے مستحبات ",
       "fr": "Il est recommandé pour ihram",
@@ -97,12 +97,12 @@ export const data = [
   {
     "ar": "يستحب للذكر أن يلبس  إزارا ورداء أبيضين نظيفين، ويلبس نعلين، ولا يلبس الخفين.\r\n والإزار: ما يستر أسفل البدن، ويُشدُّ على الحَقْوَيْنِ، والرداء: ما يستر أعلى البدن ويوضع على المنكبين.",
     "audioNumber": null,
-    "en": ".It is also recommended for men to wear a clean white izar and rida, along with sandals. They cannot wear socks. An izar is a piece of clothing that is wrapped around the wasit to cover the lower body, and a rida is a piece of clothing that covers the upper body and is placed on the shoulders.",
-    "tr": ".Erkeğin beyaz ve temiz ihram elbisesi İzâr ve Ridâ giymesi sünnettir. Ayakkabı giyemez bunun yerine terlik giyer. İzâr: Bedenin alt tarafını örten ve bele bağlanan örtüdür. Ridâ: Omuza konulan ve bedenin üst tarafını örten örtüdür.",
+    "en": "It is also recommended for men to wear a clean white izar and rida, along with sandals. They cannot wear socks. An izar is a piece of clothing that is wrapped around the wasit to cover the lower body, and a rida is a piece of clothing that covers the upper body and is placed on the shoulders..",
+    "tr": "Erkeğin beyaz ve temiz ihram elbisesi İzâr ve Ridâ giymesi sünnettir. Ayakkabı giyemez bunun yerine terlik giyer. İzâr: Bedenin alt tarafını örten ve bele bağlanan örtüdür. Ridâ: Omuza konulan ve bedenin üst tarafını örten örtüdür..",
     "ur": "مرد کےلیے مستحب ہے کہ وہ صاف سفید ازار اور چادر پہنے ، جوتے پہنے اور موزے نہ پہنے۔\r\nازار وہ  کپڑا ہے جو بدن کے نچلے حصے کو ڈھانپے اورکمر پر باندھا جائے اورچادر وہ لباس ہے جو بدن کے اوپری حصے کو ڈھانپے اور شانوں پر رکھی جائے۔",
-    "fr": ".Il est recommandé pour l'homme de porter un Izar et un Rida propres, ainsi que des sandales, et de ne pas porter de chaussettes. L'Izar désigne l'étoffe qui couvre la partie inférieure du corps et qui est attaché au niveau de la taille. Quant au Rida, il désigne l'étoffe qui couvre la partie supérieure du corps et qui est placé sur les épaules.",
-    "mal": ".Disunatkan bagi lelaki untuk memakai 'izar' (kain bahagian bawah) dan 'rida' (kain bahagian atas) yang berwarna putih yang bersih. Dia juga hendaklah memakai selipar dan tidak dibenarkan untuk memakai 'khuf' (sejenis stokin yang diperbuat daripada kulit).\"'Izar' adalah sehelai kain yang menutup bahagian bawah tubuh badan yang diikat pada pinggang. Manakala 'Rida' pula adalah sehelai kain yang menutup badan bahagian atas dan diletakkan di atas bahu.\"",
-    "in": ".Disunnahkan bagi laki-laki untuk menggunakan dua lembar kain izar dan rida' yang putih bersih serta mengenakan sandal, tanpa menggunakan sepatu khuf (jenis sepatu yang menutup mata kaki).Izar adalah kain penutup tubuh bagian bawah dan diikat dipinggang. Sedangkan rida' adalah kain penutup tubuh bagian atas dan diletakkan di kedua pundak.",
+    "fr": "Il est recommandé pour l'homme de porter un Izar et un Rida propres, ainsi que des sandales, et de ne pas porter de chaussettes. L'Izar désigne l'étoffe qui couvre la partie inférieure du corps et qui est attaché au niveau de la taille. Quant au Rida, il désigne l'étoffe qui couvre la partie supérieure du corps et qui est placé sur les épaules..",
+    "mal": "Disunatkan bagi lelaki untuk memakai 'izar' (kain bahagian bawah) dan 'rida' (kain bahagian atas) yang berwarna putih yang bersih. Dia juga hendaklah memakai selipar dan tidak dibenarkan untuk memakai 'khuf' (sejenis stokin yang diperbuat daripada kulit).\"'Izar' adalah sehelai kain yang menutup bahagian bawah tubuh badan yang diikat pada pinggang. Manakala 'Rida' pula adalah sehelai kain yang menutup badan bahagian atas dan diletakkan di atas bahu.\".",
+    "in": "Disunnahkan bagi laki-laki untuk menggunakan dua lembar kain izar dan rida' yang putih bersih serta mengenakan sandal, tanpa menggunakan sepatu khuf (jenis sepatu yang menutup mata kaki).Izar adalah kain penutup tubuh bagian bawah dan diikat dipinggang. Sedangkan rida' adalah kain penutup tubuh bagian atas dan diletakkan di kedua pundak..",
     "subtitle": {
       "ar": "مستحبات الإحرام",
       "en": "\"Recommended actions before\n entering into the state of Ihram.\"",
@@ -116,12 +116,12 @@ export const data = [
   {
     "ar": "وأما المرأة فيجوز لها أن تحرم فيما شاءت من أسود أو أخضر أو غيرهما.\r\nمع الحذر من التشبه بالرجال في لباسهم، لكن ليس لها أن تلبس النقاب والقفازين حال إحرامها.",
     "audioNumber": null,
-    "en": ".Women, however, are permitted to enter into the state of Ihram in any colour they wish, such as black, green, and so on. Nonetheless, they must be careful not to imitate men in their clothing. They also cannot wear the niqab or gloves whilst in the state of Ihram.",
-    "tr": ".Kadınların ise siyah, yeşil veya diğer renklerde olan elbiselerle ihrama girmeleri mümkündür. Ancak giyimlerinde erkeklere benzememeye dikkat etmeleri, ihramlı iken peçe ve eldiven giymekten sakınmaları gerekir.",
+    "en": "Women, however, are permitted to enter into the state of Ihram in any colour they wish, such as black, green, and so on. Nonetheless, they must be careful not to imitate men in their clothing. They also cannot wear the niqab or gloves whilst in the state of Ihram..",
+    "tr": "Kadınların ise siyah, yeşil veya diğer renklerde olan elbiselerle ihrama girmeleri mümkündür. Ancak giyimlerinde erkeklere benzememeye dikkat etmeleri, ihramlı iken peçe ve eldiven giymekten sakınmaları gerekir..",
     "ur": "جہاں تک خاتون کا تعلق ہے تو اس کے لیے جائز ہے کہ وہ کالے یا ہرے یا ان کےعلاوہ جس رنگ کے کپڑے میں چاہے عمرے کی نیت کرے،ہاں مردوں کےلباس کی مشابہت سے بچے، البتہ اسے حالت احرام میں نقاب اور دستانے نہيں پہننے ہیں۔",
-    "fr": ".Quant aux femmes, elles peuvent entrer en état d'Ihram avec des vêtements de n'importe quelle couleur, en évitant de ressembler aux hommes dans leur tenues. Cependant, elles ne doivent pas porter de niqab ou de gants pendant l'Ihram.",
-    "mal": ".Bagi kaum wanita pula, dia boleh memakai apa sahaja pakaian yang mereka mahu, sama ada berwarna hitam, hijau atau warna-warna lain. Namun mereka harus berhati-hati agar tidak menyerupai pakaian lelaki. Wanita juga tidak dibenarkan untuk memakai purdah dan sarung tangan ketika berada keadaan berihram.",
-    "in": ".Adapun perempuan, saat ihram dia boleh mengenakan pakaian berwarna apapun dengan tetap memperhatikan agar tidak menyerupai pakaian laki-laki. Mereka juga tidak boleh menggunakan cadar dan sarung tangan saat berada dalam ihram.",
+    "fr": "Quant aux femmes, elles peuvent entrer en état d'Ihram avec des vêtements de n'importe quelle couleur, en évitant de ressembler aux hommes dans leur tenues. Cependant, elles ne doivent pas porter de niqab ou de gants pendant l'Ihram..",
+    "mal": "Bagi kaum wanita pula, dia boleh memakai apa sahaja pakaian yang mereka mahu, sama ada berwarna hitam, hijau atau warna-warna lain. Namun mereka harus berhati-hati agar tidak menyerupai pakaian lelaki. Wanita juga tidak dibenarkan untuk memakai purdah dan sarung tangan ketika berada keadaan berihram..",
+    "in": "Adapun perempuan, saat ihram dia boleh mengenakan pakaian berwarna apapun dengan tetap memperhatikan agar tidak menyerupai pakaian laki-laki. Mereka juga tidak boleh menggunakan cadar dan sarung tangan saat berada dalam ihram..",
     "subtitle": {
       "ar": "مستحبات الإحرام",
       "en": "\"Recommended actions before\n entering into the state of Ihram.\"",
@@ -135,12 +135,12 @@ export const data = [
   {
     "ar": "أخي المعتمر تعّلم هدي النبي -ﷺ- في أداء العمرة حتى تؤديها بطريقة صحيحة؛ لأن الله لا يقبل العمل إذا خالف هدي النبي -ﷺ، قال -ﷺ- : \" خذوا عِّني مناِسَككْم\" (رواه النسائي).",
     "audioNumber": null,
-    "en": ".Dear ‘Umrah pilgrim, you must learn how the Prophet (may Allah’s salah and salam be upon him) performed ‘Umrah and replicate it in order to ensure your ‘Umrah is valid. This is because Allah does not accept any deed that is contrary to the Prophet’s (may Allah’s salah and salam be upon him) guidance. As a result of this, he (may Allah’s salah and salam be upon him) said \"learn your rituals from me\". Reported by Muslim.",
-    "tr": ".Umreci kardeşim! Umreyi doğru bir şekilde yapman için Peygamberimiz (s.a.v)’in umre hakkındaki sünnetini öğrenmen gerekir. Zira Allah’u Teala, Peygamber (s.a.v)’in sünnetine ters olan ameli kabul etmez. İmam Nesâî’nin rivayet ettiği hadiste Peygamberimiz (s.a.v) şöyle buyurur: “Hac ibadetlerinizi benden alınız.”",
+    "en": "Dear ‘Umrah pilgrim, you must learn how the Prophet (may Allah’s salah and salam be upon him) performed ‘Umrah and replicate it in order to ensure your ‘Umrah is valid. This is because Allah does not accept any deed that is contrary to the Prophet’s (may Allah’s salah and salam be upon him) guidance. As a result of this, he (may Allah’s salah and salam be upon him) said \"learn your rituals from me\". Reported by Muslim..",
+    "tr": "Umreci kardeşim! Umreyi doğru bir şekilde yapman için Peygamberimiz (s.a.v)’in umre hakkındaki sünnetini öğrenmen gerekir. Zira Allah’u Teala, Peygamber (s.a.v)’in sünnetine ters olan ameli kabul etmez. İmam Nesâî’nin rivayet ettiği hadiste Peygamberimiz (s.a.v) şöyle buyurur: “Hac ibadetlerinizi benden alınız.”.",
     "ur": "عمرہ کرنے والے  بھائی  عمرہ کی ادائے گی میں نبی صلی اللہ علیہ وسلم کا طریقہ سیکھیں تاکہ صحیح طریقے سے اسے ادا کرسکیں، اس لیے کہ اللہ تعالی کسی ایسے عمل کو قبول نہیں کرتا جو نبی صلی اللہ علیہ وسلم کے طریقے کے خلاف ہو۔ اسی لیے آپ صلی اللہ علیہ وسلم نےفرمایا: تم لوگ مجھ سے  حج کے احکام سیکھ لو۔ اسے نسائی نے روایت کیا ہے۔",
-    "fr": ".Chers pèlerins, il vous incombe d’étudier la maniére dont le Prophète -paix et bénédiction sur lui- accomplissait la Omra afin de l'accomplir correctement, car Allah rejette un acte s’il s’oppose à la guidée du Prophète -paix et bénédiction sur lui-. C’est pour cela qu’Il a dit -paix et bénédiction sur lui- : “Prenez de moi vos rites”. Rapporté par An-Nasai.",
-    "mal": ".Saudaraku jemaah umrah, Pelajarilah tatacara Rasulullah Sallallahu 'Alaihi wa Sallam mengerjakan umrah agar anda dapat melaksanakannya dengan cara yang betul. Ini kerana Allah Ta'ala tidak akan menerima sebarang amalan yang bertentangan dengan petunjuk Rasulullah Sallallahu 'Alaihi wa Sallam. Baginda telah bersabda: \"Ambillah daripadaku tatacara manasik kalian.\" (Riwayat an-Nasa’i)",
-    "in": ".Saudaraku jamaah umrah, pelajarilah petunjuk Nabi saw dalam melaksanakan umrah agar engkau dapat menunaikannya dengan cara yang benar, karena Allah  tidak menerima suatu amalan jika ia menyelisihi petunjuk Nabi saw. Beliau bersabda, \"Ambillah dariku tata cara kalian beribadah.\" (HR. Nasa'i)",
+    "fr": "Chers pèlerins, il vous incombe d’étudier la maniére dont le Prophète -paix et bénédiction sur lui- accomplissait la Omra afin de l'accomplir correctement, car Allah rejette un acte s’il s’oppose à la guidée du Prophète -paix et bénédiction sur lui-. C’est pour cela qu’Il a dit -paix et bénédiction sur lui- : “Prenez de moi vos rites”. Rapporté par An-Nasai..",
+    "mal": "Saudaraku jemaah umrah, Pelajarilah tatacara Rasulullah Sallallahu 'Alaihi wa Sallam mengerjakan umrah agar anda dapat melaksanakannya dengan cara yang betul. Ini kerana Allah Ta'ala tidak akan menerima sebarang amalan yang bertentangan dengan petunjuk Rasulullah Sallallahu 'Alaihi wa Sallam. Baginda telah bersabda: \"Ambillah daripadaku tatacara manasik kalian.\" (Riwayat an-Nasa’i).",
+    "in": "Saudaraku jamaah umrah, pelajarilah petunjuk Nabi saw dalam melaksanakan umrah agar engkau dapat menunaikannya dengan cara yang benar, karena Allah  tidak menerima suatu amalan jika ia menyelisihi petunjuk Nabi saw. Beliau bersabda, \"Ambillah dariku tata cara kalian beribadah.\" (HR. Nasa'i).",
     "subtitle": {
       "ar": "محظورات الإحرام",
       "en": "Ihram Prohibitions",
@@ -219,12 +219,12 @@ export const data = [
     "in": "3- Menggunakan wewangian setelah berihram pada badan atau pada pakaian ihram.\n",
     "subtitle": {
       "ar": "محظورات الإحرام",
-      "en": "Whilst you are in the state of al-Ihram, avoid the \nfollowing nine prohibitions of Ihram:",
+      "en": "Ihram Prohibitions",
       "ur": "ممنوعات احرام ",
-      "fr": "Evitez de commettre les interdictions liées à l’état de sacralisation qui sont aux nombres de neuf : ",
-      "mal": "Hindarilah segala pantang larang ihram semasa anda berada dalam keadaan berihram. Terdapat sembilan larangan yang tidak boleh dilakukan oleh seseorang yang sedang berihram:",
-      "tr": "İhramlı iken yapılması haram olan dokuz ihram yasağından kaçınınız:",
-      "in": "Hindarilah hal-hal yang dilarang saat anda berada dalam ihram. Larangan-larangan tersebut ada sembilan, tidak boleh dilakukan saat dalam ihram:"
+      "fr": "Les interdits de l’Ihram",
+      "mal": "Pantang larang ihram",
+      "tr": "İhram Yasakları",
+      "in": "Larangan-larangan Ihram"
     }
   },
   {
