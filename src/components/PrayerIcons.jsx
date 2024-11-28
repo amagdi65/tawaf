@@ -1,12 +1,18 @@
 import { Image, Stack, Switch } from "@chakra-ui/react";
 import pauseIcon from "../assets/pause.svg";
 import playIcon from "../assets/headphones.svg";
-import bigAin from "../assets/font-inc.svg";
-import smallAin from "../assets/font-dec.svg";
+
 import pauseIconBlack from "../assets/pauseBlack.svg";
 import playIconBlack from "../assets/headphones-black.svg";
 import bigAinBlack from "../assets/font-incBlack.svg";
 import smallAinBlack from "../assets/font-decBlack.svg";
+import bigAin from "../assets/font-inc.svg";
+import smallAin from "../assets/font-dec.svg";
+
+import bigAinBlackEn from "../assets/font-incBlack-en.svg";
+import smallAinBlackEn from "../assets/font-decBlack-en.svg";
+import bigAinEn from "../assets/font-inc-en.svg";
+import smallAinEn from "../assets/font-dec-en.svg";
 
 import { useRef, useState, useEffect } from "react";
 
@@ -35,7 +41,7 @@ function PrayerIcons({
     } else if (audioPath.includes("1")) {
       return tawafAudioFiles;
     } else {
-      return null; 
+      return null;
     }
   };
 
@@ -88,9 +94,33 @@ function PrayerIcons({
         ? pauseIconBlack
         : pauseIcon;
     } else if (type === "fontInc") {
-      return mode === "dark" ? bigAinBlack : bigAin;
+      if (mode === "dark") {
+        if (dir === "ltr") {
+          return bigAinBlackEn;
+        } else {
+          return bigAinBlack;
+        }
+      } else {
+        if (dir === "ltr") {
+          return bigAinEn;
+        } else {
+          return bigAin;
+        }
+      }
     } else if (type === "fontDec") {
-      return mode === "dark" ? smallAinBlack : smallAin;
+      if (mode === "dark") {
+        if (dir === "ltr") {
+          return smallAinBlackEn;
+        } else {
+          return smallAinBlack;
+        }
+      } else {
+        if (dir === "ltr") {
+          return smallAinEn;
+        } else {
+          return smallAin;
+        }
+      }
     }
   };
 
@@ -155,7 +185,7 @@ function PrayerIcons({
           cursor="pointer"
           boxSize={{ base: "28px", md: "42px" }}
         />
-       
+
         {audio && (
           <Image
             src={getIconSrc("playPause")}
