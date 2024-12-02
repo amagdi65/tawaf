@@ -63,7 +63,7 @@ function Item({
   cardPrayerTitle,
   showFinalMessage,
   disablePrev,
-  pageName,
+  // pageName,
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
 
@@ -158,7 +158,7 @@ function Item({
         {...(mode === "dark" && { border: "1px solid #3A444F" })}
         borderRadius="10px"
         onClick={() => {
-          if (pageName === "instructions") setIndex(index - 1);
+           setIndex(index - 1);
         }}
       >
         <Box display="flex" alignItems="center" justifyContent="center">
