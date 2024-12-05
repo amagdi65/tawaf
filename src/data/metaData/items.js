@@ -65,7 +65,7 @@ export const items =
         icon: `${iconPrefix}${iconModule[el.id - 1]["fileName"]}`,
         modalTitle: mainData[lang]["location"],
         closeTitle: mainData[lang]["closeTitle"],
-        modalBody: locationPrefix + locationIconsModule[0]["fileName"],
+        modalBody: locationPrefix + locationIconsModule[el.id - 1]["fileName"],
         addresses: addresses[el.id],
         type: el.id === 1 ? 1 : 2,
         disableNext: stepsData[1].length === el.id,
