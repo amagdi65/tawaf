@@ -517,13 +517,13 @@ export const addresses = {
         "fr": "Emplacements des assistants officiels des personnes à mobilité réduite (fauteuil roulant)"
       },
       "location": {
-        "ar": "الشبكية بجوار فندق دار التوحيد المرور من خلال الساحات الغربية أو الجنوبية وصولاً الى جسر الشبيكة او سلالم الشبيكة رقم 65",
-        "en": "Ash-Shubaykah near Dar at-Tawhid Hotel accessed through the western or southern courtyards leading to ash-Shubaykah ramp or ash-Shubaykah Staircase No. 65",
-        "ur": "شبیکہ، دار التوحید ہوٹل کے بغل میں (مغربی یا جنوبی صحن سے شبیکہ پل یا شبیکہ سیڑھی نمبر 65 کی طرف آتے ہوئے)",
-        "mal": "Terletak di Asy-Syubaikah, bersebelahan dengan Hotel Dar Al Tawhid. \r\nAnda boleh mengakses ke sana dengan melalui dataran bahagian barat atau selatan sehingga sampai ke Jambatan Asy-Syubaikah atau Tangga Asy-Syubaikah no. 65",
-        "in": "Jalur asy-Syubaikah di samping Hotel Dar Tauhid, melalui pelataran barat atau selatan sampai jembatan asy-Syubaikah atau tangga asy-Syubaikah no 65\r\n\r\n\r\n",
-        "tr": "Batı veya Güney avludan geçilerek gidilen Dârut-Tevhîd oteli yakınındaki eş-Şubeyke noktası, eş-Şubeyke köprüsü yahut 65. numaralı eş-Şubeyke merdivenleri yakınlarında bulunmaktadır",
-        "fr": "Al-Choubaikah, à côté de l’hôtel Dar Al-Tawhid, en passant par les esplanades Ouest ou Sud jusqu’à la passerelle Al-Choubaikah ou aux escaliers Al-Choubaikah numéro 65"
+        "ar": "الشبكية بجوار فندق دار التوحيد المرور من خلال الساحات الغربية أو الجنوبية وصولاً الى جسر الشبيكة او سلالم الشبيكة رقم 65.",
+        "en": "Ash-Shubaykah near Dar at-Tawhid Hotel accessed through the western or southern courtyards leading to ash-Shubaykah ramp or ash-Shubaykah Staircase No. 65.",
+        "ur": "شبیکہ، دار التوحید ہوٹل کے بغل میں (مغربی یا جنوبی صحن سے شبیکہ پل یا شبیکہ سیڑھی نمبر 65 کی طرف آتے ہوئے).",
+        "mal": "Terletak di Asy-Syubaikah, bersebelahan dengan Hotel Dar Al Tawhid. Anda boleh mengakses ke sana dengan melalui dataran bahagian barat atau selatan sehingga sampai ke Jambatan Asy-Syubaikah atau Tangga Asy-Syubaikah no. 65.",
+        "in": "Jalur asy-Syubaikah di samping Hotel Dar Tauhid, melalui pelataran barat atau selatan sampai jembatan asy-Syubaikah atau tangga asy-Syubaikah no 65.",
+        "tr": "Batı veya Güney avludan geçilerek gidilen Dârut-Tevhîd oteli yakınındaki eş-Şubeyke noktası, eş-Şubeyke köprüsü yahut 65. numaralı eş-Şubeyke merdivenleri yakınlarında bulunmaktadır.",
+        "fr": "Al-Choubaikah, à côté de l’hôtel Dar Al-Tawhid, en passant par les esplanades Ouest ou Sud jusqu’à la passerelle Al-Choubaikah ou aux escaliers Al-Choubaikah numéro 65."
       },
       "latitude": 21.421394,
       "longitude": 39.8202211
@@ -584,7 +584,7 @@ export const addresses = {
       },
       "location": {
         "ar": "جسر اجياد من الداخل (الدور الأول ميزان المطاف).",
-        "en": "زAjyad ramp from inside (First Floor Mezzanine Mataf)",
+        "en": "Ajyad ramp from inside (First Floor Mezzanine Mataf).",
         "ur": "اندرونی جانب سےاجیاد پل(پہلی منزل، میزان مطاف).",
         "mal": "Terletak di Jambatan Ajyad bahagian dalam Masjidil Haram (Kawasan Tawaf Mezanin Aras Satu).",
         "in": "Jembatan Ajyad dari arah dalam (lantai satu area tawaf mezzanine).",
