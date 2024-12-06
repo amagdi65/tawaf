@@ -1,6 +1,6 @@
 export const data = [
   {
-    "ar": "اشرب ماء زمزم المتوفر في أوعية زمزم المنتشرة في أنحاء المسجد، واطلب من الله من خير الدنيا والأخرة\r\nفقد روي عن النبي صلي الله عليه وسلم أنه قال:\"\" ماء زمزم لما شرب له\" رواه ابن ماجه\".",
+    "ar": "يستحب شرب ماء زمزم المتوفر في أوعيته المنتشرة في أنحاء المسجد الحرام، سواء قبل الطواف أو بعده مع الدعاء من خيري الدنيا والآخرة.",
     "audioNumber": null,
     "en": "Zamzam water is available in zamzam containers all over the Grand Mosque, drink and ask Allah to grant you the good of this life and the hereafter. It has been narrated that the Prophet (may Allah's salah and salam be upon him) said, \"\"The water of Zamzam is for whatever it is drunk for.\"\" [Reported by Ibn Majah].",
     "tr": "Zemzem suyundan karnınız dolana kadar bol bol içmeye gayret gösterin. Zira Rasûlullah (s.a.v) böyle yapmış ve İbn Mâce’nin rivayet ettiği, İmam Elbânî’nin ise sahih olduğunu belirttiği bir hadiste Zemzem suyu hakkında şöyle buyurmuştur: \"Zemzem suyu ne için içilirse ona göre yarar sağlar.\" O yüzden Zemzem içerken dünya ve ahirette hayrınıza olacak istediğinizi niyet ediniz.",
