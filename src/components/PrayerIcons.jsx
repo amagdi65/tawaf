@@ -50,6 +50,12 @@ function PrayerIcons({
   const togglePause = async () => {
     if (isPaused) {
       try {
+        log(
+          2,
+          JSON.parse(localStorage.getItem("uuid")),
+          lang,
+          prayerData[page]["doaa_id"]
+        );
         await audioRef.current.play();
         setIsPaused(false);
       } catch (error) {
