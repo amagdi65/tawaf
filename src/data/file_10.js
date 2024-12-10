@@ -2,6 +2,7 @@ export const data = [
   {
     "ar": "بعد فراغك من الصلاة توجه إلى السعي بين الصفا والمروة لسبعة أشواط.",
     "audioNumber": null,
+    "doaa_id": 238,
     "en": "After you have completed your prayer, proceed to perform seven rounds of sa’i between as-Safa and al-Marwah.",
     "ur": "نماز سے فارغ ہونے کے بعد  صفا مروہ کی سات چکر سعی کے لیے  جائيں۔",
     "tr": "Tavaf namazınızı kıldıktan sonra Safa ile Merve tepeleri arasında yedi şavt yapmaya yöneliniz.",
@@ -21,6 +22,7 @@ export const data = [
   {
     "ar": "السعي: هو الإسراع في المشي وهو دون الجري، والذهاب من الصفا إلى المروة شوط، والعودة من المروة إلى الصفا شوط ثانٍ. ويجب البدء بالصفا أولاً.",
     "audioNumber": null,
+    "doaa_id": 239,
     "en": "Sa’i is the act of briskly walking between as-Safa and al-Marwah. Going from as-Safa to al-Marwah is one round, and returning from al-Marwah to as-Safa is a second round. It is obligatory to begin at as-Safa.",
     "ur": "سعی چلنے میں جلدی کرنے کو کہتے ہيں اور یہ دوڑنے سےکم ہےاور یہ صفا اورمروہ کے بیچ سات چکر ہوگا۔ صفا سے مروہ جانا ایک چکر اور مروہ سے صفا کو لوٹنا ایک چکر۔  اس کا آغاز صفاسے کرنا واجب ہے۔",
     "tr": "Sa’y: Safa ile Merve tepeleri arasında koşmadan hızlı yürümektir. Safa’dan Merve’ye kadar birinci şavt ve Merve’den de Safa’ya dönmek ikinci şavt sayılır. Sa’y’a Safa tepesinden başlanması zorunludur",
@@ -40,6 +42,7 @@ export const data = [
   {
     "ar": "ويسن  لك عند قربك من الصفا في بداية الشوط الأول أن تقرأ قوله -تعالى-: (إِنَّ ٱلصَّفَا وَٱلْمَرْوَةَ مِن شَعَآئِرِ ٱللَّهِ ۖ فَمَنْ حَجَّ ٱلْبَيْتَ أَوِ ٱعْتَمَرَ فَلَا جُنَاحَ عَلَيْهِ أَن يَطَّوَّفَ بِهِمَا ۚ وَمَن تَطَوَّعَ خَيْرًا فَإِنَّ ٱللَّهَ شَاكِرٌ عَلِيمٌ) \r\nوتقول بعدها: \"أبدأ بما بدأ الله به\"، ولا تقول هذا إلا في بداية الشوط الأول فقط.",
     "audioNumber": null,
+    "doaa_id": 240,
     "en": "It is recommended when approaching as-Safa at the beginning of the first round, for you to recite the ayah, ((Indeed, performing Sa'i between the two mountains of as-Safa and al-Marwah are from the Sha'a'ir (defining marks of the religion) of Allah. Thus, let whoever performs Hajj or 'Umrah perform Sa'i between them. Whoever voluntarily performs a good deed, Allah is indeed Accepting and All-Knowing)) [2:158]. It is then recommended to say, \"I start with what Allah started with\". This should only be said at the beginning of the first round of Sa’i.",
     "ur": "اور پہلے چکر میں صفا کے قریب ہونے پر اس آيت کا پڑھنا مسنون ہے : (إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ ۖ فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ فَلَا جُنَاحَ عَلَيْهِ أَن يَطَّوَّفَ بِهِمَا ۚ وَمَن تَطَوَّعَ خَيْرًا فَإِنَّ اللَّهَ شَاكِرٌ عَلِيمٌ) ((صفااور مروه اللہ تعالیٰ کی نشانیوں میں سے ہیں، اس لئے بیت اللہ کا حج وعمره کرنے والے پر ان کا طواف کرلینے میں بھی کوئی گناه نہیں اپنی خوشی سے بھلائی کرنے والوں کا اللہ قدردان ہے اور انہیں خوب جاننے واﻻ ہے)) اور اس کے بعد کہیں :میں وہاں سےشروع کرتا ہوں جہاں سے اللہ نے شروع کیا ہے۔اور ایسا صرف سعی کےپہلے چکر کے شروع میں ہی کہیں۔",
     "tr": "İlk şavta başlamadan önce Safa tepesine yaklaştığınızda Cenab-ı Allah’ın şu sözlerini okumanız sünnettir: “İnnesafâ velmervete min şeâirillâh.” (Şüphesiz, Safa ile Merve Allah'ın (dininin) nişanelerindendir. Her kim Beytullah'ı ziyaret eder veya umre yaparsa onları say etmesinde kendisine bir günah yoktur. Her kim gönüllü olarak bir iyilik yaparsa şüphesiz Allah kabul eder ve her şeyi hakkıyla bilir.) Ardından Sa’y’a başlarken şöyle deyiniz: “Ebdeu bimâ bedeallâhu bihi.” (Allahın başladığıyla başlıyorum.) Bu ifadeyi sadece Sa’y’ın ilk şavtına başlarken söyleyiniz.",
@@ -59,6 +62,7 @@ export const data = [
   {
     "ar": "ويسن لك عند بداية كل شوطٍ في الصفا وفي المروة أن تستقبل القبلة وتقول :( الله أكبر الله أكبر الله أكبر، لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كلِّ شيءٍ قدير، لا إله إلا الله وحده، أنجز وعده، ونصر عبده، وهزم الأحزاب وحده. ثم تدعو بما تشاء . ثم تكرر ذلك تكبر وتهلل وتدعو بما تشاء) وتبدأ الشوط الأول. وتفعل ذلك عند بداية كل شوط على الصفا وعلى المروة.",
     "audioNumber": null,
+    "doaa_id": 241,
     "en": "At the beginning of each round, at both as-Safa and al-Marwah, it is recommended to face the Ka'bah and say, \"Allahu akbar, Allahu akbar, Allahu akbar. La ilaha illa Allahu wahdahu la sharika lah. Lahul-mulku wa lahul-hamdu wa huwa ‘ala kuli shay'in qadir. La ilaha illa Allahu wahdahu. Anjaza wa’dahu wa nasara 'abdahu wa hazamal ahzaba wahdahu.\" (Allah is the greatest, Allah is the greatest, Allah is the greatest. None has the right to be worshipped except Allah alone, without any partner. To Him alone belongs all sovereignty and praise, and He is completely capable of all things. None has the right to be worshipped except Allah, alone. He fulfilled His promise, granted victory to His servant - the Prophet -, and defeated the coalition alone.) After saying this, one should then supplicate Allah for whatever they wish.  After supplicating, one should then repeat the aforementioned dhikr before supplicating again for whatever they wish. One should then begin the first round of sa’i. This should be repeated at the start of each round at both as-Safa and al-Marwah.",
     "tr": "Safa ile Merve tepelerinde her şavta başladığınızda kıbleye yönelip şu duaları söylemeniz sünnettir: “Allahu Ekber, Allahu Ekber, Allahu Ekber, La ilâhe illallâhu vahdehu lâ şerîke leh, Lehul-mulku ve lehul-hamdu ve huve alâ kulli şeyin gadîr. La ilâhe illallâhu vahdeh, Enceze va'deh ve nasara abdeh ve hezemel-ahzâbe vahdeh” (Allah büyüktür, Allah büyüktür, Allah büyüktür. Allah’tan başka hiçbir ilah yoktur, O tektir ve hiç bir ortağı yoktur, Mülk de Hamd da O’na aittir ve O her şeye Kâdir olandır. Allah’tan başka hiçbir ilah yoktur, vadettiğini yerine getiren, kuluna yardım eden ve düşman gurupları tek başına mağlup edendir.) Sonra istediğiniz duayı yapabilirsiniz. Ardından Tekbir ve Tehlil getirip istediğiniz duayı yapabilirsiniz. Aynı şekilde tekrar Tekbir ve Tehlil getirip sonra da birinci şavta başlarsınız. Bunu Safa ile Merve tepelerinde her şavta başlarken uygularsınız.",
     "ur": "ہر چکر کے شروع میں صفا اور مروہ پریہ مسنون ہے کہ قبلہ رخ ہوں اور کہیں : الله أكبر الله أكبر الله أكبر ، لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كلِّ شيءٍ قدير، لا إله إلا الله وحده،  أنجز وعده، ونصر عبده، وهزم الأحزاب وحده پھر جو دعا کرنا چاہیں کریں، پھر اسے دہراتے رہیں تکبیر وتہلیل کریں اور جو دعا چاہیں مانگیں۔ اور چکر شروع کریں اور ایسا ہر چکر کےآغاز میں صفا اور مروہ پرکریں۔",
@@ -78,6 +82,7 @@ export const data = [
   {
     "ar": "يستحب للرجل بين العلمين الأخضرين أن يسرع في المشي.\r\nوأما المرأة فلا يشرع لها الإسراع بين العلمين؛ إنما تمشي في السعي كله وكذلك من كان برفقته نساء.",
     "audioNumber": null,
+    "doaa_id": 242,
     "en": "It is recommended for men to jog between the two green markers. This action is not prescribed for women. They should therefore, walk at a normal pace throughout their sa'i, as should those who are accompanying them.",
     "ur": "مرد کے لیے دونوں سبز علامتوں کے بیچ دوڑنا مستحب ہے ۔جہاں تک خواتین کی بات ہے تو ان کے لیے ان دوسبز علامتوں کے بیچ دوڑنا مشروع نہيں ہے ۔عورتیں پوری سعی چل کر کریں گی ، اسی طرح وہ لوگ بھی جن کے ساتھ خواتین ہوں۔",
     "tr": "Erkeğin iki yeşil işaret arasındaki yürüyüşünde hızlanması sünnettir. Kadınlar iki yeşil işaret arasında hızlı yürümezler. Onlar Safa ve Merve arasındaki tüm mesafeyi normal adımlarla kat etmelidirler. Aynı şekilde kadınlara refakat eden erkekler de bu şekilde davranmalıdırlar.",

@@ -2,6 +2,7 @@ export const data = [
   {
     "ar": "ربنا اغفر لنا ذنوبنا وإسرافنا في أمرنا وثبت أقدامنا وانصرنا على القوم الكافرين.",
     "audioNumber": "12ffa9c4-ae16-4bfd-b1a4-1ff8252831a0.wav",
+    "doaa_id": 84,
     "fr": "Seigneur ! Pardonne-nous nos péchés ainsi que nos excès dans nos comportements, affermis nos pas et donne-nous la victoire sur les gens mécréants. ",
     "en": "Our Lord, forgive our sins and our transgressing the bounds You have set for us. Establish our feet firmly and grant us victory over the people of kufr.",
     "ur": "اے ہمارے رب! ہمارے گناہ بخش دے اور ہمارے کام میں ہم سے ہونے والی زیادتیوں سے درگزر فرما اور ہمیں ثابت قدم رکھ اور ہمیں کافروں پر غلبہ عطا فرما",
@@ -21,6 +22,7 @@ export const data = [
   {
     "ar": "رب إني ظلمتُ نفسي فاغفر لي.",
     "audioNumber": "64e433a4-60be-43f0-81a9-c8cd7fff0fca.wav",
+    "doaa_id": 85,
     "fr": "Seigneur ! Je me suis fait du tort à moi-même; pardonne-mo",
     "en": "My Lord, I have wronged myself, so forgive me.",
     "ur": " اے پروردگار! میں نے خود اپنے اوپر ظلم کیا، تو مجھے معاف فرما دے",
@@ -40,6 +42,7 @@ export const data = [
   {
     "ar": "رب أوْزِعْني أن أشكر نعمتك التي أنعمتَ عليَّ وعلى والدَيَّ وأن أعمل صالحا ترضاه وأدخلني برحمتك في عبادك الصالحين.",
     "audioNumber": "42531a84-284b-4c26-9695-be9b4c8017a9.wav",
+    "doaa_id": 86,
     "fr": "Permets-moi Seigneur, de rendre grâce pour le bienfait dont Tu m’as comblé ainsi que mes père et mère, et que je fasse une bonne œuvre que Tu agrées et fais-moi entrer, par Ta miséricorde, parmi Tes serviteurs vertueux.",
     "en": "My Lord, guide me to be grateful for Your blessings which You have bestowed upon me and upon my parents; guide me to perform righteous deeds which please You; and place me, by Your mercy, among Your righteous worshipping servants.",
     "ur": "اے میرے پروردگار! مجھے توفیق دے کہ میں تیری اس نعمت کا شکر بجالاؤں جو تو نے مجھ کو اور میرے ماں باپ  کو دی ہے اور یہ کہ میں ایسے نیک عمل کروں جن سے تو خوش ہو جائے اور تو اپنی رحمت سے مجھے اپنے نیک بندوں میں شامل فرما",
@@ -59,6 +62,7 @@ export const data = [
   {
     "ar": "ربنا لا تجعلنا مع القوم الظالمين.",
     "audioNumber": "6cfbfd24-d5d8-4ef1-a0f3-94fa5de19382.wav",
+    "doaa_id": 87,
     "fr": "O notre Seigneur ! Ne nous mets pas avec le peuple injuste",
     "en": "Our Lord, do not place us with the people who wrong themselves by disobeying You.",
     "ur": "اے ہمارے رب ہمیں ظالموں کے ساتھ نہ کر",
@@ -78,6 +82,7 @@ export const data = [
   {
     "ar": "رب اشرح لي صدري ويَسِّرْ لي أمري.",
     "audioNumber": "1d861dd6-06ad-40fb-ba6c-5b060e4a9290.wav",
+    "doaa_id": 88,
     "fr": "Seigneur ! Ouvre-moi ma poitrine, et facilite ma mission",
     "en": "My Lord, expand my chest for me to accept responsibility and persevere through adversity, and make things easy for me.",
     "ur": "اے میرے پروردگار! میرا سینہ میرے لئے کھول دے اور میرے کام کو مجھ پر آسان کر دے",
@@ -97,6 +102,7 @@ export const data = [
   {
     "ar": "رب أدخلني مُدخل صدق وأخرجني مُخرج صدق واجعل لي من لدنك سلطانا نصيراً.",
     "audioNumber": "f37f8fc8-6666-47da-ae97-09942b57bfca.wav",
+    "doaa_id": 89,
     "fr": "O mon Seigneur ! Fais que j’entre par une entrée de vérité et que je sorte par une sortie de vérité; et accorde-moi de Ta part, un pouvoir bénéficiant de Ton secours.",
     "en": "My Lord, make all my entrances and exits in Your obedience and to please You, and grant me from Yourself a clear proof through which You help me against my enemies.",
     "ur": " اے میرے رب! مجھے سچائی کے ساتھ داخل فرما اور مجھے سچائی کے ساتھ باہر لے آاور مجھے اپنی جانب سے مددگار حجت  مقرر فرما دے",
@@ -116,6 +122,7 @@ export const data = [
   {
     "ar": "رب أنزلني منزلا مباركا وأنت خير المنزلين.",
     "audioNumber": "ace9f1eb-0698-4abf-9520-df28b76b4538.wav",
+    "doaa_id": 90,
     "fr": "Seigneur, fais-moi débarquer d’un débarquement béni. Tu es Celui qui procure le meilleur débarquement",
     "en": "My Lord, grant me a blessed place to land at, for You are the best of those who grant that.",
     "ur": " اے میرے رب! مجھے بابرکت جگہ اتار اور اتارنےوالوں میں تو سب سے بہتر ہے ",
@@ -135,6 +142,7 @@ export const data = [
   {
     "ar": "رب أعوذ بك من هَمَزات الشياطين، وأعوذ بك رَبِّ أن يَحْضُرونِ.",
     "audioNumber": "7983f057-1476-4e66-8ad0-3222560b80f3.wav",
+    "doaa_id": 91,
     "fr": "Seigneur ! Je me réfugie en Toi contre les incitations des diables. et je cherche Ta protection, Seigneur, contre leur présence auprès de moi",
     "en": "My Lord, I seek refuge with You from the whisperings of the shayatin, and I seek refuge with You lest they come near me.",
     "ur": " اے میرے پروردگار! میں شیطانوں کے وسوسوں سے تیری پناه چاہتا ہوں*اور اے رب! میں تیری پناه چاہتا ہوں کہ وه میرے پاس آجائیں",
@@ -154,6 +162,7 @@ export const data = [
   {
     "ar": "اللهم إني أسألك فعل الخيرات وترك المنكرات وحب المساكين وإذا أردت بعبادك فتنة فاقبضني إليك غير مفتون.",
     "audioNumber": "8306f618-9c6f-4d53-a73a-7b68c9275b52.wav",
+    "doaa_id": 92,
     "fr": "O Allah, je T'implore de me permettre d’accomplir de bonnes œuvres, de délaisser les interdits et d’aimer les nécessiteux. Aussi, si Tu décides d'éprouver Tes serviteurs alors rappelle-nous à Toi indemne.",
     "en": "O Allah, I ask You to guide me so that I perform righteous deeds, forsake evil deeds, and have love for the needy. If You wish to test a people, take us back to You without subjecting us to adversity.",
     "ur": "اے اللہ! میں تجھ سے اچھى چیزوں کو کرنے، برى چیزوں کو چھوڑنے اور مسکینوں سے محبت کرنے کا سوال کرتا ہوں اور تجھ سے سوال کرتا ہوں  اور جب تو  اپنے بندوں کو فتنے میں مبتلا کرنا چاہے، تو مجھے فتنے میں متبلا کیے بغیر وفات دے۔ ",
@@ -173,6 +182,7 @@ export const data = [
   {
     "ar": "اللهم انفعني بما علمتني، وعلمني ما ينفعني، وزدني علما.",
     "audioNumber": "b83b5d13-3db2-40ba-814f-8a957c26854e.wav",
+    "doaa_id": 93,
     "fr": "O Allah, permets-moi de tirer profit de ce que Tu m'as enseigné, enseigne-moi ce qui me sera utile, et augmente mes connaissances.",
     "en": "O Allah, enable me to benefit from what You have taught me, teach me that which will benefit me, and increase me in knowledge.",
     "ur": "اے اللہ! تونے جو مجھے سکھایا اس سے مجھے فائدہ پہنچا، مجھے وہ چیز سکھا جو مجھے فائدہ دے اور میرے علم میں اضافہ کر۔",
@@ -192,6 +202,7 @@ export const data = [
   {
     "ar": "اللهم أنت ربي لا إله إلا أنت خلقتني وأنا عبدك وأنا على عهدك ووعدك ما استطعت، أعوذ بك من شر ما صنعت، أبوء لك بنعمتك عليَّ، وأبوء بذنبي فاغفر لي فإنه لا يغفر الذنوب إلا أنت.",
     "audioNumber": "863f7c90-8ad2-4101-9c23-6d3b84b9b798.wav",
+    "doaa_id": 94,
     "fr": "O, Allah ! Tu es mon Seigneur, il n'est de véritable divinité que Toi. Tu m'as créé et je suis Ton serviteur. Je m'attache à mon engagement envers Toi et à la promesse que je T'ai faite autant que je le peux. Je me réfugie auprès de Toi contre le mal que j’ai commis. Je reconnais Tes bienfaits envers moi et je reconnais mes péchés, alors pardonne-moi, car nul autre que Toi ne pardonne les péchés.",
     "en": "O Allah, You are my Lord. None has the right to be worshipped in truth except You. You created me, I am Your worshipping servant, and I fulfil my covenant and promise to You as best as I can. I seek refuge with You from the evil I have done. I acknowledge to You all Your blessings upon me, and I admit all my sins. Thus, forgive me, as no one can forgive sins except You.",
     "ur": "اےاللہ تو میرا رب ہے ، تیرے سوا کوئی معبود برحق نہیں ، تونے مجھے پیدا کیا ہے اور میں تیرا بندہ ہوں اور میں استطاعت بھر تیرے عہد اور وعدے پر قائم ہوں ، تو نے جو پیدا کیا ہے اس کے شر سے تیری پناہ چاہتا ہوں ، تیری جو نعمتیں مجھ پر  ہیں ان کا اور اپنے گناہوں کا اعتراف کرتا ہوں ، تو مجھے بخش دے کہ تیرے سوا گناہوں کو کوئی نہیں بخش سکتا",
@@ -211,6 +222,7 @@ export const data = [
   {
     "ar": "اللهم رحمتك أرجو فلا تكلني إلى نفسي طرفة عين، وأصلح لي شأني كله، لا إله إلا أنت.",
     "audioNumber": "cf0818b3-b988-4b3c-95be-fa75bcf4af81.wav",
+    "doaa_id": 95,
     "fr": "O Allah, c'est à Ta miséricorde que j’aspire, ne m’abandonne pas à mon sort ne fut-ce que le temps d’un clin d'œil, et améliore ma situation en tout point de vue, il n'y a de véritable divinité que Toi.",
     "en": "O Allah, it is Your mercy that I hope for, so do not abandon me to myself even for a blink of an eye, and rectify for me all my affairs. There is none that deserves to be worshipped in truth except You.",
     "ur": "اے اللہ میں تیری رحمت کی امید کرتا ہوں مجھے پلک جھپکنے بھر کو بھی میرے نفس کے سپرد نہ کر اور میرے سارے معاملے کو درست کردے ، تیرے سوا کوئی معبود برحق نہیں ",
@@ -230,6 +242,7 @@ export const data = [
   {
     "ar": "اللهم طهرني من الذنوب والخطايا، اللهم نقني منها كما ينقى الثوب الأبيض من الدنس، اللهم طهرني بالثلج والبرد والماء البارد.",
     "audioNumber": "621c66b8-a32a-475d-a06e-9e8ea0c50175.wav",
+    "doaa_id": 96,
     "fr": "O Allah, purifie-moi de mes péchés et de mes erreurs, ô Allah, purifie-moi d’eux comme on purifie le vêtement blanc des souillures, ô Allah, purifie-moi avec la neige, la grêle et l’eau froide.",
     "en": "O Allah, purify me from sins and wrongdoings. O Allah, cleanse me from them, just as a white garment is cleansed from dirt. O Allah, purify me with ice, hail, and cold water.",
     "ur": "اے اللہ مجھے گناہوں اور لغزشوں سے پاک کر ، اے اللہ مجھے ایسے پاک صاف کر جیسے سفید کپڑا میل سے پاک صاف کیا جاتا ہے۔ اے اللہ مجھے برف ، اولے اور ٹھنڈے پانی سے پاک صاف کر ۔",
@@ -249,6 +262,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك من يوم السوء، ومن ليلة السوء، ومن ساعة السوء، ومن صاحب السوء، ومن جار السوء في دار المقامة.",
     "audioNumber": "cf9270b4-6b0e-4edb-8c8f-5c9e86d140c1.wav",
+    "doaa_id": 97,
     "fr": "O Allah, je cherche refuge auprès de Toi contre une mauvaise journée, une mauvaise nuit, une mauvaise heure, un mauvais compagnon, et un mauvais voisin dans la demeure éternelle.",
     "en": "O Allah, I seek refuge with You from the evil day, evil night, evil hour, every evil person, and from the evil companion in the everlasting home.",
     "ur": "اے اللہ میں برے دن ، بری رات ، بری گھڑی ، برے شخص اور رہائش میں برے پڑوسی سے تیری پناہ مانگتا ہوں ۔",
@@ -268,6 +282,7 @@ export const data = [
   {
     "ar": "اللهم رب جبريل وميكائيل وإسرافيل ومحمد صلى الله عليه وسلم نعوذ بك من النار.",
     "audioNumber": "8d10028a-b536-4881-9363-b48a88205306.wav",
+    "doaa_id": 98,
     "fr": "O Allah, Seigneur de Jibrîl, Mîkâ`îl, Isrâfîl, et Muhammad ?, je cherche refuge auprès de Toi contre l’enfer.",
     "en": "O Allah, the Lord of Jibril, Mikail, Israfil, and Muhammad (may Allah's salah and salam be upon him), we seek refuge with You from the hellfire. ",
     "ur": "اے اللہ! اے جبرئیل، میکائیل، اسرافیل اور محمد صلی اللہ علیہ وسلم کے رب! ہم جہنم سے تیری پناہ چاہتے ہیں۔",
@@ -287,6 +302,7 @@ export const data = [
   {
     "ar": "اللهم أحيني ما كانت الحياة خيراً لي وتوفني إذا كانت الوفاة خيراً لي.",
     "audioNumber": "3ba91049-05d2-444b-ba31-be74a157f43e.wav",
+    "doaa_id": 100,
     "fr": " O Allah, permets-moi de vivre tant que la vie est meilleure pour moi, et reprend mon âme si la mort est meilleure pour moi.",
     "en": "O Allah, keep me alive as long as You know that life is better for me and cause me to die when death is better for me.",
     "ur": "اے اللہ! مجھے زندہ رکھ جب تک کہ زندگی میرے لئے بہتر ہو، اور مجھے وفات دے دے جب کہ وفات میرے لئے بہتر ہو۔",
@@ -306,6 +322,7 @@ export const data = [
   {
     "ar": "اللهم إني أسألك من الخير كله عاجله وآجله ما علمت منه وما لم أعلم، وأعوذ بك من الشر كله عاجله وآجله ما علمت منه وما لم أعلم، اللهم إني أسألك من خير ما سألك عبدك ونبيك، وأعوذ بك من شر ما عاذ به عبدك ونبيك، اللهم إني أسألك الجنة وما قَرَّب إليها من قول أو عمل، وأعوذ بك من النار وما قَرَّب إليها من قول أو عمل، وأسألك أن تجعل كل قضاء قضيته لي خيرا.",
     "audioNumber": "05185b50-8d90-46ce-b1af-8655faca8686.wav",
+    "doaa_id": 101,
     "fr": "O Allah ! Je te demande tout le bien : l’immédiat et le futur, celui dont j’ai connaissance et celui que j’ignore. Et je me réfugie auprès de Toi contre tout le mal : l’immédiat et le futur, celui dont j’ai connaissance et celui que j’ignore. O Allah ! Je Te demande le meilleur de ce que Ton serviteur et Prophète T’a demandé et je cherche refuge auprès de Toi contre le pire de ce contre quoi Ton serviteur et Prophète à cherché refuge auprès de Toi. O Allah ! Je Te demande le Paradis, ainsi que toutes les paroles et les actes qui en rapprochent et je cherche refuge auprès de Toi contre l’Enfer, ainsi que contre toutes les paroles et les actes qui en rapprochent. Et je Te demande de faire en sorte que tout décret que Tu as émis me concernant soit en ma faveur.",
     "en": "O Allah, I ask You for all good things, both in the immediate and distant future, whether I know about them or not. I seek refuge with You from all evil things, both in the immediate and distant future, whether I know about them or not. O Allah, I ask You for the good which Your worshipping servant and Prophet asked of You, and I seek refuge with You from the evil which Your worshipping servant and Prophet sought refuge from. O Allah, I ask You to grant me paradise, as well as all words and deeds that bring me closer to it. I seek refuge with You from the hellfire, as well as all words and deeds that bring me closer to it. I implore You to grant me good in all that You have ordained for me.",
     "ur": "’’اے اللہ! میں تجھ سے ہر قسم کی خیر مانگتا ہوں، جلدی ملنے والی اور دیر سے ملنے والی ، وہ بھی جس کا مجھے علم ہے اور وہ بھی جس کا مجھے علم نہیں۔ اے اللہ! میں ہر قسم کےشر سے تیرى پناہ میں آتا ہوں، جلدی آنے والے سے بھی، اور دیر سے آنے والے سے بھی ،جس کا مجھے علم ہے، اس سے بھی اور جس کا مجھے علم نہیں، اس سے بھی۔ یااللہ! میں تجھ سے وہ خیر مانگتا ہوں جو تجھ سے تیرے بندے اور تیرے نبی (محمدﷺ) نے مانگی ہے۔ اور میں اس شر سے تیری پناہ میں آتا ہوں جس شرسے تیرے بندے اور تیرے نبی (محمدﷺ) نے پناہ مانگی ہے۔ یا اللہ! میں تجھ سے جنت کا سوال کرتا ہوں اور ہر اس قول و عمل (کی توفیق) کا سوال کرتا ہوں جو اس سے قریب کرے۔ اور میں (جہنم کی) آگ سے تیری پناہ میں آتا ہوں اور ہر اس قول و عمل سے پناہ مانگتا ہوں جو اس (جہنم) سے قریب کرے۔ اور میں یہ سوال کرتا ہوں کہ تو جو بھی فیصلہ کرے اسے میرے لیے بہتر بنا دے۔‘‘",
@@ -325,6 +342,7 @@ export const data = [
   {
     "ar": "ربّ زِدنِي عِلما.",
     "audioNumber": "70db1121-294b-48e4-9c18-18f8ed18c716.wav",
+    "doaa_id": 102,
     "fr": "Mon Seigneur! Accroît mon savoir",
     "en": "My Lord, increase me in knowledge.",
     "ur": "اے میرے رب! میرے علم میں اضافہ کر",
@@ -344,6 +362,7 @@ export const data = [
   {
     "ar": "ربنا إنك مَنْ تُدخِل النارَ فقد أخزيتَه وما للظالمين من أنصار، ربنا إننا سمعنا مناديا ينادي للإيمان أن آمنوا بربكم فآمنا ربنا فاغفر لنا ذنوبنا وكَفِّر عنا سيئاتنا وتوفنا مع الأبرار، ربنا وآتنا ما وعدتنا على رسلك ولا تُخْزِنا يوم القيامة إنك لا تخلف الميعاد.",
     "audioNumber": "2a287a16-dfbd-4cdf-bd08-11527bf4e4d3.wav",
+    "doaa_id": 103,
     "fr": "Seigneur! Quiconque Tu fais entrer dans le Feu, Tu le couvres vraiment d’ignominie. Et pour les injustes, il n’y aura pas de secoureurs Seigneur! Nous avons entendu l’appel de celui qui a appelé ainsi à la foi: \"Croyez en votre Seigneur !\" Et dès lors nous avons cru. Seigneur ! Pardonne-nous nos péchés, efface de nous nos méfaits, et place nous, à notre mort, avec les gens de bien.Seigneur! Donne-nous ce que Tu nous as promis par Tes Messagers. Et ne nous couvre pas d’ignominie au Jour de la Résurrection. Car Toi, Tu ne manques pas à Ta promesse",
     "en": "Our Lord, indeed whoever You admit to the hellfire – You have disgraced him, and for the wrongdoers there are no helpers. Our Lord, indeed we have heard a caller calling to Iman [saying], ‘Accept Iman in your Lord,’ and we have accepted it. Our Lord, so forgive us our sins and remove from us our misdeeds and cause us to die with the righteous. Our Lord! Bestow upon us all that You have promised us through Your messengers and do not humiliate us on the Day of Resurrection. Indeed, You never break Your promise.",
     "ur": "اے ہمارے رب! تو جسے جہنم میں ڈالے یقیناً تو نے اسے رسوا کیا، اور ﻇالموں کا مددگار کوئی نہیں * اے ہمارے رب! ہم نے سنا کہ منادی کرنے واﻻ بآواز بلند ایمان کی طرف بلا رہا ہے کہ لوگو! اپنے رب پر ایمان لاؤ، پس ہم ایمان ﻻئے۔ یا الٰہی! اب تو ہمارے گناه معاف فرما اور ہماری برائیاں ہم سے مٹا دے اور ہماری موت نیکوں کے ساتھ کر * اے ہمارے رب! ہمیں وه دے جس کا وعده تو نے ہم سے اپنے رسولوں کی زبانی کیا ہے اور ہمیں قیامت کے دن رسوا نہ کر، یقیناً تو وعده خلافی نہیں کرتا۔",
@@ -363,6 +382,7 @@ export const data = [
   {
     "ar": "ربنا لا تؤاخذنا إن نسينا أو أخطأنا ربنا ولا تَحْمِل علينا إصرًا كما حَمَلْتَه على الذين من قبلنا ربنا ولا تُحَمِّلنا ما لا طاقة لنا به واعف عنا واغفر لنا وارحمنا أنت مولانا فانصرنا على القوم الكافرين.",
     "audioNumber": "f84e13be-9321-46e6-9990-627c46f160b6.wav",
+    "doaa_id": 104,
     "fr": "Seigneur ! Ne nous châtie pas s’il nous arrive d’oublier ou de commettre une erreur. Seigneur ! Ne nous charge pas d’un fardeau lourd comme Tu as chargé ceux qui vécurent avant nous. Seigneur ! Ne nous impose pas ce que nous ne pouvons supporter, efface nos fautes, pardonne-nous et fais nous miséricorde. Tu es Notre Maître, accorde-nous donc la victoire sur les peuples infidèles",
     "en": "Our Lord, do not take us to account when we forget or fall into error. Our Lord, do not place upon us a burden like that which You placed upon those before us. Our Lord, do not impose upon us what we cannot bear. Pardon us, grant us forgiveness, and have mercy upon us. You are our Protector, so grant us victory over people of kufr.",
     "ur": "اے ہمارے رب! اگر ہم بھول گئے ہوں یا خطا کی ہو تو ہمیں نہ پکڑنا، اے ہمارے رب! ہم پر وه بوجھ نہ ڈال جو ہم سے پہلے لوگوں پر ڈاﻻ تھا، اے ہمارے رب! ہم پر وه بوجھ نہ ڈال جس کی ہمیں طاقت نہ ہو اور ہم سے درگزر فرما! اور ہمیں بخش دے اور ہم پر رحم کر! تو ہی ہمارا مالک ہے، ہمیں کافر قوموں پر غلبہ عطا فرما",
@@ -382,6 +402,7 @@ export const data = [
   {
     "ar": "ربنا ظلمنا أنفسنا وإن لم تغفر لنا وترحمنا لنكونن من الخاسرين.",
     "audioNumber": "75e05787-7f3d-4203-bd4e-ef4cc1d238a0.wav",
+    "doaa_id": 105,
     "fr": "O notre Seigneur ! Nous avons fait du tort à nous-mêmes. Et si Tu ne nous pardonnes pas et ne nous fais pas miséricorde, nous serons très certainement du nombre des perdants",
     "en": "Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we shall most certainly be among those who suffer total loss.",
     "ur": "اے ہمارے رب! ہم نے اپنے اوپر ظلم کیا اور اگر تو ہماری مغفرت نہ کرے گا اور ہم پر رحم نہ کرے گا تو واقعی ہم نقصان پانے والوں میں سے ہوجائیں گے۔",
@@ -401,6 +422,7 @@ export const data = [
   {
     "ar": "رب أَعنِّي ولا تُعِنْ علي، وانصرني ولا تنصر عَلَيَّ، وامكر لي ولا تمكر عليَّ، واهدني ويَسِّرِ الهدى لي، وانصرني علَىْ مَنْ بَغَىْ علَيَّ، رب اجعلني لك شكَّارا، لك ذكَّارا، لك رهَّابا، لك مِطْواعا، إليك مُخْبِتا أوَّاها مُنِيْبًا، رب تقبل توبتي واغسل حَوْبَتِي، وأجِبْ دَعوتي، وثبِّتْ حُجَّتي، واهدِ قلبي، وسَدِّدْ لساني، واسلُلْ سَخِيْمَة قلبي.",
     "audioNumber": "9479ecfa-0143-435e-8796-53f962fe1b70.wav",
+    "doaa_id": 106,
     "fr": "Seigneur, soutiens-moi et ne soutiens personne contre moi ; accorde-moi la victoire et n’accorde la victoire contre moi à personne  ; ruse en ma faveur et ne ruse en faveur de personne contre moi ; guide-moi et facilite-moi la guidée et soutien-moi face à ceux qui m’opprime. Seigneur, permet moi de Te rendre grâce, de T’évoquer, de Te craindre, de me soumettre complètement à Toi, d’être humble devant Toi, d’être enclin à l’imploration et toujours repentant. Seigneur, accepte mon repentir, lave-moi de mes péchés, exauce mon invocation, renforce mes arguments, guide mon cœur, accorde la justesse à ma langue et chasse la haine de mon cœur. ",
     "en": "My Lord, assist me and do not assist against me. Grant me victory and do not grant victory over me. Plot in my favour and do not plot against me. Guide me and facilitate the means to guidance for me. Grant me victory over those who transgress against me. My Lord, make me constantly grateful to You, constantly mentioning and remembering You, constantly fearful of You, constantly obedient to You, constantly humble before You, and constantly repentant to You. My Lord, accept my repentance, wash away my misdeeds, answer my supplications, make my proof firm, set my tongue aright, guide my heart, and remove rancour from my chest.",
     "ur": "اے اللہ! تو میرى مدد کر، میرے خلاف مدد نہ کر، مجھے غلبہ دے، میرے خلاف غلبہ نہ دے، میرے لیے تدبیر کر، میرے خلاف تدبیر نہ کر، مجھے ہدایت دے اور میرے لیے ہدایت کو آسان کر اور مجھے ان لوگوں پر غلبہ دے، جنہوں نے مجھ پر زیادتى کى ہے۔ اے اللہ! تو مجھے تیرا شکر گزار، تیرا ذکر کرنے والا، تجھ سے ڈرنے والا، تیرى فرماں بردارى کرنے والا، تیری بارگاہ میں  یکسوئى برتنے والا، گریہ وزارى اور رجوع کرنے والا بنا۔ اے میرے پروردگار، میرى توبہ قبول کر، میرے گناہ کو دھو دے، میرى دعا قبول فرما، میرى حجت ثابت کر، میرے دل کو ہدایت دے، میرى زبان کو درست کر اور میرے دل کے کینے کو نکال دے۔",
@@ -420,6 +442,7 @@ export const data = [
   {
     "ar": "اللهم احفظني بالإسلام قائما واحفظني بالإسلام قاعدا واحفظني بالإسلام راقدا، ولا تُشْمِت بي عدوا ولا حاسدا، اللهم إني أسألك من كل خير خزائنه بيدك وأعوذ بك من كل شر خزائنه بيدك.",
     "audioNumber": "048a67a4-c736-411b-a633-de8330d6b721.wav",
+    "doaa_id": 107,
     "fr": "O Allah, protège-moi en tant que musulman debout, assis et allongé, et ne permets pas à un ennemi ou à un envieux de se réjouir de mon malheur. O Allah, je Te demande tout bien dont Tu détiens les trésors, et je cherche refuge en Toi contre tout mal dont Tu détiens les trésors.",
     "en": "O Allah, preserve me through Islam while I am standing, sitting, and lying down, and do not allow my enemy to rejoice at my downfall. O Allah, I ask You for all the good You store in Your hands, and I seek refuge with You from all of the evil You store in Your hands.",
     "ur": "اے اللہ تو میری اسلام کے ذریعہ حفاظت فرما جب  کھڑا رہوں ، جب میں بیٹھا رہوں اور جب میں سویا رہوں ۔ اور میری مصیبت پر کسی دشمن ااور کسی حاسد کو خوش نہ کر ۔ اے اللہ میں تجھ سے ہر بھلائی مانگتا ہوں جس کے خزانے تیرے ہاتھ میں ہیں اور ہر شر سے تیری پناہ لیتا ہوں جس کے خزانے تیرے ہاتھ میں ہیں ۔ ",
@@ -439,6 +462,7 @@ export const data = [
   {
     "ar": "اللهم بِعِلْمك الغيب وقدرتِكَ على الخلق، أحيني ما علمت الحياة خيرا لي وتوفني إذا علمت الوفاة خيرا لي، اللهم وأسألك خشيتك في الغيب والشهادة، وأسألك كلمة الحق في الرضا والغضب، وأسألك القصد في الفقر والغنى، وأسألك نعيما لا يَنْفَد، وأسألك قُرَّة عين لا تنقطع، وأسألك الرضا بعد القضاء، وأسألك برد العيش بعد الموت، وأسألك لذة النظر إلى وجهك، والشوق إلى لقائك، في غير ضراء مضرة، ولا فتنة مضلة، اللهم زيِّنَّا بزينة الإيمان، واجعلنا هداة مهتدين.",
     "audioNumber": "975650b4-f5d3-43ac-9eb1-e9decb68f71e.wav",
+    "doaa_id": 108,
     "fr": "O Allah, par Ta connaissance de l'invisible et Ton pouvoir sur la création, maintient-moi en vie tant que Tu sais la vie meilleure pour moi, et reprend mon âme si Tu sais que la mort est meilleure pour moi. O Allah, je Te demande de me permettre de Te craindre tant en secret qu’en public, de me permettre de prononcer la vérité en période de calme et de colère. Je Te demande la modération dans l’aisance et la pauvreté, des bienfaits inépuisables et une tranquillité d’esprit ininterrompue. Permets-moi de me satisfaire de Ton décret. Je Te demande une vie paisible après la mort. Accorde-moi le plaisir de contempler Ton Visage et le désir ardent de Te rencontrer sans subir aucun dommage qui me nuise ni tentation qui m’égare. O Allah ! Embellis-nous par la foi et fais de nous des guides bien guidés.",
     "en": "O Allah, with Your knowledge of the unseen and Your power over creation, grant me life as long as You know that life is better for me, and cause me to die when You know that death is better for me. O Allah, I ask for fear of You in private and in public, and I ask You to allow me to stick to the word of truth in times of contentment and anger. I ask for moderation in times of poverty and affluence. I ask for never-ending bliss, and I ask for source of comfort that never ceases. I ask for contentment with what You have decreed, and I ask for relief in life after death. I ask for the joy of gazing upon Your Face and longing to meet You, without hardship that harms or trials that lead astray. O Allah, adorn us with the adornment of Iman and make us among the rightly guided.",
     "ur": "”اے اللہ! تیرے علم غیب اور مخلوقات پر تیری قدرت کے وسیلہ سے  (میں تجھ سے سوال کرتا ہوں کہ) تو مجھے اس وقت تک زندہ رکھ جب تک میرے لیے زندہ رہنا بہتر ہے اور مجھے اس وقت وفات دے دینا جب تو میرے لیے وفات کو بہتر سمجھے۔ اور اے اللہ! میں تجھ سے باطن وظاہر میں تیری  خشیت (ڈر) کا سوال کرتا ہوں، اور حالت رضا وناراضگی میں حق بات کہنے کا سوال کرتا ہوں۔ اور فقیری و امیری میں میانہ روی اختیار کرنے کی توفیق مانگتا ہوں اور تجھ سے ایسی نعمتوں کا سوال کرتا ہوں جو کبھی ختم نہ ہوں۔ اور ایسی آنکھ کی ٹھنڈک مانگتا ہوں جو کبھی منقطع نہ ہو۔ اور قضا پر راضی برضا رہنے کا سوال کرتا ہوں۔ اور موت کے بعد پرسکون زندگی مانگتا ہوں۔ اور تیرے روئے اقدس کے دیدار کی لذت اور تیری ملاقات کے شوق کا طلب گار ہوں، بغیر اس کے کہ کسی نقصان دہ مصیبت میں پھنسوں یا کسی گمراہ کن فتنے میں مبتلا ہوں۔ اے اللہ! ہمیں ایمان کی زینت سے آراستہ فرما اور ہمیں ہدایت دینے والا ہدایت یافتہ  بنا دے۔“",
@@ -458,6 +482,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك من العجز والكسل والجبن والبخل والهرم والقسوة والغفلة والعَيْلة والذِّلة والمسكنة، وأعوذ بك من الفقر والكفر والفسوق والشقاق والنفاق والسمعة والرياء، وأعوذ بك من الصمم والبكم والجنون والجذام والبرص وسَيِّءِ الأسقام.",
     "audioNumber": "b478ba55-fa3b-4621-8151-02d518b03a23.wav",
+    "doaa_id": 109,
     "fr": "O Allah, je cherche refuge auprès de Toi contre l'impuissance, la paresse, la lâcheté, l'avarice, la sénilité, la dureté du cœur, la négligence, la misère, la bassesse et la pénurie. Aussi, je cherche refuge auprès de Toi contre la pauvreté, la mécréance, la désobéissance, la dissension, l'hypocrisie, la vanité et l'ostentation. Je cherche refuge auprès de Toi contre la surdité, la mutité, la folie, la lèpre, la dépigmentation et toutes les mauvaises maladies.",
     "en": "O Allah, I seek refuge with You from helplessness, laziness, cowardice, stinginess,  frailness, harshness, heedlessness, dependency, humiliation, and poverty. I seek refuge with You from poverty, kufr, immorality, dissent, hypocrisy, wishing to gain reputation, and ostentation. I seek refuge with You from deafness, muteness, insanity, contagion, leprosy, and evil diseases.",
     "ur": "اے اللہ میں عاجزی، کاہلی، بزدلی، بخیلی، انتہائی بڑھاپے، سخت دلی، غفلت، محتاجگی، ذلت اور فقر سے تیری پناہ میں آتا ہوں۔ اور میں فقر، کفر، نافرمانی، رنجش، منافقت، شہرت پسندی اور ریاکاری سے تیری پناہ میں آتا ہوں۔ اور میں تیری پناہ مانگتا ہوں بہرے پن، گونگے پن، پاگل پن، کوڑھ، برص (سفید داغ کی بیماری) اور تمام بری بیماریوں سے۔",
@@ -477,6 +502,7 @@ export const data = [
   {
     "ar": "اللهم آتنا في الدنيا حسنة وفي الآخرة حسنة وقنا عذاب النار.",
     "audioNumber": "64287802-d1b5-4dcf-bc25-af9636e92401.wav",
+    "doaa_id": 110,
     "fr": "O Allah, accorde-nous le bonheur ici-bas et félicité dans l’au-delà, et préserve-nous du châtiment de l’Enfer.",
     "en": "Our Lord, grant us good in this world, grant us good in the hereafter, and save us from the torment of the hellfire.",
     "ur": "اے ہمارے رب! ہمیں دنیا میں نیکی دے اور آخرت میں بھی بھلائی عطا فرما اور ہمیں عذاب جہنم سے نجات دے",
@@ -496,6 +522,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بعظمتك أن أُغْتال مِنْ تحتي.",
     "audioNumber": "c994b33a-dd18-44d6-8553-562453a146e3.wav",
+    "doaa_id": 111,
     "fr": "O Allah, je me réfugie auprès de Ta grandeur contre le fait que l’on m’assassine par surprise.",
     "en": "O Allah  I seek refuge with Your Greatness from being suddenly afflicted from beneath myself.",
     "ur": "اے اللہ! میں تیری عظمت کے واسطے سے اس بات سے پناہ چاہتا ہوں کہ میں اپنے نیچے کی طرف سے ہلاک کر دیا جاؤں۔",
@@ -515,6 +542,7 @@ export const data = [
   {
     "ar": "اللهم عافني من شر سمعي وبصري ولساني وقلبي وشر مَنِيِّي.",
     "audioNumber": "4cd466aa-6f84-4dc3-8f2b-fdc1060bbd92.wav",
+    "doaa_id": 112,
     "fr": "O Allah, protège-moi du mal de mon ouïe, de ma vue, de ma langue, de mon cœur et du mal de ma semence.",
     "en": "O Allah, protect me from the evil of my hearing, sight, tongue, heart, and private parts.",
     "ur": "اے اللہ! مجھے میرے کان، میری آنکھ، میری زبان، میرے دل اور میری منی، یعنی شرم گاہ کے شر سے محفوظ رکھ۔",
@@ -534,6 +562,7 @@ export const data = [
   {
     "ar": "اللهم اهدني فيمن هديتَ، وعافني فيمن عافيتَ، وتولَّني فيمن توليتَ، وبارك لي فيما أعطيتَ، وقني شَرَّ ما قضيتَ، إنك تَقْضِي ولا يقضى عليك، إنه لا يذل من واليتَ، تباركتَ ربنا وتعاليتَ.",
     "audioNumber": "15faa4d5-2f3c-4172-baee-a99f6f0e8386.wav",
+    "doaa_id": 113,
     "fr": " O Allah, Guide-moi parmi ceux que Tu as guidés, accorde-moi la santé parmi ceux à qui Tu as accordé la santé, prends-moi sous Ta protection parmi ceux que Tu as protégés, bénis ce que Tu m'as accordé, et protège-moi du mal de ce que Tu as décrété. Car Tu décrètes, et rien ne peut être décrété contre Toi. Certes jamais ne sera avili celui que Tu prends comme allié, Béni sois-Tu, O notre Seigneur et que Tu sois Exalté.",
     "en": "O Allah, guide me among those whom You have guided, grant me well-being among those whom You have granted well-being, be an ally to me along with those whom You are an ally to, and bless for me that which You have bestowed upon me. Protect me from the evil You have decreed, for verily You decree and none can decree over You. Certainly, the one whom You show allegiance to is never disgraced. Our Lord,  You are Blessed and Exalted.",
     "ur": "اے اللہ! جن لوگوں کو تو نے ہدایت دی ہے مجھے بھی ان کے ساتھ ہدایت دے۔ اور جن کو تو نے عافیت دی ہے مجھے بھی ان کے ساتھ عافیت دے اور جن کا تونے ذمہ لےلیا میرا بھی ان کے ساتھ ذمہ لے لے ۔ اور جو نعمتیں تو نے عنایت فرمائی ہیں ان میں مجھے برکت دے۔ اور جو فیصلے تو نے فرمائے ہیں ان کے شر سے مجھے محفوظ رکھ۔ بلاشبہ تو ہی فیصلہ کرتا ہے، تیرے اوپر  کوئی فیصلہ نہیں کیا جاتا ۔ اور جس کا تو دوست ہو وہ کہیں ذلیل نہیں ہو سکتا۔ بڑی برکتوں والا ہے تو اے ہمارے رب! اور بہت بلند و بالا ہے۔",
@@ -553,6 +582,7 @@ export const data = [
   {
     "ar": "اللهم إني أسألك العافية في الدنيا والآخرة، اللهم إني أسألك العفو والعافية في ديني ودنياي وأهلي ومالي، اللهم استر عوراتي وآمن روعاتي، اللهم احفظني من بين يدي ومن خلفي وعن يميني وعن شمالي ومن فوقي، وأعوذ بعظمتك أن أغتال من تحتي.",
     "audioNumber": "24dbc7ae-876e-4d1a-9aef-9495fa293431.wav",
+    "doaa_id": 114,
     "fr": "O Allah, Je T’implore de m’accorder Ton pardon et Ta protection dans cette vie et dans l’au-delà. O Allah, Je T’implore de m’accorder le pardon et de me protéger dans ma religion, ma vie, ma famille et mes biens. O Allah, Couvre mes défauts et rassure moi quant aux peurs qui me tiraillent. O Allah, protège-moi de tout ce qui pourrait survenir devant ou derrière moi, à ma droite, à ma gauche ou au-dessus de moi, et je me réfugie auprès de Ta toute grandeur contre le fait que l’on m’assassine par surprise.",
     "en": "O Allah, I implore You to grant me well-being in this world and the hereafter. O Allah, I implore You to pardon me and grant me well-being in my religion, worldly affairs, family, and property. O Allah, conceal my faults and calm my fears. O Allah, protect me from in front, from behind, from my right, from my left, and from above, and I seek refuge with Your Greatness from being suddenly afflicted from beneath me.",
     "ur": "اے اللہ! میں تجھ سے دنیا اور آخرت میں عافیت کا سوال کرتا ہوں۔ یا اللہ! میں تجھ سے اپنے دین ودنیا، اہل وعیال اور مال واسباب میں بڑھوتری اورعافیت کا سوال کرتا ہوں۔ یا اللہ! میرے عیبوں پر پردہ ڈال دے، اور خوف سے مجھے امن عطا کر، اور میری حفاظت فرما میرے آگے سے، میرے پیچھے سے، میرے دائیں سے، میرے بائیں سے اور میرے اوپر سے، اور میں اس بات سے بھی تیری عظمت کی پناہ میں آتا ہوں کہ میں نیچے سے اچانک ہلاک کردیا جاوں۔",
@@ -572,6 +602,7 @@ export const data = [
   {
     "ar": "رب اغفر وارحم وأنت خير الراحمين.",
     "audioNumber": "e7e29fd4-5242-49df-ac4d-e0ae54c17e2d.wav",
+    "doaa_id": 115,
     "fr": "Seigneur ! Pardonne et fais miséricorde ! C’est Toi le Meilleur des miséricordieux.",
     "en": "My Lord, forgive and have mercy, for You are the Best of those who are merciful.",
     "ur": "میرے رب! مغفرت فرما اور رحم فرما، تو ہی سب سے بہتر رحم کرنے والا ہے۔",
@@ -591,6 +622,7 @@ export const data = [
   {
     "ar": "ربنا إننا آمنا فاغفر لنا ذنوبنا وقنا عذاب النار.",
     "audioNumber": "be3bc7aa-17c8-40f2-923b-ec03f8319f9c.wav",
+    "doaa_id": 116,
     "fr": "O notre Seigneur ! Nous avons foi; pardonne-nous donc nos péchés, et protège-nous du châtiment du Feu",
     "en": "Our Lord, we have most certainly accepted Iman, so forgive us for our sins and protect us from the punishment of the hellfire.",
     "ur": " اے ہمارے رب! ہم ایمان لا چکے اس لئے ہمارے گناه معاف فرما اور ہمیں آگ کے عذاب سے بچا",
@@ -610,6 +642,7 @@ export const data = [
   {
     "ar": "ربنا اغفر لي ولوالدي وللمؤمنين يوم يقوم الحساب.",
     "audioNumber": "551a8e2d-2a9f-4823-bd62-908d5069356e.wav",
+    "doaa_id": 117,
     "fr": "Notre Seigneur ! Pardonne-moi, ainsi qu’à mes père et mère et aux croyants, le Jour de la Reddition des Comptes",
     "en": "Our Lord, forgive me, my parents, and all who have Iman on the Day when reckoning takes place.",
     "ur": "اے ہمارے پروردگار! مجھے بخش دے اور میرے ماں باپ کو بھی بخش اور دیگر مومنوں کو بھی بخش جس دن حساب ہونے لگے",
@@ -629,6 +662,7 @@ export const data = [
   {
     "ar": "ربنا آتنا من لدنك رحمة وهيئ لنا من أمرنا رشدا.",
     "audioNumber": "ca006629-a2bf-40a9-a6de-b7e55f23ff2f.wav",
+    "doaa_id": 118,
     "fr": " notre Seigneur ! Donne-nous de Ta part une miséricorde ! Et assure nous la droiture dans tout ce qui nous concerne.",
     "en": "Our Lord, grant us mercy from Yourself, and ease for us the path to guidance in all our affairs.",
     "ur": "اے ہمارے پروردگار! ہمیں اپنے پاس سے رحمت عطا فرما اور ہمارے کام میں ہمارے لئے راه یابی کو آسان کردے",
@@ -648,6 +682,7 @@ export const data = [
   {
     "ar": "رب هب لي حكما وألحقني بالصالحين، واجعل لي لسان صدق في الآخرين، واجعلني من ورثة جنة النعيم.",
     "audioNumber": "ab254558-5a34-4657-85f8-744002dbcb1f.wav",
+    "doaa_id": 119,
     "fr": "Seigneur ! Accorde-moi sagesse (et savoir) et fais-moi rejoindre les gens de bien fais que j’aie une mention honorable sur les langues de la postérité Et fais de moi l’un des héritiers du Jardin des délices.",
     "en": "My Lord, grant me knowledge and sound judgement, place me among the righteous, grant me honourable mention among later generation, and make me of those who will inherit the Paradise of Bliss.",
     "ur": "اے میرے رب! مجھے قوت فیصلہ عطا فرما اور مجھے نیک لوگوں میں ملا دے  ، اور میرا ذکر خیر پچھلے لوگوں میں بھی باقی رکھ اور مجھے نعمتوں  بھری جنت کے وارثوں میں سے بنا",
@@ -667,6 +702,7 @@ export const data = [
   {
     "ar": "رب اغفر لي ولوالدي ولمن دخل بيتي مؤمنا وللمؤمنين والمؤمنات ولا تزد الظالمين إلا تبارا.",
     "audioNumber": "5fccbac1-c128-43ea-9b96-bb880eda45e5.wav",
+    "doaa_id": 120,
     "fr": "Seigneur! Pardonne-moi, et à mes père et mère et à celui qui entre dans ma demeure croyant, ainsi qu’aux croyants et croyantes; et ne fait croître les injustes qu’en perdition",
     "en": "My Lord, I implore You to forgive me, my parents, any person who enters my home having Iman, and all the men and women who have Iman. My Lord, with regards to those who wrong themselves by persisting in their rejection, I implore You to not increase them in anything except ruin and loss.",
     "ur": "اے میرے پروردگار! تو مجھے اور میرے ماں باپ اور جو بھی ایمان کی حالت میں میرے گھر میں آئے اور تمام مومن مردوں اور عورتوں کو بخش دے اور کافروں کی بربادی کو اور بڑھا",
@@ -686,6 +722,7 @@ export const data = [
   {
     "ar": "اللهم إني أسألك من فضلك ورحمتك فإنه لا يملكها إلا أنت.",
     "audioNumber": "2c3eae5d-2e05-4e21-a261-793744bd97e0.wav",
+    "doaa_id": 121,
     "fr": "O Allah, je Te demande de Tes faveurs et Ta miséricorde, car nul autre que Toi ne les possède.",
     "en": "O Allah, I ask You for Your bounty and mercy, as none possesses them except You.",
     "ur": "اے اللہ! میں تجھ سے تیرا فضل اور تیرى رحمت مانگتا ہوں، اس کا مالک تیرے سوا کوئى نہیں۔",
@@ -705,6 +742,7 @@ export const data = [
   {
     "ar": "اللهم اقسم لنا من خشيتك ما يحول بيننا وبين معاصيك، ومن طاعتك ما تُبَلِّغنا به جنتك، ومن اليقين ما تُهَوِّن به علينا مصائب الدنيا، ومتعنا بأسماعنا، وأبصارنا، وقواتنا ما أحييتنا، واجعله الوارث منا، واجعل ثأرنا على من ظلمنا، وانصرنا على من عادانا، ولا تجعل مصيبتنا في ديننا، ولا تجعل الدنيا أكبر همنا، ولا مبلغ علمنا، ولا تسلط علينا من لا يرحمنا.",
     "audioNumber": "629fa197-1afc-4f87-be7b-8eecd6a59e1b.wav",
+    "doaa_id": 122,
     "fr": "O Allah, attribue-nous la crainte qui nous empêche de Te désobéir, l’obéissance qui nous conduira à Ton paradis, et la certitude qui allégera pour nous les épreuves de ce monde. O Allah, permets-moi de jouir de mon ouïe, de ma vue et de ma force tant que Tu me gardes en vie, fais qu’ils soient un héritage pour ma progéniture, veuille que nos représailles ne touchent que ceux qui nous oppressent, soutiens-nous contre ceux qui nous oppriment, et prends ma revanche sur lui. Aide-nous contre nos ennemis, fais que nous ne soyons pas éprouvés dans notre religion, que les affaires mondaines ne soient pas notre plus grande préoccupation ni l'objectif ultime de notre savoir, et ne donne pas le pouvoir sur nous à celui qui ne nous fait pas miséricorde.",
     "en": "O Allah, grant us a share of fearing You with understanding, which restrains us from disobeying You; grant us a share of obedience to You, by which You allow us to reach the abode of Paradise that You have prepared for Your obedient servants; grant us a share of certainty, by which You alleviate for us the afflictions of this world; bless us to benefit from our hearing, our sight, and our strength throughout the life that You grant us, and allow that blessing to continue and remain all the way until we leave this world; enable us to regain our rights from those who have wronged us; assist us against those who are hostile towards us; do not cause us to be afflicted in our religion; do not cause this world to be our greatest concern, or the farthest extent of our knowledge; and do not give authority over us to anyone who would not be merciful towards us.",
     "mal": "Ya Allah, anugerahkanlah kepada kami sebahagian perasaan takut kepadaMu yang\nmenghalang kami daripada bermaksiat kepadaMu, sebahagian ketaatan kepadaMu yang\nmembawa kami ke syurgaMu, dan sebahagian keyakinan yang meringankan bagi kami\nsegala musibah di dunia. Berilah kenikmatan kepada kami pada pendengaran kami,\npenglihatan kami, serta kekuatan kami, selama mana kami diberikan peluang olehMu untuk terus hidup. Jadikanlah nikmat-nikmat tersebut berkekalan buat kami. Berilah balasan ke atas mereka yang menzalimi kami. Bantulah kami untuk melawan mereka yang memusuhi kami. Janganlah Engkau jadikan musibah menimpa kami pada agama kami. Janganlah Engkau jadikan dunia sebagai hasrat terbesar dan tumpuan paling utama kami. Janganlah Engkau jadikan orang yang tidak belas kasihan kepada kami menguasai kami.",
@@ -724,6 +762,7 @@ export const data = [
   {
     "ar": "اللهم رب السماوات ورب الأرض، ورب العرش العظيم، ربنا ورب كل شيء، فالق الحب والنوى، ومنزل التوراة والإنجيل والفرقان، أعوذ بك من شر كل شيء أنت آخذ بناصيته، اللهم أنت الأول فليس قبلك شيء، وأنت الآخر فليس بعدك شيء، وأنت الظاهر فليس فوقك شيء، وأنت الباطن فليس دونك شيء، واقض عنا الدين وأغننا من الفقر.",
     "audioNumber": "6fb15f4f-ee85-4657-b6aa-2101757d5a3a.wav",
+    "doaa_id": 123,
     "fr": "O Allah, Seigneur des Cieux, Seigneur de la Terre et Seigneur du Trône immense ! Notre Seigneur et Seigneur de toute chose ! Toi qui fends le grain et le noyau ! Toi qui as fait descendre la Thorah, l’Evangile et le Discernement ! Je me réfugie auprès de toi contre toute chose que tu tiens par le toupet. O Allah, Tu es le Premier, rien ne Te précède. Tu es le Dernier, rien ne Te succède. Tu es l’Apparent, rien n’est au-dessus de Toi, Tu es le Caché, rien n’est au-dessous de Toi. Acquitte nos dettes et affranchis-nous de la pauvreté !",
     "en": "O Allah, Lord of the heavens, Lord of the Earth, Lord of the Tremendous Throne; our Lord, and the Lord of all things; the One who causes grains and seeds to split and sprout; the One who revealed the Tawrah, Injil, and Furqan. I seek refuge with You from the evil of all things since You have full control of them all. O Allah, You are the First and nothing is before You. You are the Last and nothing is after You. You are the Most High and nothing is above You. You are the Most Near and nothing is nearer than You. Settle our debts, and enrich us so that we are spared from poverty.",
     "in": "Ya Allah, Rabb langit dan bumi, Rabb Arsy yang agung, Rabb kami dan Rabb segala sesuatu, Yang membelah biji-bijian, dan Yang menurunkan Taurat, Injil, dan al-Furqan (al-Quran). Aku berlindung kepadaMu dari segala keburukan yang Engkau pegang ubun-ubunnya. Ya Allah, Engkaulah Yang Maha Pertama dan tidak ada suatupun sebelum-Mu, Engkaulah Yang Maha Terakhir tidak ada suatupun setelah-Mu, Engkaulah Yang Mah Zahir tidak ada sesuatu di atas-Mu. Engkaulah Yang Maha Batin, tidak ada sesuatu yang luput dari-Mu. Dan selesaikanlah utang kami dan selamatkan kami dari kefakiran. \n\n",
@@ -743,6 +782,7 @@ export const data = [
   {
     "ar": "اللهم اغفر لي ذنبي، ووسِّع لي في داري، وبارك لي في رزقي.",
     "audioNumber": "3f9f1b1e-362e-4c4c-94af-c775e35621d4.wav",
+    "doaa_id": 124,
     "fr": "O Allah, pardonne mes péchés, élargis ma demeure, et bénis ma subsistance.",
     "en": "O Allah, forgive my sins, expand my residence, and bless my provision. ",
     "in": "Ya Allah, ampunkanlah dosa-dosaku, luaskanlah rumahku, dan berkahilah rezekiku. ",
@@ -762,6 +802,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك من القلة والفقر والذلة وأعوذ بك أن أَظلِم أو أُظلَم.",
     "audioNumber": "5bdf3d27-0239-40fc-b62f-75df1c1899e2.wav",
+    "doaa_id": 125,
     "fr": "O Allah, je cherche refuge auprès de Toi contre le manque, la pauvreté, l'humiliation et contre le fait de commettre une injustice ou d'en être victime.",
     "en": "O Allah, I seek refuge with You from being in need, from poverty, and from all humiliation. I seek refuge with You from wronging others or being wronged.",
     "ur": "اے اللہ! میں تنگی، فقر وفاقہ، اور ذلت ورسوائی سے تیری پناہ چاہتا ہوں، اور اس بات سے تیری پناہ چاہتا ہوں کہ میں ظلم کروں یا مجھ پر ظلم کیا جائے۔",
@@ -781,6 +822,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ برضاك من سخطك وبمعافاتك من عقوبتك وأعوذ بك منك لا أحصي ثناء عليك أنت كما أثنيت على نفسك.",
     "audioNumber": "97d9f533-36cb-47c7-a779-48eb3333abe4.wav",
+    "doaa_id": 126,
     "fr": "O Allah ! Je me réfugie auprès de Ta satisfaction contre Ton courroux et auprès de Ta grâce contre Ta punition. Je me réfugie auprès de Toi contre Toi-même. Je ne peux te rendre l’éloge que Tu mérites ; Tu es Tel que Tu T’es loué Toi-même.",
     "en": "O Allah, I earnestly seek refuge with Your pleasure from Your wrath, and in Your pardon from Your punishment. I seek refuge with You from Yourself. I cannot praise You sufficiently. You are as You have praised Yourself.",
     "ur": "اے اللہ! میں تیری ناراضی سے، تیری رضا مندی کی اور تیری پکڑ سے تیری معافی کی پناہ چاہتا ہوں۔ میں تجھ سے تیری ہی پناہ میں آتا ہوں۔ میں تیری تعریفات شمار نہیں کر سکتا۔ تو ویسا ہی ہے جیسے کہ تو نے خود اپنی ثنا بیان کی ہے۔",
@@ -800,6 +842,7 @@ export const data = [
   {
     "ar": "اللهم إني أسألك المعافاة في الدنيا والآخرة.",
     "audioNumber": "1b42b4a3-c64c-46ae-8d97-5133ebecdd6b.wav",
+    "doaa_id": 127,
     "fr": "O Allah, je Te demande le bien-être dans ce monde et dans l'au-delà.",
     "en": "O Allah, I ask You for well-being in this world and the hereafter.",
     "ur": "اے اللہ! میں دنیا وآخرت میں تجھ سے عافیت کا سوال کرتا ہوں",
@@ -819,6 +862,7 @@ export const data = [
   {
     "ar": "اللهم إني أسألك صحة إيمان، وإيمانا في خُلُقٍ حَسَن، ونجاحا يتبعه فلاح، ورحمة منك وعافية، ومغفرة منك ورضوانا.",
     "audioNumber": "abedf397-e355-464c-8ea5-32ca7c64c0bd.wav",
+    "doaa_id": 128,
     "fr": " O Allah, je Te demande une foi sincère, une foi accompagnée d'un bon comportement, un succès suivi par le salut, une miséricorde et un bien-être provenant de Toi, mais aussi un pardon et un agrément émanent de Toi.",
     "en": "O Allah, I ask You for true Iman, good character with Iman, success leading to prosperity. I also ask for Your mercy, well-being. forgiveness from You, and Your pleasure.",
     "ur": "اے اللہ! میں تجھ سے صحیح  ایمان، اچھے اخلاق کے ساتھ ایمان، کامیابی در کامیابی، تیری رحمت وعافیت اور تیری بخشش ورضامندی کا سوال کرتا ہوں۔",
@@ -838,6 +882,7 @@ export const data = [
   {
     "ar": "اللهم أحسنت خَلْقِي فأحْسِن خُلُقِي.",
     "audioNumber": "1054b8e9-933b-49ce-9431-dae0d34d86b9.wav",
+    "doaa_id": 129,
     "fr": "O Allah, comme Tu as embelli ma création, embellis mon comportement.",
     "en": "O Allah, You have perfected my form, so perfect my character.",
     "ur": "اے اللہ! تونے میری خلقت کو عمدہ بنایا ہے چنانچہ میرے اخلاق کو بھی عمدہ بنادے",
@@ -857,6 +902,7 @@ export const data = [
   {
     "ar": "ربنا لا تُزِغْ قلوبنا بعد إذ هديتَنا وهبْ لنا من لدنك رحمة إنك أنت الوهاب.",
     "audioNumber": "bb4668b4-98fc-4e6f-a8b1-a015a1e571b9.wav",
+    "doaa_id": 130,
     "fr": "Seigneur ! Ne laisse pas dévier nos cœurs après que Tu nous aies guidés; et accorde-nous Ta miséricorde. C’est Toi, certes, le Grand Donateur",
     "en": "Our Lord, do not allow our hearts to go astray after You have guided us, and grant us mercy from Yourself. Indeed, You alone are the Bestower. ",
     "ur": "اے ہمارے رب! ہمیں ہدایت دینے کے بعد ہمارے دلوں کو ٹیڑھا  نہ کردے اور ہمیں اپنے پاس سے رحمت عطا فرما، یقیناً تو ہی خوب عطا کرنے والاہے",
@@ -876,6 +922,7 @@ export const data = [
   {
     "ar": "ربنا هب لنا من أزواجنا وذرياتنا قُرَّة أعين واجعلنا للمتقين إماما.",
     "audioNumber": "75250dff-5406-4c20-90c7-59a995ff0201.wav",
+    "doaa_id": 131,
     "fr": "Notre Seigneur! Donne-nous, en nos épouses et nos descendants, la joie des yeux, et fais de nous un guide pour les pieux !",
     "en": "Our Lord, grant us from our wives and children a source of comfort to our eyes, and make us leaders for the People of Taqwa. ",
     "ur": "اے ہمارے پروردگار! تو ہمیں ہماری بیویوں اور اولاد سے آنکھوں کی ٹھنڈک عطا فرما اور ہمیں پرہیزگاروں کا پیشوا بنا",
@@ -895,6 +942,7 @@ export const data = [
   {
     "ar": "ربنا اصرف عنا عذاب جهنم إن عذابها كان غراما؛ إنها ساءت مستقرا ومقاما\r\nربنا اغفر لنا ولإخواننا الذين سبقونا بالإيمان ولا تجعل في قلوبنا غِلًّا للذين آمنوا ربنا إنك رءوف رحيم.",
     "audioNumber": "247f4bbd-9e24-4e93-852f-96026e052c6c.wav",
+    "doaa_id": 132,
     "fr": "Notre Seigneur! Ecarte de nous le châtiment de l’Enfer !” Certes, son châtiment est permanent\nSeigneur, pardonne-nous, ainsi qu’à nos frères qui nous ont précédés dans la foi; et ne mets dans nos cœurs aucune rancœur pour ceux qui ont cru. Seigneur, Tu es Compatissant et Très Miséricordieux.",
     "en": "Our Lord, avert the torment of the hellfire from us. Indeed, its torment will be inseparable and unending. It is most certainly evil as an abode in which to settle and remain.\nOur Lord, forgive us and our brothers who have preceded us in Iman. Do not allow enmity towards the people of Iman to exist in our hearts. Our Lord, You are indeed the Immensely Compassionate, the Bestower of Mercy.",
     "ur": "\"اے ہمارے پروردگار! ہم سے دوزخ کا عذاب پرے ہی پرے رکھ،  اس کا عذاب چمٹ جانے والاہے بے شک وه ٹھہرنے اور رہنے کے لحاظ سے بدترین جگہ ہے\r\n اے ہمارے پروردگار ہمیں بخش دے اور ہمارے ان بھائیوں کو بھی جو ہم سے پہلے ایمان لا چکے  ہیں اور ایمان داروں کی طرف سے ہمارے دل میں کینہ (اور دشمنی) نہ ڈال، اے ہمارے رب بیشک تو شفقت ومہربانی کرنے والا ہے\"",
@@ -914,6 +962,7 @@ export const data = [
   {
     "ar": "ربنا تقبَّل منا إنك أنت السميع العليم.",
     "audioNumber": "8ab031eb-f58d-4c25-b4a1-40f640f4fe03.wav",
+    "doaa_id": 133,
     "fr": "O notre Seigneur! Accepte ceci de notre part! Car c’est Toi l’Audient, l’Omniscient",
     "en": "Our Lord, accept this from us, for indeed, You are the All-Hearing and the All-Knowing.",
     "ur": " ہمارے پروردگار! تو ہم سے قبول فرما، تو ہی سننے والا اور جاننے والا ہے",
@@ -933,6 +982,7 @@ export const data = [
   {
     "ar": "اللهم أعني على شكرك، وذكرك، وحسن عبادتك.",
     "audioNumber": "fbfdc64f-6e46-4f97-b09e-b5a13f78f921.wav",
+    "doaa_id": 134,
     "fr": "O Allah, aide-moi à Te remercier, à T’évoquer, et à T'adorer de la meilleure manière.",
     "en": "O Allah, help me to be grateful to You, remember You, and worship You in the best way.",
     "ur": "اے اللہ! تیرا شکر ادا کرنے، تیرا ذکر کرنے اور تیرى اچھى طرح  عبادت کرنے پر میرى مدد کر۔",
@@ -952,6 +1002,7 @@ export const data = [
   {
     "ar": "اللهم إني ظلمت نفسي ظلماً كثيراً ولا يغفر الذنوب إلا أنت فاغفر لي مغفرة من عندك وارحمني إنك أنت الغفور الرحيم.",
     "audioNumber": "2d20551a-98c1-40a4-b324-3583adcdf466.wav",
+    "doaa_id": 135,
     "fr": "O Allah, je me suis fait du grand tort et nul autre que Toi ne pardonne les péchés. Accorde-moi donc un pardon et une miséricorde digne de Toi, car Tu es Le Pardonneur, Le Très Miséricordieux.",
     "en": "O Allah, I have done great injustice to myself, and none forgives sins except You. Thus, grant me forgiveness from Yourself and have mercy upon me. Indeed, You alone are the Most Forgiving, the Bestower of mercy.",
     "ur": "اے اللہ میں نے اپنے اوپر بہت زيادہ ظلم کیا ہے اور تیرے سوا کوئی گناہوں کوبخش نہیں سکتا ، تو مجھے اپنی طرف سے بخش دے اور مجھ پر رحم فرما ، بلا شبہ تو بہت زیادہ بخشنے والا رحم کرنے والا ہے ۔",
@@ -971,6 +1022,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك من التردي، والهدم، والغرق، والحريق، وأعوذ بك أن يتخبطني الشيطان عند الموت، وأعوذ بك أن أموت في سبيلك مُدْبِرًا، وأعوذ بك أن أموت لديغا.",
     "audioNumber": "7343f6f7-5f2d-4bf7-9085-36f7c8879339.wav",
+    "doaa_id": 136,
     "fr": " O Allah, je cherche refuge auprès de Toi contre les chutes, les effondrements, la noyade, les incendies, et je cherche refuge auprès de Toi contre l’emprise de  Satan à l'heure de la mort. Je cherche refuge auprès de Toi contre la mort le dos tourné en combattant sur ton sentier, et je cherche refuge auprès de Toi contre la mort par morsure venimeuse.",
     "en": "O Allah, I seek refuge with You from degradation, ruin, drowning, and burning. I seek refuge with You from shaitan causing me to be in confusion at the time of death. I seek refuge with You from dying while fleeing, and I seek refuge with You from dying from the sting of a poisonous creature.",
     "ur": "اے اللہ ! میں تیری پناہ میں آتا ہوں اس بات سے کہ کسی اونچی جگہ سے گر جاؤں یا کوئی عمارت مجھ پر گر جائے یا غرق ہوجاؤں یا آگ میں جل مروں۔ اوراس بات سے بھی تیری پناہ میں آتا ہوں کہ مجھے مرتے وقت شیطان اچک لے۔ اورمیں اس بات سے بھی تیری پناہ میں آتا ہوں کہ تیرے راستے میں میدان جنگ سے پیٹھ پھیر کر بھاگتا ہوا مارا جاؤں۔ اوراس بات سے بھی تیری پناہ میں آتا ہوں کہ ڈسےجانے سے میری موت ہو ۔",
@@ -990,6 +1042,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك أن أشرك بك وأنا أعلم، وأستغفرك لما لا أعلم.",
     "audioNumber": "1b81db24-1a94-466f-a423-a0584204c84b.wav",
+    "doaa_id": 137,
     "fr": "O Allah,  Je me réfugie auprès de Toi contre le fait de T’attribuer sciemment un associé, et j’implore Ton pardon contre ce que je pourrais commettre par ignorance.",
     "en": "I seek refuge with You lest I commit shirk with You knowingly, and I seek Your forgiveness for misdeeds that I am not aware of. ",
     "ur": "اے اللہ! میں تیری پناہ چاہتا ہوں کہ میں جانتے ہوئے تیرے ساتھ شرک کروں۔ اور جو نہيں جانتا اس کی مغفرت طلب کرتا ہوں ۔",
@@ -1009,6 +1062,7 @@ export const data = [
   {
     "ar": "اللهم قني شر نفسي، واعزم لي على أرشد أمري، اللهم اغفر لي ما أسررت، وما أعلنت، وما أخطأت، وما عمدت، وما علمت، وما جهلت.",
     "audioNumber": "8797f2d5-64d2-4772-9eff-ce1fb27d4203.wav",
+    "doaa_id": 138,
     "fr": "O Allah, protège-moi du mal de mon âme et accorde-moi la détermination dans le meilleur. O Allah, pardonne-moi ce que j'ai caché et ce que j'ai dévoilé, ce que j'ai commis par erreur et délibérément, ce que je sais et ce que j'ignore.",
     "en": "O Allah, protect me from the evil of myself, and grant me determination to pursue the best course of action. O Allah, forgive me for what I have concealed, what I have revealed, what I have erred in, what I have done intentionally, and what I know and what I am ignorant of.",
     "ur": "اے اللہ مجھے میرے نفس کی برائی سے بچا، اور  میرے لیے  سب سے درست معاملے کو یقینی بنا دے، اے اللہ میرے ظاہر وپوشیدہ گناہوں، لغزشوں، دانستہ غلطیوں، اور جس کا مجھے علم ہے اور جس کا نہیں سب  کو معاف کردے",
@@ -1028,6 +1082,7 @@ export const data = [
   {
     "ar": "اللهم ثبت قلبي على دينك.",
     "audioNumber": "5c5d8eb1-3de7-4560-9611-896f01e0c2c3.wav",
+    "doaa_id": 139,
     "fr": "O Allah, raffermis mon cœur sur Ta religion.",
     "en": "O Allah, make my heart steadfast upon Your religion.",
     "ur": "اے اللہ! میرے دل کو اپنے دین پر ثابت رکھ۔",
@@ -1047,6 +1102,7 @@ export const data = [
   {
     "ar": "اللهم مصرف القلوب، اصرف قلوبنا إلى طاعتك.",
     "audioNumber": "ca112670-fd12-466c-9abd-7c0bd0e35582.wav",
+    "doaa_id": 140,
     "fr": "O Toi, qui bouleverses les cœurs, diriges nos cœurs vers Ton obéissance.",
     "en": "O Allah – the One who directs all hearts – I implore You to direct our hearts to Your obedience.",
     "ur": "اے اللہ! اے دلوں کو پھیرنے والے! ہمارے دلوں کو اپنی طاعت کی طرف موڑ دے۔",
@@ -1066,6 +1122,7 @@ export const data = [
   {
     "ar": "اللهم اغفر لي وتب علي، إنك أنت التواب الغفور\r\nاللهم إني أعوذ بك من الشيطان من همزه ونفثه ونفخه\r\nاللهم زدنا ولا تنقصنا، وأكرمنا ولا تُهِنَّا، وأعطنا ولا تحرمنا، وآثرنا ولا تُؤْثِر علينا، وارض عنا وأَرْضِنا.",
     "audioNumber": "7282d693-9d80-4439-a703-45f502aa7ca2.wav",
+    "doaa_id": 141,
     "fr": "O Allah, pardonne-moi et accepte mon repentir, car Tu es Celui qui accepte le repentir, Le Pardonneur.\n O Allah, je cherche refuge en Toi contre le diable, contre ses susurrements, ses murmures et ses insufflations.\nO Allah, ajoute-nous et ne nous diminue pas, honore-nous et ne nous humilie pas, donne-nous et ne nous prive pas, privilégie-nous et ne privilégie personne à notre détriment, accorde-nous la satisfaction et soit satisfait de nous.",
     "en": "My Lord, forgive me and accept my repentance, for You alone are the All-Forgiving, the One who continually accepts His servants' repentance. \nO Allah, I seek refuge with You from shaitan, the outcast, from his whispers, his breath, and his blowing.\nO Allah, increase us and do not decrease us; honour us and do not disgrace us; grant us and do not deprive us; favour us and do not favour over us; be pleased with us and make others pleased with us.",
     "ur": "اے اللہ! میری مغفرت کردے اور میری توبہ کو قبول فرما۔ بلا شبہ تو ہی توبہ قبول کرنے والا بخشنے والا ہے \r\nاے اللہ تیری پناہ میں آتا ہوں شیطان کے آسیبی اثرات ، اس کے تکبر اور وساوس سے \r\nاے اللہ! تو ہمیں مزید عطا کر، کمى نہ کر، ہمیں عزت دے اور ذلیل نہ کر، ہمیں نواز اور محروم نہ کر، ہمیں ترحیج دے، ہم پر ترجیح نہ دے، ہمیں خوش کر اور ہم سے خوش ہوجا۔",
@@ -1085,6 +1142,7 @@ export const data = [
   {
     "ar": "ربنا آمنا فاغفر لنا وارحمنا وأنت خير الراحمين.",
     "audioNumber": "6c57cc68-364d-480c-9dc5-112388b7cd6d.wav",
+    "doaa_id": 142,
     "fr": "Notre Seigneur ! Nous croyons ! Pardonne-nous donc et fais-nous miséricorde, car Tu es le meilleur des Miséricordieux",
     "en": "My Lord, forgive and have mercy, for You are the Best of those who are merciful.",
     "ur": " اے ہمارے پروردگار! ہم ایمان لا چکے ہیں تو ہمیں بخش اور ہم پر رحم فرما تو سب مہربانوں سے زیاده مہربان ہے",
@@ -1104,6 +1162,7 @@ export const data = [
   {
     "ar": "ربنا آمنا بما أنزلتَ واتبعنا الرسول فاكتبنا مع الشاهدين.",
     "audioNumber": "78541b3c-9ddd-4e44-9fd0-c87dcaf40ee0.wav",
+    "doaa_id": 143,
     "fr": "Seigneur! Nous avons cru à ce que Tu as fait descendre et suivi le Messager. Inscris-nous donc parmi ceux qui témoignent",
     "en": "Our Lord, we have Iman in what You have sent down and we have followed the Messenger, so record us among those who bear witness.",
     "ur": "اے ہمارے پالنے والے معبود! ہم تیری اتاری ہوئی وحی پر ایمان لائے اور ہم نے تیرے رسول کی اتباع کی، پس تو ہمیں گواہوں میں لکھ لے",
@@ -1123,6 +1182,7 @@ export const data = [
   {
     "ar": "ربنا وسعتَ كلَّ شيءٍ رحمة وعلما فاغفر للذين تابوا واتبعوا سبيلك وقهم عذاب الجحيم، ربنا وأدخِلْهم جنات عدنٍ التي وعدتَهم ومَنْ صَلَح من آبائهم وأزواجهم وذرياتهم إنك أنت العزيز الحكيم.",
     "audioNumber": "b6949cd7-782a-4c5b-adc4-71e04f01f8df.wav",
+    "doaa_id": 144,
     "en": "Our Lord, Your mercy and knowledge encompass everything, so forgive those who repent and follow Your way, and protect them from the punishment of the blazing fire. Our Lord, admit them to eternal gardens of paradise which You have promised them, and the righteous from among their parents, their spouses and their offspring. Indeed, it is You Who are the Almighty, the All-Wise. Protect them from the evil consequences of their sins. Indeed, whoever You protect from the evil consequences on that day, You have surely bestowed mercy upon them. That is the supreme triumph.",
     "fr": "Seigneur ! Tu étends sur toute chose Ta miséricorde et Ta science. Pardonne donc à ceux qui se repentent et suivent Ton chemin et protège-les du châtiment de l’Enfer et les admettre, Seigneur, dans les jardins d’Eden que Tu leur as promis, avec ceux de leurs ancêtres, de leurs épouses et de leurs descendants qui auront été vertueux. C’est Toi, en vérité, le Tout-Puissant, l’infiniment Sage. Et préserve-les [du châtiment] des mauvaises actions. Quiconque Tu préserves [du châtiment] des mauvaises actions ce jour-là, Tu lui feras miséricorde.\" Et c’est là l’énorme succès.",
     "ur": "اے ہمارے پروردگار! تو نے ہر چیز کو اپنی بخشش اور علم سے گھیر رکھا ہے، پس تو انہیں بخش دے جو توبہ کریں اور تیری راه کی پیروی کریں اور تو انہیں دوزخ کے عذاب سے بھی بچا لے*اے ہمارے رب! تو انہیں ہمیشگی والی جنتوں میں لے جا جن کا تو نے ان سے وعده کیا ہے اور ان کے باپ دادوں اور بیویوں اور اولاد میں سے (بھی) ان (سب) کو جو نیک عمل ہیں۔ یقیناً تو تو غالب و باحکمت ہے*انہیں برائیوں سے بھی محفوظ رکھ، حق تو یہ ہے کہ اس دن تونے جسے برائیوں سے بچا لیا اس پر تو نے رحمت کر دی اور بہت بڑی کامیابی تو یہی ہے",
@@ -1142,6 +1202,7 @@ export const data = [
   {
     "ar": "ربنا لا تجعلنا فتنة للذين كفروا واغفر لنا ربنا إنك أنت العزيز الحكيم.",
     "audioNumber": "a0731315-4a73-4545-ba76-45881cbf9bca.wav",
+    "doaa_id": 145,
     "ur": "اے ہمارے رب! تو ہمیں کافروں کے لیے فتنہ نہ بنا اور اے ہمارے پالنے والے ہماری خطاؤں کو بخش دے، بیشک تو ہی غالب، حکمت والا ہے",
     "en": "Our Lord, do not make us a trial for the people of kufr. Our Lord, forgive us, for indeed, You are the Almighty, All-Wise.",
     "fr": "Seigneur, ne fais pas de nous [un sujet] de tentation pour ceux qui ont mécrus ; et pardonne-nous, Seigneur, car c’est Toi le Puissant, le Sage",
@@ -1161,6 +1222,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك من غلبة الدين وغلبة العدو وشماتة الأعداء.",
     "audioNumber": "879c415b-b11f-49fd-9158-7c626f3fdd84.wav",
+    "doaa_id": 146,
     "ur": "اے اللہ! میں قرض اور دشمن کے غلبہ اور میری مصیبت پر دشمن کی خوشی سے تیرى پناہ لیتا ہوں۔",
     "en": "O Allah, I seek refuge with You from being overcome by debt, overcome by enemies, and from my enemies rejoicing at my expense.",
     "fr": "O Allah, je cherche refuge auprès de Toi contre l'accablement due aux dettes, la domination de l'ennemi et la moquerie des ennemis",
@@ -1180,6 +1242,7 @@ export const data = [
   {
     "ar": "اللهم اغفر لي واهدني وارزقني وعافني، أعوذ بالله من ضيق المقام يوم القيامة.",
     "audioNumber": "ab0eac3b-07cd-4fbe-b918-273b9d7d52a8.wav",
+    "doaa_id": 147,
     "ur": "اے اللہ!مجھے بخش دے، مجھے ہدایت دے، مجھے روزى دے اور مجھے عافیت دے۔ میں قیامت کے دن مقام کى تنگی سے اللہ کى پناہ لیتا ہوں۔",
     "en": "O Allah, forgive me, guide me, provide for me, and grant me well-being. I seek refuge with Allah from the difficulty of the standing on the Day of Judgement.",
     "fr": "O Allah, pardonne-moi, guide-moi, accorde-moi la subsistance et préserve ma santé. Je cherche refuge auprès d'Allah contre l'angoisse du jour du Jugement.",
@@ -1199,6 +1262,7 @@ export const data = [
   {
     "ar": "اللهم استر عوراتي، وآمن روعاتي، واقض عني ديني.",
     "audioNumber": "50f396cc-042c-463e-b4a0-3d72f96a41be.wav",
+    "doaa_id": 148,
     "ur": "یا اللہ! میرے عیبوں پر پردہ ڈال دے، اور مجھے خوف سے امن عطا کر، اور میرا قرض چکا دے",
     "en": "O Allah, conceal my faults, calm my fears, and settle my debts. ",
     "fr": "O Allah, couvre mes défauts et rassure-moi quant aux peurs qui me tiraillent, et acquitte ma dette.  ",
@@ -1218,6 +1282,7 @@ export const data = [
   {
     "ar": "اللهم صل على محمد وأزواجه وذريته، كما صليت على آل إبراهيم، وبارك على محمد وأزواجه وذريته، كما باركت على آل إبراهيم إنك حميد مجيد.",
     "audioNumber": "3d6d68f4-ef2f-4118-b2a2-c32281df9db7.wav",
+    "doaa_id": 149,
     "ur": "اےاللہ تو درود نازل فرما محمد پر اور اور ان کی آل واولادپر جیسا کہ تو نے درود نازل فرمایا آل ابراہیم پر ، اے اللہ تو برکت نازل فرما  محمد پر اور ان کی آل واولادپر جیسا کہ تونے برکت نازل کی آل ابراہیم پر ، بلا شبہ تو قابل تعریف اور صاحب عظمت ہے۔",
     "en": "O Allah, send Your salah upon Muhammad, his wives, and his offspring, just as You sent salah upon the family of Ibrahim. O Allah, bless Muhammad, his wives, and his offspring, just as You blessed the family of Ibrahim. Indeed, You are the Most Praiseworthy, the Majestic. ",
     "fr": "O Allah, prie sur Mohammed, ses épouses et sa descendance, comme Tu as prié sur la famille d'Abraham, et bénis Mohammed, ses épouses et sa descendance, comme Tu as béni la famille d'Abraham. Tu es certes Digne de louange, Glorieux.",
@@ -1237,6 +1302,7 @@ export const data = [
   {
     "ar": "اللهم أصلح لي ديني الذي هو عصمة أمري، وأصلح لي دنياي التي فيها معاشي، وأصلح لي آخرتي التي فيها معادي، واجعل الحياة زيادة لي في كل خير، واجعل الموت راحة لي من كل شر.",
     "audioNumber": "1878d246-f0fc-4396-b044-1adb1bbe6812.wav",
+    "doaa_id": 150,
     "ur": "اے اللہ! تو میرے دین کى اصلاح فرما، جو میرے معاملے کا محافظ ہے، میرى دنیا کى اصلاح فرما، جس میں میرى زندگانى ہے، میرى آخرت کى اصلاح فرما، جہاں مجھے لوٹ کر جانا ہے، زندگى کو میرے لیے ہر بھلائى میں زیادتى اور موت کو ہر برائى سے راحت بنادے۔ ",
     "en": "O Allah, set right for me the affairs of my religion, which is what I hold onto for protection. Set right for me the affairs of my worldly life, which contains my livelihood. Set right for me the affairs of my hereafter, which will be my final abode. Make life for me an increase in all good things, and make death for me a relief from all evil things.",
     "fr": "O Allah, améliore ma pratique religieuse, elle qui est une protection pour moi en toute situation ; améliore ma vie d’ici-bas, dans laquelle se trouve ma subsistance ; et améliore ma vie dans l’au-delà, vers laquelle se fera mon retour ; fais que la vie d’ici-bas soit, pour moi une opportunité de multiplier les actes de bonté ; et fais que la mort soit, pour moi, un repos contre tout mal.",
@@ -1256,6 +1322,7 @@ export const data = [
   {
     "ar": "اللهم اغفر لي وارحمني وعافني وارزقني.",
     "audioNumber": "00bf72d8-3b4e-4ee0-8725-cec1291601db.wav",
+    "doaa_id": 151,
     "ur": "اے اللہ تو میری مغفرت فرما، مجھ پر رحم کر، مجھے عافیت دے اور مجھے روزی دے",
     "en": "O Allah, forgive me, have mercy on me, protect me, and provide for me.",
     "fr": "O, Allah ! Pardonne-moi, fais-moi miséricorde, préserve-moi, guide-moi et subviens à mes besoins",
@@ -1275,6 +1342,7 @@ export const data = [
   {
     "ar": "اللهم اغفر لي ذنبي كله دِقَّه وجِلَّه وأوله وآخره وعلانيته وسره.",
     "audioNumber": "becd937c-955c-40eb-b484-af05646e9b64.wav",
+    "doaa_id": 152,
     "ur": "اے اللہ میرے چھوٹے، بڑے، اول وآخر، اورعلانیہ وپوشیدہ سبھی گناہوں کو معاف کردے",
     "en": "O Allah, forgive all my sins: the minute and the enormous, the first and the last, and those commited openly and privately.",
     "fr": " O Allah, pardonne tous mes péchés, petits et grands, les premiers et les derniers, ceux commis ouvertement et en secret.",
@@ -1294,6 +1362,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك أن أَضِلَّ أوأُضَل أو أَزِلَّ أو أُزَلّ أو أَظْلِمَ أو أُظْلَم أو أَجْهَلَ أو يُجْهَل عليَّ.",
     "audioNumber": "119afa05-ecbe-49b8-b3a0-011e124ec90c.wav",
+    "doaa_id": 153,
     "ur": "”اے ﷲ! میں تیری پناہ چاہتا ہوں، اس بات سے کہ میں گمراہ ہو جاؤں یا گمراہ کر دیا جاؤں، یا پھسل جاؤں یا پھسلا دیا جاؤں، یا ظلم کروں یا کوئی مجھ پر ظلم کرے، یا کوئی جہالت کا کام کروں یا کوئی مجھ سے جہالت کا برتاؤ کرے۔“",
     "en": "O Allah, I seek refuge with You from going astray or being led astray. I seek refuge with You from erring or being made to err. I seek refuge with You from all types of wronging or being wronged, and I seek refuge with You from all forms of ignorance or others treating me with ignorance.",
     "fr": "O Allah, je cherche refuge auprès de Toi contre le fait d'égarer [autrui] ou d'être égaré [par autrui], je Te demande de me préserver de tomber [dans le péché] ou qu'on me fasse tomber [dans le péché], je Te demande de me préserver de commettre une injustice ou de subir moi-même une injustice ",
@@ -1313,6 +1382,7 @@ export const data = [
   {
     "ar": "اللهم لا تقتلنا بغضبك، ولا تهلكنا بعذابك، وعافنا قبل ذلك.",
     "audioNumber": "38e55167-df59-42b8-970e-f58f1e2bd0f9.wav",
+    "doaa_id": 154,
     "ur": "اے اللہ ہمیں اپنے غضب سے نہ مار، اور اپنے عذاب سے ہمیں ہلاک نہ کر، اور اس سے پہلے ہمیں عافیت دے",
     "en": "O Allah, do not kill us with Your anger, do not destroy us with Your punishment, and grant us well-being before that.",
     "fr": " O Allah, ne nous tue pas de Ton courroux, ne nous détruis pas par Ton châtiment, et épargne-nous avant cela.",
@@ -1332,6 +1402,7 @@ export const data = [
   {
     "ar": "ربنا أتْمِم لنا نورنا واغفر لنا إنك على كل شيء قدير.",
     "audioNumber": "6207b71f-8293-4634-b07a-e02a45e7c430.wav",
+    "doaa_id": 156,
     "ur": "اے ہمارے رب ہمارے لیے ہمارے نور کو پورا کر اور ہمیں بخش دے یقیناً تو ہر چیز پر قادر ہے",
     "en": "Our Lord, grant us complete light and forgive us. Indeed, You are completely capable of all things.",
     "fr": "Seigneur, parfais-nous notre lumière et pardonne-nous. Car Tu es Omnipotent.",
@@ -1351,6 +1422,7 @@ export const data = [
   {
     "ar": "ربنا أفرِغْ علينا صبرا وتوفَّنا مسلمين.",
     "audioNumber": "d990c7df-9ff7-40c7-881b-438148ea4867.wav",
+    "doaa_id": 157,
     "ur": "اے ہمارے رب! ہمارے اوپر صبر کا فیضان فرما اور ہماری جان حالت اسلام پر نکال",
     "en": "Our Lord, grant us abundant patience and cause us to die as Muslims. ",
     "fr": "O notre Seigneur ! Déverse sur nous l’endurance et fais nous mourir entièrement soumis",
@@ -1370,6 +1442,7 @@ export const data = [
   {
     "ar": "ربنا آتنا في الدنيا حسنة وفي الآخرة حسنة وقنا عذاب النار.",
     "audioNumber": "e6196533-5a42-464e-851c-8247fcf19246.wav",
+    "doaa_id": 158,
     "ur": "اے ہمارے رب! ہمیں دنیا میں نیکی دے اور آخرت میں بھی بھلائی عطا فرما اور ہمیں عذاب جہنم سے نجات دے",
     "en": "Our Lord, grant us good in this world, grant us good in the hereafter, and protect us from the torment of the hellfire.",
     "fr": "Seigneur ! Accorde nous belle part ici-bas, et belle part aussi dans l’au-delà; et protège-nous du châtiment du Feu",
@@ -1389,6 +1462,7 @@ export const data = [
   {
     "ar": "رب اجعلني مقيم الصلاة ومن ذريتي ربنا وتقبل دعاء.",
     "audioNumber": "3e361993-e466-45f0-a9c8-aecee5f5f2e4.wav",
+    "doaa_id": 159,
     "ur": "اے میرے پالنے والے! مجھے نماز کا پابند رکھ اور میری اولاد کو بھی، اے ہمارے رب میری دعا قبول فرما ",
     "en": "My Lord, make me someone who establishes the prayer, and also make my children individuals who establish the prayer. Our Lord, accept my supplication.",
     "fr": "O mon Seigneur ! Fais que j’accomplisse assidûment la prière (As-Salât) ainsi qu’une partie de ma descendance ! O notre Seigneur ! Exauce ma prière",
@@ -1408,6 +1482,7 @@ export const data = [
   {
     "ar": "اللهم متعني بسمعي وبصري واجعلهما الوارث مني، وانصرني على من يظلمني، وخذ منه بثأري.",
     "audioNumber": "d6de89d4-34e8-42fa-876b-e84a5e17bb9e.wav",
+    "doaa_id": 160,
     "ur": "اے اللہ! تو مجھے میرى سماعت اور بصارت سے بہرہ ور کر، انہیں میرا وارث بنا، جنہوں نے مجھ پر ظلم کیا ہے ان  پر میرى مدد کر اور ان سے میرا انتقام لے۔",
     "en": "O Allah, allow me to enjoy the pleasure of my ability to hear and see and keep them intact until my demise. Grant me victory over those who wrong me, and enable me to regain my rights from them.",
     "fr": "O Allah, permets-moi de jouir de mon ouïe, de ma vue et de ma force tant que Tu me gardes en vie, fais qu’ils soient un héritage pour ma progéniture, soutiens-moi contre celui qui m’opprime, et prends ma revanche sur lui.",
@@ -1427,6 +1502,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك من العجز والكسل، والجبن والبخل، والهرم، وعذاب القبر، اللهم آت نفسي تقواها وزكها أنت خير من زكاها أنت وليها ومولاها، اللهم إني أعوذ بك من علم لا ينفع ومن قلب لا يخشع ومن نفس لا تشبع ومن دعوة لا يستجاب لها.",
     "audioNumber": "650bde20-d5ca-4628-a53c-e0671a129066.wav",
+    "doaa_id": 161,
     "ur": "اے اللہ! میں  تیری پناہ میں آتا ہوں، عاجز ہو جانے، سستی، بزدلی، بخل، سخت بڑھاپے اور قبر کے عذاب سے۔ اے اللہ! میرے دل کو تقویٰ دے، اس کو پاکیزہ کر دے، تو ہی اس (دل) کو سب سے بہتر پاک کرنے والا ہے، تو ہی اس کا رکھوالا اور اس کا مددگار ہے۔ اے اللہ! میں تجھ سے ایسے علم سے تیری پناہ مانگتا ہوں جو کوئی فائدہ نہ دے اور ایسے دل سے جونہ ڈرے اور ایسے نفس سے جو سیر نہ ہو اور ایسی دعا سے جسے شرف قبولیت نصیب نہ ہو۔‘‘",
     "en": "O Allah, I seek refuge with You from helplessness, laziness, cowardice, stinginess,  frailness, harshness, heedlessness, dependency, humiliation, and poverty. I seek refuge with You from poverty, kufr, immorality, dissent, hypocrisy, wishing to gain reputation, and ostentation. I seek refuge with You from deafness, muteness, insanity, contagion, leprosy, and evil diseases.",
     "tr": "Allah’ım! Acizlikten, tembellikten, korkaklıktan, cimrilikten, fazla ihtiyarlayıp elden ayaktan düşmekten ve kabir azabından Sana sığınırım. Allah’ım! Nefsime takvasını ver ve onu temizle. Onu temizleyenlerin en hayırlısı sensin! Sen onun sahibi ve mevlasısın. Allah’ım! Faydası olmayan ilimden, korkmayan kalpten, doymayan nefisten ve kabul olunmayan duadan Sana sığınırım",
@@ -1446,6 +1522,7 @@ export const data = [
   {
     "ar": "اللهم إني عبدك وابن عبدك وابن أمتك ناصيتي بيدك ماض فيَّ حكمك عدل فيَّ قضاؤك أسألك بكل اسم هو لك سميت به نفسك أو علمته أحداً من خلقك أو أنزلته في كتابك أو استأثرت به في علم الغيب عندك أن تجعل القرآن العظيم ربيع قلبي ونور صدري وجلاء حزني وذهاب همي.",
     "audioNumber": "4ebfce5f-cb37-47de-83df-d935e287d8c7.wav",
+    "doaa_id": 162,
     "ur": "\t اے اللہ ! میں تیرا بندہ ہوں ، تیرے بندے اور تیری بندی کا بیٹا ہوں ، میری پیشانی تیرے ہاتھ میں ہے ، تیرا حکم میرے بارے میں نافذ ہونے والا ہے ، تیرا میرے متعلق فیصلہ عادلانہ ہے ، میں تیرے ہر اس نام سے ، جو تو نے اپنے لئے رکھا ، یا تو نے اپنی مخلوق میں سے کسی کو سکھایا، یا تو نے اسے اپنی کتاب میں نازل کیا ، یا تو نے اپنے پاس غیب کے خزانے میں اسے مخصوص کر لیا ، تجھ سے سوال کرتا ہوں کہ تو قرآن عظیم کو میرے دل کی بہار ، سینے کا نور اور میرے فکر و غم کا علاج بنا دے ۔‘",
     "en": "O Allah, I am Your servant, the son of Your male servant, and the son of your female servant. You have control over me. Your Judgment upon me is assured, and Your Decree concerning me is just. I ask You by every name that You have named Yourself with which You revealed in Your Book, taught any one of Your creation, or kept unto Yourself in the knowledge of the unseen that is with You, to make the Glorious Qur'an the spring of my heart, the light of my chest, the banisher of my sadness, and the reliever of my distress.",
     "tr": "Allah’ım! Ben Senin kulunum. Senin kulların olan bir anne ve bir babanın evladıyım. Tasarrufum Senin elindedir. Senin emrin adaletlidir. Kendini isimlendirdiğin veya kitabında indirdiğin ya da kullarından birine öğrettiğin veya da gaybi ilim olarak katında gizlediğin Senin tüm isimlerinle, Kurân’ı kalbimin baharı, göğsümün nuru, hüznümün ve kederimin ise gitmesine sebeb kılmanı dilerim",
@@ -1465,6 +1542,7 @@ export const data = [
   {
     "ar": "اللهم إني أسألك الهدى والتقى، والعفاف والغنى.",
     "audioNumber": "893bafba-e5fb-4836-a575-119be5d11fd6.wav",
+    "doaa_id": 163,
     "ur": "اے اللہ میں تجھ سے ہدایت ، تقوی ، پاکیزگی اور بےنیازی کا سوال کرتا ہوں ۔",
     "en": "O Allah, I implore You to grant me guidance, Taqwa, self-restraint, and independence of means.",
     "tr": "Allah’ım! Ben Senden hidayet, takva, iffet ve zenginlik dilerim",
@@ -1484,6 +1562,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك من الجوع فإنه بئس الضجيع، وأعوذ بك من الخيانة فإنها بئست البطانة.",
     "audioNumber": "3cddb5a4-ab1d-4c87-962a-b09ecd7ad914.wav",
+    "doaa_id": 164,
     "ur": "اے خدا، میں بھوک سے تیری پناہ مانگتا ہوں، کیونکہ بہت ہی برا ساتھی ہے، اور میں خیانت سے تیری پناہ مانگتا ہوں، کیونکہ بہت ہی برا مصاحب ہے۔",
     "en": "O Allah, I seek refuge in You from hunger, for it is a wretched companion, and from betrayal, for it is an evil hidden trait.",
     "tr": "Allah’ım! Açlıktan Sana sığınırım o ne kötü bir durumdur. Hainlikten de Sana sığınırım o da ne kötü bir duygudur",
@@ -1503,6 +1582,7 @@ export const data = [
   {
     "ar": "اللهم اغفر لي ما قدمت وما أخرت وما أسررت وما أعلنت وما أسرفت وما أنت أعلم به مني أنت المقَدِّم وأنت المؤخر لا إله إلا أنت.",
     "audioNumber": "00731ffb-667b-47d2-b08c-79057a969353.wav",
+    "doaa_id": 165,
     "ur": "اے اللہ! میرے اگلے پچھلے، ظاہری وپوشیدہ گناہوں کو، اور میری زیادتی کو، اور جن کو تو مجھ سے زیادہ جانتا ہے ان سبھی گناہوں کو معاف کردے، تو ہی آگے بڑھانے والا اور پیچھے کرنے والا ہے، تیرے سوا کوئی معبود برحق نہیں۔",
     "en": "O Allah, forgive me for my past and future sins, what I have concealed and what I have done openly, where I have exceeded the limits, and for all of which You know better than I do. You are the Advancer and the Delayer, there is no deity worthy of worship except You.",
     "tr": "Allah’ım! Şimdiye kadar yaptığım, bundan sonra yapacağım, gizlediğim ve açığa vurduğum, benden daha iyi bildiğin günahlarımı affeyle. Öne geçiren de Sensin, geride bırakan da Sensin. Senden başka hakkıyla ibadet edilecek başka bir ilâh yoktur",
@@ -1522,6 +1602,7 @@ export const data = [
   {
     "ar": "اللهم اغفر لي خطيئتي وجهلي وإسرافي في أمري وما أنت أعلم به مني، اللهم اغفر لي جِدِّي وهزلي وخطئي وعمدي وكل ذلك عندي اللهم اغفر لي ما قدمت وما أخرت وما أسررت وما أعلنت وما أنت أعلم به مني أنت المُقدِّم وأنت المؤخر وأنت على كل شيء قدير",
     "audioNumber": "22b0c64f-9bd0-4c76-949b-0a7523aedce4.wav",
+    "doaa_id": 166,
     "ur": "اے اللہ! میری غلطیوں کو، میری نادانی کو، اور اپنے معاملہ میں حد سے بڑھنے کو اور ان چیزوں کو جنہیں تو مجھ سے بہتر جانتا ہے معاف کردے، اے اللہ !سنجیدہ و غیر سنجیدہ ، دانستہ و نادانستہ کی گئی میری سبھی غلطیوں کو معاف کردے۔اور یہ ساری غلطیاں میرے پاس ہیں ۔  اے اللہ! میرے اگلے پچھلے، ظاہری وپوشیدہ، اور جن کو تو مجھ سے زیادہ جانتا ہے ان سبھی گناہوں کو معاف کردے، تو ہی آگے بڑھانے والا اور پیچھے کرنے والا ہے، اور تو ہر چیز پر قادر ہے۔",
     "en": "O Allah, forgive my sins, ignorance and exceeding the limits in my affairs. You are better aware of my faults than myself. O Allah, Forgive my faults which I committed in seriousness or in jest, deliberately or unintentionally. O Allah, grant me pardon for those sins which I committed in the past and I may commit in future, which I committed in privacy or in public, and all those sins of which You are better aware than me. You are the One Who sends forth and You are the One Who delays. You are capable to do all things.",
     "tr": "Allah’ım! Benim günahımı, bilgisizliğimi, işimdeki israfımı ve benden daha iyi bilmekte olduğun bütün kusurlarımı bağışla! Allah’ım! Benim latifemi, ciddi halimi, hatamı ve bilerek işlediğim günahımı bağışla! Bu kusurların hepsi bende vardır. Allah’ım! Şimdiye kadar yaptığım, bundan sonra yapacağım, gizlediğim ve açığa vurduğum, benden daha iyi bildiğin günahlarımı affeyle. Öne geçiren de Sensin, geride bırakan da Sensin. Şüphesizki Sen her şeye kadirsin",
@@ -1541,6 +1622,7 @@ export const data = [
   {
     "ar": "اللهم اغفر لنا ذنوبنا، وظلمنا، وهزلنا، وجدنا، وعمدنا، وكل ذلك عندنا.",
     "audioNumber": "8995fd20-44af-4edb-ba43-9309d011911a.wav",
+    "doaa_id": 167,
     "ur": "اے اللہ! ہمارے گناہ، ہمارے ظلم وزیادتی، ہمارا مذاق، ہماری سنجیدگی، ہمارے قصدا وعمدا گناہ کو معاف فرمادے اور یہ سارے گناہ ہمارے اندر ہیں ۔",
     "en": "O Allah, forgive our sins, our wrongdoings, what we have done out of jest or out of seriousness, our intentional acts, and all of that is from us.",
     "tr": "Allah’ım!  Bizim günahlarımızı, zulmümüzü, latifemizi, ciddi halimizi, bilerek işlediğimiz günahlarımızı bağışla! Bu kusurların hepsi bizde vardır",
@@ -1560,6 +1642,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك من جَهْد البلاء ودَرَك الشقاء وسوء القضاء.",
     "audioNumber": "dd00dfee-f03b-4b68-90bc-b8d3dc8242ec.wav",
+    "doaa_id": 168,
     "ur": "اے اللہ! میں تیری پناہ چاہتا ہوں آزمائش کی سختی سے، بد بختی کے لاحق ہونے سے، اور برے فیصلے سے",
     "en": "O Allah, I seek refuge in You from the hardship of trials, the depths of misery, and the evil of what You have destined.",
     "tr": "Allah’ım! Belanın meşakkatinden, helaka ileten sebepten ve kötü kaderden Sana sığınırım",
@@ -1579,6 +1662,7 @@ export const data = [
   {
     "ar": "اللهم قني عذابك يوم تبعث عبادك.",
     "audioNumber": "382ef1fa-f47a-4dd5-834f-d7ac7ae9aa58.wav",
+    "doaa_id": 169,
     "ur": "اے اللہ! مجھے اس دن اپنے عذاب سے بچا جب تو اپنے بندوں کو دوبارہ اٹھائے گا۔",
     "en": "O Allah, save me from Your torment on the day when You resurrect Your servants.",
     "tr": "Allah’ım! Kullarını dirilteceğin günde beni azabından koru",
@@ -1598,6 +1682,7 @@ export const data = [
   {
     "ar": "رب إني لما أنزلتَ إليَّ من خيرٍ فقيرٌ.",
     "audioNumber": "e2529aab-0b3d-4056-add6-03162e7cafbb.wav",
+    "doaa_id": 170,
     "ur": "اے پروردگار! تو جو کچھ بھلائی میری طرف اتارے میں اس کا محتاج ہوں",
     "en": "My Lord, I am most surely in need of all the goodness that You send down to me.",
     "tr": "Rabbim! Ben, Senin bana indireceğin hayra muhtacım",
@@ -1617,6 +1702,7 @@ export const data = [
   {
     "ar": "رب أوزعني أن أشكر نعمتك التي أنعمت علي وعلى والدي وأن أعمل صالحا ترضاه وأصلح لي في ذريتي إني تبت إليك وإني من المسلمين.",
     "audioNumber": "87f650b7-f0e8-46f0-a5f9-ac70cf8caf04.wav",
+    "doaa_id": 171,
     "ur": "اے میرے پروردگار! مجھے توفیق دے کہ میں تیری اس نعمت کا شکر بجالاؤں جو تو نے مجھ پر اور میرے ماں باپ پر انعام کی ہے اور یہ کہ میں ایسے نیک عمل کروں جن سے تو خوش ہو جائے اور تو میری اوﻻد بھی صالح بنا، میں تیری طرف رجوع کرتا ہوں اور میں مسلمانوں میں سے ہوں",
     "en": "My Lord, guide me to be grateful for Your blessings which You have bestowed upon me and upon my parents; guide me to do righteous deeds which please You; and make my children righteous. I have truly repented to You, and I am truly from among the Muslims.",
     "tr": "Rabbim! Bana ve ana-babama lutfettiğin nimete şükretmeye, razı olacağın işleri yapmaya beni muvaffak kıl. Benden gelecek nesli hayırlı eyle. Muhakkak ben Sana tövbe ettim ve şüphesiz ben Sana teslim olanlardanım",
@@ -1636,6 +1722,7 @@ export const data = [
   {
     "ar": "رب لا تَذَرْنِيْ فَرْدا وأنت خير الوارثين.",
     "audioNumber": "990cd262-ecdd-426a-abf0-5cf19c49e187.wav",
+    "doaa_id": 172,
     "ur": "اے میرے پروردگار! مجھے تنہا نہ چھوڑ، تو سب سے بہتر وارث ہے",
     "en": "My Lord, do not leave me alone without descendants. You are the best of all who remain, so grant me a successor who will remain after me.",
     "tr": "Rabbim! Beni nesilsiz bırakma. Sen vârislerin en hayırlısısın",
@@ -1655,6 +1742,7 @@ export const data = [
   {
     "ar": "رب هب لي من لدنك ذرية طيبة إنك سميع الدعاء.",
     "audioNumber": "0d8ea496-b12f-4ec2-9a88-d14117348c55.wav",
+    "doaa_id": 173,
     "ur": "اے میرے پروردگار! مجھے اپنے پاس سے پاکیزه اولاد عطا فرما، بے شک تو دعا کا سننے والا ہے",
     "en": "My Lord, grant me from Yourself righteous children. You most certainly hear all prayers.",
     "tr": "Rabbim! Bana katından temiz bir nesil bahşet. Şüphesiz Sen duayı hakkıyla işitensin.”",
@@ -1674,6 +1762,7 @@ export const data = [
   {
     "ar": "اللهم لك الحمد كله، اللهم لا قابض لِما بسطتَ، ولا مُقَرِّب لِما باعدتَ، ولا مُباعدَ لِما قرَّبتَ، ولا معطي لما منعتَ، ولا مانع لما أعطيتَ، اللهم ابسط علينا من بركاتك ورحمتك وفضلك ورزقك، اللهم إني أسألك النعيم المقيم الذي لا يحول ولا يزول، اللهم إني أسألك النعيم يوم العَيْلة والأمنَ يوم الحرب اللهم عائذٌ بك من سوء ما أعطيتنا وشر ما منعت منا.",
     "audioNumber": "f85b32ce-dd48-4129-9a41-90a14133a12e.wav",
+    "doaa_id": 174,
     "ur": "اے اللہ تیرے لیے ساری حمد ہے ، اے اللہ جسے تو کھول دے اسے کوئی بند نہیں کرسکتا، جسے تو دور کرے اسے کوئی قریب نہیں کرسکتا، جسے تو قریب کرے اسے کوئی دور نہيں کرسکتا، جس سےتو روک دے اسے کوئی دے نہیں سکتا، جسے تو دے دے اسے کوئی روک نہیں سکتا، اے اللہ  ہم پر تو اپنی برکت ، رحمت ، فضل اور رزق کھول دے، اے اللہ میں تجھ سے دائمی نعمت کی دعا کرتا ہوں جو نہ پھرے اور نہ ختم ہو ، اے اللہ میں تجھ سے فقر وفاقہ کے دن نعمت کا سوال کرتا ہوں اور جنگ کے دن امن کا ، اے اللہ تو نے جو عطا کیا ہے اس کی برائی  سےتیری پناہ مانگتا ہوں اور جس سے محروم کیا ہے اس کے شر سے ۔",
     "en": "O Allah, all praise is due to You. None can restrict what You spread forth. None can draw near what You distance, and none can distance what You draw near. None can bestow what You withhold, and none can withhold what You bestow. O Allah, grant us Your blessings, mercy, bounty, and provisions in abundance. O Allah, I earnestly implore You to grant me lasting blessings which will never change or come to an end. O Allah, I earnestly implore You for Your bounty on the day of dire need, and for security on the day of war and fear. O Allah, I earnestly seek refuge with You from the evil in anything You have given us, and from the evil in anything You have withheld.",
     "tr": "Allah'ım! Bütün hamdler Sanadır. Allah'ım! Senin yaydığını tutacak, uzaklaştırdığını yakınlaştıracak ve yakınlaştırdığını da uzaklaştıracak yoktur. Senin men ettiğini verecek, verdiğine de mani olacak yoktur. Allah'ım! Bereketini, rahmetini, faziletini ve rızkını üzerimize genişlet. Allah'ım! Senden değişmeyen ve sona ermeyen kalıcı nimetini isterim. Allah’ım! Zorluk anında nimeti savaş anında ise emniyeti Senden diliyoruz. Allah'ım! Bize verdiklerinin kötülüğünden ve alıkoyduklarının şerrinden Sana sığınrım. Allah'ım! İmanı bize sevdir, onu kalplerimizde süsle, küfrü, günahı ve isyanı ise bize çirkin göster. Bizi hak yolda olanlardan eyle. Allah'ım! Müslümanlar olarak canımızı al ve Müslümanlar olarak yaşat. Fitneye ve utanç verici bir duruma düşmeden bizleri salihlere kat. Allah'ım! Sana giden yolu kapatan ve peygamberini yalanlayan kafirleri helak eyle, onlara azabını ve cezanı indir. Allah’ım! Kendilerine hak ilahın kitabı verilip onu inkar eden kafirleri hezimete uğrat",
@@ -1693,6 +1782,7 @@ export const data = [
   {
     "ar": "اللهم إنك عفو تحب العفو فاعف عني.",
     "audioNumber": "bb3a2055-27c2-4493-9982-5b4cfdc0d59c.wav",
+    "doaa_id": 175,
     "en": "O Allah, You are most certainly the Oft-Pardoning and You love to pardon, so pardon me.",
     "tr": "Allah’ım! Sen affedicisin, affetmeyi seversin, beni de affeyle",
     "in": "Ya Allah, sesungguhnya Engkau Maha Pemaaf, Engkau mencintai kemaafan, maka maafkanlah diriku.",
@@ -1712,6 +1802,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك من زوال نعمتك، وتحول عافيتك، وفجاءة نقمتك، وجميع سخطك.",
     "audioNumber": "5f31ee1c-7939-4752-9f94-ac2b75e918ab.wav",
+    "doaa_id": 176,
     "en": "O Allah, I seek refuge with You from the disappearance of blessings You have bestowed upon me; change in the well-being You have granted me; being suddenly afflicted with Your wrath; and from all things that anger You.",
     "tr": "Allah’ım! Nimetinin zevalinden, afiyetinin değişmesinden, intikamının aniden gelmesinden ve bütün öfkenden Sana sığınırım",
     "in": "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari hilangnya anugerah-Mu, berubahnya kesehatan yang telah Engkau berikan, siksa-Mu yang datang secara tiba-tiba, dan dari segala kemurkaan-Mu.",
@@ -1731,6 +1822,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك من شر ما عملتُ، ومن شر ما لم أعمل.",
     "audioNumber": "e5d5e774-b6bf-451e-81b4-e719642c73fc.wav",
+    "doaa_id": 177,
     "en": "O Allah, I seek refuge with You from both the evil that I committed and the evil I have not yet committed. ",
     "tr": "Allah’ım! Bütün yaptıklarımın ve yapmadıklarımın şerrinden Sana sığınırım",
     "in": "Ya Allah, aku berlindung kepada-Mu dari keburukan apa yang aku lakukan dan keburukan apa yang belum aku lakukan. ",
@@ -1750,6 +1842,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك من علم لا ينفع، وعمل لا يرفع، ودعاء لا يُسْمع.",
     "audioNumber": "337389f2-7c63-4696-8f1f-b03de4fa4c3a.wav",
+    "doaa_id": 178,
     "en": "O Allah, I seek refuge with you from knowledge that does not benefit, from deeds that are not accepted, and from supplications that are not heard.",
     "tr": "Allah’ım! Faydası olmayan ilimden, kabul edilmeyen amel ve duadan Sana sığınırım",
     "in": "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari ilmu yang tidak bermanfaat, amal yang tidak diangkat, dan doa yang tidak didengar.",
@@ -1769,6 +1862,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك من منكرات الأخلاق والأعمال والأهواء والأدواء.",
     "audioNumber": "06bf4f1f-4492-41ef-94b1-246fd6512ad8.wav",
+    "doaa_id": 179,
     "en": "O Allah, I seek refuge with You from evil character, actions, and disobedient inclinations.",
     "tr": "Allah’ım! Kötü ahlak, amel, arzu ve hastalıklardan Sana sığınırız",
     "in": "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari keburukan akhlak, amal, hawa nafsu, dan penyakit.",
@@ -1788,6 +1882,7 @@ export const data = [
   {
     "ar": "اللهم إني أعوذ بك من فتنة النار وعذاب النار، وفتنة القبر وعذاب القبر، ومن شر فتنة الغنى، ومن شر فتنة الفقر، وأعوذ بك من شر فتنة المسيح الدجال، اللهم اغسل خطاياي بماء الثلج والبرد، ونق قلبي من الخطايا كما نقيت الثوب الأبيض من الدنس، وباعد بيني وبين خطاياي كما باعدت بين المشرق والمغرب، اللهم إني أعوذ بك من الكسل والهرم والمأثم والمغرم.",
     "audioNumber": "83e383ad-048b-4577-8bde-0ab640596258.wav",
+    "doaa_id": 180,
     "en": "O Allah, I seek refuge with You from the trials and torment of the grave, the trials and torment of the hellfire, and the evils of being tested with wealth. I seek refuge with You from the trials of poverty, and I seek refuge with You from the affliction of the Dajjal. O Allah, wash away my misdeeds with water from snow and hail. Cleanse my heart from misdeeds as You cleanse a white garment from all impurities. Distance me from my misdeeds as You have placed distance between the east and west. O Allah, I seek refuge with You from laziness, frailness, sins, and debt.",
     "tr": "Allah’ım! Cehennem fitnesinden ve azabından, kabir fitnesinden ve azabından, zenginlik ve fakirlik fitnesinin şerrinden Sana sığınırım. Allah’ım! Mesih Deccal’in fitnesinin şerrinden Sana sığınırım. Allah’ım! Kalbimi su, kar ve dolu ile yıka. Beyaz elbiseyi kirden temizlediğin gibi kalbimi hatalardan temizle. Doğu ile batının arasını ayırdığın gibi benimle hatalarımın arasını ayır. Allah’ım! Tembellikten, yaşlılıkta elden ayaktan kesilmekten, günah işlemekten ve borçlanmaktan Sana sığınırım",
     "in": "Ya Allah, aku berlindung kepada-Mu dari fitnah neraka dan azab neraka, fitnah kubur dan azab kubur, keburukan fitnah kekayaan, dan keburukan fitnah kefakiran. Aku berlindung kepada-Mu dari fitnah al-Masih ad-Dajjal. Ya Allah, sucikanlah dosa-dosaku dengan salju dan embun. Bersihkanlah hatiku dari dosa-dosa sebagaimana Engkau bersihkan pakaian putih dari kotoran. Jauhkanlah antaraku dan dosa-dosaku sebagaimana Engkau jauhkan antara timur dan barat. Ya Allah, aku berlindung kepada-Mu dari sifat malas, tua (pikun), dosa, dan utang.   ",
@@ -1807,6 +1902,7 @@ export const data = [
   {
     "ar": "اللهم اجعل في قلبي نورا، وفي لساني نورا، وفي بصري نورا، وفي سمعي نورا، وعن يميني نورا، وعن يساري نورا، ومن فوقي نورا، ومن تحتي نورا، ومن أمامي نورا، ومن خلفي نورا، واجعل لي في نفسي نورا وأعظم لي نورا.",
     "audioNumber": "044cd00e-7836-4267-b793-81b6013e196a.wav",
+    "doaa_id": 181,
     "en": " O Allah, place light in my heart, light upon my tongue, light in my hearing, light in my sight, light above me, light beneath me, light at my right, light at my left, light in front of me, light behind me, light within my soul, and grant me abundant light.",
     "tr": "Allah’ım! Kalbimi, dilimi, gözümü, kulağımı, sağımı, solumu, üstümü, altımı, önümü, ardımı, nefsimi nurlandır ve nurumu çoğalt.",
     "in": "Ya Allah, jadikanlah dalam hatiku cahaya, dalam lisanku cahaya, dalam pandanganku cahaya, dalam pendengaranku cahaya, di sebelah kananku cahaya, di sebelah kiriku cahaya, di atasku cahaya, di bawahku cahaya, di depanku cahaya, di belakangku cahaya, dan jadikanlah dalam diriku cahaya serta agungkanlah untukku cahaya.",
@@ -1826,6 +1922,7 @@ export const data = [
   {
     "ar": "اللهم لك أسلمت، وبك آمنت، وعليـك توكـلت، وإلــيك أنبت، وبـك خاصـمت، اللـهم إني أعوذ بعزتــك-لا إله إلا أنت- أن تضلني، أنت الحـي الذي لا يموت، والجن والإنـس يموتون.",
     "audioNumber": "0072f547-f0a7-4ba1-928a-4693b8acda31.wav",
+    "doaa_id": 182,
     "en": "O Allah, to You I have submitted, in You I have Iman, upon You I have placed my reliance, to You I have repented, and with Your aid I have confronted adversaries. O Allah, none has the right to be worshipped in truth except You. I seek refuge with Your Might from You allowing me to go astray. You are the Ever-Living, the One who never dies, whereas jinns and mankind shall all die.",
     "tr": "Allah’ım! Sana teslim oldum, Sana iman ettim, Sana tevekkül ettim, Sana yöneldim, bana verdiğin yardımınla mücadele ettim. Allah’ım! Beni doğru yoldan saptırmandan izzetine sığınırım. Senden başka hakkıyla ibadet edilmeye layık ilah yoktur. Sen ölmeyip diri olansın, insanlar ve cinler ise ölürler",
     "in": "Ya Allah, sesunguhnya hanya kepada-Mu aku berserah diri, hanya kepada-Mu aku beriman, hanya kepada-Mu aku bertawakal, hanya kepada-Mu aku kembali, dan hanya karena-Mu aku memusuhi musuh-musuh-Mu. Ya Allah, sesungguhnya aku berlindung dengan keagungan-Mu yang tiada tuhan yang hak disembah selain Engkau dari Engkau menyesatkanku. Engkaulah yang Maha Hidup yang tidak akan pernah mati, sedangkan jin dan manusia pasti akan mati.",
@@ -1845,6 +1942,7 @@ export const data = [
   {
     "ar": "اللهم أحيني مسكينا، وأمتني مسكينا، واحشرني في زمرة المساكين.",
     "audioNumber": "712751b5-bec0-4bf0-8816-3958362609bf.wav",
+    "doaa_id": 184,
     "en": "O Allah, allow me to live poor and with humility, die poor and with humility, and gather me among those who are poor and humble.",
     "tr": "Allah’ım! Beni mütevazi olarak yaşat, mütevazi olarak canımı al ve beni mütevazilerin zümresinde haşreyle",
     "in": "Ya Allah, hidupkanlah aku dalam keadaan miskin dan matikanlah aku dalam keadaan miskin serta kumpulkanlah aku dalam himpunan orang-orang miskin (di hari kiamat).",
@@ -1864,6 +1962,7 @@ export const data = [
   {
     "ar": "اللهم حبب إلينا الإيمان وزينه في قلوبنا وكره إلينا الكفر والفسوق والعصيان واجعلنا من الراشدين.",
     "audioNumber": "3cffa9bf-2fe8-479f-a802-5d7851fc5c01.wav",
+    "doaa_id": 185,
     "en": " O Allah, make Iman beloved to us and beautify it in our hearts. Make kufr, sins, and disobedience detested to us, and make us among those who are rightly guided.",
     "tr": "Allah'ım! Bütün hamdler Sanadır. Allah'ım! Senin yaydığını tutacak, uzaklaştırdığını yakınlaştıracak ve yakınlaştırdığını da uzaklaştıracak yoktur. Senin men ettiğini verecek, verdiğine de mani olacak yoktur. Allah'ım! Bereketini, rahmetini, faziletini ve rızkını üzerimize genişlet. Allah'ım! Senden değişmeyen ve sona ermeyen kalıcı nimetini isterim. Allah’ım! Zorluk anında nimeti savaş anında ise emniyeti Senden diliyoruz. Allah'ım! Bize verdiklerinin kötülüğünden ve alıkoyduklarının şerrinden Sana sığınrım. Allah'ım! İmanı bize sevdir, onu kalplerimizde süsle, küfrü, günahı ve isyanı ise bize çirkin göster. Bizi hak yolda olanlardan eyle. Allah'ım! Müslümanlar olarak canımızı al ve Müslümanlar olarak yaşat. Fitneye ve utanç verici bir duruma düşmeden bizleri salihlere kat. Allah'ım! Sana giden yolu kapatan ve peygamberini yalanlayan kafirleri helak eyle, onlara azabını ve cezanı indir. Allah’ım! Kendilerine hak ilahın kitabı verilip onu inkar eden kafirleri hezimete uğrat",
     "in": "Ya Allah, jadikanlah kami mencintai keimanan dan jadikanlah ia menghiasi hati kami. Jadikanlah kami benci terhadap kekufuran dan kefasikan serta kemaksiatan. Jadikan kami di antara orang-orang yang mengikuti jalan yang lurus. ",
@@ -1883,6 +1982,7 @@ export const data = [
   {
     "ar": "اللهم توفنا مسلمين وأحينا مسلمين وألحقنا بالصالحين غير خزايا ولا مفتونين، اللهم قاتل الكفرة الذين يصدون عن سبيلك ويكذبون رسلك واجعل عليهم رجزك وعذابك اللهم قاتل الكفرة الذين أوتوا الكتاب إله الحق.",
     "audioNumber": "0b01cf41-07f4-45c5-b2de-d1ee2239ab22.wav",
+    "doaa_id": 186,
     "en": "O Allah, allow us to die submitting to You as Muslims and allow us to live submitting to You as Muslims. Join us with the righteous without subjecting us to disgrace or trials. O Allah, fight against the kuffar who obstruct others from Your path and reject Your Messengers – and send Your wrath and torment upon them. O Allah, fight against the kuffar who were given the scripture. I implore You, Lord of truth.",
     "tr": "Allah'ım! Bütün hamdler Sanadır. Allah'ım! Senin yaydığını tutacak, uzaklaştırdığını yakınlaştıracak ve yakınlaştırdığını da uzaklaştıracak yoktur. Senin men ettiğini verecek, verdiğine de mani olacak yoktur. Allah'ım! Bereketini, rahmetini, faziletini ve rızkını üzerimize genişlet. Allah'ım! Senden değişmeyen ve sona ermeyen kalıcı nimetini isterim. Allah’ım! Zorluk anında nimeti savaş anında ise emniyeti Senden diliyoruz. Allah'ım! Bize verdiklerinin kötülüğünden ve alıkoyduklarının şerrinden Sana sığınrım. Allah'ım! İmanı bize sevdir, onu kalplerimizde süsle, küfrü, günahı ve isyanı ise bize çirkin göster. Bizi hak yolda olanlardan eyle. Allah'ım! Müslümanlar olarak canımızı al ve Müslümanlar olarak yaşat. Fitneye ve utanç verici bir duruma düşmeden bizleri salihlere kat. Allah'ım! Sana giden yolu kapatan ve peygamberini yalanlayan kafirleri helak eyle, onlara azabını ve cezanı indir. Allah’ım! Kendilerine hak ilahın kitabı verilip onu inkar eden kafirleri hezimete uğrat",
     "in": "Ya Allah, wafatkanlah kami dalam keadaan Islam, hidupkanlah kami dalam keadaan Islam, dan sertakanlah kami bersama orang-orang shaleh tanpa dihinakan dan tanpa ditimpakan ujian. Ya Allah, perangilah orang-orang kafir yang merintangi jalan-Mu dan mendustakan para Rasul-Mu. Timpakanlah siksa-Mu dan adzab-Mu kepada mereka. Ya Allah, perangilah orang-orang kafir yang telah diberi kitab, ya Allah Tuhan kebenaran.",

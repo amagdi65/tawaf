@@ -2,6 +2,7 @@ export const data = [
   {
     "ar": "يستحب شرب ماء زمزم المتوفر في أوعيته المنتشرة في أنحاء المسجد الحرام، سواء قبل الطواف أو بعده مع الدعاء من خيري الدنيا والآخرة.",
     "audioNumber": null,
+    "doaa_id": 248,
     "en": "It is recommended to drink Zamzam water, available throughout the Grand Mosque in containers placed in various locations. This may be done either before or after performing Tawaf while supplicating for the good of this world and the Hereafter.",
     "tr": "Mescid-i Haram çevresinde bolca bulunan sebillerdeki Zemzem suyunu Tavâf'tan önce veya sonra, dünyada ve ahirette hayrı dileyerek içmek sünnettir.",
     "ur": "مسجد حرام میں مختلف جگہوں پر مہیا کئے گئے آب زمزم کو طواف سے پہلے  یا بعد میں پینا، اور دنیا و آخرت کی بھلائی کی دعا کرنا مستحب ہے۔.",

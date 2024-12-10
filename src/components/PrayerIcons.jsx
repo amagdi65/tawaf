@@ -15,12 +15,14 @@ import bigAinEn from "../assets/font-inc-en.svg";
 import smallAinEn from "../assets/font-dec-en.svg";
 
 import { useRef, useState, useEffect } from "react";
+import { log } from "../logRequest";
 
 const saiAudioFiles = import.meta.glob("../assets/3/*.wav");
 const tawafAudioFiles = import.meta.glob("../assets/1/*.wav");
 function PrayerIcons({
   mode,
   dir,
+  lang,
   autoPlay,
   setFontSize,
   page,
@@ -60,6 +62,11 @@ function PrayerIcons({
   };
 
   const handleFontSizeChange = (size) => {
+    if (size > 0) {
+      log(4, JSON.parse(localStorage.getItem("uuid")),lang);
+    } else {
+      log(5, JSON.parse(localStorage.getItem("uuid")),lang);
+    }
     setFontSize((prevSize) => Math.max(14, prevSize + size));
   };
 

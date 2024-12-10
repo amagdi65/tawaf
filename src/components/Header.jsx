@@ -14,10 +14,12 @@ import translateImage from "../assets/language.svg";
 import colorMode from "../assets/color-mode.svg";
 import { mainData } from "../data/metaData/mainData";
 import { getbgColor, getBorder, getColor } from "../helper";
+import { log } from "../logRequest";
 
 function Header({ setLang, dir, setDir, lang, mode, setMode, setCurrentPage, currentPage }) {
 
   const toggleMode = () => {
+    log(6,JSON.parse(localStorage.getItem('uuid')),lang)
     setMode((prevMode) => (prevMode === "dark" ? "white" : "dark"));
   };
 
