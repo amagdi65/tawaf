@@ -76,6 +76,12 @@ function PrayerIcons({
       audioRef.current.pause();
       setIsPaused(true);
     } else {
+      log(
+        2,
+        JSON.parse(localStorage.getItem("uuid")),
+        lang,
+        prayerData[page]["doaa_id"]
+      );
       setIsAutoplay(true);
       setIsPaused(false);
       audioRef.current.play();
@@ -83,6 +89,12 @@ function PrayerIcons({
   };
 
   const onAudioEnded = () => {
+    log(
+      2,
+      JSON.parse(localStorage.getItem("uuid")),
+      lang,
+      prayerData[page]["doaa_id"]
+    );
     if (isAutoplay && page < totalPages) {
       setPage((prevPage) => prevPage + 1);
     } else {

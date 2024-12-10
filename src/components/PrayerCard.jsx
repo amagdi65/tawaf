@@ -1,6 +1,7 @@
 import { Box, IconButton, Text, Stack } from "@chakra-ui/react";
 import { ArrowForwardIcon, ArrowBackIcon } from "@chakra-ui/icons";
 import PrayerIcons from "./PrayerIcons";
+import { log } from "../logRequest";
 
 const PrayerCard = ({
   prayerData,
@@ -20,9 +21,15 @@ const PrayerCard = ({
   setFontSize,
   isPaused,
   audio,
-  cardPrayerTitle
+  cardPrayerTitle,
 }) => {
   const navigatePage = (direction) => {
+    log(
+      1,
+      JSON.parse(localStorage.getItem("uuid")),
+      lang,
+      prayerData[page]["doaa_id"]
+    );
     if (direction === "next" && page < totalPages) {
       setPage(page + 1);
     } else if (direction === "prev" && page > 0) {
@@ -35,7 +42,7 @@ const PrayerCard = ({
     boxSize: 8,
     color: "#BC9761",
   };
-  
+
   return (
     <Box
       padding="20px"
@@ -49,7 +56,9 @@ const PrayerCard = ({
       flexDirection="column"
       justifyContent="space-between"
       _before={{
-        content: `"${(prayerData && prayerData[page]["subtitle"][lang]) || cardPrayerTitle}"`,
+        content: `"${
+          (prayerData && prayerData[page]["subtitle"][lang]) || cardPrayerTitle
+        }"`,
         bgColor: mode === "dark" ? "#232C35" : "#EBEBEB",
         position: "absolute",
         top: { base: "20px", md: "48px" },
@@ -77,29 +86,28 @@ const PrayerCard = ({
         },
       }}
     >
-        <PrayerIcons
-          autoPlay={autoPlay}
-          modalTitle={modalTitle}
-          closeTitle={closeTitle}
-          modalBody={modalBody}
-          addresses={addresses}
-          setFontSize={setFontSize}
-          page={page}
-          isPaused={isPaused}
-          audio={audio}
-          setIsPaused={setIsPaused}
-          totalPages={totalPages}
-          setPage={setPage}
-          prayerData={prayerData}
-          lang={lang}
-          dir={dir}
-          mode={mode}
-        />
+      <PrayerIcons
+        autoPlay={autoPlay}
+        modalTitle={modalTitle}
+        closeTitle={closeTitle}
+        modalBody={modalBody}
+        addresses={addresses}
+        setFontSize={setFontSize}
+        page={page}
+        isPaused={isPaused}
+        audio={audio}
+        setIsPaused={setIsPaused}
+        totalPages={totalPages}
+        setPage={setPage}
+        prayerData={prayerData}
+        lang={lang}
+        dir={dir}
+        mode={mode}
+      />
       <Stack
         justifyContent={"center"}
         alignItems="center"
         height={{ base: "300px", md: "290px" }}
-
       >
         <Text
           margin={{ base: 0, md: 4 }}
@@ -123,14 +131,12 @@ const PrayerCard = ({
             },
           }}
           style={{
-            direction: dir
+            direction: dir,
           }}
         >
           {prayerData && prayerData[page][lang]}
         </Text>
       </Stack>
-
-    
 
       <Box
         display="flex"
