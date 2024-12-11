@@ -2,6 +2,7 @@ import location from "../assets/location-dot-solid.svg";
 import locationBlack from "../assets/location-black.svg";
 import SimpleModal from "./Modal";
 import { Image, Text, useDisclosure } from "@chakra-ui/react";
+import { log } from "../logRequest";
 
 
 function Location({
@@ -12,6 +13,7 @@ function Location({
   lang,
   mode,
   dir,
+  stepId
 }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
@@ -30,7 +32,10 @@ function Location({
           <Image
             src={mode === "dark" ? locationBlack : location}
             alt="Decrease font size"
-            onClick={onOpen}
+            onClick={()=> {
+              log(3,JSON.parse(localStorage.getItem('uuid')),lang,  stepId)
+              onOpen()
+            }}
             cursor="pointer"
             position="relative"
             boxSize={{ base: "28px", md: "42px" }}

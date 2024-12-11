@@ -173,6 +173,7 @@ function Item({
             lang={lang}
             mode={mode}
             dir={dir}
+            stepId={index -1}
           />
           <ChevronDownIcon
             boxSize="24px"
