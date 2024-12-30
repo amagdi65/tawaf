@@ -1,8 +1,9 @@
-import { Box, IconButton, Stack, CircularProgress } from "@chakra-ui/react";
+import { Box, IconButton, Stack, CircularProgress  } from "@chakra-ui/react";
 import { AddIcon, MinusIcon } from "@chakra-ui/icons";
+
 import axios from "axios";
 
-const CounterCard = ({ count, setCount, dir, cardTitle, mode, type, lang }) => {
+const CounterCard = ({ count, setCount, dir, cardTitle, mode, type, lang}) => {
   function sendData(type, count, lang) {
     axios.post(
       "https://eserv.wmn.gov.sa/haram-api/public/api/vss/TawafCountLog",
@@ -18,6 +19,7 @@ const CounterCard = ({ count, setCount, dir, cardTitle, mode, type, lang }) => {
     if (count < 7) {
       setCount(count + 1);
       sendData(type, count, lang);
+
     }
   };
 
@@ -60,77 +62,80 @@ const CounterCard = ({ count, setCount, dir, cardTitle, mode, type, lang }) => {
   };
 
   return (
-    <Box
-      padding="20px"
-      boxShadow="md"
-      borderRadius="md"
-      width="100%"
-      height={{ base: "190px", md: "258px" }}
-      position="relative"
-      backgroundColor={mode === "dark" ? "#2C3743" : "#f5f5f5"}
-      _before={{
-        content: `"${cardTitle}"`,
-        bgColor: mode === "dark" ? "#232C35" : "#EBEBEB",
-        position: "absolute",
-        top: { base: "20px", md: "48px" },
-        ...(dir === "ltr" ? { left: 0 } : { right: 0 }),
-        padding: "5px 10px",
-        borderRadius: "5px 0px 0px 5px",
-        fontSize: { base: "md", md: "lg" },
-        fontWeight: "bold",
-        textAlign: "center",
-        color: mode === "dark" ? "white" : "#1F2A37",
-      }}
-    >
-      <Stack
-        direction="row"
-        justifyContent="center"
-        alignItems="center"
-        mt="16px"
-        style={{ direction: dir }}
+    <>
+      <Box
+        padding="20px"
+        boxShadow="md"
+        borderRadius="md"
+        width="100%"
+        height={{ base: "190px", md: "258px" }}
+        position="relative"
+        backgroundColor={mode === "dark" ? "#2C3743" : "#f5f5f5"}
+        _before={{
+          content: `"${cardTitle}"`,
+          bgColor: mode === "dark" ? "#232C35" : "#EBEBEB",
+          position: "absolute",
+          top: { base: "20px", md: "48px" },
+          ...(dir === "ltr" ? { left: 0 } : { right: 0 }),
+          padding: "5px 10px",
+          borderRadius: "5px 0px 0px 5px",
+          fontSize: { base: "md", md: "lg" },
+          fontWeight: "bold",
+          textAlign: "center",
+          color: mode === "dark" ? "white" : "#1F2A37",
+        }}
       >
-        <IconButton
-          icon={<AddIcon />}
-          aria-label="Increment"
-          onClick={increment}
-          {...(count === 7
-            ? { ...disabledIconButtonStyles, ...baseButtonStyles }
-            : { ...iconButtonStyles, ...baseButtonStyles })}
-        />
-        <Box position="relative" display="inline-flex" fontSize={100}>
-          <CircularProgress
-            value={progress}
-            thickness="8px"
-            color="#BC9761"
-            size={{ base: "150px", md: "190px" }}
-            {...(mode === "dark" && { trackColor: "#3D4652" })}
+        <Stack
+          direction="row"
+          justifyContent="center"
+          alignItems="center"
+          mt="16px"
+          style={{ direction: dir }}
+        >
+          <IconButton
+            icon={<AddIcon />}
+            aria-label="Increment"
+            onClick={increment}
+            {...(count === 7
+              ? { ...disabledIconButtonStyles, ...baseButtonStyles }
+              : { ...iconButtonStyles, ...baseButtonStyles })}
           />
-          <Box
-            position="absolute"
-            top="0"
-            left="0"
-            right="0"
-            bottom="0"
-            display="flex"
-            alignItems="center"
-            justifyContent="center"
-            fontSize={{ base: "30px", md: "64px" }}
-            fontWeight="bold"
-            color="#BC9761"
-          >
-            {count}
+          <Box position="relative" display="inline-flex" fontSize={100}>
+            <CircularProgress
+              value={progress}
+              thickness="8px"
+              color="#BC9761"
+              size={{ base: "150px", md: "190px" }}
+              {...(mode === "dark" && { trackColor: "#3D4652" })}
+            />
+            <Box
+              position="absolute"
+              top="0"
+              left="0"
+              right="0"
+              bottom="0"
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
+              fontSize={{ base: "30px", md: "64px" }}
+              fontWeight="bold"
+              color="#BC9761"
+            >
+              {count}
+            </Box>
           </Box>
-        </Box>
-        <IconButton
-          icon={<MinusIcon />}
-          aria-label="Decrement"
-          onClick={decrement}
-          {...(count === 0
-            ? { ...disabledIconButtonStyles, ...baseButtonStyles }
-            : { ...iconButtonStylesTwo, ...baseButtonStyles })}
-        />
-      </Stack>
-    </Box>
+          <IconButton
+            icon={<MinusIcon />}
+            aria-label="Decrement"
+            onClick={decrement}
+            {...(count === 0
+              ? { ...disabledIconButtonStyles, ...baseButtonStyles }
+              : { ...iconButtonStylesTwo, ...baseButtonStyles })}
+          />
+        </Stack>
+      </Box>
+     
+    </>
   );
 };
 

@@ -22,7 +22,8 @@ export const mainData = {
     location: "المواقع",
     closeTitle: "إغلاق",
     finalMessage: "مبارك لكم إتمام العمرة، نسأل الله أن يتقبل منكم",
-    endUmrah: "الانتهاء"
+    endUmrah: "الانتهاء",
+    counterError: "عزيزي ضيف الرحمن، لا بد من إتمام ٧ أشواط بنجاح للانتقال إلى المنسك التالي."
   },
   en: {
     headerTitle: "Digital Mutawwif Service",
@@ -47,7 +48,8 @@ export const mainData = {
     location: "Locations",
     closeTitle: "Close",
     finalMessage: "May Allah bless your completion of ‘Umrah. We ask Allah to accept it from you.",
-    endUmrah: "Completion"
+    endUmrah: "Completion",
+    counterError: `Dear Guest of Ar-Rahman,You have to complete 7 rounds properly before going on to the next stage of  your  ‘Umrah.`
   },
   fr: {
     headerTitle: "Service de Mutawwif Numérique",
@@ -72,7 +74,8 @@ export const mainData = {
     location: "Emplacement",
     closeTitle: "Fermer",
     finalMessage: "Félicitations, vous avez accompli votre Omra ! Nous implorons Allah d’accepter vos adorations",
-    endUmrah: "Terminer"
+    endUmrah: "Terminer",
+    counterError: `Cher hôte du Tout Miséricordieux, il est impératif de compléter les sept tours avant de passer au rite suivant.`
   },
   tr: {
     headerTitle: "Dijital Mutawwif Hizmeti",
@@ -97,7 +100,8 @@ export const mainData = {
     location: "Konum",
     closeTitle: "Kapat",
     finalMessage: "Umreniz mübarek olsun. Allah’ın yaptığınız ameli sizden kabul etsini niyaz ederiz.",
-    endUmrah: "Bitiriş"
+    endUmrah: "Bitiriş",
+    counterError: `Ey Rahmân olan Allah’ın misafiri! Tavâfta 7 şavtı tam bir şekilde bitirdikten sonra diğer ibâdete geçebilirsiniz.`
   },
   ur: {
     headerTitle: "ڈیجیٹل مطوف سروس",
@@ -122,7 +126,8 @@ export const mainData = {
     location: "مقام",
     closeTitle: "بند کریں",
     finalMessage: "عمرہ کی ادائیگی  آپ کو مبارک ہو، ہم اللہ سے دعا کرتے ہیں کہ وہ آپ کا عمرہ قبول فرمائے۔",
-    endUmrah: "اختتام"
+    endUmrah: "اختتام",
+    counterError: `رحمان کے معزز مہمان! عبادت  کے اگلے حصےکی طرف بڑھنے سے پہلے7 چکر مکمل کرنا ضروری ہے`
   },
   in: {
     headerTitle: "Layanan Mutawwif Digital",
@@ -147,7 +152,8 @@ export const mainData = {
     location: "Lokasi",
     closeTitle: "Tutup",
     finalMessage: "Selamat atas selesainya umrah anda, kami memohon kepada Allah agar menerima amal ibadah anda",
-    endUmrah: "Selesai"
+    endUmrah: "Selesai",
+    counterError: `Saudaraku, tamu Allah.. Anda harus menyelesaikan 7 kali putaran dengan sempurna untuk berpindah ke rukun berikutnya.`
   },
   mal: {
     headerTitle: "Perkhidmatan Mutawwif Digital",
@@ -172,6 +178,7 @@ export const mainData = {
     location: "Lokasi",
     closeTitle: "Tutup",
     finalMessage:"Tahniah dan mubarak kerana anda telah berjaya menyelesaikan ibadat umrah. Kami doakan semoga ibadat anda diterima oleh Allah Ta'ala",
-    endUmrah: "Selesai"
+    endUmrah: "Selesai",
+    counterError: `Wahai saudaraku tetamu Allah, anda hendaklah menyempurnakan tujuh pusingan sebelum anda beralih ke ibadah seterusnya.`
   },
 };

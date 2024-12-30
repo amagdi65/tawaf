@@ -241,11 +241,12 @@ function PrayerIcons({
               _before={{
                 content: `'${autoPlay}'`,
                 position: "absolute",
-                top: -5,
+                top: 3,
                 width: "300px",
                 display: "inline-block",
                 color: mode === "dark" ? "white" : "#333D49",
                 fontSize: "13px",
+                right: dir === 'rtl' ? '-67px': '55px'
               }}
             />
           </Stack>

@@ -12,7 +12,7 @@ const InstructionPage = lazy(() => import("./pages/InstructionPage"));
 function App() {
   const [lang, setLang] = usePersistedState("lang", "ar");
   const [dir, setDir] = usePersistedState("dir", "rtl");
-  const [mode, setMode] = usePersistedState("mode", "light");
+  const [mode, setMode] = usePersistedState("mode", "dark");
   const [uuid,] = usePersistedState('uuid',uuidv4())
   const [currentPage, setCurrentPage] = useState("ManasekPage");
 

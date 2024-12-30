@@ -44,7 +44,7 @@ const StepperComp = ({ index, dir }) => {
       p={4}
     >
       <Image
-        src={stepperIconsMapper[index -1][dir]}
+        src={stepperIconsMapper[index === 0 ? index : index -1][dir]}
         alt="Step Icon"
         maxW="100%"
         maxH="100%"

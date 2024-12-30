@@ -9,9 +9,9 @@ import icon from "../assets/2.svg";
 import { items } from "../data/metaData/items";
 
 function ManasekPage({ lang, dir, mode }) {
-  const [index, setIndex] = useState(1);
+  const [index, setIndex] = useState(0);
   const [data, setData] = useState([]);
-
+  const [toggleIndex , setToggleIndex] = useState(0);
   useEffect(() => {
     items("manasekPage")({ lang }).then((res) => {
       setData(res);
@@ -23,14 +23,15 @@ function ManasekPage({ lang, dir, mode }) {
       <StepperComp mode={mode} index={index} dir={dir}></StepperComp>
       <Accordion
         allowToggle
-        {...(index <= 4 && { index: [index] })}
+        collapsible
+        index={toggleIndex}
         mt="20px"
         ml={5}
         mr={5}
         lang={lang}
         mode={mode}
       >
-        <Item hidden="none" />
+        <Item hidden="none" index={0}/>
 
         {data &&
           data.map((item, idx) => (
@@ -38,6 +39,8 @@ function ManasekPage({ lang, dir, mode }) {
               <Item
                 index={item.index}
                 setIndex={setIndex}
+                setToggleIndex={setToggleIndex}
+                toggleIndex={item.index}
                 title={item.title}
                 number={idx + 1}
                 prayerData={item.prayerData}

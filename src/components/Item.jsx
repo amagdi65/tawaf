@@ -6,8 +6,9 @@ import {
   Text,
   Button,
   Flex,
+  useToast,
+  AccordionIcon
 } from "@chakra-ui/react";
-import { ChevronDownIcon } from "@chakra-ui/icons";
 import styled from "@emotion/styled";
 import CounterCard from "./CounterCard";
 import PrayerCard from "./PrayerCard";
@@ -15,6 +16,7 @@ import usePersistedState from "../hooks/usePersistedState";
 import { useState } from "react";
 import Location from "./Location";
 import Congrats from "./Congrats";
+import { CustomToast } from "./CustomTwist";
 const Icon = styled.img`
   width: 48px;
   height: 48px;
@@ -63,16 +65,17 @@ function Item({
   cardPrayerTitle,
   showFinalMessage,
   disablePrev,
+  toggleIndex,
+  setToggleIndex
   // pageName,
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
-
   const [page, setPage] = useState(0);
   const [fontSize, setFontSize] = useState(18);
   const [isPaused, setIsPaused] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
   const totalPages = prayerData?.length - 1;
-
+  const toast = useToast();
   const renderContent = (dir) => {
     if (dir === "ltr") {
       return (
@@ -121,11 +124,38 @@ function Item({
   };
 
   const handlePrevClick = () => {
-    if (index > 2) setIndex((prevIndex) => prevIndex - 1);
+    if (toggleIndex > 2) {
+      setToggleIndex(toggleIndex - 2) 
+      setIndex(() => toggleIndex - 2)
+    }
   };
 
   const handleNextClick = () => {
-    if ((count === 7 || !useCount) && setIndex) setIndex(index);
+    if ((count === 7 || !useCount) && setIndex) {
+      setIndex(toggleIndex);
+      setToggleIndex(toggleIndex);
+
+    } else {
+      const toastId = `custom-toast-${Date.now()}`;
+      toast({
+        id: toastId,
+        render: (props) => (
+          <CustomToast
+            {...props}
+            dir={dir}
+            mode={mode}
+            lang={lang}
+            messageKey="counterError"
+          />
+        ),
+        duration: 3000,
+        isClosable: true,
+        position: dir === "ltr" ? "top" : "top",
+      });
+      
+      setTimeout(() => toast.close(toastId), 3000);
+    }
+
     if (showFinalMessage) {
       setIsOpen(true);
 
@@ -158,7 +188,9 @@ function Item({
         {...(mode === "dark" && { border: "1px solid #3A444F" })}
         borderRadius="10px"
         onClick={() => {
-           setIndex(index - 1);
+          setToggleIndex((prevToggleIndex) => {
+            return prevToggleIndex === toggleIndex -1 ? 0 : toggleIndex - 1 
+          })
         }}
       >
         <Box display="flex" alignItems="center" justifyContent="center">
@@ -173,9 +205,9 @@ function Item({
             lang={lang}
             mode={mode}
             dir={dir}
-            stepId={index -1}
+            stepId={index - 1}
           />
-          <ChevronDownIcon
+          <AccordionIcon
             boxSize="24px"
             fontWeight="400"
             {...(mode === "dark" && { color: "white" })}
