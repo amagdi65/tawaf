@@ -9,8 +9,9 @@ import { mainData } from "../data/metaData/mainData";
 import { items } from "../data/metaData/items";
 
 function InstructionPage({ lang, dir, mode }) {
-  const [index, setIndex] = useState(1);
 
+  const [index, setIndex] = useState(0);
+  const [toggleIndex , setToggleIndex] = useState(0);
 
   const [data,setData] = useState([]);
   const stepperIcons = import.meta.glob("../assets/stepperIcons/*.svg", {
@@ -26,7 +27,7 @@ function InstructionPage({ lang, dir, mode }) {
     <Box height="100%" overflowY="auto">
       <Accordion
         allowToggle
-        {...(index <= data.length && { index: [index] })}
+        index={toggleIndex}
         mt="90px"
         ml={5}
         mr={5}
@@ -39,6 +40,8 @@ function InstructionPage({ lang, dir, mode }) {
               <Item
                 index={item.index}
                 setIndex={setIndex}
+                setToggleIndex={setToggleIndex}
+                toggleIndex={item.index}
                 title={item.title}
                 cardPrayerTitle={item.title}
                 number={item.number}
