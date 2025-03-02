@@ -5,9 +5,8 @@ import Popup from "./components/Popup";
 import axios from "axios";
 import { v4 as uuidv4 } from "uuid";
 import Congrats from "./components/Congrats";
-import NewManasekPage from "./pages/NewManasekPage";
 
-const ManasekPage = lazy(() => import("./pages/ManasekPage"));
+const NewManasekPage = lazy(() => import("./pages/NewManasekPage"));
 const InstructionPage = lazy(() => import("./pages/InstructionPage"));
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
   const [dir, setDir] = usePersistedState("dir", "rtl");
   const [mode, setMode] = usePersistedState("mode", "dark");
   const [uuid] = usePersistedState("uuid", uuidv4());
-  const [currentPage, setCurrentPage] = useState("ManasekPage");
+  const [currentPage, setCurrentPage] = useState("NewManasekPage");
 
   useEffect(() => {
     axios.post("/index.php", {
@@ -25,7 +24,7 @@ function App() {
   }, [lang]);
   const renderPage = () => {
     switch (currentPage) {
-      case "ManasekPage":
+      case "NewManasekPage":
         return (
           <Suspense fallback={<div>Loading...</div>}>
             <NewManasekPage lang={lang} dir={dir} mode={mode} />
@@ -40,7 +39,7 @@ function App() {
       default:
         return (
           <Suspense fallback={<div>Loading...</div>}>
-            <ManasekPage lang={lang} dir={dir} mode={mode} />
+            <NewManasekPage lang={lang} dir={dir} mode={mode} />
           </Suspense>
         );
     }

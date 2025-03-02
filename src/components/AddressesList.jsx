@@ -102,21 +102,20 @@ function AddressesList({ addresses, lang, dir, mode }) {
   return (
     <Box overflowY="auto">
       {/* <Image
-            src={LocationIcons[Box]}
-            alt={modalTitle}
-            fit="contain"
-            maxH="300px"
-            w="100%"
-            bg="gray.100"
-            fallback={
-              <Box p={4} bg="gray.100" textAlign="center">
-                Unable to load image
-              </Box>
-            }
-            loading="lazy"
-            transition="opacity 0.2s"
-            _hover={{ opacity: 0.9 }}
-          /> */}
+        src={LocationIcons[Box]}
+        fit="contain"
+        maxH="300px"
+        w="100%"
+        bg="gray.100"
+        fallback={
+          <Box p={4} bg="gray.100" textAlign="center">
+            Unable to load image
+          </Box>
+        }
+        loading="lazy"
+        transition="opacity 0.2s"
+        _hover={{ opacity: 0.9 }}
+      /> */}
 
       {/* Addresses List Section */}
       <VStack mt={4} spacing={4} align="stretch">

@@ -22,7 +22,6 @@ import usePersistedState from "../hooks/usePersistedState";
 import { useState } from "react";
 import AddressesList from "./AddressesList";
 
-import Congrats from "./Congrats";
 import { CustomToast } from "./CustomTwist";
 import LocationIcon from "../assets/Location.svg";
 
@@ -74,12 +73,13 @@ function CardSection({
   cardPrayerTitle,
   showFinalMessage,
   disablePrev,
+  setIsOpen,
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
   const [page, setPage] = useState(0);
   const [fontSize, setFontSize] = useState(18);
   const [isPaused, setIsPaused] = useState(true);
-  const [isOpen, setIsOpen] = useState(false);
+
   const totalPages = prayerData?.length - 1;
   const toast = useToast();
 
@@ -263,16 +263,6 @@ function CardSection({
             </AccordionItem>
           </Accordion>
         </CardBody>
-
-        {isOpen && (
-          <Congrats
-            isOpen={isOpen}
-            setIsOpen={setIsOpen}
-            lang={lang}
-            dir={dir}
-            mode={mode}
-          />
-        )}
       </Card>
       <Box
         display="flex"

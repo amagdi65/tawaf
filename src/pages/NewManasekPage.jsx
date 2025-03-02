@@ -5,17 +5,19 @@ import { useEffect, useState } from "react";
 import { mainData } from "../data/metaData/mainData";
 import StepperComp from "../components/StepperComp";
 import icon from "../assets/2.svg";
+import Congrats from "../components/Congrats";
 
 import { items } from "../data/metaData/items";
 
 function NewManasekPage({ lang, dir, mode }) {
   const [index, setIndex] = useState(1);
   const [data, setData] = useState([]);
+  const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
     items("manasekPage")({ lang }).then((res) => {
       setData(res);
     });
-  }, [lang, dir]);
+  }, [lang, dir, isOpen]);
 
   return (
     <Box height="100%" overflowY="auto" dir={dir}>
@@ -58,11 +60,20 @@ function NewManasekPage({ lang, dir, mode }) {
                     type={item.type}
                     icon={icon}
                     showFinalMessage={item.showFinalMessage}
+                    setIsOpen={setIsOpen}
                   />
                   {idx < data.length - 1 && <Separator dir={dir} />}
                 </Box>
               )
           )}
+
+        <Congrats
+          isOpen={isOpen}
+          setIsOpen={setIsOpen}
+          lang={lang}
+          dir={dir}
+          mode={mode}
+        />
       </Box>
     </Box>
   );
