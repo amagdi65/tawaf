@@ -21,6 +21,10 @@ const textContent = {
     description:
       "مساعدك في رحلة العمرة مع اكثر من 170 دعاء نصي و مسموع في مرحلة الطواف والسعي.",
     confirmLabel: "ابدأ العمرة",
+    conditionsStatment:"لتأدية العمرة بكل يسر وسهولة، أحرص على التعليمات التالية:",
+    firstConds:"أصدر تصريح أداء العمرة عبر تطبيق \"نسك\".",
+    secndConds:"إستخدم سماعة الأذن في حال رغبت بالإستماع للأدعية.",
+    thirdConds:"تجنب استخدام برامج ترجمة الشاشة لضمان جودة المحتوى أثناء تصفح الخدمة.",
   },
   en: {
     header: "Your Assistant for the Umrah Journey",
@@ -64,16 +68,22 @@ const languages = [
     flagUrl: "https://flagcdn.com/w40/sa.png",
   },
   {
-    code: "en",
-    name: "English",
-    dir: "ltr",
-    flagUrl: "https://flagcdn.com/w40/us.png",
-  },
-  {
     code: "ur",
     name: "اردو",
     dir: "rtl",
     flagUrl: "https://flagcdn.com/w40/pk.png",
+  },
+  {
+    code: "in",
+    name: "Indonesia",
+    dir: "ltr",
+    flagUrl: "https://flagcdn.com/w40/id.png",
+  },
+  {
+    code: "en",
+    name: "English",
+    dir: "ltr",
+    flagUrl: "https://flagcdn.com/w40/us.png",
   },
   {
     code: "tr",
@@ -86,12 +96,6 @@ const languages = [
     name: "Français",
     dir: "ltr",
     flagUrl: "https://flagcdn.com/w40/fr.png",
-  },
-  {
-    code: "in",
-    name: "Indonesia",
-    dir: "ltr",
-    flagUrl: "https://flagcdn.com/w40/id.png",
   },
   {
     code: "mal",
@@ -130,6 +134,16 @@ const Popup = ({ setLang, lang, setDir , dir: pageDir}) => {
         <ModalCloseButton />
         <ModalBody>
           <VStack spacing={4}>
+          <Text
+              fontSize="sm"
+              textAlign="center"
+              color="gray.600"
+              px={4}
+              lineHeight="1.5"
+              style={{direction: pageDir}}
+            >
+              {textContent[lang].description}
+            </Text>
             <Grid
               templateColumns="repeat(3, 1fr)"
               gap={3}
@@ -170,16 +184,30 @@ const Popup = ({ setLang, lang, setDir , dir: pageDir}) => {
                 </Box>
               ))}
             </Grid>
+        
             <Text
-              fontSize="sm"
-              textAlign="center"
+              fontSize="xs"
+              textAlign="right"
               color="gray.600"
               px={4}
               lineHeight="1.5"
               style={{direction: pageDir}}
             >
-              {textContent[lang].description}
+              {textContent[lang].conditionsStatment}
+              <ol>
+                <li>
+                {textContent[lang].firstConds}
+
+                </li>
+                <li>
+                {textContent[lang].secndConds}
+                  </li>
+                <li>
+                {textContent[lang].thirdConds}
+                  </li>
+              </ol>
             </Text>
+
             <Button
               colorScheme="yellow"
               bg="#BC9761"

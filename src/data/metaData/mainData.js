@@ -26,6 +26,7 @@ export const mainData = {
     endUmrah: "الانتهاء",
     counterError:
       "عزيزي ضيف الرحمن، لا بد من إتمام ٧ أشواط بنجاح للانتقال إلى المنسك التالي.",
+    intersetLocations:'مواقع تهمك',
   },
   en: {
     headerTitle: "Digital Mutawwif Service",

@@ -24,6 +24,7 @@ import AddressesList from "./AddressesList";
 
 import { CustomToast } from "./CustomTwist";
 import LocationIcon from "../assets/Location.svg";
+import { mainData } from "../data/metaData/mainData";
 
 const Icon = styled.img`
   width: 48px;
@@ -241,7 +242,7 @@ function CardSection({
                         boxSize={{ base: "16px", md: "24px" }}
                         borderRadius={10}
                       />
-                      <Text color="#BC9761">مواقع تهمك</Text>
+                      <Text color="#BC9761">{mainData[lang].intersetLocations}</Text>
                     </Flex>
                   </Box>
                   <Box
@@ -258,6 +259,7 @@ function CardSection({
                   lang={lang}
                   dir={dir}
                   mode={mode}
+                  modalBody={modalBody}
                 />
               </AccordionPanel>
             </AccordionItem>

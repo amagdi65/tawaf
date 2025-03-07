@@ -1,5 +1,5 @@
 import { useState, useCallback, memo } from "react";
-import { Box, Text, VStack, Collapse, IconButton } from "@chakra-ui/react";
+import { Box, Text, VStack, Collapse, IconButton,Image } from "@chakra-ui/react";
 import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
 
 const LocationIcons = import.meta.glob("../assets/locations/*.svg", {
@@ -89,7 +89,7 @@ const AddressCard = memo(function AddressCard({
 });
 AddressCard.displayName = "AddressCard";
 
-function AddressesList({ addresses, lang, dir, mode }) {
+function AddressesList({ addresses, lang, dir, mode,modalBody }) {
   const [expandedAddresses, setExpandedAddresses] = useState({});
 
   const handleToggle = useCallback((index) => {
@@ -101,8 +101,8 @@ function AddressesList({ addresses, lang, dir, mode }) {
 
   return (
     <Box overflowY="auto">
-      {/* <Image
-        src={LocationIcons[Box]}
+      <Image
+        src={LocationIcons[modalBody]}
         fit="contain"
         maxH="300px"
         w="100%"
@@ -115,7 +115,7 @@ function AddressesList({ addresses, lang, dir, mode }) {
         loading="lazy"
         transition="opacity 0.2s"
         _hover={{ opacity: 0.9 }}
-      /> */}
+      />
 
       {/* Addresses List Section */}
       <VStack mt={4} spacing={4} align="stretch">

@@ -58,7 +58,7 @@ function App() {
         currentPage={currentPage}
       >
         {renderPage()}
-        <Congrats />
+        {/* <Congrats /> */}
       </MainLayout>
 
       <Popup setLang={setLang} dir={dir} lang={lang} setDir={setDir} />
