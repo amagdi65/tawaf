@@ -211,7 +211,7 @@ function Header({
         })}
       >
         <Button
-          {...getButtonProps("ManasekPage")}
+          {...getButtonProps("NewManasekPage")}
           width={{ base: "50%", md: "196px" }}
           height={{ base: "70px" }}
           borderRadius="0"
@@ -226,7 +226,7 @@ function Header({
                 borderLeft: "none",
                 borderRight: getBorder(mode),
               })}
-          onClick={() => setCurrentPage("ManasekPage")}
+          onClick={() => setCurrentPage("NewManasekPage")}
         >
           {mainData[lang].manasekTitle}
         </Button>
