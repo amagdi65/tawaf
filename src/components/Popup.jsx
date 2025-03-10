@@ -33,11 +33,11 @@ const textContent = {
     description:
       "Assisting you at the Tawaf and Sa'i stage of your 'Umrah with more than 170 supplications in textual and audio format . ",
     confirmLabel: "Begin your ‘Umrah",
-    conditionsStatment: ``,
-    firstConds: ``,
-    secndConds: ``,
-    thirdConds: ``,
-    consclusion: ``,
+    conditionsStatment: `Dear Guests of Ar-Rahman To ensure your comfort and to ease the performance of your rites of worship, please adhere to the following guidelines: `,
+    firstConds: `Obtain the ‘Umrah permit via the ‘Nusk’ app before heading to the Grand Mosque.`,
+    secndConds: `Please use earphones when listening to supplications or adhkar to maintain the comfort of pilgrims and those who have come to pray.`,
+    thirdConds: `Please avoid the use of screen translation programs to ensure optimal content quality during your browsing of this service.`,
+    consclusion: `We ask Allah to accept your ‘Umrah and reward you for your efforts.`,
   },
   fr: {
     header: "Votre Assistant pour le Voyage de la Omra",
@@ -223,13 +223,24 @@ const Popup = ({ setLang, lang, setDir, dir: pageDir }) => {
             </Grid>
 
             <Text
-              fontSize="xs"
-              color="gray.600"
+              fontSize="sm"
+              fontWeight="bold"
+              textAlign="center"
+              color="gray.800"
               px={4}
               lineHeight="1.5"
               style={{ direction: pageDir }}
             >
               {textContent[lang].conditionsStatment}
+            </Text>
+            <Text
+              fontSize="xs"
+              color="gray.600"
+              px={4}
+              lineHeight="1.5"
+              style={{ direction: pageDir }}
+              textAlign="justify"
+            >
               <ol style={{ direction: pageDir }}>
                 <li style={{ direction: pageDir }}>
                   {textContent[lang].firstConds}

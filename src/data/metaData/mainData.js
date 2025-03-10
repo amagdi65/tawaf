@@ -30,8 +30,8 @@ export const mainData = {
   },
   en: {
     headerTitle: "Digital Mutawwif Service",
-    pTitle: "",
-    manasekTitle: "",
+    pTitle: "Your Essential Umrah Guide",
+    manasekTitle: "Umrah Rites Guide",
     adabTitle: "Umrah Rituals",
     greetingPrayer: "Prayer of Greeting the Mosque",
     ihram: "Ihram",
@@ -55,7 +55,7 @@ export const mainData = {
       "May Allah bless your completion of ‘Umrah. We ask Allah to accept it from you.",
     endUmrah: "Completion",
     counterError: `Dear Guest of Ar-Rahman,You have to complete 7 rounds properly before going on to the next stage of  your  ‘Umrah.`,
-    intersetLocations: "",
+    intersetLocations: "Useful locations",
   },
   fr: {
     headerTitle: "Service de Mutawwif Numérique",
