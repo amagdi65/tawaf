@@ -20,7 +20,7 @@ function MainLayout({
       flexDirection="column"
       height="100%"
       overflowY="auto"
-      bg={mode === "dark" ? `url(${background})` : "initial"}
+      bg={mode === "dark" ? `#1a232d` : "initial"}
       backgroundRepeat={mode === "dark" ? "no-repeat" : undefined}
       backgroundSize={mode === "dark" ? "cover" : undefined}
       backgroundPosition={mode === "dark" ? "center" : undefined}
@@ -37,7 +37,7 @@ function MainLayout({
       />
       <Box flex="1">
         {children}
-        <Footer mode={mode} />
+        {/* <Footer mode={mode} /> */}
       </Box>
     </Box>
   );

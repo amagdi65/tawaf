@@ -31,6 +31,7 @@ function InstructionPage({ lang, dir, mode }) {
         mt="90px"
         ml={5}
         mr={5}
+        mb={10}
         lang={lang}
       >
         <Item hidden="none" />

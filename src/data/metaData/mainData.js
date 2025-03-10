@@ -1,8 +1,9 @@
 export const mainData = {
   ar: {
     headerTitle: "خدمة المطوف الرقمي",
+    pTitle: "دليلك لرحلة العمرة ",
     manasekTitle: "المطوف الرقمي",
-    adabTitle: "مناسك العمرة",
+    adabTitle: "دليل مناسك العمرة ",
     greetingPrayer: "صلاة تحية المسجد",
     ihram: "الاحرام",
     zamzam: "زمزم",
@@ -23,11 +24,14 @@ export const mainData = {
     closeTitle: "إغلاق",
     finalMessage: "مبارك لكم إتمام العمرة، نسأل الله أن يتقبل منكم",
     endUmrah: "الانتهاء",
-    counterError: "عزيزي ضيف الرحمن، لا بد من إتمام ٧ أشواط بنجاح للانتقال إلى المنسك التالي."
+    counterError:
+      "عزيزي ضيف الرحمن، لا بد من إتمام ٧ أشواط بنجاح للانتقال إلى المنسك التالي.",
+    intersetLocations: "مواقع تهمك",
   },
   en: {
     headerTitle: "Digital Mutawwif Service",
-    manasekTitle: "Digital Mutawwif",
+    pTitle: "Your Essential Umrah Guide",
+    manasekTitle: "Umrah Rites Guide",
     adabTitle: "Umrah Rituals",
     greetingPrayer: "Prayer of Greeting the Mosque",
     ihram: "Ihram",
@@ -47,13 +51,16 @@ export const mainData = {
     autoPlay: "Autoplay",
     location: "Locations",
     closeTitle: "Close",
-    finalMessage: "May Allah bless your completion of ‘Umrah. We ask Allah to accept it from you.",
+    finalMessage:
+      "May Allah bless your completion of ‘Umrah. We ask Allah to accept it from you.",
     endUmrah: "Completion",
-    counterError: `Dear Guest of Ar-Rahman,You have to complete 7 rounds properly before going on to the next stage of  your  ‘Umrah.`
+    counterError: `Dear Guest of Ar-Rahman,You have to complete 7 rounds properly before going on to the next stage of  your  ‘Umrah.`,
+    intersetLocations: "Useful locations",
   },
   fr: {
     headerTitle: "Service de Mutawwif Numérique",
-    manasekTitle: "Mutawwif Numérique",
+    pTitle: "Votre guide pour le voyage de la Omra",
+    manasekTitle: "Guide des rites de la Omra",
     adabTitle: "Rituels de la Omra",
     greetingPrayer: "Prière de Salutation de la Mosquée",
     ihram: "Ihram",
@@ -73,13 +80,16 @@ export const mainData = {
     autoPlay: "Lecture automatique",
     location: "Emplacement",
     closeTitle: "Fermer",
-    finalMessage: "Félicitations, vous avez accompli votre Omra ! Nous implorons Allah d’accepter vos adorations",
+    finalMessage:
+      "Félicitations, vous avez accompli votre Omra ! Nous implorons Allah d’accepter vos adorations",
     endUmrah: "Terminer",
-    counterError: `Cher hôte du Tout Miséricordieux, il est impératif de compléter les sept tours avant de passer au rite suivant.`
+    counterError: `Cher hôte du Tout Miséricordieux, il est impératif de compléter les sept tours avant de passer au rite suivant.`,
+    intersetLocations: "Sites qui vous intéressent",
   },
   tr: {
     headerTitle: "Dijital Mutawwif Hizmeti",
-    manasekTitle: "Dijital Mutawwif",
+    pTitle: "Umre Yolculuğundaki Rehberiniz",
+    manasekTitle: "Umre İbadeti Rehberi",
     adabTitle: "Umre Ritüelleri",
     greetingPrayer: "Mescidi Selamlama Namazı",
     ihram: "İhram",
@@ -99,13 +109,16 @@ export const mainData = {
     autoPlay: "Otomatik oynatma",
     location: "Konum",
     closeTitle: "Kapat",
-    finalMessage: "Umreniz mübarek olsun. Allah’ın yaptığınız ameli sizden kabul etsini niyaz ederiz.",
+    finalMessage:
+      "Umreniz mübarek olsun. Allah’ın yaptığınız ameli sizden kabul etsini niyaz ederiz.",
     endUmrah: "Bitiriş",
-    counterError: `Ey Rahmân olan Allah’ın misafiri! Tavâfta 7 şavtı tam bir şekilde bitirdikten sonra diğer ibâdete geçebilirsiniz.`
+    counterError: `Ey Rahmân olan Allah’ın misafiri! Tavâfta 7 şavtı tam bir şekilde bitirdikten sonra diğer ibâdete geçebilirsiniz.`,
+    intersetLocations: "Sizin İçin Faydalı Siteler",
   },
   ur: {
     headerTitle: "ڈیجیٹل مطوف سروس",
-    manasekTitle: "ڈیجیٹل مطوف",
+    pTitle: "عمرہ کے سفر میں آپ کا رہنما",
+    manasekTitle: "رہنمائے عمرہ",
     adabTitle: "عمرہ کے مناسک",
     greetingPrayer: "مسجد میں داخل ہونے کی نماز",
     ihram: "احرام",
@@ -125,13 +138,16 @@ export const mainData = {
     autoPlay: "خودکار پلے",
     location: "مقام",
     closeTitle: "بند کریں",
-    finalMessage: "عمرہ کی ادائیگی  آپ کو مبارک ہو، ہم اللہ سے دعا کرتے ہیں کہ وہ آپ کا عمرہ قبول فرمائے۔",
+    finalMessage:
+      "عمرہ کی ادائیگی  آپ کو مبارک ہو، ہم اللہ سے دعا کرتے ہیں کہ وہ آپ کا عمرہ قبول فرمائے۔",
     endUmrah: "اختتام",
-    counterError: `رحمان کے معزز مہمان! عبادت  کے اگلے حصےکی طرف بڑھنے سے پہلے7 چکر مکمل کرنا ضروری ہے`
+    counterError: `رحمان کے معزز مہمان! عبادت  کے اگلے حصےکی طرف بڑھنے سے پہلے7 چکر مکمل کرنا ضروری ہے`,
+    intersetLocations: "آپ کے لئے اہم ویبسائٹس",
   },
   in: {
     headerTitle: "Layanan Mutawwif Digital",
-    manasekTitle: "Mutawwif Digital",
+    pTitle: "Panduan anda dalam perjalanan ibadah umrah",
+    manasekTitle: "Panduan Tata Cara Umrah",
     adabTitle: "Rukun Umrah",
     greetingPrayer: "Sholat Penghormatan Masjid",
     ihram: "Ihram",
@@ -151,13 +167,16 @@ export const mainData = {
     autoPlay: "Putar Otomatis",
     location: "Lokasi",
     closeTitle: "Tutup",
-    finalMessage: "Selamat atas selesainya umrah anda, kami memohon kepada Allah agar menerima amal ibadah anda",
+    finalMessage:
+      "Selamat atas selesainya umrah anda, kami memohon kepada Allah agar menerima amal ibadah anda",
     endUmrah: "Selesai",
-    counterError: `Saudaraku, tamu Allah.. Anda harus menyelesaikan 7 kali putaran dengan sempurna untuk berpindah ke rukun berikutnya.`
+    counterError: `Saudaraku, tamu Allah.. Anda harus menyelesaikan 7 kali putaran dengan sempurna untuk berpindah ke rukun berikutnya.`,
+    intersetLocations: "Situs-situs Penting",
   },
   mal: {
     headerTitle: "Perkhidmatan Mutawwif Digital",
-    manasekTitle: "Mutawwif Digital",
+    pTitle: "Panduan Perjalanan Umrah Anda",
+    manasekTitle: "Panduan Pelaksanaan Umrah",
     adabTitle: "Rukun Umrah",
     greetingPrayer: "Solat Tahiyatul Masjid",
     ihram: "Ihram",
@@ -177,8 +196,10 @@ export const mainData = {
     autoPlay: "Mainkan Automatik",
     location: "Lokasi",
     closeTitle: "Tutup",
-    finalMessage:"Tahniah dan mubarak kerana anda telah berjaya menyelesaikan ibadat umrah. Kami doakan semoga ibadat anda diterima oleh Allah Ta'ala",
+    finalMessage:
+      "Tahniah dan mubarak kerana anda telah berjaya menyelesaikan ibadat umrah. Kami doakan semoga ibadat anda diterima oleh Allah Ta'ala",
     endUmrah: "Selesai",
-    counterError: `Wahai saudaraku tetamu Allah, anda hendaklah menyempurnakan tujuh pusingan sebelum anda beralih ke ibadah seterusnya.`
+    counterError: `Wahai saudaraku tetamu Allah, anda hendaklah menyempurnakan tujuh pusingan sebelum anda beralih ke ibadah seterusnya.`,
+    intersetLocations: "Lokasi-Lokasi Penting",
   },
 };
