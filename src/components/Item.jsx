@@ -7,7 +7,7 @@ import {
   Button,
   Flex,
   useToast,
-  AccordionIcon
+  AccordionIcon,
 } from "@chakra-ui/react";
 import styled from "@emotion/styled";
 import CounterCard from "./CounterCard";
@@ -66,7 +66,7 @@ function Item({
   showFinalMessage,
   disablePrev,
   toggleIndex,
-  setToggleIndex
+  setToggleIndex,
   // pageName,
 }) {
   const [count, setCount] = usePersistedState(counterName, 0);
@@ -94,17 +94,17 @@ function Item({
           >
             {title}
           </Text>
-          <IconContainer number={number} dir={dir}>
-            <Icon src={icon} />
-          </IconContainer>
+          <Icon src={icon} />
+          {/* <IconContainer number={number} dir={dir}>
+          </IconContainer> */}
         </>
       );
     }
     return (
       <>
-        <IconContainer number={number} dir={dir}>
-          <Icon src={icon} />
-        </IconContainer>
+        {/* <IconContainer number={number} dir={dir}> */}
+        <Icon src={icon} />
+        {/* </IconContainer> */}
         <Text
           fontSize={{ base: "13px", md: "24px" }}
           fontWeight={{ base: "700", md: "400px" }}
@@ -125,8 +125,8 @@ function Item({
 
   const handlePrevClick = () => {
     if (toggleIndex > 2) {
-      setToggleIndex(toggleIndex - 2) 
-      setIndex(() => toggleIndex - 2)
+      setToggleIndex(toggleIndex - 2);
+      setIndex(() => toggleIndex - 2);
     }
   };
 
@@ -134,7 +134,6 @@ function Item({
     if ((count === 7 || !useCount) && setIndex) {
       setIndex(toggleIndex);
       setToggleIndex(toggleIndex);
-
     } else {
       const toastId = `custom-toast-${Date.now()}`;
       toast({
@@ -152,7 +151,7 @@ function Item({
         isClosable: true,
         position: dir === "ltr" ? "top" : "top",
       });
-      
+
       setTimeout(() => toast.close(toastId), 3000);
     }
 
@@ -176,10 +175,10 @@ function Item({
 
   return (
     <AccordionItem
-      {...(mode === "dark" && { border: "1px solid #3A444F" })}
+      {...(mode === "dark" && { border: "1px solid #1a232d" })}
       borderRadius="10px"
       style={{ display: hidden }}
-      backgroundColor={mode === "dark" ? "#28323F" : ""}
+      backgroundColor={mode === "dark" ? "#1a232d" : ""}
     >
       <AccordionButton
         justifyContent="space-between"
@@ -189,11 +188,16 @@ function Item({
         borderRadius="10px"
         onClick={() => {
           setToggleIndex((prevToggleIndex) => {
-            return prevToggleIndex === toggleIndex -1 ? 0 : toggleIndex - 1 
-          })
+            return prevToggleIndex === toggleIndex - 1 ? 0 : toggleIndex - 1;
+          });
         }}
       >
-        <Box display="flex" alignItems="center" justifyContent="center">
+        <Box
+          display="flex"
+          alignItems="center"
+          justifyContent={dir === "rtl" ? "flex-end" : "flex-start"} // Align based on direction
+          textAlign={dir === "rtl" ? "right" : "left"}
+        >
           {renderContent(dir)}
         </Box>
         <Box display="flex" flexDir={dir === "ltr" ? "row-reverse" : "row"}>

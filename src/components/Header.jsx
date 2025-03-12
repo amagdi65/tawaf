@@ -190,6 +190,11 @@ function Header({
                   onClick={() => {
                     setLang(code);
                     setDir(dir);
+                    if (code == "ur") {
+                      document.body.classList.add("urdu-font");
+                    } else {
+                      document.body.classList.remove("urdu-font");
+                    }
                   }}
                 >
                   <Box display="flex" alignItems="center">
@@ -214,6 +219,7 @@ function Header({
           {...getButtonProps("NewManasekPage")}
           width={{ base: "50%", md: "196px" }}
           height={{ base: "70px" }}
+          fontSize="14px"
           borderRadius="0"
           {...(dir === "ltr"
             ? {
@@ -234,6 +240,7 @@ function Header({
           {...getButtonProps("InstructionPage")}
           width={{ base: "50%", md: "196px" }}
           height={{ base: "70px" }}
+          fontSize="14px"
           borderRadius="0"
           {...(dir === "ltr"
             ? {

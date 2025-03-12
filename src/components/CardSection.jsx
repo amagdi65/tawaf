@@ -95,6 +95,7 @@ function CardSection({
         fontSize={{ base: "13px", md: "24px" }}
         fontWeight="700"
         mx={4}
+        style={{ direction: dir }}
         color={
           index <= curIndex + 1
             ? "#BC9761"
@@ -242,7 +243,9 @@ function CardSection({
                         boxSize={{ base: "16px", md: "24px" }}
                         borderRadius={10}
                       />
-                      <Text color="#BC9761">{mainData[lang].intersetLocations}</Text>
+                      <Text color="#BC9761">
+                        {mainData[lang].intersetLocations}
+                      </Text>
                     </Flex>
                   </Box>
                   <Box

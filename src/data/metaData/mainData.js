@@ -90,7 +90,7 @@ export const mainData = {
     headerTitle: "Dijital Mutawwif Hizmeti",
     pTitle: "Umre Yolculuğundaki Rehberiniz",
     manasekTitle: "Umre İbadeti Rehberi",
-    adabTitle: "Umre Ritüelleri",
+    adabTitle: "Umre İbadeti Amelleri",
     greetingPrayer: "Mescidi Selamlama Namazı",
     ihram: "İhram",
     zamzam: "Zemzem",
@@ -113,7 +113,7 @@ export const mainData = {
       "Umreniz mübarek olsun. Allah’ın yaptığınız ameli sizden kabul etsini niyaz ederiz.",
     endUmrah: "Bitiriş",
     counterError: `Ey Rahmân olan Allah’ın misafiri! Tavâfta 7 şavtı tam bir şekilde bitirdikten sonra diğer ibâdete geçebilirsiniz.`,
-    intersetLocations: "Sizin İçin Faydalı Siteler",
+    intersetLocations: "Haritayı daha büyük görüntüle",
   },
   ur: {
     headerTitle: "ڈیجیٹل مطوف سروس",

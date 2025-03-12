@@ -147,6 +147,11 @@ const Popup = ({ setLang, lang, setDir, dir: pageDir }) => {
 
   const handleLanguageSelect = (languageCode, dir) => {
     setLang(languageCode);
+    if (languageCode == "ur") {
+      document.body.classList.add("urdu-font");
+    } else {
+      document.body.classList.remove("urdu-font");
+    }
     setDir(dir);
   };
 
