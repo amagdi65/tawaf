@@ -29,7 +29,7 @@ const congratsSvg = import.meta.glob("../assets/*.svg", {
   eager: true,
   import: "default",
 });
-const Congrats = ({ isOpen, setIsOpen, lang }) => {
+const Congrats = ({ isOpen, setIsOpen, lang, dir }) => {
   const closeModal = () => {
     setIsOpen(false);
     window.location.reload();
@@ -99,11 +99,11 @@ const Congrats = ({ isOpen, setIsOpen, lang }) => {
                   fontSize="xs"
                   color="rgba(187, 150, 97, 1)"
                   fontWeight="900"
-                  textAlign="right"
+                  style={{ direction: dir }}
                 >
                   {congratsData[lang].musaliyaatTitle}
                 </Text>
-                <Text fontSize="xs" textAlign="justify">
+                <Text fontSize="xs" style={{ direction: dir }}>
                   {congratsData[lang].musaliyaatDesc}
                 </Text>
 
@@ -113,13 +113,21 @@ const Congrats = ({ isOpen, setIsOpen, lang }) => {
                   border="1px solid #BC9761"
                   bgColor="#BC9761"
                   _hover={{ bg: "#A67F3E" }}
-                  w={90}
+                  w={110}
                   gap="5px"
+                  alignSelf={dir === "rtl" ? "end" : "start"}
                 >
                   <a href="https://musaliyaat.alharamain.gov.sa/">
-                    <Flex gap={0.5}>
+                    <Flex
+                      gap={0.5}
+                      direction={dir === "rtl" ? "row" : "row-reverse"} // Reverse content order for LTR
+                      align="center"
+                    >
                       {congratsData[lang].makeRequest}
-                      <Image src={ArrowButton} />
+                      <Image
+                        src={ArrowButton}
+                        transform={dir === "ltr" ? "scaleX(-1)" : "none"} // Flip the image for LTR
+                      />
                     </Flex>
                   </a>
                 </Button>

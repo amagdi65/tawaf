@@ -2,6 +2,15 @@
   direction: rtl;
 }
 
+@font-face {
+  font-family: "Jameel Noori Nastaleeq";
+  src: url("../src/assets/fonts/jnnr.ttf") format("truetype");
+}
+
+.urdu-font {
+  font-family: "Jameel Noori Nastaleeq", Arial, sans-serif !important;
+}
+
 html,
 body,
 #root {

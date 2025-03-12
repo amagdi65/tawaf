@@ -61,7 +61,7 @@ const PrayerCard = ({
         }"`,
         bgColor: mode === "dark" ? "#232C35" : "#EBEBEB",
         position: "absolute",
-        top: { base: "20px", md: "48px" },
+        top: { base: "50px", md: "48px" },
         ...(dir === "ltr" ? { left: 0 } : { right: 0 }),
         padding: "5px 10px",
         borderRadius: "5px 0 0 5px",
@@ -107,7 +107,7 @@ const PrayerCard = ({
       <Stack
         justifyContent={"center"}
         alignItems="center"
-        height={{ base: "300px", md: "290px" }}
+        height={{ base: "230px", md: "260px" }}
       >
         <Text
           margin={{ base: 0, md: 4 }}
