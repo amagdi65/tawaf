@@ -158,7 +158,13 @@ const PrayerCard = ({
           isDisabled={page === 0}
           {...(mode === "dark" && { backgroundColor: "transparent" })}
         />
-        <Text fontSize="lg" color={mode === "dark" ? "white" : "#333D49"}>
+        <Text
+          fontSize="lg"
+          color={mode === "dark" ? "white" : "#333D49"}
+          style={{
+            direction: dir,
+          }}
+        >
           {page + 1} / {totalPages + 1}
         </Text>
         <IconButton
