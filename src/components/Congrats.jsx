@@ -113,7 +113,6 @@ const Congrats = ({ isOpen, setIsOpen, lang, dir }) => {
                   border="1px solid #BC9761"
                   bgColor="#BC9761"
                   _hover={{ bg: "#A67F3E" }}
-                  w={110}
                   gap="5px"
                   alignSelf={dir === "rtl" ? "end" : "start"}
                 >

@@ -193,13 +193,13 @@ export const mainData = {
     supplications: "Doa",
     next: "Seterusnya",
     previous: "Sebelumnya",
-    autoPlay: "Mainkan Automatik",
+    autoPlay: "Mainkan Secara Automatik",
     location: "Lokasi",
     closeTitle: "Tutup",
     finalMessage:
-      "Tahniah dan mubarak kerana anda telah berjaya menyelesaikan ibadat umrah. Kami doakan semoga ibadat anda diterima oleh Allah Ta'ala",
+      "Tahniah kerana anda telah berjaya menyelesaikan ibadah umrah. Kami doakan semoga ibadah anda diterima oleh Allah Ta'ala",
     endUmrah: "Selesai",
-    counterError: `Wahai saudaraku tetamu Allah, anda hendaklah menyempurnakan tujuh pusingan sebelum anda beralih ke ibadah seterusnya.`,
+    counterError: `Para dhuyufurrahman, anda hendaklah menyempurnakan tujuh pusingan sebelum anda melaksanakan rukun seterusnya.`,
     intersetLocations: "Lokasi-Lokasi Penting",
   },
 };

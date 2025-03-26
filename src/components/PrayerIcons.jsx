@@ -69,9 +69,9 @@ function PrayerIcons({
 
   const handleFontSizeChange = (size) => {
     if (size > 0) {
-      log(4, JSON.parse(localStorage.getItem("uuid")),lang);
+      log(4, JSON.parse(localStorage.getItem("uuid")), lang);
     } else {
-      log(5, JSON.parse(localStorage.getItem("uuid")),lang);
+      log(5, JSON.parse(localStorage.getItem("uuid")), lang);
     }
     setFontSize((prevSize) => Math.max(14, prevSize + size));
   };
@@ -245,8 +245,8 @@ function PrayerIcons({
                 width: "300px",
                 display: "inline-block",
                 color: mode === "dark" ? "white" : "#333D49",
-                fontSize: "13px",
-                right: dir === 'rtl' ? '-67px': '55px'
+                fontSize: "11px",
+                right: dir === "rtl" ? "-67px" : "55px",
               }}
             />
           </Stack>

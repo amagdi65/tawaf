@@ -83,7 +83,7 @@ const textContent = {
   mal: {
     header: "Bahasa Melayu Assistant",
     description: `Panduan Perjalanan Umrah Anda semasa tawaf dan sa'i yang dilengkapi dengan lebih 170 jenis doa berbentuk teks dan audio.`,
-    confirmLabel: "Sila mulakan ibadat umrah anda",
+    confirmLabel: "Mulakan Umrah",
     conditionsStatment: `Para Dhuyufurrahman, bagi memastikan pelaksanaan ibadah umrah anda berjalan dengan mudah dan lancar, anda boleh:`,
     firstConds: `Memohon permit umrah melalui aplikasi "Nusuk" sebelum anda menuju ke Masjidil Haram.`,
     secndConds: `Anda juga boleh menggunakan fon telinga (earphone) untuk mendengar pelbagai jenis doa, bagi memastikan keselesaan para jemaah yang lain.`,

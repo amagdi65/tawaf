@@ -43,7 +43,7 @@ export const congratsData = {
   },
   mal: {
     exploreServices: "Terokai Perkhidmatan Kami",
-    makeRequest: "Permintaan Layanan",
+    makeRequest: "Terokai Perkhidmatan",
     musaliyaatTitle: "Dalil Al-Musolli",
     musaliyaatDesc:
       "Sebuah perkhidmatan elektronik yang membolehkan para pengunjung menambahkan ilmu agama mereka di waktu-waktu terluang seperti ketika menunggu solat didirikan. Antaranya ialah doa, zikir, Al-Qur'an dan kuliah-kuliah agama bagi memperkaya pengalaman rohani para pengunjung dan menjadikannya lebih bermakna.",
