@@ -74,13 +74,11 @@ const textContent = {
     header: "Panduan Anda dalam Perjalanan Ibadah Umrah",
     description: `Membantu anda dalam perjalanan umrah dengan himpunan lebih dari 170 doa, baik teks maupun audio saat melakukan tawaf dan sai.`,
     confirmLabel: "Silakan memulai ibadah umrah",
-    conditionsStatment: `Para tamu Allah yang terhormat 
-    Demi kenyamanan dan kemudahan dalam melaksanakan ibadah anda, kami mohon untuk mengikuti petunjuk-petunjuk berikut:`,
+    conditionsStatment: `Para tamu Allah yang terhormat\nDemi kenyamanan dan kemudahan dalam melaksanakan ibadah anda, kami mohon untuk mengikuti petunjuk-petunjuk berikut:`,
     firstConds: `Menerbitkan izin umrah melalui aplikasi "Nusuk" sebelum menuju Masjidil Haram.`,
     secndConds: `Menggunakan earphone saat mendengarkan doa-doa, demi kenyamanan jamaah shalat dan umrah.`,
     thirdConds: `Hindari penggunaan aplikasi penerjemah layar untuk memastikan kualitas tampilan konten saat mengakses layanan ini.`,
-    consclusion: `Kami memohon kepada Allah 
-    agar menerima umrah anda dan memberikan pahala yang besar.`,
+    consclusion: `Kami memohon kepada Allah\nagar menerima umrah anda dan memberikan pahala yang besar.`,
   },
   mal: {
     header: "Bahasa Melayu Assistant",
