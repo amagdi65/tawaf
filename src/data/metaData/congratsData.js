@@ -11,7 +11,7 @@ export const congratsData = {
     makeRequest: "Request a Service",
     musaliyaatTitle: "Prayer Guide",
     musaliyaatDesc:
-      "An enriching digital service that allows worshippers to access religious information while waiting for the congregational prayer, including supplications, adhkar, the Noble Qur’an, and Islamic lessons. This is designed to enhance their spiritual experience and make it more profound and enriching.",
+      "An enriching digital service that allows worshippers to browse, read religious knowledge based material and act upon it; such as supplications, adhkar, the Noble Qur’an, and Islamic lessons. This is done to enhance the worshippers' experience.",
   },
   fr: {
     exploreServices: "Explorez nos services",
@@ -25,14 +25,14 @@ export const congratsData = {
     makeRequest: "Hizmet Talebi",
     musaliyaatTitle: "Namaz Kılma Rehberi",
     musaliyaatDesc:
-      "Cemaatin, namaz vaktini beklerken dini bilgilere ulaşmasını sağlayan içeriği zenginleştirilmiş bir elektronik hizmettir. Bu hizmet; dualar, zikirler, Kur’an-ı Kerim ve dini dersler sağlayarak manevi deneyiminizi güçlendirmekte daha derin ve zengin bir hale getirmeyi amaçlamaktadır.",
+      "İçeriği zenginleştirilmiş olan bu elektronik hizmet, cemaatin dini bilgilere göz gezdirmelerine ve onunla amel etmelerine olanak sağlamaktadır. Bu hizmet; dualar, zikirler, Kur’an-ı Kerim ve dini dersler sağlayarak cemaatin manevi deneyimini güçlendirmeyi amaçlamaktadır.",
   },
   ur: {
     exploreServices: "ہمارے خدمات دیکھیں",
     makeRequest: "سروس حاصل کرنا",
     musaliyaatTitle: "رہنمائے نمازی",
     musaliyaatDesc:
-      "اضافی الیکٹرانک سروس جو نمازی کو نماز کے دوران  دینی معلومات تک رسائی فراہم کرتی ہے، جیسے: دعائیں، ذکر واذکار، قران شریف، دینی دروس؛ تاکہ اس کے روحانی تجربہ کو بڑھایا جاسکے اور اس میں مزید وسعت وگہرائی لائی جاسکے",
+      "یہ ایک معلوماتی الیکٹرانک سروس ہے جو نمازی کو شرعى معلومات پڑھنے، اور اس پر عمل کرنے کی سہولت فراہم کرتی ہے، جیسے کہ دعائیں، اذکار، قرآنِ مجید اور علمی دروس، تاکہ نمازی کے تجربے کو مزید بہتر بنایا جا سکے۔",
   },
   in: {
     exploreServices: "Akses Layanan Kami",
@@ -46,6 +46,6 @@ export const congratsData = {
     makeRequest: "Terokai Perkhidmatan",
     musaliyaatTitle: "Dalil Al-Musolli",
     musaliyaatDesc:
-      "Sebuah perkhidmatan elektronik yang membolehkan para pengunjung menambahkan ilmu agama mereka di waktu-waktu terluang seperti ketika menunggu solat didirikan. Antaranya ialah doa, zikir, Al-Qur'an dan kuliah-kuliah agama bagi memperkaya pengalaman rohani para pengunjung dan menjadikannya lebih bermakna.",
+      "Sebuah perkhidmatan elektronik yang membolehkan para pengunjung mempelajari ilmu agama dan mengamalkannya, seperti doa, zikir, Al-Qur'an dan kuliah-kuliah ilmiah bagi memperkaya pengalaman kerohanian para pengunjung.",
   },
 };
